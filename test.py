@@ -35,9 +35,15 @@ cfg = {"dataset":"MinWiki_MatchVP",
 			"weight_label": True,
 			"classifer": "MLP", 
 			"gradient_clip":None,
-			"root_dir": "/Users/sailormoon/Downloads/ABCD_parser-main/",
-			"glove_dir": "/Users/sailormoon/Desktop/", 
-			"pretrained_path": "best_minwiki/", # if using pre-trained model  
+
+			# Niclas
+			"root_dir": "/home/pankraz/computerlinguistik/rnlp/ABCDre/ABCD-ACL2021/",
+			
+			# Niclas
+			"glove_dir": "/home/pankraz/computerlinguistik/rnlp/ABCDre/resources/glove/",
+
+			# Niclas 
+			"pretrained_path": "/home/pankraz/computerlinguistik/rnlp/ABCDre/resources/best_minwiki/", # if using pre-trained model  
 			"data_filename": "batch_test.pkl",  # input filename 
 			"output_str_to_file":True, # flag for if outputting clean output to txt file
 			"inverse_label_weights":[0.01671244, 0.35338219, 0.41641111, 0.21349426] # inverse label weights for MinWiki since we are using MinWiki pre-trained model
