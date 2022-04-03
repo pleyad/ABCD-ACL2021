@@ -1,0 +1,2211 @@
+Document: ID=valid.complex (43 sentences, 931 tokens)
+
+Sentence #1 (23 tokens):
+All we learn about in the US is that this is a place of opportunity, future, freedom, and hope.
+
+Tokens:
+[Text=All CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
+[Text=we CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=PRP]
+[Text=learn CharacterOffsetBegin=7 CharacterOffsetEnd=12 PartOfSpeech=VBP]
+[Text=about CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=IN]
+[Text=in CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=DT]
+[Text=US CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=NNP]
+[Text=is CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=VBZ]
+[Text=that CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=IN]
+[Text=this CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=DT]
+[Text=is CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=VBZ]
+[Text=a CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=DT]
+[Text=place CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=IN]
+[Text=opportunity CharacterOffsetBegin=56 CharacterOffsetEnd=67 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=,]
+[Text=future CharacterOffsetBegin=69 CharacterOffsetEnd=75 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=,]
+[Text=freedom CharacterOffsetBegin=77 CharacterOffsetEnd=84 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=,]
+[Text=and CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=CC]
+[Text=hope CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, place-13)
+advmod(learn-3, All-1)
+nsubj(learn-3, we-2)
+csubj(place-13, learn-3)
+case(US-7, about-4)
+case(US-7, in-5)
+det(US-7, the-6)
+obl:in(learn-3, US-7)
+cop(place-13, is-8)
+mark(place-13, that-9)
+nsubj(place-13, this-10)
+cop(place-13, is-11)
+det(place-13, a-12)
+case(opportunity-15, of-14)
+nmod:of(place-13, opportunity-15)
+punct(place-13, ,-16)
+appos(place-13, future-17)
+punct(future-17, ,-18)
+appos(place-13, freedom-19)
+conj:and(future-17, freedom-19)
+punct(future-17, ,-20)
+cc(hope-22, and-21)
+appos(place-13, hope-22)
+conj:and(future-17, hope-22)
+punct(place-13, .-23)
+
+Sentence #2 (29 tokens):
+To know that other people in other countries dont even have sight of anymore hope really makes you put into thought the rights you take for granted.
+
+Tokens:
+[Text=To CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=TO]
+[Text=know CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=VB]
+[Text=that CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=IN]
+[Text=other CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=JJ]
+[Text=people CharacterOffsetBegin=115 CharacterOffsetEnd=121 PartOfSpeech=NNS]
+[Text=in CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN]
+[Text=other CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=JJ]
+[Text=countries CharacterOffsetBegin=131 CharacterOffsetEnd=140 PartOfSpeech=NNS]
+[Text=do CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=VBP]
+[Text=nt CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=RB]
+[Text=even CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=RB]
+[Text=have CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=VB]
+[Text=sight CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=IN]
+[Text=anymore CharacterOffsetBegin=165 CharacterOffsetEnd=172 PartOfSpeech=RB]
+[Text=hope CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=VBP]
+[Text=really CharacterOffsetBegin=178 CharacterOffsetEnd=184 PartOfSpeech=RB]
+[Text=makes CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=VBZ]
+[Text=you CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=PRP]
+[Text=put CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=VB]
+[Text=into CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=IN]
+[Text=thought CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=VBN]
+[Text=the CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=DT]
+[Text=rights CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=NNS]
+[Text=you CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=PRP]
+[Text=take CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=VBP]
+[Text=for CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=IN]
+[Text=granted CharacterOffsetBegin=236 CharacterOffsetEnd=243 PartOfSpeech=VBN]
+[Text=. CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, makes-18)
+mark(know-2, To-1)
+csubj(makes-18, know-2)
+mark(have-12, that-3)
+amod(people-5, other-4)
+nsubj(have-12, people-5)
+case(countries-8, in-6)
+amod(countries-8, other-7)
+nmod:in(people-5, countries-8)
+aux(have-12, do-9)
+advmod(have-12, nt-10)
+advmod(have-12, even-11)
+ccomp(know-2, have-12)
+obj(have-12, sight-13)
+case(hope-16, of-14)
+advmod(hope-16, anymore-15)
+nmod:of(sight-13, hope-16)
+advmod(makes-18, really-17)
+nsubj(put-20, you-19)
+ccomp(makes-18, put-20)
+case(thought-22, into-21)
+obl:into(put-20, thought-22)
+det(rights-24, the-23)
+obj(put-20, rights-24)
+nsubj(take-26, you-25)
+acl:relcl(rights-24, take-26)
+case(granted-28, for-27)
+obl:for(take-26, granted-28)
+punct(makes-18, .-29)
+
+Sentence #3 (29 tokens):
+When you say you just believed that Iraq was a place of fighting and thought nothing more of it, this is exactly what I once thought too.
+
+Tokens:
+[Text=When CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=WRB]
+[Text=you CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=PRP]
+[Text=say CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=VBP]
+[Text=you CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=PRP]
+[Text=just CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=RB]
+[Text=believed CharacterOffsetBegin=267 CharacterOffsetEnd=275 PartOfSpeech=VBD]
+[Text=that CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=IN]
+[Text=Iraq CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=NNP]
+[Text=was CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=VBD]
+[Text=a CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=DT]
+[Text=place CharacterOffsetBegin=292 CharacterOffsetEnd=297 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=IN]
+[Text=fighting CharacterOffsetBegin=301 CharacterOffsetEnd=309 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=CC]
+[Text=thought CharacterOffsetBegin=314 CharacterOffsetEnd=321 PartOfSpeech=VBD]
+[Text=nothing CharacterOffsetBegin=322 CharacterOffsetEnd=329 PartOfSpeech=NN]
+[Text=more CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=JJR]
+[Text=of CharacterOffsetBegin=335 CharacterOffsetEnd=337 PartOfSpeech=IN]
+[Text=it CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=PRP]
+[Text=, CharacterOffsetBegin=340 CharacterOffsetEnd=341 PartOfSpeech=,]
+[Text=this CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=DT]
+[Text=is CharacterOffsetBegin=347 CharacterOffsetEnd=349 PartOfSpeech=VBZ]
+[Text=exactly CharacterOffsetBegin=350 CharacterOffsetEnd=357 PartOfSpeech=RB]
+[Text=what CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=WP]
+[Text=I CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=PRP]
+[Text=once CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=RB]
+[Text=thought CharacterOffsetBegin=370 CharacterOffsetEnd=377 PartOfSpeech=VBD]
+[Text=too CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=RB]
+[Text=. CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, is-22)
+advmod(say-3, When-1)
+nsubj(say-3, you-2)
+advcl(is-22, say-3)
+nsubj(believed-6, you-4)
+nsubj(thought-15, you-4)
+advmod(believed-6, just-5)
+ccomp(say-3, believed-6)
+mark(place-11, that-7)
+nsubj(place-11, Iraq-8)
+cop(place-11, was-9)
+det(place-11, a-10)
+ccomp(believed-6, place-11)
+case(fighting-13, of-12)
+nmod:of(place-11, fighting-13)
+cc(thought-15, and-14)
+ccomp(say-3, thought-15)
+conj:and(believed-6, thought-15)
+obj(thought-15, nothing-16)
+amod(nothing-16, more-17)
+case(it-19, of-18)
+nmod:of(more-17, it-19)
+punct(is-22, ,-20)
+nsubj(is-22, this-21)
+advmod(what-24, exactly-23)
+obj(thought-27, what-24)
+nsubj(thought-27, I-25)
+advmod(thought-27, once-26)
+ccomp(is-22, thought-27)
+advmod(thought-27, too-28)
+punct(is-22, .-29)
+
+Sentence #4 (18 tokens):
+We were both ignorant in a way towards the harsh realities of what happens outside the US.
+
+Tokens:
+[Text=We CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=PRP]
+[Text=were CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=VBD]
+[Text=both CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=DT]
+[Text=ignorant CharacterOffsetBegin=396 CharacterOffsetEnd=404 PartOfSpeech=JJ]
+[Text=in CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=408 CharacterOffsetEnd=409 PartOfSpeech=DT]
+[Text=way CharacterOffsetBegin=410 CharacterOffsetEnd=413 PartOfSpeech=NN]
+[Text=towards CharacterOffsetBegin=414 CharacterOffsetEnd=421 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=DT]
+[Text=harsh CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=JJ]
+[Text=realities CharacterOffsetBegin=432 CharacterOffsetEnd=441 PartOfSpeech=NNS]
+[Text=of CharacterOffsetBegin=442 CharacterOffsetEnd=444 PartOfSpeech=IN]
+[Text=what CharacterOffsetBegin=445 CharacterOffsetEnd=449 PartOfSpeech=WP]
+[Text=happens CharacterOffsetBegin=450 CharacterOffsetEnd=457 PartOfSpeech=VBZ]
+[Text=outside CharacterOffsetBegin=458 CharacterOffsetEnd=465 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=DT]
+[Text=US CharacterOffsetBegin=470 CharacterOffsetEnd=472 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ignorant-4)
+nsubj(ignorant-4, We-1)
+cop(ignorant-4, were-2)
+dep(ignorant-4, both-3)
+case(way-7, in-5)
+det(way-7, a-6)
+obl:in(ignorant-4, way-7)
+case(realities-11, towards-8)
+det(realities-11, the-9)
+amod(realities-11, harsh-10)
+nmod:towards(way-7, realities-11)
+mark(happens-14, of-12)
+nsubj(happens-14, what-13)
+acl:of(realities-11, happens-14)
+case(US-17, outside-15)
+det(US-17, the-16)
+obl:outside(happens-14, US-17)
+punct(ignorant-4, .-18)
+
+Sentence #5 (20 tokens):
+In addition, we only know about the things that are either told to us or taught to us.
+
+Tokens:
+[Text=In CharacterOffsetBegin=474 CharacterOffsetEnd=476 PartOfSpeech=IN]
+[Text=addition CharacterOffsetBegin=477 CharacterOffsetEnd=485 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=485 CharacterOffsetEnd=486 PartOfSpeech=,]
+[Text=we CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=PRP]
+[Text=only CharacterOffsetBegin=490 CharacterOffsetEnd=494 PartOfSpeech=RB]
+[Text=know CharacterOffsetBegin=495 CharacterOffsetEnd=499 PartOfSpeech=VBP]
+[Text=about CharacterOffsetBegin=500 CharacterOffsetEnd=505 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=506 CharacterOffsetEnd=509 PartOfSpeech=DT]
+[Text=things CharacterOffsetBegin=510 CharacterOffsetEnd=516 PartOfSpeech=NNS]
+[Text=that CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=WDT]
+[Text=are CharacterOffsetBegin=522 CharacterOffsetEnd=525 PartOfSpeech=VBP]
+[Text=either CharacterOffsetBegin=526 CharacterOffsetEnd=532 PartOfSpeech=RB]
+[Text=told CharacterOffsetBegin=533 CharacterOffsetEnd=537 PartOfSpeech=VBN]
+[Text=to CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=IN]
+[Text=us CharacterOffsetBegin=541 CharacterOffsetEnd=543 PartOfSpeech=PRP]
+[Text=or CharacterOffsetBegin=544 CharacterOffsetEnd=546 PartOfSpeech=CC]
+[Text=taught CharacterOffsetBegin=547 CharacterOffsetEnd=553 PartOfSpeech=VBN]
+[Text=to CharacterOffsetBegin=554 CharacterOffsetEnd=556 PartOfSpeech=IN]
+[Text=us CharacterOffsetBegin=557 CharacterOffsetEnd=559 PartOfSpeech=PRP]
+[Text=. CharacterOffsetBegin=559 CharacterOffsetEnd=560 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, know-6)
+case(addition-2, In-1)
+obl:in(know-6, addition-2)
+punct(know-6, ,-3)
+nsubj(know-6, we-4)
+advmod(know-6, only-5)
+case(things-9, about-7)
+det(things-9, the-8)
+obl:about(know-6, things-9)
+nsubj:pass(told-13, things-9)
+nsubj:pass(taught-17, things-9)
+ref(things-9, that-10)
+aux:pass(told-13, are-11)
+advmod(told-13, either-12)
+acl:relcl(things-9, told-13)
+case(us-15, to-14)
+obl:to(told-13, us-15)
+cc(taught-17, or-16)
+acl:relcl(things-9, taught-17)
+conj:or(told-13, taught-17)
+case(us-19, to-18)
+obl:to(taught-17, us-19)
+punct(know-6, .-20)
+
+Sentence #6 (17 tokens):
+This is exactly what this class allows us to do and for that I am grateful.
+
+Tokens:
+[Text=This CharacterOffsetBegin=561 CharacterOffsetEnd=565 PartOfSpeech=DT]
+[Text=is CharacterOffsetBegin=566 CharacterOffsetEnd=568 PartOfSpeech=VBZ]
+[Text=exactly CharacterOffsetBegin=569 CharacterOffsetEnd=576 PartOfSpeech=RB]
+[Text=what CharacterOffsetBegin=577 CharacterOffsetEnd=581 PartOfSpeech=WP]
+[Text=this CharacterOffsetBegin=582 CharacterOffsetEnd=586 PartOfSpeech=DT]
+[Text=class CharacterOffsetBegin=587 CharacterOffsetEnd=592 PartOfSpeech=NN]
+[Text=allows CharacterOffsetBegin=593 CharacterOffsetEnd=599 PartOfSpeech=VBZ]
+[Text=us CharacterOffsetBegin=600 CharacterOffsetEnd=602 PartOfSpeech=PRP]
+[Text=to CharacterOffsetBegin=603 CharacterOffsetEnd=605 PartOfSpeech=TO]
+[Text=do CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=VB]
+[Text=and CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=CC]
+[Text=for CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=IN]
+[Text=that CharacterOffsetBegin=617 CharacterOffsetEnd=621 PartOfSpeech=DT]
+[Text=I CharacterOffsetBegin=622 CharacterOffsetEnd=623 PartOfSpeech=PRP]
+[Text=am CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=VBP]
+[Text=grateful CharacterOffsetBegin=627 CharacterOffsetEnd=635 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=635 CharacterOffsetEnd=636 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, is-2)
+nsubj(is-2, This-1)
+advmod(what-4, exactly-3)
+obj(allows-7, what-4)
+nsubj:xsubj(do-10, what-4)
+det(class-6, this-5)
+nsubj(allows-7, class-6)
+ccomp(is-2, allows-7)
+obj(allows-7, us-8)
+nsubj:xsubj(do-10, us-8)
+mark(do-10, to-9)
+xcomp(allows-7, do-10)
+cc(grateful-16, and-11)
+case(that-13, for-12)
+obl:for(grateful-16, that-13)
+nsubj(grateful-16, I-14)
+cop(grateful-16, am-15)
+xcomp(allows-7, grateful-16)
+conj:and(do-10, grateful-16)
+punct(is-2, .-17)
+
+Sentence #7 (21 tokens):
+He still likes Americans because his friends have treated him well and made him see we can be good people.
+
+Tokens:
+[Text=He CharacterOffsetBegin=637 CharacterOffsetEnd=639 PartOfSpeech=PRP]
+[Text=still CharacterOffsetBegin=640 CharacterOffsetEnd=645 PartOfSpeech=RB]
+[Text=likes CharacterOffsetBegin=646 CharacterOffsetEnd=651 PartOfSpeech=VBZ]
+[Text=Americans CharacterOffsetBegin=652 CharacterOffsetEnd=661 PartOfSpeech=NNPS]
+[Text=because CharacterOffsetBegin=662 CharacterOffsetEnd=669 PartOfSpeech=IN]
+[Text=his CharacterOffsetBegin=670 CharacterOffsetEnd=673 PartOfSpeech=PRP$]
+[Text=friends CharacterOffsetBegin=674 CharacterOffsetEnd=681 PartOfSpeech=NNS]
+[Text=have CharacterOffsetBegin=682 CharacterOffsetEnd=686 PartOfSpeech=VBP]
+[Text=treated CharacterOffsetBegin=687 CharacterOffsetEnd=694 PartOfSpeech=VBN]
+[Text=him CharacterOffsetBegin=695 CharacterOffsetEnd=698 PartOfSpeech=PRP]
+[Text=well CharacterOffsetBegin=699 CharacterOffsetEnd=703 PartOfSpeech=RB]
+[Text=and CharacterOffsetBegin=704 CharacterOffsetEnd=707 PartOfSpeech=CC]
+[Text=made CharacterOffsetBegin=708 CharacterOffsetEnd=712 PartOfSpeech=VBD]
+[Text=him CharacterOffsetBegin=713 CharacterOffsetEnd=716 PartOfSpeech=PRP]
+[Text=see CharacterOffsetBegin=717 CharacterOffsetEnd=720 PartOfSpeech=VB]
+[Text=we CharacterOffsetBegin=721 CharacterOffsetEnd=723 PartOfSpeech=PRP]
+[Text=can CharacterOffsetBegin=724 CharacterOffsetEnd=727 PartOfSpeech=MD]
+[Text=be CharacterOffsetBegin=728 CharacterOffsetEnd=730 PartOfSpeech=VB]
+[Text=good CharacterOffsetBegin=731 CharacterOffsetEnd=735 PartOfSpeech=JJ]
+[Text=people CharacterOffsetBegin=736 CharacterOffsetEnd=742 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=742 CharacterOffsetEnd=743 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, likes-3)
+nsubj(likes-3, He-1)
+advmod(likes-3, still-2)
+obj(likes-3, Americans-4)
+mark(treated-9, because-5)
+nmod:poss(friends-7, his-6)
+nsubj(treated-9, friends-7)
+nsubj(made-13, friends-7)
+aux(treated-9, have-8)
+advcl:because(likes-3, treated-9)
+obj(treated-9, him-10)
+advmod(treated-9, well-11)
+cc(made-13, and-12)
+advcl:because(likes-3, made-13)
+conj:and(treated-9, made-13)
+nsubj(see-15, him-14)
+ccomp(made-13, see-15)
+nsubj(people-20, we-16)
+aux(people-20, can-17)
+cop(people-20, be-18)
+amod(people-20, good-19)
+ccomp(see-15, people-20)
+punct(likes-3, .-21)
+
+Sentence #8 (9 tokens):
+The only problem he states is the government.
+
+Tokens:
+[Text=The CharacterOffsetBegin=744 CharacterOffsetEnd=747 PartOfSpeech=DT]
+[Text=only CharacterOffsetBegin=748 CharacterOffsetEnd=752 PartOfSpeech=JJ]
+[Text=problem CharacterOffsetBegin=753 CharacterOffsetEnd=760 PartOfSpeech=NN]
+[Text=he CharacterOffsetBegin=761 CharacterOffsetEnd=763 PartOfSpeech=PRP]
+[Text=states CharacterOffsetBegin=764 CharacterOffsetEnd=770 PartOfSpeech=VBZ]
+[Text=is CharacterOffsetBegin=771 CharacterOffsetEnd=773 PartOfSpeech=VBZ]
+[Text=the CharacterOffsetBegin=774 CharacterOffsetEnd=777 PartOfSpeech=DT]
+[Text=government CharacterOffsetBegin=778 CharacterOffsetEnd=788 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=788 CharacterOffsetEnd=789 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, government-8)
+det(problem-3, The-1)
+amod(problem-3, only-2)
+nsubj(government-8, problem-3)
+nsubj(states-5, he-4)
+dep(problem-3, states-5)
+cop(government-8, is-6)
+det(government-8, the-7)
+punct(government-8, .-9)
+
+Sentence #9 (22 tokens):
+If I lost my family to a bomb sent by another country, I do not know what I would do.
+
+Tokens:
+[Text=If CharacterOffsetBegin=790 CharacterOffsetEnd=792 PartOfSpeech=IN]
+[Text=I CharacterOffsetBegin=793 CharacterOffsetEnd=794 PartOfSpeech=PRP]
+[Text=lost CharacterOffsetBegin=795 CharacterOffsetEnd=799 PartOfSpeech=VBD]
+[Text=my CharacterOffsetBegin=800 CharacterOffsetEnd=802 PartOfSpeech=PRP$]
+[Text=family CharacterOffsetBegin=803 CharacterOffsetEnd=809 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=810 CharacterOffsetEnd=812 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=813 CharacterOffsetEnd=814 PartOfSpeech=DT]
+[Text=bomb CharacterOffsetBegin=815 CharacterOffsetEnd=819 PartOfSpeech=NN]
+[Text=sent CharacterOffsetBegin=820 CharacterOffsetEnd=824 PartOfSpeech=VBN]
+[Text=by CharacterOffsetBegin=825 CharacterOffsetEnd=827 PartOfSpeech=IN]
+[Text=another CharacterOffsetBegin=828 CharacterOffsetEnd=835 PartOfSpeech=DT]
+[Text=country CharacterOffsetBegin=836 CharacterOffsetEnd=843 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=843 CharacterOffsetEnd=844 PartOfSpeech=,]
+[Text=I CharacterOffsetBegin=845 CharacterOffsetEnd=846 PartOfSpeech=PRP]
+[Text=do CharacterOffsetBegin=847 CharacterOffsetEnd=849 PartOfSpeech=VBP]
+[Text=not CharacterOffsetBegin=850 CharacterOffsetEnd=853 PartOfSpeech=RB]
+[Text=know CharacterOffsetBegin=854 CharacterOffsetEnd=858 PartOfSpeech=VB]
+[Text=what CharacterOffsetBegin=859 CharacterOffsetEnd=863 PartOfSpeech=WP]
+[Text=I CharacterOffsetBegin=864 CharacterOffsetEnd=865 PartOfSpeech=PRP]
+[Text=would CharacterOffsetBegin=866 CharacterOffsetEnd=871 PartOfSpeech=MD]
+[Text=do CharacterOffsetBegin=872 CharacterOffsetEnd=874 PartOfSpeech=VB]
+[Text=. CharacterOffsetBegin=874 CharacterOffsetEnd=875 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, know-17)
+mark(lost-3, If-1)
+nsubj(lost-3, I-2)
+advcl:if(know-17, lost-3)
+nmod:poss(family-5, my-4)
+obj(lost-3, family-5)
+case(bomb-8, to-6)
+det(bomb-8, a-7)
+obl:to(lost-3, bomb-8)
+acl(bomb-8, sent-9)
+case(country-12, by-10)
+det(country-12, another-11)
+obl:by(sent-9, country-12)
+punct(know-17, ,-13)
+nsubj(know-17, I-14)
+aux(know-17, do-15)
+advmod(know-17, not-16)
+obj(do-21, what-18)
+nsubj(do-21, I-19)
+aux(do-21, would-20)
+ccomp(know-17, do-21)
+punct(know-17, .-22)
+
+Sentence #10 (27 tokens):
+It is horrible to think that families everyday are being killed for no reason just because they are in the wrong place at the wrong time.
+
+Tokens:
+[Text=It CharacterOffsetBegin=876 CharacterOffsetEnd=878 PartOfSpeech=PRP]
+[Text=is CharacterOffsetBegin=879 CharacterOffsetEnd=881 PartOfSpeech=VBZ]
+[Text=horrible CharacterOffsetBegin=882 CharacterOffsetEnd=890 PartOfSpeech=JJ]
+[Text=to CharacterOffsetBegin=891 CharacterOffsetEnd=893 PartOfSpeech=TO]
+[Text=think CharacterOffsetBegin=894 CharacterOffsetEnd=899 PartOfSpeech=VB]
+[Text=that CharacterOffsetBegin=900 CharacterOffsetEnd=904 PartOfSpeech=IN]
+[Text=families CharacterOffsetBegin=905 CharacterOffsetEnd=913 PartOfSpeech=NNS]
+[Text=everyday CharacterOffsetBegin=914 CharacterOffsetEnd=922 PartOfSpeech=RB]
+[Text=are CharacterOffsetBegin=923 CharacterOffsetEnd=926 PartOfSpeech=VBP]
+[Text=being CharacterOffsetBegin=927 CharacterOffsetEnd=932 PartOfSpeech=VBG]
+[Text=killed CharacterOffsetBegin=933 CharacterOffsetEnd=939 PartOfSpeech=VBN]
+[Text=for CharacterOffsetBegin=940 CharacterOffsetEnd=943 PartOfSpeech=IN]
+[Text=no CharacterOffsetBegin=944 CharacterOffsetEnd=946 PartOfSpeech=DT]
+[Text=reason CharacterOffsetBegin=947 CharacterOffsetEnd=953 PartOfSpeech=NN]
+[Text=just CharacterOffsetBegin=954 CharacterOffsetEnd=958 PartOfSpeech=RB]
+[Text=because CharacterOffsetBegin=959 CharacterOffsetEnd=966 PartOfSpeech=IN]
+[Text=they CharacterOffsetBegin=967 CharacterOffsetEnd=971 PartOfSpeech=PRP]
+[Text=are CharacterOffsetBegin=972 CharacterOffsetEnd=975 PartOfSpeech=VBP]
+[Text=in CharacterOffsetBegin=976 CharacterOffsetEnd=978 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=979 CharacterOffsetEnd=982 PartOfSpeech=DT]
+[Text=wrong CharacterOffsetBegin=983 CharacterOffsetEnd=988 PartOfSpeech=JJ]
+[Text=place CharacterOffsetBegin=989 CharacterOffsetEnd=994 PartOfSpeech=NN]
+[Text=at CharacterOffsetBegin=995 CharacterOffsetEnd=997 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=998 CharacterOffsetEnd=1001 PartOfSpeech=DT]
+[Text=wrong CharacterOffsetBegin=1002 CharacterOffsetEnd=1007 PartOfSpeech=JJ]
+[Text=time CharacterOffsetBegin=1008 CharacterOffsetEnd=1012 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=1012 CharacterOffsetEnd=1013 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, horrible-3)
+nsubj(horrible-3, It-1)
+nsubj:xsubj(think-5, It-1)
+cop(horrible-3, is-2)
+mark(think-5, to-4)
+xcomp(horrible-3, think-5)
+mark(killed-11, that-6)
+nsubj:pass(killed-11, families-7)
+advmod(killed-11, everyday-8)
+aux(killed-11, are-9)
+aux:pass(killed-11, being-10)
+ccomp(think-5, killed-11)
+case(reason-14, for-12)
+det(reason-14, no-13)
+obl:for(killed-11, reason-14)
+advmod(place-22, just-15)
+mark(place-22, because-16)
+nsubj(place-22, they-17)
+cop(place-22, are-18)
+case(place-22, in-19)
+det(place-22, the-20)
+amod(place-22, wrong-21)
+advcl:in(killed-11, place-22)
+case(time-26, at-23)
+det(time-26, the-24)
+amod(time-26, wrong-25)
+obl:at(place-22, time-26)
+punct(horrible-3, .-27)
+
+Sentence #11 (20 tokens):
+I guess I can see how Basim does not hate America because it was not just all of America.
+
+Tokens:
+[Text=I CharacterOffsetBegin=1014 CharacterOffsetEnd=1015 PartOfSpeech=PRP]
+[Text=guess CharacterOffsetBegin=1016 CharacterOffsetEnd=1021 PartOfSpeech=VBP]
+[Text=I CharacterOffsetBegin=1022 CharacterOffsetEnd=1023 PartOfSpeech=PRP]
+[Text=can CharacterOffsetBegin=1024 CharacterOffsetEnd=1027 PartOfSpeech=MD]
+[Text=see CharacterOffsetBegin=1028 CharacterOffsetEnd=1031 PartOfSpeech=VB]
+[Text=how CharacterOffsetBegin=1032 CharacterOffsetEnd=1035 PartOfSpeech=WRB]
+[Text=Basim CharacterOffsetBegin=1036 CharacterOffsetEnd=1041 PartOfSpeech=NNP]
+[Text=does CharacterOffsetBegin=1042 CharacterOffsetEnd=1046 PartOfSpeech=VBZ]
+[Text=not CharacterOffsetBegin=1047 CharacterOffsetEnd=1050 PartOfSpeech=RB]
+[Text=hate CharacterOffsetBegin=1051 CharacterOffsetEnd=1055 PartOfSpeech=VB]
+[Text=America CharacterOffsetBegin=1056 CharacterOffsetEnd=1063 PartOfSpeech=NNP]
+[Text=because CharacterOffsetBegin=1064 CharacterOffsetEnd=1071 PartOfSpeech=IN]
+[Text=it CharacterOffsetBegin=1072 CharacterOffsetEnd=1074 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=1075 CharacterOffsetEnd=1078 PartOfSpeech=VBD]
+[Text=not CharacterOffsetBegin=1079 CharacterOffsetEnd=1082 PartOfSpeech=RB]
+[Text=just CharacterOffsetBegin=1083 CharacterOffsetEnd=1087 PartOfSpeech=RB]
+[Text=all CharacterOffsetBegin=1088 CharacterOffsetEnd=1091 PartOfSpeech=DT]
+[Text=of CharacterOffsetBegin=1092 CharacterOffsetEnd=1094 PartOfSpeech=IN]
+[Text=America CharacterOffsetBegin=1095 CharacterOffsetEnd=1102 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=1102 CharacterOffsetEnd=1103 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, see-5)
+nsubj(guess-2, I-1)
+parataxis(see-5, guess-2)
+nsubj(see-5, I-3)
+aux(see-5, can-4)
+advmod(hate-10, how-6)
+nsubj(hate-10, Basim-7)
+aux(hate-10, does-8)
+advmod(hate-10, not-9)
+ccomp(see-5, hate-10)
+obj(hate-10, America-11)
+mark(all-17, because-12)
+nsubj(all-17, it-13)
+cop(all-17, was-14)
+advmod(all-17, not-15)
+advmod(all-17, just-16)
+advcl:because(hate-10, all-17)
+case(America-19, of-18)
+nmod:of(all-17, America-19)
+punct(see-5, .-20)
+
+Sentence #12 (28 tokens):
+I think that more people, including me, need to take on the same attitude that he portrays, especially with everything he has been through.
+
+Tokens:
+[Text=I CharacterOffsetBegin=1104 CharacterOffsetEnd=1105 PartOfSpeech=PRP]
+[Text=think CharacterOffsetBegin=1106 CharacterOffsetEnd=1111 PartOfSpeech=VBP]
+[Text=that CharacterOffsetBegin=1112 CharacterOffsetEnd=1116 PartOfSpeech=IN]
+[Text=more CharacterOffsetBegin=1117 CharacterOffsetEnd=1121 PartOfSpeech=JJR]
+[Text=people CharacterOffsetBegin=1122 CharacterOffsetEnd=1128 PartOfSpeech=NNS]
+[Text=, CharacterOffsetBegin=1128 CharacterOffsetEnd=1129 PartOfSpeech=,]
+[Text=including CharacterOffsetBegin=1130 CharacterOffsetEnd=1139 PartOfSpeech=VBG]
+[Text=me CharacterOffsetBegin=1140 CharacterOffsetEnd=1142 PartOfSpeech=PRP]
+[Text=, CharacterOffsetBegin=1142 CharacterOffsetEnd=1143 PartOfSpeech=,]
+[Text=need CharacterOffsetBegin=1144 CharacterOffsetEnd=1148 PartOfSpeech=VBP]
+[Text=to CharacterOffsetBegin=1149 CharacterOffsetEnd=1151 PartOfSpeech=TO]
+[Text=take CharacterOffsetBegin=1152 CharacterOffsetEnd=1156 PartOfSpeech=VB]
+[Text=on CharacterOffsetBegin=1157 CharacterOffsetEnd=1159 PartOfSpeech=RP]
+[Text=the CharacterOffsetBegin=1160 CharacterOffsetEnd=1163 PartOfSpeech=DT]
+[Text=same CharacterOffsetBegin=1164 CharacterOffsetEnd=1168 PartOfSpeech=JJ]
+[Text=attitude CharacterOffsetBegin=1169 CharacterOffsetEnd=1177 PartOfSpeech=NN]
+[Text=that CharacterOffsetBegin=1178 CharacterOffsetEnd=1182 PartOfSpeech=WDT]
+[Text=he CharacterOffsetBegin=1183 CharacterOffsetEnd=1185 PartOfSpeech=PRP]
+[Text=portrays CharacterOffsetBegin=1186 CharacterOffsetEnd=1194 PartOfSpeech=VBZ]
+[Text=, CharacterOffsetBegin=1194 CharacterOffsetEnd=1195 PartOfSpeech=,]
+[Text=especially CharacterOffsetBegin=1196 CharacterOffsetEnd=1206 PartOfSpeech=RB]
+[Text=with CharacterOffsetBegin=1207 CharacterOffsetEnd=1211 PartOfSpeech=IN]
+[Text=everything CharacterOffsetBegin=1212 CharacterOffsetEnd=1222 PartOfSpeech=NN]
+[Text=he CharacterOffsetBegin=1223 CharacterOffsetEnd=1225 PartOfSpeech=PRP]
+[Text=has CharacterOffsetBegin=1226 CharacterOffsetEnd=1229 PartOfSpeech=VBZ]
+[Text=been CharacterOffsetBegin=1230 CharacterOffsetEnd=1234 PartOfSpeech=VBN]
+[Text=through CharacterOffsetBegin=1235 CharacterOffsetEnd=1242 PartOfSpeech=IN]
+[Text=. CharacterOffsetBegin=1242 CharacterOffsetEnd=1243 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+mark(need-10, that-3)
+amod(people-5, more-4)
+nsubj(need-10, people-5)
+nsubj:xsubj(take-12, people-5)
+punct(people-5, ,-6)
+case(me-8, including-7)
+nmod:including(people-5, me-8)
+punct(need-10, ,-9)
+ccomp(think-2, need-10)
+mark(take-12, to-11)
+xcomp(need-10, take-12)
+compound:prt(take-12, on-13)
+det(attitude-16, the-14)
+amod(attitude-16, same-15)
+obj(take-12, attitude-16)
+obj(portrays-19, attitude-16)
+ref(attitude-16, that-17)
+nsubj(portrays-19, he-18)
+acl:relcl(attitude-16, portrays-19)
+punct(portrays-19, ,-20)
+advmod(everything-23, especially-21)
+case(everything-23, with-22)
+obl:with(through-27, everything-23)
+nsubj(through-27, he-24)
+aux(through-27, has-25)
+cop(through-27, been-26)
+dep(portrays-19, through-27)
+punct(think-2, .-28)
+
+Sentence #13 (24 tokens):
+This also is a lesson to America that when we make a plan to attack another country, we are ruining innocent lives.
+
+Tokens:
+[Text=This CharacterOffsetBegin=1244 CharacterOffsetEnd=1248 PartOfSpeech=DT]
+[Text=also CharacterOffsetBegin=1249 CharacterOffsetEnd=1253 PartOfSpeech=RB]
+[Text=is CharacterOffsetBegin=1254 CharacterOffsetEnd=1256 PartOfSpeech=VBZ]
+[Text=a CharacterOffsetBegin=1257 CharacterOffsetEnd=1258 PartOfSpeech=DT]
+[Text=lesson CharacterOffsetBegin=1259 CharacterOffsetEnd=1265 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=1266 CharacterOffsetEnd=1268 PartOfSpeech=IN]
+[Text=America CharacterOffsetBegin=1269 CharacterOffsetEnd=1276 PartOfSpeech=NNP]
+[Text=that CharacterOffsetBegin=1277 CharacterOffsetEnd=1281 PartOfSpeech=IN]
+[Text=when CharacterOffsetBegin=1282 CharacterOffsetEnd=1286 PartOfSpeech=WRB]
+[Text=we CharacterOffsetBegin=1287 CharacterOffsetEnd=1289 PartOfSpeech=PRP]
+[Text=make CharacterOffsetBegin=1290 CharacterOffsetEnd=1294 PartOfSpeech=VBP]
+[Text=a CharacterOffsetBegin=1295 CharacterOffsetEnd=1296 PartOfSpeech=DT]
+[Text=plan CharacterOffsetBegin=1297 CharacterOffsetEnd=1301 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=1302 CharacterOffsetEnd=1304 PartOfSpeech=TO]
+[Text=attack CharacterOffsetBegin=1305 CharacterOffsetEnd=1311 PartOfSpeech=VB]
+[Text=another CharacterOffsetBegin=1312 CharacterOffsetEnd=1319 PartOfSpeech=DT]
+[Text=country CharacterOffsetBegin=1320 CharacterOffsetEnd=1327 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=1327 CharacterOffsetEnd=1328 PartOfSpeech=,]
+[Text=we CharacterOffsetBegin=1329 CharacterOffsetEnd=1331 PartOfSpeech=PRP]
+[Text=are CharacterOffsetBegin=1332 CharacterOffsetEnd=1335 PartOfSpeech=VBP]
+[Text=ruining CharacterOffsetBegin=1336 CharacterOffsetEnd=1343 PartOfSpeech=VBG]
+[Text=innocent CharacterOffsetBegin=1344 CharacterOffsetEnd=1352 PartOfSpeech=JJ]
+[Text=lives CharacterOffsetBegin=1353 CharacterOffsetEnd=1358 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=1358 CharacterOffsetEnd=1359 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, lesson-5)
+nsubj(lesson-5, This-1)
+advmod(lesson-5, also-2)
+cop(lesson-5, is-3)
+det(lesson-5, a-4)
+case(America-7, to-6)
+nmod:to(lesson-5, America-7)
+mark(ruining-21, that-8)
+advmod(make-11, when-9)
+nsubj(make-11, we-10)
+advcl(ruining-21, make-11)
+det(plan-13, a-12)
+obj(make-11, plan-13)
+nsubj:xsubj(attack-15, plan-13)
+mark(attack-15, to-14)
+xcomp(make-11, attack-15)
+det(country-17, another-16)
+obj(attack-15, country-17)
+punct(ruining-21, ,-18)
+nsubj(ruining-21, we-19)
+aux(ruining-21, are-20)
+ccomp(lesson-5, ruining-21)
+amod(lives-23, innocent-22)
+obj(ruining-21, lives-23)
+punct(lesson-5, .-24)
+
+Sentence #14 (21 tokens):
+I personally thought that many women were just forced to wear hijabs and they could not do anything about it.
+
+Tokens:
+[Text=I CharacterOffsetBegin=1360 CharacterOffsetEnd=1361 PartOfSpeech=PRP]
+[Text=personally CharacterOffsetBegin=1362 CharacterOffsetEnd=1372 PartOfSpeech=RB]
+[Text=thought CharacterOffsetBegin=1373 CharacterOffsetEnd=1380 PartOfSpeech=VBD]
+[Text=that CharacterOffsetBegin=1381 CharacterOffsetEnd=1385 PartOfSpeech=IN]
+[Text=many CharacterOffsetBegin=1386 CharacterOffsetEnd=1390 PartOfSpeech=JJ]
+[Text=women CharacterOffsetBegin=1391 CharacterOffsetEnd=1396 PartOfSpeech=NNS]
+[Text=were CharacterOffsetBegin=1397 CharacterOffsetEnd=1401 PartOfSpeech=VBD]
+[Text=just CharacterOffsetBegin=1402 CharacterOffsetEnd=1406 PartOfSpeech=RB]
+[Text=forced CharacterOffsetBegin=1407 CharacterOffsetEnd=1413 PartOfSpeech=VBN]
+[Text=to CharacterOffsetBegin=1414 CharacterOffsetEnd=1416 PartOfSpeech=TO]
+[Text=wear CharacterOffsetBegin=1417 CharacterOffsetEnd=1421 PartOfSpeech=VB]
+[Text=hijabs CharacterOffsetBegin=1422 CharacterOffsetEnd=1428 PartOfSpeech=NNS]
+[Text=and CharacterOffsetBegin=1429 CharacterOffsetEnd=1432 PartOfSpeech=CC]
+[Text=they CharacterOffsetBegin=1433 CharacterOffsetEnd=1437 PartOfSpeech=PRP]
+[Text=could CharacterOffsetBegin=1438 CharacterOffsetEnd=1443 PartOfSpeech=MD]
+[Text=not CharacterOffsetBegin=1444 CharacterOffsetEnd=1447 PartOfSpeech=RB]
+[Text=do CharacterOffsetBegin=1448 CharacterOffsetEnd=1450 PartOfSpeech=VB]
+[Text=anything CharacterOffsetBegin=1451 CharacterOffsetEnd=1459 PartOfSpeech=NN]
+[Text=about CharacterOffsetBegin=1460 CharacterOffsetEnd=1465 PartOfSpeech=IN]
+[Text=it CharacterOffsetBegin=1466 CharacterOffsetEnd=1468 PartOfSpeech=PRP]
+[Text=. CharacterOffsetBegin=1468 CharacterOffsetEnd=1469 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, thought-3)
+nsubj(thought-3, I-1)
+advmod(thought-3, personally-2)
+mark(forced-9, that-4)
+amod(women-6, many-5)
+nsubj:pass(forced-9, women-6)
+nsubj:xsubj(wear-11, women-6)
+aux:pass(forced-9, were-7)
+advmod(forced-9, just-8)
+ccomp(thought-3, forced-9)
+mark(wear-11, to-10)
+xcomp(forced-9, wear-11)
+obj(wear-11, hijabs-12)
+cc(do-17, and-13)
+nsubj(do-17, they-14)
+aux(do-17, could-15)
+advmod(do-17, not-16)
+ccomp(thought-3, do-17)
+conj:and(forced-9, do-17)
+obj(do-17, anything-18)
+case(it-20, about-19)
+obl:about(do-17, it-20)
+punct(thought-3, .-21)
+
+Sentence #15 (30 tokens):
+I did know that they were allowed to take it off in their home, but I never realized that they only had to wear them around other men.
+
+Tokens:
+[Text=I CharacterOffsetBegin=1470 CharacterOffsetEnd=1471 PartOfSpeech=PRP]
+[Text=did CharacterOffsetBegin=1472 CharacterOffsetEnd=1475 PartOfSpeech=VBD]
+[Text=know CharacterOffsetBegin=1476 CharacterOffsetEnd=1480 PartOfSpeech=VB]
+[Text=that CharacterOffsetBegin=1481 CharacterOffsetEnd=1485 PartOfSpeech=IN]
+[Text=they CharacterOffsetBegin=1486 CharacterOffsetEnd=1490 PartOfSpeech=PRP]
+[Text=were CharacterOffsetBegin=1491 CharacterOffsetEnd=1495 PartOfSpeech=VBD]
+[Text=allowed CharacterOffsetBegin=1496 CharacterOffsetEnd=1503 PartOfSpeech=VBN]
+[Text=to CharacterOffsetBegin=1504 CharacterOffsetEnd=1506 PartOfSpeech=TO]
+[Text=take CharacterOffsetBegin=1507 CharacterOffsetEnd=1511 PartOfSpeech=VB]
+[Text=it CharacterOffsetBegin=1512 CharacterOffsetEnd=1514 PartOfSpeech=PRP]
+[Text=off CharacterOffsetBegin=1515 CharacterOffsetEnd=1518 PartOfSpeech=RP]
+[Text=in CharacterOffsetBegin=1519 CharacterOffsetEnd=1521 PartOfSpeech=IN]
+[Text=their CharacterOffsetBegin=1522 CharacterOffsetEnd=1527 PartOfSpeech=PRP$]
+[Text=home CharacterOffsetBegin=1528 CharacterOffsetEnd=1532 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=1532 CharacterOffsetEnd=1533 PartOfSpeech=,]
+[Text=but CharacterOffsetBegin=1534 CharacterOffsetEnd=1537 PartOfSpeech=CC]
+[Text=I CharacterOffsetBegin=1538 CharacterOffsetEnd=1539 PartOfSpeech=PRP]
+[Text=never CharacterOffsetBegin=1540 CharacterOffsetEnd=1545 PartOfSpeech=RB]
+[Text=realized CharacterOffsetBegin=1546 CharacterOffsetEnd=1554 PartOfSpeech=VBD]
+[Text=that CharacterOffsetBegin=1555 CharacterOffsetEnd=1559 PartOfSpeech=IN]
+[Text=they CharacterOffsetBegin=1560 CharacterOffsetEnd=1564 PartOfSpeech=PRP]
+[Text=only CharacterOffsetBegin=1565 CharacterOffsetEnd=1569 PartOfSpeech=RB]
+[Text=had CharacterOffsetBegin=1570 CharacterOffsetEnd=1573 PartOfSpeech=VBD]
+[Text=to CharacterOffsetBegin=1574 CharacterOffsetEnd=1576 PartOfSpeech=TO]
+[Text=wear CharacterOffsetBegin=1577 CharacterOffsetEnd=1581 PartOfSpeech=VB]
+[Text=them CharacterOffsetBegin=1582 CharacterOffsetEnd=1586 PartOfSpeech=PRP]
+[Text=around CharacterOffsetBegin=1587 CharacterOffsetEnd=1593 PartOfSpeech=IN]
+[Text=other CharacterOffsetBegin=1594 CharacterOffsetEnd=1599 PartOfSpeech=JJ]
+[Text=men CharacterOffsetBegin=1600 CharacterOffsetEnd=1603 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=1603 CharacterOffsetEnd=1604 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, know-3)
+nsubj(know-3, I-1)
+aux(know-3, did-2)
+mark(allowed-7, that-4)
+nsubj:pass(allowed-7, they-5)
+nsubj:xsubj(take-9, they-5)
+aux:pass(allowed-7, were-6)
+ccomp(know-3, allowed-7)
+mark(take-9, to-8)
+xcomp(allowed-7, take-9)
+obj(take-9, it-10)
+compound:prt(take-9, off-11)
+case(home-14, in-12)
+nmod:poss(home-14, their-13)
+obl:in(take-9, home-14)
+punct(know-3, ,-15)
+cc(realized-19, but-16)
+nsubj(realized-19, I-17)
+advmod(realized-19, never-18)
+conj:but(know-3, realized-19)
+mark(had-23, that-20)
+nsubj(had-23, they-21)
+advmod(had-23, only-22)
+ccomp(realized-19, had-23)
+mark(wear-25, to-24)
+ccomp(had-23, wear-25)
+obj(wear-25, them-26)
+case(men-29, around-27)
+amod(men-29, other-28)
+obl:around(wear-25, men-29)
+punct(know-3, .-30)
+
+Sentence #16 (43 tokens):
+It was also interesting to hear a group of females wearing hijabs answering questions from girls without hijabs because I do not know about everyone else, but personally I have not seen these two groups talk to each other in person.
+
+Tokens:
+[Text=It CharacterOffsetBegin=1605 CharacterOffsetEnd=1607 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=1608 CharacterOffsetEnd=1611 PartOfSpeech=VBD]
+[Text=also CharacterOffsetBegin=1612 CharacterOffsetEnd=1616 PartOfSpeech=RB]
+[Text=interesting CharacterOffsetBegin=1617 CharacterOffsetEnd=1628 PartOfSpeech=JJ]
+[Text=to CharacterOffsetBegin=1629 CharacterOffsetEnd=1631 PartOfSpeech=TO]
+[Text=hear CharacterOffsetBegin=1632 CharacterOffsetEnd=1636 PartOfSpeech=VB]
+[Text=a CharacterOffsetBegin=1637 CharacterOffsetEnd=1638 PartOfSpeech=DT]
+[Text=group CharacterOffsetBegin=1639 CharacterOffsetEnd=1644 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=1645 CharacterOffsetEnd=1647 PartOfSpeech=IN]
+[Text=females CharacterOffsetBegin=1648 CharacterOffsetEnd=1655 PartOfSpeech=NNS]
+[Text=wearing CharacterOffsetBegin=1656 CharacterOffsetEnd=1663 PartOfSpeech=VBG]
+[Text=hijabs CharacterOffsetBegin=1664 CharacterOffsetEnd=1670 PartOfSpeech=NNS]
+[Text=answering CharacterOffsetBegin=1671 CharacterOffsetEnd=1680 PartOfSpeech=VBG]
+[Text=questions CharacterOffsetBegin=1681 CharacterOffsetEnd=1690 PartOfSpeech=NNS]
+[Text=from CharacterOffsetBegin=1691 CharacterOffsetEnd=1695 PartOfSpeech=IN]
+[Text=girls CharacterOffsetBegin=1696 CharacterOffsetEnd=1701 PartOfSpeech=NNS]
+[Text=without CharacterOffsetBegin=1702 CharacterOffsetEnd=1709 PartOfSpeech=IN]
+[Text=hijabs CharacterOffsetBegin=1710 CharacterOffsetEnd=1716 PartOfSpeech=NNS]
+[Text=because CharacterOffsetBegin=1717 CharacterOffsetEnd=1724 PartOfSpeech=IN]
+[Text=I CharacterOffsetBegin=1725 CharacterOffsetEnd=1726 PartOfSpeech=PRP]
+[Text=do CharacterOffsetBegin=1727 CharacterOffsetEnd=1729 PartOfSpeech=VBP]
+[Text=not CharacterOffsetBegin=1730 CharacterOffsetEnd=1733 PartOfSpeech=RB]
+[Text=know CharacterOffsetBegin=1734 CharacterOffsetEnd=1738 PartOfSpeech=VB]
+[Text=about CharacterOffsetBegin=1739 CharacterOffsetEnd=1744 PartOfSpeech=IN]
+[Text=everyone CharacterOffsetBegin=1745 CharacterOffsetEnd=1753 PartOfSpeech=NN]
+[Text=else CharacterOffsetBegin=1754 CharacterOffsetEnd=1758 PartOfSpeech=RB]
+[Text=, CharacterOffsetBegin=1758 CharacterOffsetEnd=1759 PartOfSpeech=,]
+[Text=but CharacterOffsetBegin=1760 CharacterOffsetEnd=1763 PartOfSpeech=CC]
+[Text=personally CharacterOffsetBegin=1764 CharacterOffsetEnd=1774 PartOfSpeech=RB]
+[Text=I CharacterOffsetBegin=1775 CharacterOffsetEnd=1776 PartOfSpeech=PRP]
+[Text=have CharacterOffsetBegin=1777 CharacterOffsetEnd=1781 PartOfSpeech=VBP]
+[Text=not CharacterOffsetBegin=1782 CharacterOffsetEnd=1785 PartOfSpeech=RB]
+[Text=seen CharacterOffsetBegin=1786 CharacterOffsetEnd=1790 PartOfSpeech=VBN]
+[Text=these CharacterOffsetBegin=1791 CharacterOffsetEnd=1796 PartOfSpeech=DT]
+[Text=two CharacterOffsetBegin=1797 CharacterOffsetEnd=1800 PartOfSpeech=CD]
+[Text=groups CharacterOffsetBegin=1801 CharacterOffsetEnd=1807 PartOfSpeech=NNS]
+[Text=talk CharacterOffsetBegin=1808 CharacterOffsetEnd=1812 PartOfSpeech=VBP]
+[Text=to CharacterOffsetBegin=1813 CharacterOffsetEnd=1815 PartOfSpeech=IN]
+[Text=each CharacterOffsetBegin=1816 CharacterOffsetEnd=1820 PartOfSpeech=DT]
+[Text=other CharacterOffsetBegin=1821 CharacterOffsetEnd=1826 PartOfSpeech=JJ]
+[Text=in CharacterOffsetBegin=1827 CharacterOffsetEnd=1829 PartOfSpeech=IN]
+[Text=person CharacterOffsetBegin=1830 CharacterOffsetEnd=1836 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=1836 CharacterOffsetEnd=1837 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, interesting-4)
+nsubj(interesting-4, It-1)
+nsubj:xsubj(hear-6, It-1)
+cop(interesting-4, was-2)
+advmod(interesting-4, also-3)
+mark(hear-6, to-5)
+xcomp(interesting-4, hear-6)
+det(group-8, a-7)
+obj(hear-6, group-8)
+case(females-10, of-9)
+nmod:of(group-8, females-10)
+acl(group-8, wearing-11)
+obj(wearing-11, hijabs-12)
+acl(hijabs-12, answering-13)
+obj(answering-13, questions-14)
+case(girls-16, from-15)
+nmod:from(questions-14, girls-16)
+case(hijabs-18, without-17)
+obl:without(wearing-11, hijabs-18)
+mark(know-23, because-19)
+nsubj(know-23, I-20)
+aux(know-23, do-21)
+advmod(know-23, not-22)
+advcl:because(hear-6, know-23)
+case(everyone-25, about-24)
+obl:about(know-23, everyone-25)
+advmod(everyone-25, else-26)
+punct(interesting-4, ,-27)
+cc(seen-33, but-28)
+advmod(seen-33, personally-29)
+nsubj(seen-33, I-30)
+aux(seen-33, have-31)
+advmod(seen-33, not-32)
+conj:but(interesting-4, seen-33)
+det(groups-36, these-34)
+nummod(groups-36, two-35)
+nsubj(talk-37, groups-36)
+ccomp(seen-33, talk-37)
+case(other-40, to-38)
+det(other-40, each-39)
+obl:to(talk-37, other-40)
+case(person-42, in-41)
+obl:in(talk-37, person-42)
+punct(interesting-4, .-43)
+
+Sentence #17 (29 tokens):
+I am not saying that these women hate each other, but it is something I personally just have not seen growing up in a very white town.
+
+Tokens:
+[Text=I CharacterOffsetBegin=1838 CharacterOffsetEnd=1839 PartOfSpeech=PRP]
+[Text=am CharacterOffsetBegin=1840 CharacterOffsetEnd=1842 PartOfSpeech=VBP]
+[Text=not CharacterOffsetBegin=1843 CharacterOffsetEnd=1846 PartOfSpeech=RB]
+[Text=saying CharacterOffsetBegin=1847 CharacterOffsetEnd=1853 PartOfSpeech=VBG]
+[Text=that CharacterOffsetBegin=1854 CharacterOffsetEnd=1858 PartOfSpeech=IN]
+[Text=these CharacterOffsetBegin=1859 CharacterOffsetEnd=1864 PartOfSpeech=DT]
+[Text=women CharacterOffsetBegin=1865 CharacterOffsetEnd=1870 PartOfSpeech=NNS]
+[Text=hate CharacterOffsetBegin=1871 CharacterOffsetEnd=1875 PartOfSpeech=VBP]
+[Text=each CharacterOffsetBegin=1876 CharacterOffsetEnd=1880 PartOfSpeech=DT]
+[Text=other CharacterOffsetBegin=1881 CharacterOffsetEnd=1886 PartOfSpeech=JJ]
+[Text=, CharacterOffsetBegin=1886 CharacterOffsetEnd=1887 PartOfSpeech=,]
+[Text=but CharacterOffsetBegin=1888 CharacterOffsetEnd=1891 PartOfSpeech=CC]
+[Text=it CharacterOffsetBegin=1892 CharacterOffsetEnd=1894 PartOfSpeech=PRP]
+[Text=is CharacterOffsetBegin=1895 CharacterOffsetEnd=1897 PartOfSpeech=VBZ]
+[Text=something CharacterOffsetBegin=1898 CharacterOffsetEnd=1907 PartOfSpeech=NN]
+[Text=I CharacterOffsetBegin=1908 CharacterOffsetEnd=1909 PartOfSpeech=PRP]
+[Text=personally CharacterOffsetBegin=1910 CharacterOffsetEnd=1920 PartOfSpeech=RB]
+[Text=just CharacterOffsetBegin=1921 CharacterOffsetEnd=1925 PartOfSpeech=RB]
+[Text=have CharacterOffsetBegin=1926 CharacterOffsetEnd=1930 PartOfSpeech=VB]
+[Text=not CharacterOffsetBegin=1931 CharacterOffsetEnd=1934 PartOfSpeech=RB]
+[Text=seen CharacterOffsetBegin=1935 CharacterOffsetEnd=1939 PartOfSpeech=VBN]
+[Text=growing CharacterOffsetBegin=1940 CharacterOffsetEnd=1947 PartOfSpeech=VBG]
+[Text=up CharacterOffsetBegin=1948 CharacterOffsetEnd=1950 PartOfSpeech=RP]
+[Text=in CharacterOffsetBegin=1951 CharacterOffsetEnd=1953 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=1954 CharacterOffsetEnd=1955 PartOfSpeech=DT]
+[Text=very CharacterOffsetBegin=1956 CharacterOffsetEnd=1960 PartOfSpeech=RB]
+[Text=white CharacterOffsetBegin=1961 CharacterOffsetEnd=1966 PartOfSpeech=JJ]
+[Text=town CharacterOffsetBegin=1967 CharacterOffsetEnd=1971 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=1971 CharacterOffsetEnd=1972 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, saying-4)
+nsubj(saying-4, I-1)
+aux(saying-4, am-2)
+advmod(saying-4, not-3)
+mark(hate-8, that-5)
+det(women-7, these-6)
+nsubj(hate-8, women-7)
+ccomp(saying-4, hate-8)
+det(other-10, each-9)
+obj(hate-8, other-10)
+punct(saying-4, ,-11)
+cc(something-15, but-12)
+nsubj(something-15, it-13)
+cop(something-15, is-14)
+conj:but(saying-4, something-15)
+nsubj(seen-21, I-16)
+advmod(seen-21, personally-17)
+advmod(seen-21, just-18)
+aux(seen-21, have-19)
+advmod(seen-21, not-20)
+acl(something-15, seen-21)
+xcomp(seen-21, growing-22)
+compound:prt(growing-22, up-23)
+case(town-28, in-24)
+det(town-28, a-25)
+advmod(white-27, very-26)
+amod(town-28, white-27)
+obl:in(growing-22, town-28)
+punct(saying-4, .-29)
+
+Sentence #18 (20 tokens):
+It is always cool seeing different cultures interact with each other because people will always find similarities between them.
+
+Tokens:
+[Text=It CharacterOffsetBegin=1973 CharacterOffsetEnd=1975 PartOfSpeech=PRP]
+[Text=is CharacterOffsetBegin=1976 CharacterOffsetEnd=1978 PartOfSpeech=VBZ]
+[Text=always CharacterOffsetBegin=1979 CharacterOffsetEnd=1985 PartOfSpeech=RB]
+[Text=cool CharacterOffsetBegin=1986 CharacterOffsetEnd=1990 PartOfSpeech=JJ]
+[Text=seeing CharacterOffsetBegin=1991 CharacterOffsetEnd=1997 PartOfSpeech=VBG]
+[Text=different CharacterOffsetBegin=1998 CharacterOffsetEnd=2007 PartOfSpeech=JJ]
+[Text=cultures CharacterOffsetBegin=2008 CharacterOffsetEnd=2016 PartOfSpeech=NNS]
+[Text=interact CharacterOffsetBegin=2017 CharacterOffsetEnd=2025 PartOfSpeech=VBP]
+[Text=with CharacterOffsetBegin=2026 CharacterOffsetEnd=2030 PartOfSpeech=IN]
+[Text=each CharacterOffsetBegin=2031 CharacterOffsetEnd=2035 PartOfSpeech=DT]
+[Text=other CharacterOffsetBegin=2036 CharacterOffsetEnd=2041 PartOfSpeech=JJ]
+[Text=because CharacterOffsetBegin=2042 CharacterOffsetEnd=2049 PartOfSpeech=IN]
+[Text=people CharacterOffsetBegin=2050 CharacterOffsetEnd=2056 PartOfSpeech=NNS]
+[Text=will CharacterOffsetBegin=2057 CharacterOffsetEnd=2061 PartOfSpeech=MD]
+[Text=always CharacterOffsetBegin=2062 CharacterOffsetEnd=2068 PartOfSpeech=RB]
+[Text=find CharacterOffsetBegin=2069 CharacterOffsetEnd=2073 PartOfSpeech=VB]
+[Text=similarities CharacterOffsetBegin=2074 CharacterOffsetEnd=2086 PartOfSpeech=NNS]
+[Text=between CharacterOffsetBegin=2087 CharacterOffsetEnd=2094 PartOfSpeech=IN]
+[Text=them CharacterOffsetBegin=2095 CharacterOffsetEnd=2099 PartOfSpeech=PRP]
+[Text=. CharacterOffsetBegin=2099 CharacterOffsetEnd=2100 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, cool-4)
+nsubj(cool-4, It-1)
+cop(cool-4, is-2)
+advmod(cool-4, always-3)
+amod(cultures-7, seeing-5)
+amod(cultures-7, different-6)
+nsubj(interact-8, cultures-7)
+ccomp(cool-4, interact-8)
+case(other-11, with-9)
+det(other-11, each-10)
+obl:with(interact-8, other-11)
+mark(find-16, because-12)
+nsubj(find-16, people-13)
+aux(find-16, will-14)
+advmod(find-16, always-15)
+advcl:because(cool-4, find-16)
+obj(find-16, similarities-17)
+case(them-19, between-18)
+nmod:between(similarities-17, them-19)
+punct(cool-4, .-20)
+
+Sentence #19 (26 tokens):
+I wrote about this specific portion of class last week, and I too think Basim shows a great deal of character in this video.
+
+Tokens:
+[Text=I CharacterOffsetBegin=2101 CharacterOffsetEnd=2102 PartOfSpeech=PRP]
+[Text=wrote CharacterOffsetBegin=2103 CharacterOffsetEnd=2108 PartOfSpeech=VBD]
+[Text=about CharacterOffsetBegin=2109 CharacterOffsetEnd=2114 PartOfSpeech=IN]
+[Text=this CharacterOffsetBegin=2115 CharacterOffsetEnd=2119 PartOfSpeech=DT]
+[Text=specific CharacterOffsetBegin=2120 CharacterOffsetEnd=2128 PartOfSpeech=JJ]
+[Text=portion CharacterOffsetBegin=2129 CharacterOffsetEnd=2136 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=2137 CharacterOffsetEnd=2139 PartOfSpeech=IN]
+[Text=class CharacterOffsetBegin=2140 CharacterOffsetEnd=2145 PartOfSpeech=NN]
+[Text=last CharacterOffsetBegin=2146 CharacterOffsetEnd=2150 PartOfSpeech=JJ]
+[Text=week CharacterOffsetBegin=2151 CharacterOffsetEnd=2155 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=2155 CharacterOffsetEnd=2156 PartOfSpeech=,]
+[Text=and CharacterOffsetBegin=2157 CharacterOffsetEnd=2160 PartOfSpeech=CC]
+[Text=I CharacterOffsetBegin=2161 CharacterOffsetEnd=2162 PartOfSpeech=PRP]
+[Text=too CharacterOffsetBegin=2163 CharacterOffsetEnd=2166 PartOfSpeech=RB]
+[Text=think CharacterOffsetBegin=2167 CharacterOffsetEnd=2172 PartOfSpeech=VBP]
+[Text=Basim CharacterOffsetBegin=2173 CharacterOffsetEnd=2178 PartOfSpeech=NNP]
+[Text=shows CharacterOffsetBegin=2179 CharacterOffsetEnd=2184 PartOfSpeech=VBZ]
+[Text=a CharacterOffsetBegin=2185 CharacterOffsetEnd=2186 PartOfSpeech=DT]
+[Text=great CharacterOffsetBegin=2187 CharacterOffsetEnd=2192 PartOfSpeech=JJ]
+[Text=deal CharacterOffsetBegin=2193 CharacterOffsetEnd=2197 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=2198 CharacterOffsetEnd=2200 PartOfSpeech=IN]
+[Text=character CharacterOffsetBegin=2201 CharacterOffsetEnd=2210 PartOfSpeech=NN]
+[Text=in CharacterOffsetBegin=2211 CharacterOffsetEnd=2213 PartOfSpeech=IN]
+[Text=this CharacterOffsetBegin=2214 CharacterOffsetEnd=2218 PartOfSpeech=DT]
+[Text=video CharacterOffsetBegin=2219 CharacterOffsetEnd=2224 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=2224 CharacterOffsetEnd=2225 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, wrote-2)
+nsubj(wrote-2, I-1)
+case(portion-6, about-3)
+det(portion-6, this-4)
+amod(portion-6, specific-5)
+obl:about(wrote-2, portion-6)
+case(class-8, of-7)
+nmod:of(portion-6, class-8)
+amod(week-10, last-9)
+obl:tmod(wrote-2, week-10)
+punct(wrote-2, ,-11)
+cc(think-15, and-12)
+nsubj(think-15, I-13)
+advmod(think-15, too-14)
+conj:and(wrote-2, think-15)
+nsubj(shows-17, Basim-16)
+ccomp(think-15, shows-17)
+det(deal-20, a-18)
+amod(deal-20, great-19)
+obj(shows-17, deal-20)
+case(character-22, of-21)
+nmod:of(deal-20, character-22)
+case(video-25, in-23)
+det(video-25, this-24)
+nmod:in(deal-20, video-25)
+punct(wrote-2, .-26)
+
+Sentence #20 (16 tokens):
+It would be almost too easy to do so, the real challenge is forgiving.
+
+Tokens:
+[Text=It CharacterOffsetBegin=2226 CharacterOffsetEnd=2228 PartOfSpeech=PRP]
+[Text=would CharacterOffsetBegin=2229 CharacterOffsetEnd=2234 PartOfSpeech=MD]
+[Text=be CharacterOffsetBegin=2235 CharacterOffsetEnd=2237 PartOfSpeech=VB]
+[Text=almost CharacterOffsetBegin=2238 CharacterOffsetEnd=2244 PartOfSpeech=RB]
+[Text=too CharacterOffsetBegin=2245 CharacterOffsetEnd=2248 PartOfSpeech=RB]
+[Text=easy CharacterOffsetBegin=2249 CharacterOffsetEnd=2253 PartOfSpeech=JJ]
+[Text=to CharacterOffsetBegin=2254 CharacterOffsetEnd=2256 PartOfSpeech=TO]
+[Text=do CharacterOffsetBegin=2257 CharacterOffsetEnd=2259 PartOfSpeech=VB]
+[Text=so CharacterOffsetBegin=2260 CharacterOffsetEnd=2262 PartOfSpeech=RB]
+[Text=, CharacterOffsetBegin=2262 CharacterOffsetEnd=2263 PartOfSpeech=,]
+[Text=the CharacterOffsetBegin=2264 CharacterOffsetEnd=2267 PartOfSpeech=DT]
+[Text=real CharacterOffsetBegin=2268 CharacterOffsetEnd=2272 PartOfSpeech=JJ]
+[Text=challenge CharacterOffsetBegin=2273 CharacterOffsetEnd=2282 PartOfSpeech=NN]
+[Text=is CharacterOffsetBegin=2283 CharacterOffsetEnd=2285 PartOfSpeech=VBZ]
+[Text=forgiving CharacterOffsetBegin=2286 CharacterOffsetEnd=2295 PartOfSpeech=VBG]
+[Text=. CharacterOffsetBegin=2295 CharacterOffsetEnd=2296 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, forgiving-15)
+nsubj(easy-6, It-1)
+nsubj:xsubj(do-8, It-1)
+aux(easy-6, would-2)
+cop(easy-6, be-3)
+advmod(too-5, almost-4)
+advmod(easy-6, too-5)
+ccomp(forgiving-15, easy-6)
+mark(do-8, to-7)
+xcomp(easy-6, do-8)
+advmod(do-8, so-9)
+punct(forgiving-15, ,-10)
+det(challenge-13, the-11)
+amod(challenge-13, real-12)
+nsubj(forgiving-15, challenge-13)
+aux(forgiving-15, is-14)
+punct(forgiving-15, .-16)
+
+Sentence #21 (15 tokens):
+It is super brave and inspirational to see Basim react the way he has.
+
+Tokens:
+[Text=It CharacterOffsetBegin=2297 CharacterOffsetEnd=2299 PartOfSpeech=PRP]
+[Text=is CharacterOffsetBegin=2300 CharacterOffsetEnd=2302 PartOfSpeech=VBZ]
+[Text=super CharacterOffsetBegin=2303 CharacterOffsetEnd=2308 PartOfSpeech=RB]
+[Text=brave CharacterOffsetBegin=2309 CharacterOffsetEnd=2314 PartOfSpeech=JJ]
+[Text=and CharacterOffsetBegin=2315 CharacterOffsetEnd=2318 PartOfSpeech=CC]
+[Text=inspirational CharacterOffsetBegin=2319 CharacterOffsetEnd=2332 PartOfSpeech=JJ]
+[Text=to CharacterOffsetBegin=2333 CharacterOffsetEnd=2335 PartOfSpeech=TO]
+[Text=see CharacterOffsetBegin=2336 CharacterOffsetEnd=2339 PartOfSpeech=VB]
+[Text=Basim CharacterOffsetBegin=2340 CharacterOffsetEnd=2345 PartOfSpeech=NNP]
+[Text=react CharacterOffsetBegin=2346 CharacterOffsetEnd=2351 PartOfSpeech=VB]
+[Text=the CharacterOffsetBegin=2352 CharacterOffsetEnd=2355 PartOfSpeech=DT]
+[Text=way CharacterOffsetBegin=2356 CharacterOffsetEnd=2359 PartOfSpeech=NN]
+[Text=he CharacterOffsetBegin=2360 CharacterOffsetEnd=2362 PartOfSpeech=PRP]
+[Text=has CharacterOffsetBegin=2363 CharacterOffsetEnd=2366 PartOfSpeech=VBZ]
+[Text=. CharacterOffsetBegin=2366 CharacterOffsetEnd=2367 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, brave-4)
+nsubj(brave-4, It-1)
+nsubj(inspirational-6, It-1)
+nsubj:xsubj(see-8, It-1)
+cop(brave-4, is-2)
+advmod(brave-4, super-3)
+cc(inspirational-6, and-5)
+conj:and(brave-4, inspirational-6)
+mark(see-8, to-7)
+xcomp(brave-4, see-8)
+nsubj(react-10, Basim-9)
+ccomp(see-8, react-10)
+det(way-12, the-11)
+obj(react-10, way-12)
+nsubj(has-14, he-13)
+parataxis(react-10, has-14)
+punct(brave-4, .-15)
+
+Sentence #22 (30 tokens):
+I was truly inspired by this talk with Basim and find myself trying to emulate his way of forgiveness even on a much smaller scale in my daily life.
+
+Tokens:
+[Text=I CharacterOffsetBegin=2368 CharacterOffsetEnd=2369 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=2370 CharacterOffsetEnd=2373 PartOfSpeech=VBD]
+[Text=truly CharacterOffsetBegin=2374 CharacterOffsetEnd=2379 PartOfSpeech=RB]
+[Text=inspired CharacterOffsetBegin=2380 CharacterOffsetEnd=2388 PartOfSpeech=VBN]
+[Text=by CharacterOffsetBegin=2389 CharacterOffsetEnd=2391 PartOfSpeech=IN]
+[Text=this CharacterOffsetBegin=2392 CharacterOffsetEnd=2396 PartOfSpeech=DT]
+[Text=talk CharacterOffsetBegin=2397 CharacterOffsetEnd=2401 PartOfSpeech=NN]
+[Text=with CharacterOffsetBegin=2402 CharacterOffsetEnd=2406 PartOfSpeech=IN]
+[Text=Basim CharacterOffsetBegin=2407 CharacterOffsetEnd=2412 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=2413 CharacterOffsetEnd=2416 PartOfSpeech=CC]
+[Text=find CharacterOffsetBegin=2417 CharacterOffsetEnd=2421 PartOfSpeech=VB]
+[Text=myself CharacterOffsetBegin=2422 CharacterOffsetEnd=2428 PartOfSpeech=PRP]
+[Text=trying CharacterOffsetBegin=2429 CharacterOffsetEnd=2435 PartOfSpeech=VBG]
+[Text=to CharacterOffsetBegin=2436 CharacterOffsetEnd=2438 PartOfSpeech=TO]
+[Text=emulate CharacterOffsetBegin=2439 CharacterOffsetEnd=2446 PartOfSpeech=VB]
+[Text=his CharacterOffsetBegin=2447 CharacterOffsetEnd=2450 PartOfSpeech=PRP$]
+[Text=way CharacterOffsetBegin=2451 CharacterOffsetEnd=2454 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=2455 CharacterOffsetEnd=2457 PartOfSpeech=IN]
+[Text=forgiveness CharacterOffsetBegin=2458 CharacterOffsetEnd=2469 PartOfSpeech=NN]
+[Text=even CharacterOffsetBegin=2470 CharacterOffsetEnd=2474 PartOfSpeech=RB]
+[Text=on CharacterOffsetBegin=2475 CharacterOffsetEnd=2477 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=2478 CharacterOffsetEnd=2479 PartOfSpeech=DT]
+[Text=much CharacterOffsetBegin=2480 CharacterOffsetEnd=2484 PartOfSpeech=RB]
+[Text=smaller CharacterOffsetBegin=2485 CharacterOffsetEnd=2492 PartOfSpeech=JJR]
+[Text=scale CharacterOffsetBegin=2493 CharacterOffsetEnd=2498 PartOfSpeech=NN]
+[Text=in CharacterOffsetBegin=2499 CharacterOffsetEnd=2501 PartOfSpeech=IN]
+[Text=my CharacterOffsetBegin=2502 CharacterOffsetEnd=2504 PartOfSpeech=PRP$]
+[Text=daily CharacterOffsetBegin=2505 CharacterOffsetEnd=2510 PartOfSpeech=JJ]
+[Text=life CharacterOffsetBegin=2511 CharacterOffsetEnd=2515 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=2515 CharacterOffsetEnd=2516 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, inspired-4)
+nsubj:pass(inspired-4, I-1)
+nsubj(find-11, I-1)
+aux:pass(inspired-4, was-2)
+advmod(inspired-4, truly-3)
+case(talk-7, by-5)
+det(talk-7, this-6)
+obl:agent(inspired-4, talk-7)
+case(Basim-9, with-8)
+nmod:with(talk-7, Basim-9)
+cc(find-11, and-10)
+conj:and(inspired-4, find-11)
+nsubj(trying-13, myself-12)
+nsubj:xsubj(emulate-15, myself-12)
+dep(find-11, trying-13)
+mark(emulate-15, to-14)
+xcomp(trying-13, emulate-15)
+nmod:poss(way-17, his-16)
+obj(emulate-15, way-17)
+case(forgiveness-19, of-18)
+nmod:of(way-17, forgiveness-19)
+advmod(scale-25, even-20)
+case(scale-25, on-21)
+det(scale-25, a-22)
+advmod(smaller-24, much-23)
+amod(scale-25, smaller-24)
+obl:on(emulate-15, scale-25)
+case(life-29, in-26)
+nmod:poss(life-29, my-27)
+amod(life-29, daily-28)
+nmod:in(scale-25, life-29)
+punct(inspired-4, .-30)
+
+Sentence #23 (43 tokens):
+I think that this is a very important lesson that many people dont realize, you cannot live your life being angry at the world and others around you, but rather be thankful for what and who you have.
+
+Tokens:
+[Text=I CharacterOffsetBegin=2517 CharacterOffsetEnd=2518 PartOfSpeech=PRP]
+[Text=think CharacterOffsetBegin=2519 CharacterOffsetEnd=2524 PartOfSpeech=VBP]
+[Text=that CharacterOffsetBegin=2525 CharacterOffsetEnd=2529 PartOfSpeech=IN]
+[Text=this CharacterOffsetBegin=2530 CharacterOffsetEnd=2534 PartOfSpeech=DT]
+[Text=is CharacterOffsetBegin=2535 CharacterOffsetEnd=2537 PartOfSpeech=VBZ]
+[Text=a CharacterOffsetBegin=2538 CharacterOffsetEnd=2539 PartOfSpeech=DT]
+[Text=very CharacterOffsetBegin=2540 CharacterOffsetEnd=2544 PartOfSpeech=RB]
+[Text=important CharacterOffsetBegin=2545 CharacterOffsetEnd=2554 PartOfSpeech=JJ]
+[Text=lesson CharacterOffsetBegin=2555 CharacterOffsetEnd=2561 PartOfSpeech=NN]
+[Text=that CharacterOffsetBegin=2562 CharacterOffsetEnd=2566 PartOfSpeech=WDT]
+[Text=many CharacterOffsetBegin=2567 CharacterOffsetEnd=2571 PartOfSpeech=JJ]
+[Text=people CharacterOffsetBegin=2572 CharacterOffsetEnd=2578 PartOfSpeech=NNS]
+[Text=do CharacterOffsetBegin=2579 CharacterOffsetEnd=2581 PartOfSpeech=VBP]
+[Text=nt CharacterOffsetBegin=2581 CharacterOffsetEnd=2583 PartOfSpeech=RB]
+[Text=realize CharacterOffsetBegin=2584 CharacterOffsetEnd=2591 PartOfSpeech=VB]
+[Text=, CharacterOffsetBegin=2591 CharacterOffsetEnd=2592 PartOfSpeech=,]
+[Text=you CharacterOffsetBegin=2593 CharacterOffsetEnd=2596 PartOfSpeech=PRP]
+[Text=can CharacterOffsetBegin=2597 CharacterOffsetEnd=2600 PartOfSpeech=MD]
+[Text=not CharacterOffsetBegin=2600 CharacterOffsetEnd=2603 PartOfSpeech=RB]
+[Text=live CharacterOffsetBegin=2604 CharacterOffsetEnd=2608 PartOfSpeech=VB]
+[Text=your CharacterOffsetBegin=2609 CharacterOffsetEnd=2613 PartOfSpeech=PRP$]
+[Text=life CharacterOffsetBegin=2614 CharacterOffsetEnd=2618 PartOfSpeech=NN]
+[Text=being CharacterOffsetBegin=2619 CharacterOffsetEnd=2624 PartOfSpeech=VBG]
+[Text=angry CharacterOffsetBegin=2625 CharacterOffsetEnd=2630 PartOfSpeech=JJ]
+[Text=at CharacterOffsetBegin=2631 CharacterOffsetEnd=2633 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=2634 CharacterOffsetEnd=2637 PartOfSpeech=DT]
+[Text=world CharacterOffsetBegin=2638 CharacterOffsetEnd=2643 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=2644 CharacterOffsetEnd=2647 PartOfSpeech=CC]
+[Text=others CharacterOffsetBegin=2648 CharacterOffsetEnd=2654 PartOfSpeech=NNS]
+[Text=around CharacterOffsetBegin=2655 CharacterOffsetEnd=2661 PartOfSpeech=IN]
+[Text=you CharacterOffsetBegin=2662 CharacterOffsetEnd=2665 PartOfSpeech=PRP]
+[Text=, CharacterOffsetBegin=2665 CharacterOffsetEnd=2666 PartOfSpeech=,]
+[Text=but CharacterOffsetBegin=2667 CharacterOffsetEnd=2670 PartOfSpeech=CC]
+[Text=rather CharacterOffsetBegin=2671 CharacterOffsetEnd=2677 PartOfSpeech=RB]
+[Text=be CharacterOffsetBegin=2678 CharacterOffsetEnd=2680 PartOfSpeech=VB]
+[Text=thankful CharacterOffsetBegin=2681 CharacterOffsetEnd=2689 PartOfSpeech=JJ]
+[Text=for CharacterOffsetBegin=2690 CharacterOffsetEnd=2693 PartOfSpeech=IN]
+[Text=what CharacterOffsetBegin=2694 CharacterOffsetEnd=2698 PartOfSpeech=WP]
+[Text=and CharacterOffsetBegin=2699 CharacterOffsetEnd=2702 PartOfSpeech=CC]
+[Text=who CharacterOffsetBegin=2703 CharacterOffsetEnd=2706 PartOfSpeech=WP]
+[Text=you CharacterOffsetBegin=2707 CharacterOffsetEnd=2710 PartOfSpeech=PRP]
+[Text=have CharacterOffsetBegin=2711 CharacterOffsetEnd=2715 PartOfSpeech=VBP]
+[Text=. CharacterOffsetBegin=2715 CharacterOffsetEnd=2716 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+mark(lesson-9, that-3)
+nsubj(lesson-9, this-4)
+cop(lesson-9, is-5)
+det(lesson-9, a-6)
+advmod(important-8, very-7)
+amod(lesson-9, important-8)
+ccomp(think-2, lesson-9)
+dep(realize-15, that-10)
+amod(people-12, many-11)
+nsubj(realize-15, people-12)
+aux(realize-15, do-13)
+advmod(realize-15, nt-14)
+dep(lesson-9, realize-15)
+punct(realize-15, ,-16)
+nsubj(live-20, you-17)
+nsubj(thankful-36, you-17)
+aux(live-20, can-18)
+advmod(live-20, not-19)
+parataxis(realize-15, live-20)
+nmod:poss(life-22, your-21)
+nsubj(angry-24, life-22)
+cop(angry-24, being-23)
+dep(live-20, angry-24)
+case(world-27, at-25)
+det(world-27, the-26)
+obl:at(angry-24, world-27)
+cc(others-29, and-28)
+obl:at(angry-24, others-29)
+conj:and(world-27, others-29)
+case(you-31, around-30)
+obl:around(angry-24, you-31)
+punct(live-20, ,-32)
+cc(thankful-36, but-33)
+advmod(thankful-36, rather-34)
+cop(thankful-36, be-35)
+parataxis(realize-15, thankful-36)
+conj:negcc(live-20, thankful-36)
+advcl(thankful-36, for-37)
+dep(for-37, what-38)
+cc(have-42, and-39)
+obj(have-42, who-40)
+nsubj(have-42, you-41)
+dep(for-37, have-42)
+conj:and(what-38, have-42)
+punct(think-2, .-43)
+
+Sentence #24 (26 tokens):
+Basim went through an experience that nobody should ever have to, but hes living his life to the fullest possible which is so important.
+
+Tokens:
+[Text=Basim CharacterOffsetBegin=2717 CharacterOffsetEnd=2722 PartOfSpeech=NNP]
+[Text=went CharacterOffsetBegin=2723 CharacterOffsetEnd=2727 PartOfSpeech=VBD]
+[Text=through CharacterOffsetBegin=2728 CharacterOffsetEnd=2735 PartOfSpeech=IN]
+[Text=an CharacterOffsetBegin=2736 CharacterOffsetEnd=2738 PartOfSpeech=DT]
+[Text=experience CharacterOffsetBegin=2739 CharacterOffsetEnd=2749 PartOfSpeech=NN]
+[Text=that CharacterOffsetBegin=2750 CharacterOffsetEnd=2754 PartOfSpeech=IN]
+[Text=nobody CharacterOffsetBegin=2755 CharacterOffsetEnd=2761 PartOfSpeech=NN]
+[Text=should CharacterOffsetBegin=2762 CharacterOffsetEnd=2768 PartOfSpeech=MD]
+[Text=ever CharacterOffsetBegin=2769 CharacterOffsetEnd=2773 PartOfSpeech=RB]
+[Text=have CharacterOffsetBegin=2774 CharacterOffsetEnd=2778 PartOfSpeech=VB]
+[Text=to CharacterOffsetBegin=2779 CharacterOffsetEnd=2781 PartOfSpeech=TO]
+[Text=, CharacterOffsetBegin=2781 CharacterOffsetEnd=2782 PartOfSpeech=,]
+[Text=but CharacterOffsetBegin=2783 CharacterOffsetEnd=2786 PartOfSpeech=CC]
+[Text=hes CharacterOffsetBegin=2787 CharacterOffsetEnd=2790 PartOfSpeech=VBZ]
+[Text=living CharacterOffsetBegin=2791 CharacterOffsetEnd=2797 PartOfSpeech=VBG]
+[Text=his CharacterOffsetBegin=2798 CharacterOffsetEnd=2801 PartOfSpeech=PRP$]
+[Text=life CharacterOffsetBegin=2802 CharacterOffsetEnd=2806 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=2807 CharacterOffsetEnd=2809 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=2810 CharacterOffsetEnd=2813 PartOfSpeech=DT]
+[Text=fullest CharacterOffsetBegin=2814 CharacterOffsetEnd=2821 PartOfSpeech=JJS]
+[Text=possible CharacterOffsetBegin=2822 CharacterOffsetEnd=2830 PartOfSpeech=JJ]
+[Text=which CharacterOffsetBegin=2831 CharacterOffsetEnd=2836 PartOfSpeech=WDT]
+[Text=is CharacterOffsetBegin=2837 CharacterOffsetEnd=2839 PartOfSpeech=VBZ]
+[Text=so CharacterOffsetBegin=2840 CharacterOffsetEnd=2842 PartOfSpeech=RB]
+[Text=important CharacterOffsetBegin=2843 CharacterOffsetEnd=2852 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=2852 CharacterOffsetEnd=2853 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, went-2)
+nsubj(went-2, Basim-1)
+case(experience-5, through-3)
+det(experience-5, an-4)
+obl:through(went-2, experience-5)
+mark(have-10, that-6)
+nsubj(have-10, nobody-7)
+nsubj(hes-14, nobody-7)
+aux(have-10, should-8)
+advmod(have-10, ever-9)
+ccomp(experience-5, have-10)
+obj(have-10, to-11)
+punct(have-10, ,-12)
+cc(hes-14, but-13)
+ccomp(experience-5, hes-14)
+conj:but(have-10, hes-14)
+dep(hes-14, living-15)
+nmod:poss(life-17, his-16)
+obj(living-15, life-17)
+case(possible-21, to-18)
+det(possible-21, the-19)
+amod(possible-21, fullest-20)
+obl:to(living-15, possible-21)
+nsubj(important-25, possible-21)
+ref(possible-21, which-22)
+cop(important-25, is-23)
+advmod(important-25, so-24)
+acl:relcl(possible-21, important-25)
+punct(went-2, .-26)
+
+Sentence #25 (22 tokens):
+Being angry will not bring his loved ones back, so he has to live every day to make them proud.
+
+Tokens:
+[Text=Being CharacterOffsetBegin=2854 CharacterOffsetEnd=2859 PartOfSpeech=VBG]
+[Text=angry CharacterOffsetBegin=2860 CharacterOffsetEnd=2865 PartOfSpeech=JJ]
+[Text=will CharacterOffsetBegin=2866 CharacterOffsetEnd=2870 PartOfSpeech=MD]
+[Text=not CharacterOffsetBegin=2871 CharacterOffsetEnd=2874 PartOfSpeech=RB]
+[Text=bring CharacterOffsetBegin=2875 CharacterOffsetEnd=2880 PartOfSpeech=VB]
+[Text=his CharacterOffsetBegin=2881 CharacterOffsetEnd=2884 PartOfSpeech=PRP$]
+[Text=loved CharacterOffsetBegin=2885 CharacterOffsetEnd=2890 PartOfSpeech=JJ]
+[Text=ones CharacterOffsetBegin=2891 CharacterOffsetEnd=2895 PartOfSpeech=NNS]
+[Text=back CharacterOffsetBegin=2896 CharacterOffsetEnd=2900 PartOfSpeech=RB]
+[Text=, CharacterOffsetBegin=2900 CharacterOffsetEnd=2901 PartOfSpeech=,]
+[Text=so CharacterOffsetBegin=2902 CharacterOffsetEnd=2904 PartOfSpeech=IN]
+[Text=he CharacterOffsetBegin=2905 CharacterOffsetEnd=2907 PartOfSpeech=PRP]
+[Text=has CharacterOffsetBegin=2908 CharacterOffsetEnd=2911 PartOfSpeech=VBZ]
+[Text=to CharacterOffsetBegin=2912 CharacterOffsetEnd=2914 PartOfSpeech=TO]
+[Text=live CharacterOffsetBegin=2915 CharacterOffsetEnd=2919 PartOfSpeech=VB]
+[Text=every CharacterOffsetBegin=2920 CharacterOffsetEnd=2925 PartOfSpeech=DT]
+[Text=day CharacterOffsetBegin=2926 CharacterOffsetEnd=2929 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=2930 CharacterOffsetEnd=2932 PartOfSpeech=TO]
+[Text=make CharacterOffsetBegin=2933 CharacterOffsetEnd=2937 PartOfSpeech=VB]
+[Text=them CharacterOffsetBegin=2938 CharacterOffsetEnd=2942 PartOfSpeech=PRP]
+[Text=proud CharacterOffsetBegin=2943 CharacterOffsetEnd=2948 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=2948 CharacterOffsetEnd=2949 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, bring-5)
+cop(angry-2, Being-1)
+nsubj(bring-5, angry-2)
+aux(bring-5, will-3)
+advmod(bring-5, not-4)
+nmod:poss(ones-8, his-6)
+amod(ones-8, loved-7)
+obj(bring-5, ones-8)
+advmod(bring-5, back-9)
+punct(bring-5, ,-10)
+mark(live-15, so-11)
+nsubj(live-15, he-12)
+aux(live-15, has-13)
+mark(live-15, to-14)
+advcl:to(bring-5, live-15)
+det(day-17, every-16)
+obj(live-15, day-17)
+nsubj:xsubj(make-19, day-17)
+mark(make-19, to-18)
+xcomp(live-15, make-19)
+nsubj(proud-21, them-20)
+xcomp(make-19, proud-21)
+punct(bring-5, .-22)
+
+Sentence #26 (9 tokens):
+If you havent smiled today, then smile.
+
+Tokens:
+[Text=If CharacterOffsetBegin=2950 CharacterOffsetEnd=2952 PartOfSpeech=IN]
+[Text=you CharacterOffsetBegin=2953 CharacterOffsetEnd=2956 PartOfSpeech=PRP]
+[Text=havent CharacterOffsetBegin=2957 CharacterOffsetEnd=2963 PartOfSpeech=VBP]
+[Text=smiled CharacterOffsetBegin=2964 CharacterOffsetEnd=2970 PartOfSpeech=VBD]
+[Text=today CharacterOffsetBegin=2971 CharacterOffsetEnd=2976 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=2976 CharacterOffsetEnd=2977 PartOfSpeech=,]
+[Text=then CharacterOffsetBegin=2978 CharacterOffsetEnd=2982 PartOfSpeech=RB]
+[Text=smile CharacterOffsetBegin=2983 CharacterOffsetEnd=2988 PartOfSpeech=VB]
+[Text=. CharacterOffsetBegin=2988 CharacterOffsetEnd=2989 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, smile-8)
+mark(havent-3, If-1)
+nsubj(havent-3, you-2)
+advcl:if(smile-8, havent-3)
+obj(havent-3, smiled-4)
+obl:tmod(havent-3, today-5)
+punct(smile-8, ,-6)
+advmod(smile-8, then-7)
+punct(smile-8, .-9)
+
+Sentence #27 (10 tokens):
+I think that you raise some very valuable points.
+
+Tokens:
+[Text=I CharacterOffsetBegin=2990 CharacterOffsetEnd=2991 PartOfSpeech=PRP]
+[Text=think CharacterOffsetBegin=2992 CharacterOffsetEnd=2997 PartOfSpeech=VBP]
+[Text=that CharacterOffsetBegin=2998 CharacterOffsetEnd=3002 PartOfSpeech=IN]
+[Text=you CharacterOffsetBegin=3003 CharacterOffsetEnd=3006 PartOfSpeech=PRP]
+[Text=raise CharacterOffsetBegin=3007 CharacterOffsetEnd=3012 PartOfSpeech=VBP]
+[Text=some CharacterOffsetBegin=3013 CharacterOffsetEnd=3017 PartOfSpeech=DT]
+[Text=very CharacterOffsetBegin=3018 CharacterOffsetEnd=3022 PartOfSpeech=RB]
+[Text=valuable CharacterOffsetBegin=3023 CharacterOffsetEnd=3031 PartOfSpeech=JJ]
+[Text=points CharacterOffsetBegin=3032 CharacterOffsetEnd=3038 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=3038 CharacterOffsetEnd=3039 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+mark(raise-5, that-3)
+nsubj(raise-5, you-4)
+ccomp(think-2, raise-5)
+det(points-9, some-6)
+advmod(valuable-8, very-7)
+amod(points-9, valuable-8)
+obj(raise-5, points-9)
+punct(think-2, .-10)
+
+Sentence #28 (28 tokens):
+His speech did make me feel extremely grateful and realize that life is amazing and we have to be thankful for the people we have in it.
+
+Tokens:
+[Text=His CharacterOffsetBegin=3040 CharacterOffsetEnd=3043 PartOfSpeech=PRP$]
+[Text=speech CharacterOffsetBegin=3044 CharacterOffsetEnd=3050 PartOfSpeech=NN]
+[Text=did CharacterOffsetBegin=3051 CharacterOffsetEnd=3054 PartOfSpeech=VBD]
+[Text=make CharacterOffsetBegin=3055 CharacterOffsetEnd=3059 PartOfSpeech=VB]
+[Text=me CharacterOffsetBegin=3060 CharacterOffsetEnd=3062 PartOfSpeech=PRP]
+[Text=feel CharacterOffsetBegin=3063 CharacterOffsetEnd=3067 PartOfSpeech=VB]
+[Text=extremely CharacterOffsetBegin=3068 CharacterOffsetEnd=3077 PartOfSpeech=RB]
+[Text=grateful CharacterOffsetBegin=3078 CharacterOffsetEnd=3086 PartOfSpeech=JJ]
+[Text=and CharacterOffsetBegin=3087 CharacterOffsetEnd=3090 PartOfSpeech=CC]
+[Text=realize CharacterOffsetBegin=3091 CharacterOffsetEnd=3098 PartOfSpeech=VB]
+[Text=that CharacterOffsetBegin=3099 CharacterOffsetEnd=3103 PartOfSpeech=IN]
+[Text=life CharacterOffsetBegin=3104 CharacterOffsetEnd=3108 PartOfSpeech=NN]
+[Text=is CharacterOffsetBegin=3109 CharacterOffsetEnd=3111 PartOfSpeech=VBZ]
+[Text=amazing CharacterOffsetBegin=3112 CharacterOffsetEnd=3119 PartOfSpeech=JJ]
+[Text=and CharacterOffsetBegin=3120 CharacterOffsetEnd=3123 PartOfSpeech=CC]
+[Text=we CharacterOffsetBegin=3124 CharacterOffsetEnd=3126 PartOfSpeech=PRP]
+[Text=have CharacterOffsetBegin=3127 CharacterOffsetEnd=3131 PartOfSpeech=VBP]
+[Text=to CharacterOffsetBegin=3132 CharacterOffsetEnd=3134 PartOfSpeech=TO]
+[Text=be CharacterOffsetBegin=3135 CharacterOffsetEnd=3137 PartOfSpeech=VB]
+[Text=thankful CharacterOffsetBegin=3138 CharacterOffsetEnd=3146 PartOfSpeech=JJ]
+[Text=for CharacterOffsetBegin=3147 CharacterOffsetEnd=3150 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3151 CharacterOffsetEnd=3154 PartOfSpeech=DT]
+[Text=people CharacterOffsetBegin=3155 CharacterOffsetEnd=3161 PartOfSpeech=NNS]
+[Text=we CharacterOffsetBegin=3162 CharacterOffsetEnd=3164 PartOfSpeech=PRP]
+[Text=have CharacterOffsetBegin=3165 CharacterOffsetEnd=3169 PartOfSpeech=VBP]
+[Text=in CharacterOffsetBegin=3170 CharacterOffsetEnd=3172 PartOfSpeech=IN]
+[Text=it CharacterOffsetBegin=3173 CharacterOffsetEnd=3175 PartOfSpeech=PRP]
+[Text=. CharacterOffsetBegin=3175 CharacterOffsetEnd=3176 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, make-4)
+nmod:poss(speech-2, His-1)
+nsubj(make-4, speech-2)
+nsubj(realize-10, speech-2)
+aux(make-4, did-3)
+nsubj(feel-6, me-5)
+ccomp(make-4, feel-6)
+advmod(grateful-8, extremely-7)
+xcomp(feel-6, grateful-8)
+cc(realize-10, and-9)
+conj:and(make-4, realize-10)
+mark(amazing-14, that-11)
+nsubj(amazing-14, life-12)
+cop(amazing-14, is-13)
+ccomp(realize-10, amazing-14)
+cc(thankful-20, and-15)
+nsubj(thankful-20, we-16)
+aux(thankful-20, have-17)
+mark(thankful-20, to-18)
+cop(thankful-20, be-19)
+ccomp(realize-10, thankful-20)
+conj:and(amazing-14, thankful-20)
+case(people-23, for-21)
+det(people-23, the-22)
+obl:for(thankful-20, people-23)
+nsubj(have-25, we-24)
+parataxis(make-4, have-25)
+case(it-27, in-26)
+obl:in(have-25, it-27)
+punct(make-4, .-28)
+
+Sentence #29 (23 tokens):
+It's difficult to stay informed when our media is trying to keep us sheltered from the events happening around the globe.
+
+Tokens:
+[Text=It CharacterOffsetBegin=3177 CharacterOffsetEnd=3179 PartOfSpeech=PRP]
+[Text='s CharacterOffsetBegin=3179 CharacterOffsetEnd=3181 PartOfSpeech=VBZ]
+[Text=difficult CharacterOffsetBegin=3182 CharacterOffsetEnd=3191 PartOfSpeech=JJ]
+[Text=to CharacterOffsetBegin=3192 CharacterOffsetEnd=3194 PartOfSpeech=TO]
+[Text=stay CharacterOffsetBegin=3195 CharacterOffsetEnd=3199 PartOfSpeech=VB]
+[Text=informed CharacterOffsetBegin=3200 CharacterOffsetEnd=3208 PartOfSpeech=JJ]
+[Text=when CharacterOffsetBegin=3209 CharacterOffsetEnd=3213 PartOfSpeech=WRB]
+[Text=our CharacterOffsetBegin=3214 CharacterOffsetEnd=3217 PartOfSpeech=PRP$]
+[Text=media CharacterOffsetBegin=3218 CharacterOffsetEnd=3223 PartOfSpeech=NNS]
+[Text=is CharacterOffsetBegin=3224 CharacterOffsetEnd=3226 PartOfSpeech=VBZ]
+[Text=trying CharacterOffsetBegin=3227 CharacterOffsetEnd=3233 PartOfSpeech=VBG]
+[Text=to CharacterOffsetBegin=3234 CharacterOffsetEnd=3236 PartOfSpeech=TO]
+[Text=keep CharacterOffsetBegin=3237 CharacterOffsetEnd=3241 PartOfSpeech=VB]
+[Text=us CharacterOffsetBegin=3242 CharacterOffsetEnd=3244 PartOfSpeech=PRP]
+[Text=sheltered CharacterOffsetBegin=3245 CharacterOffsetEnd=3254 PartOfSpeech=VBN]
+[Text=from CharacterOffsetBegin=3255 CharacterOffsetEnd=3259 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3260 CharacterOffsetEnd=3263 PartOfSpeech=DT]
+[Text=events CharacterOffsetBegin=3264 CharacterOffsetEnd=3270 PartOfSpeech=NNS]
+[Text=happening CharacterOffsetBegin=3271 CharacterOffsetEnd=3280 PartOfSpeech=VBG]
+[Text=around CharacterOffsetBegin=3281 CharacterOffsetEnd=3287 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3288 CharacterOffsetEnd=3291 PartOfSpeech=DT]
+[Text=globe CharacterOffsetBegin=3292 CharacterOffsetEnd=3297 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=3297 CharacterOffsetEnd=3298 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, difficult-3)
+nsubj(difficult-3, It-1)
+nsubj:xsubj(stay-5, It-1)
+cop(difficult-3, 's-2)
+mark(stay-5, to-4)
+xcomp(difficult-3, stay-5)
+xcomp(stay-5, informed-6)
+advmod(trying-11, when-7)
+nmod:poss(media-9, our-8)
+nsubj(trying-11, media-9)
+nsubj:xsubj(keep-13, media-9)
+aux(trying-11, is-10)
+advcl(stay-5, trying-11)
+mark(keep-13, to-12)
+xcomp(trying-11, keep-13)
+nsubj(sheltered-15, us-14)
+xcomp(keep-13, sheltered-15)
+case(events-18, from-16)
+det(events-18, the-17)
+obl:from(sheltered-15, events-18)
+acl(events-18, happening-19)
+case(globe-22, around-20)
+det(globe-22, the-21)
+obl:around(happening-19, globe-22)
+punct(difficult-3, .-23)
+
+Sentence #30 (13 tokens):
+You skip specific examples and get the full picture without being influenced.
+
+Tokens:
+[Text=You CharacterOffsetBegin=3299 CharacterOffsetEnd=3302 PartOfSpeech=PRP]
+[Text=skip CharacterOffsetBegin=3303 CharacterOffsetEnd=3307 PartOfSpeech=VB]
+[Text=specific CharacterOffsetBegin=3308 CharacterOffsetEnd=3316 PartOfSpeech=JJ]
+[Text=examples CharacterOffsetBegin=3317 CharacterOffsetEnd=3325 PartOfSpeech=NNS]
+[Text=and CharacterOffsetBegin=3326 CharacterOffsetEnd=3329 PartOfSpeech=CC]
+[Text=get CharacterOffsetBegin=3330 CharacterOffsetEnd=3333 PartOfSpeech=VB]
+[Text=the CharacterOffsetBegin=3334 CharacterOffsetEnd=3337 PartOfSpeech=DT]
+[Text=full CharacterOffsetBegin=3338 CharacterOffsetEnd=3342 PartOfSpeech=JJ]
+[Text=picture CharacterOffsetBegin=3343 CharacterOffsetEnd=3350 PartOfSpeech=NN]
+[Text=without CharacterOffsetBegin=3351 CharacterOffsetEnd=3358 PartOfSpeech=IN]
+[Text=being CharacterOffsetBegin=3359 CharacterOffsetEnd=3364 PartOfSpeech=VBG]
+[Text=influenced CharacterOffsetBegin=3365 CharacterOffsetEnd=3375 PartOfSpeech=VBN]
+[Text=. CharacterOffsetBegin=3375 CharacterOffsetEnd=3376 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, skip-2)
+nsubj(skip-2, You-1)
+nsubj(get-6, You-1)
+amod(examples-4, specific-3)
+obj(skip-2, examples-4)
+cc(get-6, and-5)
+conj:and(skip-2, get-6)
+det(picture-9, the-7)
+amod(picture-9, full-8)
+obj(get-6, picture-9)
+mark(influenced-12, without-10)
+aux:pass(influenced-12, being-11)
+advcl:without(get-6, influenced-12)
+punct(skip-2, .-13)
+
+Sentence #31 (12 tokens):
+I knew of women that were Muslim by wearing the Hijab.
+
+Tokens:
+[Text=I CharacterOffsetBegin=3377 CharacterOffsetEnd=3378 PartOfSpeech=PRP]
+[Text=knew CharacterOffsetBegin=3379 CharacterOffsetEnd=3383 PartOfSpeech=VBD]
+[Text=of CharacterOffsetBegin=3384 CharacterOffsetEnd=3386 PartOfSpeech=IN]
+[Text=women CharacterOffsetBegin=3387 CharacterOffsetEnd=3392 PartOfSpeech=NNS]
+[Text=that CharacterOffsetBegin=3393 CharacterOffsetEnd=3397 PartOfSpeech=WDT]
+[Text=were CharacterOffsetBegin=3398 CharacterOffsetEnd=3402 PartOfSpeech=VBD]
+[Text=Muslim CharacterOffsetBegin=3403 CharacterOffsetEnd=3409 PartOfSpeech=JJ]
+[Text=by CharacterOffsetBegin=3410 CharacterOffsetEnd=3412 PartOfSpeech=IN]
+[Text=wearing CharacterOffsetBegin=3413 CharacterOffsetEnd=3420 PartOfSpeech=VBG]
+[Text=the CharacterOffsetBegin=3421 CharacterOffsetEnd=3424 PartOfSpeech=DT]
+[Text=Hijab CharacterOffsetBegin=3425 CharacterOffsetEnd=3430 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=3430 CharacterOffsetEnd=3431 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, knew-2)
+nsubj(knew-2, I-1)
+case(women-4, of-3)
+obl:of(knew-2, women-4)
+nsubj(Muslim-7, women-4)
+ref(women-4, that-5)
+cop(Muslim-7, were-6)
+acl:relcl(women-4, Muslim-7)
+case(wearing-9, by-8)
+advcl:by(Muslim-7, wearing-9)
+det(Hijab-11, the-10)
+obj(wearing-9, Hijab-11)
+punct(knew-2, .-12)
+
+Sentence #32 (27 tokens):
+At least in this country we have have to right to think about what we want as long as it does not harm anybody or yourself.
+
+Tokens:
+[Text=At CharacterOffsetBegin=3432 CharacterOffsetEnd=3434 PartOfSpeech=IN]
+[Text=least CharacterOffsetBegin=3435 CharacterOffsetEnd=3440 PartOfSpeech=JJS]
+[Text=in CharacterOffsetBegin=3441 CharacterOffsetEnd=3443 PartOfSpeech=IN]
+[Text=this CharacterOffsetBegin=3444 CharacterOffsetEnd=3448 PartOfSpeech=DT]
+[Text=country CharacterOffsetBegin=3449 CharacterOffsetEnd=3456 PartOfSpeech=NN]
+[Text=we CharacterOffsetBegin=3457 CharacterOffsetEnd=3459 PartOfSpeech=PRP]
+[Text=have CharacterOffsetBegin=3460 CharacterOffsetEnd=3464 PartOfSpeech=VBP]
+[Text=have CharacterOffsetBegin=3465 CharacterOffsetEnd=3469 PartOfSpeech=VBP]
+[Text=to CharacterOffsetBegin=3470 CharacterOffsetEnd=3472 PartOfSpeech=TO]
+[Text=right CharacterOffsetBegin=3473 CharacterOffsetEnd=3478 PartOfSpeech=RB]
+[Text=to CharacterOffsetBegin=3479 CharacterOffsetEnd=3481 PartOfSpeech=TO]
+[Text=think CharacterOffsetBegin=3482 CharacterOffsetEnd=3487 PartOfSpeech=VB]
+[Text=about CharacterOffsetBegin=3488 CharacterOffsetEnd=3493 PartOfSpeech=IN]
+[Text=what CharacterOffsetBegin=3494 CharacterOffsetEnd=3498 PartOfSpeech=WP]
+[Text=we CharacterOffsetBegin=3499 CharacterOffsetEnd=3501 PartOfSpeech=PRP]
+[Text=want CharacterOffsetBegin=3502 CharacterOffsetEnd=3506 PartOfSpeech=VBP]
+[Text=as CharacterOffsetBegin=3507 CharacterOffsetEnd=3509 PartOfSpeech=RB]
+[Text=long CharacterOffsetBegin=3510 CharacterOffsetEnd=3514 PartOfSpeech=RB]
+[Text=as CharacterOffsetBegin=3515 CharacterOffsetEnd=3517 PartOfSpeech=IN]
+[Text=it CharacterOffsetBegin=3518 CharacterOffsetEnd=3520 PartOfSpeech=PRP]
+[Text=does CharacterOffsetBegin=3521 CharacterOffsetEnd=3525 PartOfSpeech=VBZ]
+[Text=not CharacterOffsetBegin=3526 CharacterOffsetEnd=3529 PartOfSpeech=RB]
+[Text=harm CharacterOffsetBegin=3530 CharacterOffsetEnd=3534 PartOfSpeech=VB]
+[Text=anybody CharacterOffsetBegin=3535 CharacterOffsetEnd=3542 PartOfSpeech=NN]
+[Text=or CharacterOffsetBegin=3543 CharacterOffsetEnd=3545 PartOfSpeech=CC]
+[Text=yourself CharacterOffsetBegin=3546 CharacterOffsetEnd=3554 PartOfSpeech=PRP]
+[Text=. CharacterOffsetBegin=3554 CharacterOffsetEnd=3555 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, have-8)
+advmod(have-8, At-1)
+fixed(At-1, least-2)
+case(country-5, in-3)
+det(country-5, this-4)
+obl:in(At-1, country-5)
+nsubj(have-8, we-6)
+aux(have-8, have-7)
+mark(think-12, to-9)
+advmod(think-12, right-10)
+mark(think-12, to-11)
+ccomp(have-8, think-12)
+mark(want-16, about-13)
+obj(want-16, what-14)
+nsubj(want-16, we-15)
+advcl:about(think-12, want-16)
+advmod(long-18, as-17)
+advmod(want-16, long-18)
+mark(harm-23, as-19)
+nsubj(harm-23, it-20)
+aux(harm-23, does-21)
+advmod(harm-23, not-22)
+advcl:as(long-18, harm-23)
+obj(harm-23, anybody-24)
+cc(yourself-26, or-25)
+obj(harm-23, yourself-26)
+conj:or(anybody-24, yourself-26)
+punct(have-8, .-27)
+
+Sentence #33 (13 tokens):
+We also have the right to dress the way we want to.
+
+Tokens:
+[Text=We CharacterOffsetBegin=3556 CharacterOffsetEnd=3558 PartOfSpeech=PRP]
+[Text=also CharacterOffsetBegin=3559 CharacterOffsetEnd=3563 PartOfSpeech=RB]
+[Text=have CharacterOffsetBegin=3564 CharacterOffsetEnd=3568 PartOfSpeech=VBP]
+[Text=the CharacterOffsetBegin=3569 CharacterOffsetEnd=3572 PartOfSpeech=DT]
+[Text=right CharacterOffsetBegin=3573 CharacterOffsetEnd=3578 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=3579 CharacterOffsetEnd=3581 PartOfSpeech=TO]
+[Text=dress CharacterOffsetBegin=3582 CharacterOffsetEnd=3587 PartOfSpeech=VB]
+[Text=the CharacterOffsetBegin=3588 CharacterOffsetEnd=3591 PartOfSpeech=DT]
+[Text=way CharacterOffsetBegin=3592 CharacterOffsetEnd=3595 PartOfSpeech=NN]
+[Text=we CharacterOffsetBegin=3596 CharacterOffsetEnd=3598 PartOfSpeech=PRP]
+[Text=want CharacterOffsetBegin=3599 CharacterOffsetEnd=3603 PartOfSpeech=VBP]
+[Text=to CharacterOffsetBegin=3604 CharacterOffsetEnd=3606 PartOfSpeech=TO]
+[Text=. CharacterOffsetBegin=3606 CharacterOffsetEnd=3607 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, have-3)
+nsubj(have-3, We-1)
+advmod(have-3, also-2)
+det(right-5, the-4)
+obj(have-3, right-5)
+mark(dress-7, to-6)
+ccomp(have-3, dress-7)
+det(way-9, the-8)
+obj(dress-7, way-9)
+nsubj(want-11, we-10)
+parataxis(dress-7, want-11)
+obj(want-11, to-12)
+punct(have-3, .-13)
+
+Sentence #34 (19 tokens):
+I agree most people are biased on this subject because of only and lived in the United States.
+
+Tokens:
+[Text=I CharacterOffsetBegin=3608 CharacterOffsetEnd=3609 PartOfSpeech=PRP]
+[Text=agree CharacterOffsetBegin=3610 CharacterOffsetEnd=3615 PartOfSpeech=VBP]
+[Text=most CharacterOffsetBegin=3616 CharacterOffsetEnd=3620 PartOfSpeech=JJS]
+[Text=people CharacterOffsetBegin=3621 CharacterOffsetEnd=3627 PartOfSpeech=NNS]
+[Text=are CharacterOffsetBegin=3628 CharacterOffsetEnd=3631 PartOfSpeech=VBP]
+[Text=biased CharacterOffsetBegin=3632 CharacterOffsetEnd=3638 PartOfSpeech=VBN]
+[Text=on CharacterOffsetBegin=3639 CharacterOffsetEnd=3641 PartOfSpeech=IN]
+[Text=this CharacterOffsetBegin=3642 CharacterOffsetEnd=3646 PartOfSpeech=DT]
+[Text=subject CharacterOffsetBegin=3647 CharacterOffsetEnd=3654 PartOfSpeech=NN]
+[Text=because CharacterOffsetBegin=3655 CharacterOffsetEnd=3662 PartOfSpeech=IN]
+[Text=of CharacterOffsetBegin=3663 CharacterOffsetEnd=3665 PartOfSpeech=IN]
+[Text=only CharacterOffsetBegin=3666 CharacterOffsetEnd=3670 PartOfSpeech=RB]
+[Text=and CharacterOffsetBegin=3671 CharacterOffsetEnd=3674 PartOfSpeech=CC]
+[Text=lived CharacterOffsetBegin=3675 CharacterOffsetEnd=3680 PartOfSpeech=VBD]
+[Text=in CharacterOffsetBegin=3681 CharacterOffsetEnd=3683 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3684 CharacterOffsetEnd=3687 PartOfSpeech=DT]
+[Text=United CharacterOffsetBegin=3688 CharacterOffsetEnd=3694 PartOfSpeech=NNP]
+[Text=States CharacterOffsetBegin=3695 CharacterOffsetEnd=3701 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=3701 CharacterOffsetEnd=3702 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, agree-2)
+nsubj(agree-2, I-1)
+amod(people-4, most-3)
+nsubj:pass(biased-6, people-4)
+aux:pass(biased-6, are-5)
+ccomp(agree-2, biased-6)
+case(subject-9, on-7)
+det(subject-9, this-8)
+obl:on(biased-6, subject-9)
+case(States-18, because-10)
+fixed(because-10, of-11)
+advmod(States-18, only-12)
+cc(lived-14, and-13)
+conj:and(only-12, lived-14)
+advmod(States-18, lived-14)
+case(States-18, in-15)
+det(States-18, the-16)
+compound(States-18, United-17)
+obl:because_of(biased-6, States-18)
+punct(agree-2, .-19)
+
+Sentence #35 (22 tokens):
+We do not really understand something until we have someone like Dr. Richards speak what people do not know out loud.
+
+Tokens:
+[Text=We CharacterOffsetBegin=3703 CharacterOffsetEnd=3705 PartOfSpeech=PRP]
+[Text=do CharacterOffsetBegin=3706 CharacterOffsetEnd=3708 PartOfSpeech=VBP]
+[Text=not CharacterOffsetBegin=3709 CharacterOffsetEnd=3712 PartOfSpeech=RB]
+[Text=really CharacterOffsetBegin=3713 CharacterOffsetEnd=3719 PartOfSpeech=RB]
+[Text=understand CharacterOffsetBegin=3720 CharacterOffsetEnd=3730 PartOfSpeech=VB]
+[Text=something CharacterOffsetBegin=3731 CharacterOffsetEnd=3740 PartOfSpeech=NN]
+[Text=until CharacterOffsetBegin=3741 CharacterOffsetEnd=3746 PartOfSpeech=IN]
+[Text=we CharacterOffsetBegin=3747 CharacterOffsetEnd=3749 PartOfSpeech=PRP]
+[Text=have CharacterOffsetBegin=3750 CharacterOffsetEnd=3754 PartOfSpeech=VBP]
+[Text=someone CharacterOffsetBegin=3755 CharacterOffsetEnd=3762 PartOfSpeech=NN]
+[Text=like CharacterOffsetBegin=3763 CharacterOffsetEnd=3767 PartOfSpeech=IN]
+[Text=Dr. CharacterOffsetBegin=3768 CharacterOffsetEnd=3771 PartOfSpeech=NNP]
+[Text=Richards CharacterOffsetBegin=3772 CharacterOffsetEnd=3780 PartOfSpeech=NNP]
+[Text=speak CharacterOffsetBegin=3781 CharacterOffsetEnd=3786 PartOfSpeech=VB]
+[Text=what CharacterOffsetBegin=3787 CharacterOffsetEnd=3791 PartOfSpeech=WP]
+[Text=people CharacterOffsetBegin=3792 CharacterOffsetEnd=3798 PartOfSpeech=NNS]
+[Text=do CharacterOffsetBegin=3799 CharacterOffsetEnd=3801 PartOfSpeech=VBP]
+[Text=not CharacterOffsetBegin=3802 CharacterOffsetEnd=3805 PartOfSpeech=RB]
+[Text=know CharacterOffsetBegin=3806 CharacterOffsetEnd=3810 PartOfSpeech=VB]
+[Text=out CharacterOffsetBegin=3811 CharacterOffsetEnd=3814 PartOfSpeech=RB]
+[Text=loud CharacterOffsetBegin=3815 CharacterOffsetEnd=3819 PartOfSpeech=RB]
+[Text=. CharacterOffsetBegin=3819 CharacterOffsetEnd=3820 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, understand-5)
+nsubj(understand-5, We-1)
+aux(understand-5, do-2)
+advmod(understand-5, not-3)
+advmod(understand-5, really-4)
+obj(understand-5, something-6)
+mark(have-9, until-7)
+nsubj(have-9, we-8)
+advcl:until(understand-5, have-9)
+nsubj(speak-14, someone-10)
+case(Richards-13, like-11)
+compound(Richards-13, Dr.-12)
+nmod:like(someone-10, Richards-13)
+ccomp(have-9, speak-14)
+obj(know-19, what-15)
+nsubj(know-19, people-16)
+aux(know-19, do-17)
+advmod(know-19, not-18)
+ccomp(speak-14, know-19)
+advmod(loud-21, out-20)
+advmod(know-19, loud-21)
+punct(understand-5, .-22)
+
+Sentence #36 (19 tokens):
+I completely agree, and I think this comes back to what Sam was saying about Christian Sharia.
+
+Tokens:
+[Text=I CharacterOffsetBegin=3821 CharacterOffsetEnd=3822 PartOfSpeech=PRP]
+[Text=completely CharacterOffsetBegin=3823 CharacterOffsetEnd=3833 PartOfSpeech=RB]
+[Text=agree CharacterOffsetBegin=3834 CharacterOffsetEnd=3839 PartOfSpeech=VBP]
+[Text=, CharacterOffsetBegin=3839 CharacterOffsetEnd=3840 PartOfSpeech=,]
+[Text=and CharacterOffsetBegin=3841 CharacterOffsetEnd=3844 PartOfSpeech=CC]
+[Text=I CharacterOffsetBegin=3845 CharacterOffsetEnd=3846 PartOfSpeech=PRP]
+[Text=think CharacterOffsetBegin=3847 CharacterOffsetEnd=3852 PartOfSpeech=VBP]
+[Text=this CharacterOffsetBegin=3853 CharacterOffsetEnd=3857 PartOfSpeech=DT]
+[Text=comes CharacterOffsetBegin=3858 CharacterOffsetEnd=3863 PartOfSpeech=VBZ]
+[Text=back CharacterOffsetBegin=3864 CharacterOffsetEnd=3868 PartOfSpeech=RB]
+[Text=to CharacterOffsetBegin=3869 CharacterOffsetEnd=3871 PartOfSpeech=IN]
+[Text=what CharacterOffsetBegin=3872 CharacterOffsetEnd=3876 PartOfSpeech=WP]
+[Text=Sam CharacterOffsetBegin=3877 CharacterOffsetEnd=3880 PartOfSpeech=NNP]
+[Text=was CharacterOffsetBegin=3881 CharacterOffsetEnd=3884 PartOfSpeech=VBD]
+[Text=saying CharacterOffsetBegin=3885 CharacterOffsetEnd=3891 PartOfSpeech=VBG]
+[Text=about CharacterOffsetBegin=3892 CharacterOffsetEnd=3897 PartOfSpeech=IN]
+[Text=Christian CharacterOffsetBegin=3898 CharacterOffsetEnd=3907 PartOfSpeech=NNP]
+[Text=Sharia CharacterOffsetBegin=3908 CharacterOffsetEnd=3914 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=3914 CharacterOffsetEnd=3915 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, agree-3)
+nsubj(agree-3, I-1)
+advmod(agree-3, completely-2)
+punct(agree-3, ,-4)
+cc(think-7, and-5)
+nsubj(think-7, I-6)
+conj:and(agree-3, think-7)
+nsubj(comes-9, this-8)
+ccomp(think-7, comes-9)
+advmod(comes-9, back-10)
+mark(saying-15, to-11)
+obj(saying-15, what-12)
+nsubj(saying-15, Sam-13)
+aux(saying-15, was-14)
+advcl:to(back-10, saying-15)
+case(Sharia-18, about-16)
+compound(Sharia-18, Christian-17)
+obl:about(saying-15, Sharia-18)
+punct(agree-3, .-19)
+
+Sentence #37 (21 tokens):
+Imagine if we were expected to abide by all laws laid out in the Bible word-for-word.
+
+Tokens:
+[Text=Imagine CharacterOffsetBegin=3916 CharacterOffsetEnd=3923 PartOfSpeech=VB]
+[Text=if CharacterOffsetBegin=3924 CharacterOffsetEnd=3926 PartOfSpeech=IN]
+[Text=we CharacterOffsetBegin=3927 CharacterOffsetEnd=3929 PartOfSpeech=PRP]
+[Text=were CharacterOffsetBegin=3930 CharacterOffsetEnd=3934 PartOfSpeech=VBD]
+[Text=expected CharacterOffsetBegin=3935 CharacterOffsetEnd=3943 PartOfSpeech=VBN]
+[Text=to CharacterOffsetBegin=3944 CharacterOffsetEnd=3946 PartOfSpeech=TO]
+[Text=abide CharacterOffsetBegin=3947 CharacterOffsetEnd=3952 PartOfSpeech=VB]
+[Text=by CharacterOffsetBegin=3953 CharacterOffsetEnd=3955 PartOfSpeech=IN]
+[Text=all CharacterOffsetBegin=3956 CharacterOffsetEnd=3959 PartOfSpeech=DT]
+[Text=laws CharacterOffsetBegin=3960 CharacterOffsetEnd=3964 PartOfSpeech=NNS]
+[Text=laid CharacterOffsetBegin=3965 CharacterOffsetEnd=3969 PartOfSpeech=VBN]
+[Text=out CharacterOffsetBegin=3970 CharacterOffsetEnd=3973 PartOfSpeech=RP]
+[Text=in CharacterOffsetBegin=3974 CharacterOffsetEnd=3976 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3977 CharacterOffsetEnd=3980 PartOfSpeech=DT]
+[Text=Bible CharacterOffsetBegin=3981 CharacterOffsetEnd=3986 PartOfSpeech=NNP]
+[Text=word CharacterOffsetBegin=3987 CharacterOffsetEnd=3991 PartOfSpeech=NN]
+[Text=- CharacterOffsetBegin=3991 CharacterOffsetEnd=3992 PartOfSpeech=HYPH]
+[Text=for CharacterOffsetBegin=3992 CharacterOffsetEnd=3995 PartOfSpeech=IN]
+[Text=- CharacterOffsetBegin=3995 CharacterOffsetEnd=3996 PartOfSpeech=HYPH]
+[Text=word CharacterOffsetBegin=3996 CharacterOffsetEnd=4000 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=4000 CharacterOffsetEnd=4001 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Imagine-1)
+mark(expected-5, if-2)
+nsubj:pass(expected-5, we-3)
+nsubj:xsubj(abide-7, we-3)
+aux:pass(expected-5, were-4)
+advcl:if(Imagine-1, expected-5)
+mark(abide-7, to-6)
+xcomp(expected-5, abide-7)
+case(laws-10, by-8)
+det(laws-10, all-9)
+obl:by(abide-7, laws-10)
+acl(laws-10, laid-11)
+compound:prt(laid-11, out-12)
+case(word-16, in-13)
+det(word-16, the-14)
+compound(word-16, Bible-15)
+obl:in(laid-11, word-16)
+punct(word-16, --17)
+case(word-20, for-18)
+punct(word-20, --19)
+nmod:for(word-16, word-20)
+punct(Imagine-1, .-21)
+
+Sentence #38 (11 tokens):
+Yet, some people would like this to be instated.
+
+Tokens:
+[Text=Yet CharacterOffsetBegin=4002 CharacterOffsetEnd=4005 PartOfSpeech=RB]
+[Text=, CharacterOffsetBegin=4005 CharacterOffsetEnd=4006 PartOfSpeech=,]
+[Text=some CharacterOffsetBegin=4007 CharacterOffsetEnd=4011 PartOfSpeech=DT]
+[Text=people CharacterOffsetBegin=4012 CharacterOffsetEnd=4018 PartOfSpeech=NNS]
+[Text=would CharacterOffsetBegin=4019 CharacterOffsetEnd=4024 PartOfSpeech=MD]
+[Text=like CharacterOffsetBegin=4025 CharacterOffsetEnd=4029 PartOfSpeech=VB]
+[Text=this CharacterOffsetBegin=4030 CharacterOffsetEnd=4034 PartOfSpeech=DT]
+[Text=to CharacterOffsetBegin=4035 CharacterOffsetEnd=4037 PartOfSpeech=TO]
+[Text=be CharacterOffsetBegin=4038 CharacterOffsetEnd=4040 PartOfSpeech=VB]
+[Text=instated CharacterOffsetBegin=4041 CharacterOffsetEnd=4049 PartOfSpeech=VBN]
+[Text=. CharacterOffsetBegin=4049 CharacterOffsetEnd=4050 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, like-6)
+advmod(like-6, Yet-1)
+punct(like-6, ,-2)
+det(people-4, some-3)
+nsubj(like-6, people-4)
+aux(like-6, would-5)
+obj(like-6, this-7)
+nsubj:pass:xsubj(instated-10, this-7)
+mark(instated-10, to-8)
+aux:pass(instated-10, be-9)
+xcomp(like-6, instated-10)
+punct(like-6, .-11)
+
+Sentence #39 (21 tokens):
+What should be even scarier for us as Americans is that we aren't so far from that reality ourselves.
+
+Tokens:
+[Text=What CharacterOffsetBegin=4051 CharacterOffsetEnd=4055 PartOfSpeech=WP]
+[Text=should CharacterOffsetBegin=4056 CharacterOffsetEnd=4062 PartOfSpeech=MD]
+[Text=be CharacterOffsetBegin=4063 CharacterOffsetEnd=4065 PartOfSpeech=VB]
+[Text=even CharacterOffsetBegin=4066 CharacterOffsetEnd=4070 PartOfSpeech=RB]
+[Text=scarier CharacterOffsetBegin=4071 CharacterOffsetEnd=4078 PartOfSpeech=JJR]
+[Text=for CharacterOffsetBegin=4079 CharacterOffsetEnd=4082 PartOfSpeech=IN]
+[Text=us CharacterOffsetBegin=4083 CharacterOffsetEnd=4085 PartOfSpeech=PRP]
+[Text=as CharacterOffsetBegin=4086 CharacterOffsetEnd=4088 PartOfSpeech=IN]
+[Text=Americans CharacterOffsetBegin=4089 CharacterOffsetEnd=4098 PartOfSpeech=NNPS]
+[Text=is CharacterOffsetBegin=4099 CharacterOffsetEnd=4101 PartOfSpeech=VBZ]
+[Text=that CharacterOffsetBegin=4102 CharacterOffsetEnd=4106 PartOfSpeech=IN]
+[Text=we CharacterOffsetBegin=4107 CharacterOffsetEnd=4109 PartOfSpeech=PRP]
+[Text=are CharacterOffsetBegin=4110 CharacterOffsetEnd=4113 PartOfSpeech=VBP]
+[Text=n't CharacterOffsetBegin=4113 CharacterOffsetEnd=4116 PartOfSpeech=RB]
+[Text=so CharacterOffsetBegin=4117 CharacterOffsetEnd=4119 PartOfSpeech=RB]
+[Text=far CharacterOffsetBegin=4120 CharacterOffsetEnd=4123 PartOfSpeech=RB]
+[Text=from CharacterOffsetBegin=4124 CharacterOffsetEnd=4128 PartOfSpeech=IN]
+[Text=that CharacterOffsetBegin=4129 CharacterOffsetEnd=4133 PartOfSpeech=DT]
+[Text=reality CharacterOffsetBegin=4134 CharacterOffsetEnd=4141 PartOfSpeech=NN]
+[Text=ourselves CharacterOffsetBegin=4142 CharacterOffsetEnd=4151 PartOfSpeech=PRP]
+[Text=. CharacterOffsetBegin=4151 CharacterOffsetEnd=4152 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, is-10)
+nsubj(scarier-5, What-1)
+aux(scarier-5, should-2)
+cop(scarier-5, be-3)
+advmod(scarier-5, even-4)
+csubj(is-10, scarier-5)
+case(us-7, for-6)
+obl:for(scarier-5, us-7)
+case(Americans-9, as-8)
+obl:as(scarier-5, Americans-9)
+mark(reality-19, that-11)
+nsubj(reality-19, we-12)
+cop(reality-19, are-13)
+advmod(reality-19, n't-14)
+advmod(reality-19, so-15)
+case(reality-19, far-16)
+fixed(far-16, from-17)
+det(reality-19, that-18)
+ccomp(is-10, reality-19)
+obl:npmod(reality-19, ourselves-20)
+punct(is-10, .-21)
+
+Sentence #40 (19 tokens):
+We need to protect our religious freedom so we don't see Christian extremists come into power here.
+
+Tokens:
+[Text=We CharacterOffsetBegin=4153 CharacterOffsetEnd=4155 PartOfSpeech=PRP]
+[Text=need CharacterOffsetBegin=4156 CharacterOffsetEnd=4160 PartOfSpeech=VBP]
+[Text=to CharacterOffsetBegin=4161 CharacterOffsetEnd=4163 PartOfSpeech=TO]
+[Text=protect CharacterOffsetBegin=4164 CharacterOffsetEnd=4171 PartOfSpeech=VB]
+[Text=our CharacterOffsetBegin=4172 CharacterOffsetEnd=4175 PartOfSpeech=PRP$]
+[Text=religious CharacterOffsetBegin=4176 CharacterOffsetEnd=4185 PartOfSpeech=JJ]
+[Text=freedom CharacterOffsetBegin=4186 CharacterOffsetEnd=4193 PartOfSpeech=NN]
+[Text=so CharacterOffsetBegin=4194 CharacterOffsetEnd=4196 PartOfSpeech=IN]
+[Text=we CharacterOffsetBegin=4197 CharacterOffsetEnd=4199 PartOfSpeech=PRP]
+[Text=do CharacterOffsetBegin=4200 CharacterOffsetEnd=4202 PartOfSpeech=VBP]
+[Text=n't CharacterOffsetBegin=4202 CharacterOffsetEnd=4205 PartOfSpeech=RB]
+[Text=see CharacterOffsetBegin=4206 CharacterOffsetEnd=4209 PartOfSpeech=VB]
+[Text=Christian CharacterOffsetBegin=4210 CharacterOffsetEnd=4219 PartOfSpeech=JJ]
+[Text=extremists CharacterOffsetBegin=4220 CharacterOffsetEnd=4230 PartOfSpeech=NNS]
+[Text=come CharacterOffsetBegin=4231 CharacterOffsetEnd=4235 PartOfSpeech=VBP]
+[Text=into CharacterOffsetBegin=4236 CharacterOffsetEnd=4240 PartOfSpeech=IN]
+[Text=power CharacterOffsetBegin=4241 CharacterOffsetEnd=4246 PartOfSpeech=NN]
+[Text=here CharacterOffsetBegin=4247 CharacterOffsetEnd=4251 PartOfSpeech=RB]
+[Text=. CharacterOffsetBegin=4251 CharacterOffsetEnd=4252 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, need-2)
+nsubj(need-2, We-1)
+nsubj:xsubj(protect-4, We-1)
+mark(protect-4, to-3)
+xcomp(need-2, protect-4)
+nmod:poss(freedom-7, our-5)
+amod(freedom-7, religious-6)
+obj(protect-4, freedom-7)
+mark(see-12, so-8)
+nsubj(see-12, we-9)
+aux(see-12, do-10)
+advmod(see-12, n't-11)
+advcl:so(protect-4, see-12)
+amod(extremists-14, Christian-13)
+nsubj(come-15, extremists-14)
+ccomp(see-12, come-15)
+case(power-17, into-16)
+obl:into(come-15, power-17)
+advmod(come-15, here-18)
+punct(need-2, .-19)
+
+Sentence #41 (13 tokens):
+Sarah, I very much agree with all you had to say.
+
+Tokens:
+[Text=Sarah CharacterOffsetBegin=4253 CharacterOffsetEnd=4258 PartOfSpeech=NNP]
+[Text=, CharacterOffsetBegin=4258 CharacterOffsetEnd=4259 PartOfSpeech=,]
+[Text=I CharacterOffsetBegin=4260 CharacterOffsetEnd=4261 PartOfSpeech=PRP]
+[Text=very CharacterOffsetBegin=4262 CharacterOffsetEnd=4266 PartOfSpeech=RB]
+[Text=much CharacterOffsetBegin=4267 CharacterOffsetEnd=4271 PartOfSpeech=RB]
+[Text=agree CharacterOffsetBegin=4272 CharacterOffsetEnd=4277 PartOfSpeech=VBP]
+[Text=with CharacterOffsetBegin=4278 CharacterOffsetEnd=4282 PartOfSpeech=IN]
+[Text=all CharacterOffsetBegin=4283 CharacterOffsetEnd=4286 PartOfSpeech=DT]
+[Text=you CharacterOffsetBegin=4287 CharacterOffsetEnd=4290 PartOfSpeech=PRP]
+[Text=had CharacterOffsetBegin=4291 CharacterOffsetEnd=4294 PartOfSpeech=VBD]
+[Text=to CharacterOffsetBegin=4295 CharacterOffsetEnd=4297 PartOfSpeech=TO]
+[Text=say CharacterOffsetBegin=4298 CharacterOffsetEnd=4301 PartOfSpeech=VB]
+[Text=. CharacterOffsetBegin=4301 CharacterOffsetEnd=4302 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, agree-6)
+nsubj(agree-6, Sarah-1)
+nsubj:xsubj(say-12, Sarah-1)
+punct(agree-6, ,-2)
+nsubj(agree-6, I-3)
+nsubj:xsubj(say-12, I-3)
+advmod(much-5, very-4)
+advmod(agree-6, much-5)
+case(you-9, with-7)
+det(you-9, all-8)
+obl:with(agree-6, you-9)
+aux(say-12, had-10)
+mark(say-12, to-11)
+xcomp(agree-6, say-12)
+punct(agree-6, .-13)
+
+Sentence #42 (23 tokens):
+We never can really understand life over there unless we experience it ourselves, but talking to Afghanis does make a difference.
+
+Tokens:
+[Text=We CharacterOffsetBegin=4303 CharacterOffsetEnd=4305 PartOfSpeech=PRP]
+[Text=never CharacterOffsetBegin=4306 CharacterOffsetEnd=4311 PartOfSpeech=RB]
+[Text=can CharacterOffsetBegin=4312 CharacterOffsetEnd=4315 PartOfSpeech=MD]
+[Text=really CharacterOffsetBegin=4316 CharacterOffsetEnd=4322 PartOfSpeech=RB]
+[Text=understand CharacterOffsetBegin=4323 CharacterOffsetEnd=4333 PartOfSpeech=VB]
+[Text=life CharacterOffsetBegin=4334 CharacterOffsetEnd=4338 PartOfSpeech=NN]
+[Text=over CharacterOffsetBegin=4339 CharacterOffsetEnd=4343 PartOfSpeech=IN]
+[Text=there CharacterOffsetBegin=4344 CharacterOffsetEnd=4349 PartOfSpeech=RB]
+[Text=unless CharacterOffsetBegin=4350 CharacterOffsetEnd=4356 PartOfSpeech=IN]
+[Text=we CharacterOffsetBegin=4357 CharacterOffsetEnd=4359 PartOfSpeech=PRP]
+[Text=experience CharacterOffsetBegin=4360 CharacterOffsetEnd=4370 PartOfSpeech=VBP]
+[Text=it CharacterOffsetBegin=4371 CharacterOffsetEnd=4373 PartOfSpeech=PRP]
+[Text=ourselves CharacterOffsetBegin=4374 CharacterOffsetEnd=4383 PartOfSpeech=PRP]
+[Text=, CharacterOffsetBegin=4383 CharacterOffsetEnd=4384 PartOfSpeech=,]
+[Text=but CharacterOffsetBegin=4385 CharacterOffsetEnd=4388 PartOfSpeech=CC]
+[Text=talking CharacterOffsetBegin=4389 CharacterOffsetEnd=4396 PartOfSpeech=VBG]
+[Text=to CharacterOffsetBegin=4397 CharacterOffsetEnd=4399 PartOfSpeech=IN]
+[Text=Afghanis CharacterOffsetBegin=4400 CharacterOffsetEnd=4408 PartOfSpeech=NNPS]
+[Text=does CharacterOffsetBegin=4409 CharacterOffsetEnd=4413 PartOfSpeech=VBZ]
+[Text=make CharacterOffsetBegin=4414 CharacterOffsetEnd=4418 PartOfSpeech=VB]
+[Text=a CharacterOffsetBegin=4419 CharacterOffsetEnd=4420 PartOfSpeech=DT]
+[Text=difference CharacterOffsetBegin=4421 CharacterOffsetEnd=4431 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=4431 CharacterOffsetEnd=4432 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, understand-5)
+nsubj(understand-5, We-1)
+advmod(understand-5, never-2)
+aux(understand-5, can-3)
+advmod(understand-5, really-4)
+obj(understand-5, life-6)
+case(there-8, over-7)
+advmod(life-6, there-8)
+mark(experience-11, unless-9)
+nsubj(experience-11, we-10)
+advcl:unless(understand-5, experience-11)
+obj(experience-11, it-12)
+obl:npmod(experience-11, ourselves-13)
+punct(experience-11, ,-14)
+cc(make-20, but-15)
+nsubj(make-20, talking-16)
+case(Afghanis-18, to-17)
+obl:to(talking-16, Afghanis-18)
+aux(make-20, does-19)
+advcl:unless(understand-5, make-20)
+conj:but(experience-11, make-20)
+det(difference-22, a-21)
+obj(make-20, difference-22)
+punct(understand-5, .-23)
+
+Sentence #43 (20 tokens):
+Even though people may not find it comfortable, issues like what we discuss in class are not ironclad.
+
+Tokens:
+[Text=Even CharacterOffsetBegin=4433 CharacterOffsetEnd=4437 PartOfSpeech=RB]
+[Text=though CharacterOffsetBegin=4438 CharacterOffsetEnd=4444 PartOfSpeech=IN]
+[Text=people CharacterOffsetBegin=4445 CharacterOffsetEnd=4451 PartOfSpeech=NNS]
+[Text=may CharacterOffsetBegin=4452 CharacterOffsetEnd=4455 PartOfSpeech=MD]
+[Text=not CharacterOffsetBegin=4456 CharacterOffsetEnd=4459 PartOfSpeech=RB]
+[Text=find CharacterOffsetBegin=4460 CharacterOffsetEnd=4464 PartOfSpeech=VB]
+[Text=it CharacterOffsetBegin=4465 CharacterOffsetEnd=4467 PartOfSpeech=PRP]
+[Text=comfortable CharacterOffsetBegin=4468 CharacterOffsetEnd=4479 PartOfSpeech=JJ]
+[Text=, CharacterOffsetBegin=4479 CharacterOffsetEnd=4480 PartOfSpeech=,]
+[Text=issues CharacterOffsetBegin=4481 CharacterOffsetEnd=4487 PartOfSpeech=NNS]
+[Text=like CharacterOffsetBegin=4488 CharacterOffsetEnd=4492 PartOfSpeech=IN]
+[Text=what CharacterOffsetBegin=4493 CharacterOffsetEnd=4497 PartOfSpeech=WP]
+[Text=we CharacterOffsetBegin=4498 CharacterOffsetEnd=4500 PartOfSpeech=PRP]
+[Text=discuss CharacterOffsetBegin=4501 CharacterOffsetEnd=4508 PartOfSpeech=VBP]
+[Text=in CharacterOffsetBegin=4509 CharacterOffsetEnd=4511 PartOfSpeech=IN]
+[Text=class CharacterOffsetBegin=4512 CharacterOffsetEnd=4517 PartOfSpeech=NN]
+[Text=are CharacterOffsetBegin=4518 CharacterOffsetEnd=4521 PartOfSpeech=VBP]
+[Text=not CharacterOffsetBegin=4522 CharacterOffsetEnd=4525 PartOfSpeech=RB]
+[Text=ironclad CharacterOffsetBegin=4526 CharacterOffsetEnd=4534 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=4534 CharacterOffsetEnd=4535 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ironclad-19)
+advmod(find-6, Even-1)
+mark(find-6, though-2)
+nsubj(find-6, people-3)
+aux(find-6, may-4)
+advmod(find-6, not-5)
+advcl:though(ironclad-19, find-6)
+nsubj(comfortable-8, it-7)
+xcomp(find-6, comfortable-8)
+punct(ironclad-19, ,-9)
+nsubj(ironclad-19, issues-10)
+mark(discuss-14, like-11)
+obj(discuss-14, what-12)
+nsubj(discuss-14, we-13)
+acl:like(issues-10, discuss-14)
+case(class-16, in-15)
+obl:in(discuss-14, class-16)
+cop(ironclad-19, are-17)
+advmod(ironclad-19, not-18)
+punct(ironclad-19, .-20)
