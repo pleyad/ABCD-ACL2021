@@ -127,7 +127,7 @@ class Trainer(object):
 	def main(self, sents, lengths, adj_pairs, golds, mode="Train"):
 		if self.pos_flag:
 			sents = self.pos_enc(sents.unsqueeze(0)) 
-		sent_hidden = self.enc((sents.squeeze(0).unsqueeze(1), lengths)).float() # length x bsize x h 
+		sent_hidden = self.enc((sents.squeeze(0).unsqueeze(1).float(), lengths)).float() # length x bsize x h
 		srcs, tgts, arcs = self.extract(sent_hidden.squeeze(1), adj_pairs)  
 		h_att2, h_src, h_tgt, h_arc = self.gat(srcs, tgts, arcs)
 		preds = self.classifer(h_att2, h_src, h_tgt, h_arc )

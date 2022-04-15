@@ -129,6 +129,8 @@ class ComplexSentenceDL(Dataset):
 				# batch_num = file[file.split(".")[0].find("ch")+2:file.find(".pkl")]
 				batch_data = pickle.load(open(file, "rb"))
 				for k, v in batch_data.items():
+					if "words" not in v:  # Florina: apparently some items are missing this key which results in a keyError if not skipped here
+						continue
 					if sent_per_batch_cnt >= self.batch_size:
 						batch_num += 1
 						sent_per_batch_cnt = 0
@@ -158,7 +160,7 @@ class ComplexSentenceDL(Dataset):
 
 	def __getitem__(self, idx):
 		sample = {} 
-		item = self.data[idx] 
+		item = self.data[idx]
 		ws = item["words"]
 		sent_tks = sorted(ws, key=lambda x:int(x.split("-")[1]))
 		input_sent = [i.split("-")[0].lower() for i in sent_tks]
