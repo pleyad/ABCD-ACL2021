@@ -76,17 +76,17 @@ def GetDeps(dep_lines):
 
 
 # Niclas
-sents = open("data/tiny_acl21/train.complex").readlines()
+sents = open("data/acl21/train.complex").readlines()
 # sents = open("data/clean_orig_sent_"+str(batch_id)+".txt").readlines()
 orig_sents = [s.strip() for s in sents] 
 
 #Niclas
-golds = open("data/tiny_acl21/train.simple").readlines()
+golds = open("data/acl21/train.simple").readlines()
 # golds = open("data/clean_gold_sent_"+str(batch_id)+".txt").readlines()
 gold_sents = [s.strip() for s in golds]
 
 #Niclas
-deplines = open("data/tiny_acl21/train.complex.out").readlines() 
+deplines = open("data/acl21/train.complex.out").readlines() 
 # deplines = open("data/clean_orig_sent_"+str(batch_id)+".txt.out").readlines() 
 locs = [ind for ind, value in enumerate(deplines) if "Dependency Parse (enhanced plus plus dependencies):\n" in value]
 sent_locs = [ind for ind, value in enumerate(deplines) if "Sentence #" in value]
@@ -98,10 +98,10 @@ for _ in range(0, len(sents)):
 	if _ == len(sents) -1:
 		pass
 		# I do not know what possibly motivated including the header line on the last sentence
-		# dep_lines = deplines[loc:]
-		dep_lines = deplines[loc+1:]
+		dep_lines = deplines[loc:]
+		# dep_lines = deplines[loc+1:]
 	else: 
-		# dep_lines = deplines[loc+1:sent_locs[_+1]]
+		dep_lines = deplines[loc+1:sent_locs[_+1]]
 		# I need to add a -1 to the end of the slice because otherwise, a line only
 		# containin a '\n' gets passed along and causes an error in the GetDeps Function
 		dep_lines = deplines[loc+1:sent_locs[_+1]-1] 
@@ -135,6 +135,7 @@ for _ in range(0, len(sents)):
 
 	if len(new_temp) == 0 :
 		print("skipping sentence at index ", _ )
+		pass
 		continue 
 	else:
 		output_arcs[_]['accept'], output_arcs[_]['copy'], output_arcs[_]['break'], output_arcs[_]['drop'] =  new_temp, copy_temp, cut_temp, del_temp 
@@ -144,7 +145,7 @@ for _ in range(0, len(sents)):
 		output_arcs[_]['golds'] = golds_out
 
 
-with open('data/tiny_acl21/train.pkl', 'wb') as handle:
+with open('data/acl21/train.pkl', 'wb') as handle:
 #with open('data/sent_18.pkl', 'wb') as handle:
     pickle.dump(output_arcs, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
