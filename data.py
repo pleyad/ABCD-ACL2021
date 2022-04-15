@@ -91,7 +91,7 @@ def GoldLabel(all_pairs, a, b, c, d):
 
 class ComplexSentenceDL(Dataset):
 	"""Loading Complex Sentence dataset."""
-	def __init__(self, root_dir, glove_path, use_cuda=False, mode="Train", transform=None, use_bert=None):
+	def __init__(self, root_dir, glove_path, use_cuda=False, mode="Train", transform=None, use_bert=None, batch_size=64):
 		"""
 		Args:
 			csv_file (string): Path to the csv file with annotations.
@@ -104,7 +104,8 @@ class ComplexSentenceDL(Dataset):
 		self.mode = mode 
 		self.glove_path = glove_path 
 		self.use_cuda = use_cuda
-		self.use_bert = use_bert 
+		self.use_bert = use_bert
+		self.batch_size = batch_size
 
 	def __len__(self):
 		return len(self.data)
@@ -117,19 +118,27 @@ class ComplexSentenceDL(Dataset):
 
 		self.data = {}
 		print("====== INITIALIZING DATASET FROM {} PICKLE FILES =========".format(self.mode))
-		start =time.time()
-		cnt = 0 
+		start = time.time()
+		cnt = 0
+		batch_num = 0
+		sent_per_batch_cnt = 0
 		if self.mode == "Train":
-			allfiles = list(glob.iglob(self.root_dir+"clean_batch*.pkl")) 			
+			# allfiles = list(glob.iglob(self.root_dir+"clean_batch*.pkl"))
+			allfiles = list(glob.iglob(self.root_dir + "train.pkl"))
 			for file in allfiles:
-				batch_num = file[file.split(".")[0].find("ch")+2:file.find(".pkl")] 
+				# batch_num = file[file.split(".")[0].find("ch")+2:file.find(".pkl")]
 				batch_data = pickle.load(open(file, "rb"))
-				for k,v in batch_data.items():
-					v["index"] = batch_num[1:]+"_"+str(k)
+				for k, v in batch_data.items():
+					if sent_per_batch_cnt >= self.batch_size:
+						batch_num += 1
+						sent_per_batch_cnt = 0
+					# v["index"] = batch_num[1:]+"_"+str(k)
+					v["index"] = str(batch_num) + "_" + str(k)
 					self.data[cnt] = v
-					cnt +=1 
+					cnt += 1
+					sent_per_batch_cnt += 1
 		else:
-			file = self.root_dir+"test.pkl" 
+			file = self.root_dir+"test.pkl"
 			#try:
 			#	batch_data = pickle.load(open(file, "rb")) 
 			#except:
@@ -144,7 +153,7 @@ class ComplexSentenceDL(Dataset):
 		self.arc_ones, self.arc_one_dics = EncodeOnehot(arcs) 
 		self.label_arcs = {v:k for k,v in arcs.items()}
 		end = time.time()
-		print("FINISH LOADING DATA TOTAL TIME {:.4f} SECONDS".format(end-start)) 
+		print("FINISH LOADING DATA TOTAL TIME {:.4f} SECONDS".format(end-start))
 
 
 	def __getitem__(self, idx):

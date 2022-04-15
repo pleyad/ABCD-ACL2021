@@ -10,13 +10,13 @@ from data import *
 from utils import * 
 from distant_superv import *
 
-batch_id = "test" 
-data_path = "data"
+batch_id = "test"
+data_path = "/home/florina/Documents/Studium/abcdre/ABCD-ACL2021/data/acl21"
 
 sents = open(data_path+"/"+str(batch_id)+".complex").readlines()
 orig_sents = [s.strip() for s in sents] 
 
-deplines = open(data_path+"/"+str(batch_id)+".complex.out").readlines() 
+deplines = open(data_path+"/"+str(batch_id)+".complex.out").readlines()
 locs = [ind for ind, value in enumerate(deplines) if "Dependency Parse (enhanced plus plus dependencies):\n" in value]
 sent_locs = [ind for ind, value in enumerate(deplines) if "Sentence #" in value]
 
@@ -99,6 +99,6 @@ for _ in range(0, len(sents)):
 	output_arcs[_]['vtoi'], output_arcs[_]['itov'] = vtoi, itov 
 
 
-with open(data_path+'/batch_'+str(batch_id)+'.pkl', 'wb') as handle:
+with open(data_path+"/"+str(batch_id)+'.pkl', 'wb') as handle:
 	pickle.dump(output_arcs, handle, protocol=pickle.HIGHEST_PROTOCOL)
 

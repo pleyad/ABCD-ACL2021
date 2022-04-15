@@ -158,8 +158,8 @@ class SupervisedTrainer(object):
 
 if __name__ == "__main__":
 	cfg = {"dataset":"MinWiki_MatchVP",
-			"use_cuda": True, 
-			"device": "cuda", 
+			"use_cuda": False,
+			"device": "cpu",
 			"batch_size":64, 
 			"epoch":50, 
 			"every_eval": 4, 
@@ -174,20 +174,20 @@ if __name__ == "__main__":
 			"weight_label": True,
 			"classifer": "Bilinear", 
 			"gradient_clip":None, 
-			"root_dir":"/export/home/yug125/Complex_graph/", 
-			"glove_dir": "/export/home/yug125/rl-dep-edu/", 
+			"root_dir":"/home/florina/Documents/Studium/abcdre/ABCD-ACL2021/data/acl21/",
+			"glove_dir": "/home/florina/Documents/Studium/abcdre/glove.6B/",
 			"inverse_label_weights":[0.01671244, 0.35338219, 0.41641111, 0.21349426]}  
 	
 	start = time.time() 
 	# Train Dataloader 
-	train_data = ComplexSentenceDL(cfg["root_dir"]+"data/matchvp/", cfg["glove_dir"]+"glove.6B.100d.txt", cfg["use_cuda"], "Train")
+	train_data = ComplexSentenceDL(cfg["root_dir"], cfg["glove_dir"]+"glove.6B.100d.txt", cfg["use_cuda"], "Train", cfg["batch_size"])
 	train_data.Loading()
 	# Eval Dataloader  
-	test_data = ComplexSentenceDL(cfg["root_dir"]+"data/", cfg["glove_dir"]+"glove.6B.100d.txt",cfg["use_cuda"], "Test") 
+	test_data = ComplexSentenceDL(cfg["root_dir"], cfg["glove_dir"]+"glove.6B.100d.txt",cfg["use_cuda"], "Test")
 	test_data.Loading()
 	end = time.time()
 	setting_prefix = str(cfg["lr"])+"_main_ep"+str(cfg["epoch"])+"_hdim"+str(cfg["hidden_dim"])
 	print("==== FINISHING LOADING DATASET, TOOK {} SECONDS =====".format(end-start))
-	bot = SupervisedTrainer(cfg, train_data, test_data, setting_prefix, True) 
+	bot = SupervisedTrainer(cfg, train_data, test_data, setting_prefix, True)
 	bot.train() 
 	
