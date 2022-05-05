@@ -1,6 +1,6 @@
 import os
-os.environ['CUDA_LAUNCH_BLOCKING'] = "3"
-os.environ['CUDA_VISIBLE_DEVICES'] = "3"
+#os.environ['CUDA_LAUNCH_BLOCKING'] = "3"
+#os.environ['CUDA_VISIBLE_DEVICES'] = "3"
 
 import torch
 import torch.nn as nn
@@ -157,26 +157,27 @@ class SupervisedTrainer(object):
 
 
 if __name__ == "__main__":
-	cfg = {"dataset":"MinWiki_MatchVP",
-			"use_cuda": False,
-			"device": "cpu",
-			"batch_size":64, 
-			"epoch":50, 
-			"every_eval": 4, 
-			"after_eval": 4, 
+	cfg = {"dataset":"ACL_DESSE",
+			"use_cuda": True,
+			"device": 0,
+			"batch_size":64,
+			"epoch":50,
+			"every_eval": 1,
+			"after_eval": 0,
 			"lr_adj":False,
-			"lr":1e-4, 
+			"lr":1e-4,
 			"weight_decay":0.99,
-			"num_heads":4, 
-			"word_dim":100, 
+			"num_heads":4,
+			"word_dim":100,
 			"hidden_dim":800,
-			"dropout":0.2, 
+			"dropout":0.2,
 			"weight_label": True,
-			"classifer": "Bilinear", 
+			"classifer": "Bilinear",
 			"gradient_clip":None, 
-			"root_dir":"/home/florina/Documents/Studium/abcdre/ABCD-ACL2021/data/acl21/",
-			"glove_dir": "/home/florina/Documents/Studium/abcdre/glove.6B/",
-			"inverse_label_weights":[0.01671244, 0.35338219, 0.41641111, 0.21349426]}  
+			"root_dir":"/home/domi_zenitram/ABCD-ACL2021/data/acl21/",
+			"glove_dir": "/home/domi_zenitram/glove/",
+			#"resume_from_checkpoint": "/home/domi_zenitram/ABCD_ACL2021/data/acl21/MinWiki_MatchVP_Bilinear_0.0001_main_ep50_hdim800_2022-05-03/",
+			"inverse_label_weights":[0.01671244, 0.35338219, 0.41641111, 0.21349426]}
 	
 	start = time.time() 
 	# Train Dataloader 
@@ -186,7 +187,7 @@ if __name__ == "__main__":
 	test_data = ComplexSentenceDL(cfg["root_dir"], cfg["glove_dir"]+"glove.6B.100d.txt",cfg["use_cuda"], "Test")
 	test_data.Loading()
 	end = time.time()
-	setting_prefix = str(cfg["lr"])+"_main_ep"+str(cfg["epoch"])+"_hdim"+str(cfg["hidden_dim"])
+	setting_prefix = str(cfg["lr"])+"_main_ep"+str(cfg["epoch"])+"_hdim"+str(cfg["hidden_dim"])+"_gpu"
 	print("==== FINISHING LOADING DATASET, TOOK {} SECONDS =====".format(end-start))
 	bot = SupervisedTrainer(cfg, train_data, test_data, setting_prefix, True)
 	bot.train() 
