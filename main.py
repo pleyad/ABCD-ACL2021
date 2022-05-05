@@ -157,6 +157,13 @@ class SupervisedTrainer(object):
 
 
 if __name__ == "__main__":
+
+	# ROOT_DIR = "/home/domi_zenitram/ABCD-ACL2021/data/acl21/"
+	# GLOVE_DIR = "/home/domi_zenitram/glove/"
+	ROOT_DIR = "/home/pankraz/computerlinguistik/rnlp/ABCDre/ABCD-ACL2021/data/acl21/"
+	
+	GLOVE_DIR = "/home/pankraz/computerlinguistik/rnlp/ABCDre/resources/glove/"
+
 	cfg = {"dataset":"ACL_DESSE",
 			"use_cuda": True,
 			"device": 0,
@@ -174,8 +181,8 @@ if __name__ == "__main__":
 			"weight_label": True,
 			"classifer": "Bilinear",
 			"gradient_clip":None, 
-			"root_dir":"/home/domi_zenitram/ABCD-ACL2021/data/acl21/",
-			"glove_dir": "/home/domi_zenitram/glove/",
+			"root_dir":ROOT_DIR,
+			"glove_dir":GLOVE_DIR,
 			#"resume_from_checkpoint": "/home/domi_zenitram/ABCD_ACL2021/data/acl21/MinWiki_MatchVP_Bilinear_0.0001_main_ep50_hdim800_2022-05-03/",
 			"inverse_label_weights":[0.01671244, 0.35338219, 0.41641111, 0.21349426]}
 	

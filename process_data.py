@@ -75,18 +75,20 @@ def GetDeps(dep_lines):
 	return tups, words 
 
 
+SPLIT = "valid"
+
 # Niclas
-sents = open("data/acl21/train.complex").readlines()
+sents = open(f"data/acl21/{SPLIT}.complex").readlines()
 # sents = open("data/clean_orig_sent_"+str(batch_id)+".txt").readlines()
 orig_sents = [s.strip() for s in sents] 
 
 #Niclas
-golds = open("data/acl21/train.simple").readlines()
+golds = open(f"data/acl21/{SPLIT}.simple").readlines()
 # golds = open("data/clean_gold_sent_"+str(batch_id)+".txt").readlines()
 gold_sents = [s.strip() for s in golds]
 
 #Niclas
-deplines = open("data/acl21/train.complex.out").readlines() 
+deplines = open(f"data/acl21/{SPLIT}.complex.out").readlines() 
 # deplines = open("data/clean_orig_sent_"+str(batch_id)+".txt.out").readlines() 
 locs = [ind for ind, value in enumerate(deplines) if "Dependency Parse (enhanced plus plus dependencies):\n" in value]
 sent_locs = [ind for ind, value in enumerate(deplines) if "Sentence #" in value]
@@ -145,7 +147,7 @@ for _ in range(0, len(sents)):
 		output_arcs[_]['golds'] = golds_out
 
 
-with open('data/acl21/train.pkl', 'wb') as handle:
+with open(f'data/acl21/{SPLIT}.pkl', 'wb') as handle:
 #with open('data/sent_18.pkl', 'wb') as handle:
     pickle.dump(output_arcs, handle, protocol=pickle.HIGHEST_PROTOCOL)
 

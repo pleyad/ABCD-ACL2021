@@ -140,7 +140,7 @@ class ComplexSentenceDL(Dataset):
 					cnt += 1
 					sent_per_batch_cnt += 1
 		else:
-			file = self.root_dir+"test.pkl"
+			file = self.root_dir+"valid.pkl"
 			#try:
 			#	batch_data = pickle.load(open(file, "rb")) 
 			#except:
