@@ -9,7 +9,6 @@ else
     python3 -m venv env
 fi
 
-
 echo 'ABCDre Info: Activating virtual environment `env` ...'
 source env/bin/activate
 
