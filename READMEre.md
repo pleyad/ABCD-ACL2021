@@ -15,9 +15,26 @@ The data files have been renamed, so that all have the same form.
 | `MinWiki/matchvp_test.complex` | `MinWiki/test.complex.txt` |
 | `MinWiki/matchvp_test.simple` | `MinWiki/test.simple.txt` |
 | `MinWiki/matchvp_train.complex` | `MinWiki/train.complex.txt` |
-| `MinWiki/matchvp_train.simple` | `MinWiki/train.complex.txt` |
+| `MinWiki/matchvp_train.simple` | `MinWiki/train.simple.txt` |
+|  | `MinWiki/valid.complex.txt` |
+|  | `MinWiki/valid.simple.txt` |
 
-- [ ] Validation set for MinWiki? Split from training in some ratio as ACL2021?
+- [x] Validation set for MinWiki? Split from training in some ratio as ACL2021?
+
+### MinWiki Validation
+
+MinWiki doesn't have a validation set, but the model uses the evaluation on a validation set for early stopping.
+Therefore, we check the ratio between training and validation set in ACL2021, and then split of a validation set from the end of the MinWiki training set in the same ratio.
+
+```
+ACL_train = 13199
+ACL_val = 42
+MinWiki_train = 18746
+
+After Split:
+MinWiki_val : 13199 / 42 = (18746 - x) / x -> x = 59
+MinWiki_train = 18746 - 59 = 18687
+```
 
 ## `process_data.py` vs `process_test.py`
 
