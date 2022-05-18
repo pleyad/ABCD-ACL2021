@@ -16,8 +16,8 @@ The data files have been renamed, so that all have the same form.
 | `MinWiki/matchvp_test.simple` | 1074 | `MinWiki/test.simple.txt` | 1074 |
 | `MinWiki/matchvp_train.complex` | 18746 | `MinWiki/train.complex.txt` | 18687 |
 | `MinWiki/matchvp_train.simple` | 18746 | `MinWiki/train.simple.txt` | 18687 |
-|  | `MinWiki/valid.complex.txt` | 59 |
-|  | `MinWiki/valid.simple.txt` | 59 |
+| | | `MinWiki/valid.complex.txt` | 59 |
+| | | `MinWiki/valid.simple.txt` | 59 |
 
 - [x] Validation set for MinWiki? Split from training in some ratio as ACL2021?
 
