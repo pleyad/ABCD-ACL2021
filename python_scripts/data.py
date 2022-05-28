@@ -195,7 +195,7 @@ class ComplexSentenceDL(Dataset):
 
 class ComplexSentenceDL_Inference(Dataset):
 	"""Loading Complex Sentence dataset."""
-	def __init__(self, root_dir, filename, glove_path,  use_cuda=False, mode="Valid", transform=None, use_bert=None):
+	def __init__(self, pkl_path, glove_path,  use_cuda=False, mode="Valid", transform=None, use_bert=None):
 		"""
 		Args:
 			csv_file (string): Path to the csv file with annotations.
@@ -203,9 +203,10 @@ class ComplexSentenceDL_Inference(Dataset):
 			transform (callable, optional): Optional transform to be applied
 				on a sample.
 		"""
-		self.root_dir = root_dir
+		#self.root_dir = root_dir
 		self.transform = transform
-		self.filename = filename 
+		#self.filename = filename
+		self.pkl_path = pkl_path
 		self.glove_path = glove_path 
 		self.use_cuda = use_cuda
 		self.use_bert = use_bert 
@@ -215,16 +216,16 @@ class ComplexSentenceDL_Inference(Dataset):
 		return len(self.data)
 
 	def Loading(self):
-		print(self.root_dir)
-		if not os.path.exists(self.root_dir):
-			print("ERROR!!!! ROOT DIR NOT EXIST {}".format(self.root_dir)) 
-			raise ValueError   
+		#print(self.root_dir)
+		#if not os.path.exists(self.root_dir):
+		#	print("ERROR!!!! ROOT DIR NOT EXIST {}".format(self.root_dir)) 
+		#	raise ValueError   
 
 		self.data = {}
 		#print("====== INITIALIZING DATASET FROM {} PICKLE FILES =========".format(self.mode))
 		start =time.time()
 		cnt = 0 
-		file = self.root_dir+self.filename 
+		file = self.pkl_path
 
 		batch_data = pickle.load(open(file, "rb"))
 		self.data = batch_data 
