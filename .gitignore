@@ -1,3 +1,4 @@
 env/
 corenlp/
+glove/
 __pycache__/
