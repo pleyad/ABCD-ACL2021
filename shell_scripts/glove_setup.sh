@@ -8,9 +8,18 @@ else
     echo "ABCDre Info: Creating directory for CoreNLP 'data/glove/' ..."
     mkdir data/glove
 fi
+
 cd data/glove
 
-curl -LJO https://huggingface.co/stanfordnlp/glove/resolve/main/glove.6B.zip
-unzip glove.6B.zip
+if [[ -f "glove.6B.100d.txt"]]
+then
+    echo "ABCDre Info: GloVe files already available."
+else
+    echo "ABCDre Info: Downloading GloVe from Huggingface ..."
+    curl -LJO https://huggingface.co/stanfordnlp/glove/resolve/main/glove.6B.zip
+    
+    echo "ABCDre Info: Unzipping GloVe ..."
+    unzip glove.6B.zip
+fi
 
 cd ../..
