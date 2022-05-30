@@ -82,7 +82,7 @@ class SupervisedTrainer(object):
 			self.model.gat.train()
 			self.model.classifer.train()
 			for _iter in range(n_iters):
-				if _iter % 10 == 0: print(f'epoch {epoch}:processing batch {_iter + 1} out of {n_iters}')
+				if _iter % 10 == 0: print(f'epoch {epoch}: processing batch {_iter + 1} out of {n_iters}')
 				batched = [] 
 				for _id in permutation[_iter*self.batch_size: (_iter+1)*self.batch_size]:
 					sample = self.train_db[_id]
@@ -159,47 +159,63 @@ class SupervisedTrainer(object):
 
 if __name__ == "__main__":
 
-	ROOT_DIR = "/home/domi_zenitram/ABCD-ACL2021/data/MinWiki/"
-	GLOVE_DIR = "/home/domi_zenitram/glove/"
- 	# ROOT_DIR = "/home/pankraz/computerlinguistik/rnlp/ABCDre/ABCD-ACL2021/data/acl21/"
-	
- 	# GLOVE_DIR = "/home/pankraz/computerlinguistik/rnlp/ABCDre/resources/glove/"
+	parser=argparse.ArgumentParser(description='Train classifier')
+    
+	parser.add_argument('--root-dir', type=str)
+	parser.add_argument('--glove-dir', type=str)
+	parser.add_argument('--use-cuda', type=bool)
+	parser.add_argument('--device', type=int)
+	parser.add_argument('--dataset', type=str, choices=["ACL2021", "MinWiki"])
+	parser.add_argument('--batch-size', type=int)
+	parser.add_argument('--epoch', type=int)
+	parser.add_argument('--every-eval', type=int)
+	parser.add_argument('--after-eval', type=int)
+	parser.add_argument('--lr-adj', type=int)
+	parser.add_argument('--lr', type=float)
+	parser.add_argument('--weight-decay', type=float)
+	parser.add_argument('--num-heads', type=int)
+	parser.add_argument('--word-dim', type=int)
+	parser.add_argument('--hidden-dim', type=int)
+	parser.add_argument('--dropout', type=float)
+	parser.add_argument('--weight-label', type=bool)
+	parser.add_argument('--classifier', type=str)
+	parser.add_argument('--gradient-clip')
 
-	dataset = "MinWiki"
-	if dataset == "MinWiki": inverse_label_weights = [0.0167, 0.3533, 0.4164, 0.2135]
-	elif dataset == "ACL2021": inverse_label_weights = [0.0200, 0.6266, 0.2658, 0.0876]
-	cfg = {"dataset": dataset,
-			"use_cuda": True,
-			"device": 0,
-			"batch_size": 64,
-			"epoch": 50,
-			"every_eval": 1,
-			"after_eval": 0,
-			"lr_adj": False,
-			"lr": 1e-4,
-			"weight_decay": 0.99,
-			"num_heads": 4,
-			"word_dim": 100,
-			"hidden_dim": 800,
-			"dropout": 0.2,
-			"weight_label": True,
-			"classifer": "Bilinear",
-			"gradient_clip": None, 
-			"root_dir": ROOT_DIR,
-			"glove_dir": GLOVE_DIR,
-			#"resume_from_checkpoint": "/home/domi_zenitram/ABCD_ACL2021/data/acl21/MinWiki_MatchVP_Bilinear_0.0001_main_ep50_hdim800_2022-05-03/",
+	args = parser.parse_args()
+
+	if args.dataset == "MinWiki": inverse_label_weights = [0.0167, 0.3533, 0.4164, 0.2135]
+	elif args.dataset == "ACL2021": inverse_label_weights = [0.0200, 0.6266, 0.2658, 0.0876]
+
+	cfg = {"dataset": args.dataset,
+			"use_cuda": args.use_cuda,
+			"device": args.device,
+			"batch_size": args.batch_size,
+			"epoch": args.epoch,
+			"every_eval": args.every_eval,
+			"after_eval": args.after_eval,
+			"lr_adj": args.lr_adj,
+			"lr": args.lr,
+			"weight_decay": args.weight_decay,
+			"num_heads": args.num_heads,
+			"word_dim": args.word_dim,
+			"hidden_dim": args.hidden_dim,
+			"dropout": args.dropout,
+			"weight_label": args.weight_label,
+			"classifer": args.classifier,
+			"gradient_clip": args.gradient_clip,
+			"root_dir": args.root_dir,
+			"glove_dir": args.glove_dir,
 			"inverse_label_weights": inverse_label_weights}
-	
-	start = time.time() 
-	# Train Dataloader 
+
+	start = time.time()
+	# Train Dataloader
 	train_data = ComplexSentenceDL(cfg["root_dir"], cfg["glove_dir"]+"glove.6B.100d.txt", cfg["use_cuda"], "Train", cfg["batch_size"])
 	train_data.Loading()
-	# Eval Dataloader  
+	# Eval Dataloader
 	test_data = ComplexSentenceDL(cfg["root_dir"], cfg["glove_dir"]+"glove.6B.100d.txt",cfg["use_cuda"], "Test")
 	test_data.Loading()
 	end = time.time()
 	setting_prefix = str(cfg["lr"])+"_main_ep"+str(cfg["epoch"])+"_hdim"+str(cfg["hidden_dim"])
 	print("==== FINISHING LOADING DATASET, TOOK {} SECONDS =====".format(end-start))
 	bot = SupervisedTrainer(cfg, train_data, test_data, setting_prefix, True)
-	bot.train() 
-	
+	bot.train()
