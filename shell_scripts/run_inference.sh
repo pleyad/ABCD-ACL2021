@@ -10,9 +10,8 @@ echo "ABCDre Info: Ensuring Output Directory."
 mkdir -p $outputdir
 
 echo "ABCDre Info: Running inference script."
-
 python3 -u python_scripts/test.py $rootdir \
     $glovedir \
     $checkpointsdir \
-    $inputpkl_onlyname \
+    $inputpkl \
     $outputdir
