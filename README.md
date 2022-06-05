@@ -91,4 +91,14 @@ bash shell_scripts/run_inference.sh \
     -o data/ACL2021
 ```
 
-## Inference
+## Evaluation
+
+### For ACL2021/DeSSE Dataset
+
+```bash
+bash shell_scripts/evaluate.sh \
+    -h data/ACL2021/output.txt \
+    -r data/ACL2021/test.simple.txt \
+    -m Bilinear \
+    -d ACL2021
+```

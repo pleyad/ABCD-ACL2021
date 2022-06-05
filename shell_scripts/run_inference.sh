@@ -1,10 +1,9 @@
 #!/bin/bash
 PYTHON="python"
 
+# Importing the command `abcdreinfo`
 source $(dirname "$0")/utils.sh
 
-abcdreinfo "HASHA"
-echo "trrr"
 # Help message
 _HELP="usage: $0 [-r path] [-g path] [-c path] [-i path] [-o path]
 
@@ -22,7 +21,7 @@ while getopts :r:g:c:i:o: flag; do
         c) CHECKPOINTDIR=${OPTARG};;
         i) INPUTPKL=${OPTARG};;
         o) OUTPUTDIR=${OPTARG};;
-        *) echo "usage: $0 " >&2
+        *) echo "${_HELP}" >&2
        exit 1 ;;
     esac
 done
@@ -32,10 +31,10 @@ if [ $OPTIND -eq 1 ]; then
   exit 1
 fi
 
-echo -e "${_S}ABCDre Info: Ensuring Output Directory.${_E}"
+abcdreinfo "ABCDre Info: Ensuring Output Directory."
 mkdir -p $OUTPUTDIR
 
-echo -e "${_S}ABCDre Info: Running inference script.${_E}"
+abcdreinfo "ABCDre Info: Running inference script."
 python3 -u python_scripts/test.py $ROOTDIR \
     $GLOVEDIR \
     $CHECKPOINTDIR \

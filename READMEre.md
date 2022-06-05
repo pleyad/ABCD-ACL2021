@@ -68,3 +68,11 @@ Therefore we must run.
 ### `process_data.py`
 
 For the moment, I only add a CLI, where a user can specify a dataset folder and a split they want to process.
+
+## ACL2021 Inference
+
+There appears to be a single sentence in the test set that causes a KeyError during inference.
+It is the sentence on line `517`, which is on the longer side of sentences.
+Even after extensive debugging, what caused the error couldn't be pinpointed.
+It is probably somewhere in preprocessing.
+To deal with the error, we wrapped the line(s) in `test.py ` where the error occured in a try-except-statement, and output an empty sentence if the error occurs.

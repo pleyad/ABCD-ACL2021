@@ -93,15 +93,24 @@ sent_keys = list(test_db.data.keys())
 scores = [] 
 output = {} 
 f_scores = [] 
-for _k in sent_keys:
-	sample = test_db[_k]
-	output[_k] = {} 
-	golds = None 
-	sent, length, adj_pair = sample['sent'], np.array([sample['sent'].shape[0]]), sample['pair_vecs']
-	preds = model.main(sent.float(), length, adj_pair, golds,mode="Test") 
-	pred_strs = model.constructgraph(preds, sample['adj_pairs'], sample['adj'], sample['itov'])
-	output[_k]["pred_labels"] = preds.detach().cpu().numpy()  
-	output[_k]["pred_strs"] = pred_strs
+
+# ABCDre enumerate for debugging purposes
+for abcdre_i, _k in enumerate(sent_keys):
+	print(f"Working on sentence {abcdre_i}")
+	# ABCDre Error Handling
+	try:
+		sample = test_db[_k]
+		output[_k] = {} 
+		golds = None 
+		sent, length, adj_pair = sample['sent'], np.array([sample['sent'].shape[0]]), sample['pair_vecs']
+		preds = model.main(sent.float(), length, adj_pair, golds,mode="Test") 
+		pred_strs = model.constructgraph(preds, sample['adj_pairs'], sample['adj'], sample['itov'])
+		output[_k]["pred_labels"] = preds.detach().cpu().numpy()  
+		output[_k]["pred_strs"] = pred_strs
+	except KeyError:
+		output[_k] = {}
+		output[_k]["pred_labels"] = []
+		output[_k]["pred_strs"] = [""]
 
 with open(Path(args.output_dir) / 'output.pkl', 'wb') as handle:
 	pickle.dump(output, handle, protocol=pickle.HIGHEST_PROTOCOL)

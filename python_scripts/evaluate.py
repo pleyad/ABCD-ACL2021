@@ -141,8 +141,6 @@ def compute_bert_score(
 
 
 def main():
-
-    print(args)
     
     ref_lines, hyp_lines = extract_sentences(args.reference, args.hypothesis)
 
