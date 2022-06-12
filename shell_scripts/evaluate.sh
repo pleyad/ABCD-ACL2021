@@ -17,7 +17,7 @@ if [ $OPTIND -eq 1 ]; then
 fi
 
 if [[ ! -d "env" ]]; then
-  echo "ABCDre Info: Virtual environment doesnt exist yet! Run `python_setup.sh` first."
+  echo "ABCDre Info: Virtual environment doesnt exist yet! Run python_setup.sh first."
   exit 1
 else
   source env/bin/activate
