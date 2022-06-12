@@ -16,27 +16,19 @@ if [ $OPTIND -eq 1 ]; then
   exit 1
 fi
 
-if [[ ! -d "env" ]]; then
-  echo "ABCDre Info: Virtual environment doesnt exist yet! Run `python_setup.sh` first."
-  exit 1
-else
-  source env/bin/activate
-fi
+ if [[ ! -d "eval" ]]; then
+   echo "Creating virtual environment"
+   $PYTHON -m venv eval
 
-# if [[ ! -d "eval" ]]; then
-#   echo "Creating virtual environment"
-#   $PYTHON -m venv eval
-# 
-#   echo "Activating virtual environment"
-#   source eval/bin/activate
-# 
-#   echo "Installing the requirements"
-#   pip install bert-score -q
-#   pip install sacrebleu -q
-# 
-# else
-#   source eval/bin/activate
-# fi
+   echo "Activating virtual environment"
+   source eval/bin/activate
+
+   echo "Installing the requirements"
+   pip install -r requirements_eval.txt
+
+ else
+   source eval/bin/activate
+ fi
 
 echo "*****Computing the scores*****"
 $PYTHON python_scripts/evaluate.py --hypothesis "$HYPOTHESIS" --reference "$REFERENCE" --modelname "$MODELNAME" --dataset "$DATASET"
