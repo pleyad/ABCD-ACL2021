@@ -76,3 +76,9 @@ It is the sentence on line `517`, which is on the longer side of sentences.
 Even after extensive debugging, what caused the error couldn't be pinpointed.
 It is probably somewhere in preprocessing.
 To deal with the error, we wrapped the line(s) in `test.py ` where the error occured in a try-except-statement, and output an empty sentence if the error occurs.
+
+## Evaluation
+
+On https://linuxhint.com/install-rust-on-ubuntu/
+Pillow:
+https://techoverflow.net/2022/04/16/how-to-fix-python-pillow-pip-install-exception-requireddependencyexception-jpeg/

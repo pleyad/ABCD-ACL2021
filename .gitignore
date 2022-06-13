@@ -1,4 +1,5 @@
 env/
 corenlp/
 glove/
+eval/
 __pycache__/

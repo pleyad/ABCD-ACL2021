@@ -111,9 +111,9 @@ The scores for the model Bilinear on test set ACL2021 are:
 
 Match #SS%: 0.49240506329113926
 
-BLEU score: 36.167308462255455
+BLEU score: 48.76476787443682
 
-BERT score: 0.7051444674091498
+BERT score: 0.722607966212532
 ```
 
 ### For MinWiki Dataset
@@ -133,9 +133,9 @@ The scores for the model Bilinear on test set MinWiki are:
 
 Match #SS%: 0.7237209302325581
 
-BLEU score: 64.14579710934316
+BLEU score: 69.73991636776147
 
-BERT score: 0.8697053794215285
+BERT score: 0.8782817620029085
 ```
 
 ### Baseline: DisSim
@@ -151,6 +151,12 @@ bash shell_scripts/baseline_dissim_inference.sh \
 ```
 
 #### Inference: MinWiki
+
+```bash
+bash shell_scripts/baseline_dissim_inference.sh \
+    -i data/MinWiki/test.complex.txt \
+    -o data/baselines/DisSim/MinWiki/output.txt
+```
 
 #### Evaluation ACL2021/DeSSE
 
@@ -173,4 +179,28 @@ Match #SS%: 0.40759493670886077
 BLEU score: 35.53461117958389
 
 BERT score: 0.6784842106554434
+```
+
+#### Evaluation: MinWiki
+
+
+```bash
+bash shell_scripts/evaluate.sh \
+    -h data/baselines/DisSim/MinWiki/output.txt \
+    -r data/MinWiki/test.simple.txt \
+    -m DisSim \
+    -d MinWiki
+```
+
+Output:
+```
+The scores for the model DisSim on test set MinWiki are:
+
+#T/SS: 9.695386961494473 (in reference: 11.330023828435266)
+
+Match #SS%: 0.6734883720930233
+
+BLEU score: 61.51080531201312
+
+BERT score: 0.852477138687606
 ```
