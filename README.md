@@ -1,17 +1,31 @@
 # ABCDre
 
-This repository/branch contains the cleaned up ABCD-Repository.
+This repository holds code and data for reproducing the paper **ABCD** by **Gao et al. (2021)**.
+It contains a refactored and generalized fork of the repository provided by the original authors.
+
+We tried to stay as closely to the original code as possible.
+Errors were fixed with best intentions in mind.
+We added command line interfaces to scripts that are exposed to a user, and created shell scripts with specified commands in this README to invoke them reliably.
+Missing code, such as the evaluation, was implemented as described in the paper.
+When things were underspecified in the paper, which was often the case, we adhered to either default values or industry or research standards.
+
+## Reference
+
+Yanjun Gao, Ting-Hao Huang, and Rebecca J. Passonneau. 2021. [ABCD: A Graph Framework to Convert Complex Sentences to a Covering Set of Simple Sentences](https://aclanthology.org/2021.acl-long.303). In *Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)*, pages 3919–3931, Online. Association for Computational Linguistics.
 
 # Contents
 
-- `scripts/`: Shell Scripts
 - `data/`: Original training data, as provided in the [serenayj/DeSSE](https://github.com/serenayj/DeSSE)-Repository.
+- `python_scripts/`: Python Scripts
+- `shell_scripts/`: Shell Scripts
+
+- `READMEre.md`: Some comments on the changes we had to make to the original repo and the data. This file grew organically, please consider that.
 
 # Assumptions
 
 - UNIX-based System
 - Python 3.6.12
-- Java (`openjdk 11.0.14.1 2022-02-08`)
+- Java (`openjdk 11.0.14.1 2022-02-08`) with Maven
 
 # Usage
 
@@ -28,7 +42,6 @@ bash shell_scripts/python_setup.sh
 ### CoreNLP
 
 This will install CoreNLP inside this directory and set the environment variables used later.
-Approximately bash GB will be used by CoreNLP.
 If you already have CoreNLP on your system, you might need to adjust some paths in the preprocessing shell script.
 
 ```bash
@@ -52,13 +65,11 @@ Then, with Python, pickles are created for training the neural model.
 # bash shell_scripts/process_dataset_with_python.sh {PATH/TO/DATASET/DIR} {SPLIT}
 bash shell_scripts/process_dataset_with_python.sh data/ACL2021 train
 bash shell_scripts/process_dataset_with_python.sh data/ACL2021 valid
-# bash shell_scripts/process_dataset_with_python.sh data/ACL2021 test
+bash shell_scripts/process_dataset_with_python.sh data/ACL2021 test
 bash shell_scripts/process_dataset_with_python.sh data/MinWiki train
 bash shell_scripts/process_dataset_with_python.sh data/MinWiki valid
-# bash shell_scripts/process_dataset_with_python.sh data/MinWiki test
+bash shell_scripts/process_dataset_with_python.sh data/MinWiki test
 ```
-
-Because the testset is processed with `processed_test.py`, which bash havent implemented yet, we cant yet go call the script for the split `test`.
 
 ## Training
 
@@ -158,19 +169,19 @@ bash shell_scripts/baseline_dissim_inference.sh \
     -o data/baselines/DisSim/MinWiki/output.txt
 ```
 
-#### Evaluation ACL2021/DeSSE
+#### Evaluation: DeSSE
 
 ```bash
 bash shell_scripts/evaluate.sh \
     -h data/baselines/DisSim/ACL2021/output.txt \
     -r data/ACL2021/test.simple.txt \
     -m DisSim \
-    -d ACL2021
+    -d DeSSE
 ```
 
 Output:
 ```
-The scores for the model DisSim on test set ACL2021 are:
+The scores for the model DisSim on test set DeSSE are:
 
 #T/SS: 9.584569732937686 (in reference: 9.948474576271186)
 
