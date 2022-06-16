@@ -1,99 +1,206 @@
-# ABCD: A Graph Framework to Convert Complex Sentences to a Covering Set of Simple Sentences
+# ABCDre
 
-Copyright (c) 2021 Yanjun Gao 
+This repository/branch contains the cleaned up ABCD-Repository.
 
-This is the github repository for the ACL 2021 paper: [ABCD: A Graph Framework to Convert Complex Sentences to a Covering Set of Simple Sentences](https://aclanthology.org/2021.acl-long.303/). Please cite our paper if you are using ABCD (BibTex at the end). You could also find the [slides](ABCD-ACL-2021-Talk.pdf) from my oral presentation. 
+# Contents
 
-## Introduction 
-ABCD is a linguistically motivated sentence editor that decomposes a complex sentence into N simple sentences, where N corresponds to the number of predicates in the complex sentence. It first constructs a sentence graph using dependency parsing information, and edits the graph into subgraphs by a neural classifier with four graph operations: A(accept), B(break), C(copy) and D(drop). Depending on your applications and data, ABCD could be flexibly trained to keep (or drop) connectives, or to perform simplification. See paper for more details.  
+- `scripts/`: Shell Scripts
+- `data/`: Original training data, as provided in the [serenayj/DeSSE](https://github.com/serenayj/DeSSE)-Repository.
 
+# Assumptions
 
-![Input sentence and gold simple sentences (left); sentence graph constructed by ABCD](imgs/example.png)
+- UNIX-based System
+- Python 3.6.12
+- Java (`openjdk 11.0.14.1 2022-02-08`)
 
-We provide ABCD model trained on MinWiki (Wikipedia Text). You could test this pre-trained model on your data. If you are interested in training your ABCD model, we provide scripts of doing so. The main differences between testing and training is the distant supervision labels generated through preprocessor. At training time, we use distant supervision labels to train the neural classifier to predict the four edit types. At testing time, we do not need the distant supervision signals anymore. 
+# Usage
 
+All scripts have to be executed from this root folder.
 
-### Table of Contents
-**[Dependencies](#dependencies)**<br>
-**[Prerequisites](#prerequisites)**<br>
-**[Testing](#test)**<br>
-**[Training](#train)**<br>
-**[Corpus](#corpus)**<br>
+## Setup
 
+### Python-Environment
 
-## Dependencies
-python 3.6, pytorch 1.6.0, numpy, nltk (word tokenize and sent tokenze), networkx, dgl, pickle, torchtext. 
-
-## Prerequisites:
-
-### Install Stanford CoreNLP (new version 4.20)[Link](https://stanfordnlp.github.io/CoreNLP/index.html) and Generate Dependency Parses with CoreNLP 
-ABCD relies on external package to generate dependency parses. Here we use Stanford Corenlp. Output is a ".out file". E.g., the input file is "test.complex", then output file is "test.complex.out". Input file should have one sentence per line. If you see special characters in your text, please remove them otherwise it might cause token errors in preprocessing. 
-
-There are many commands to run the stanford CoreNLP. E.g. the following could generate the .out file with enhanced dependency parse: 
-```
-java -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -file $filename 
+```bash
+bash shell_scripts/python_setup.sh
 ```
 
-### Get Pre-trained Word Embeddings
-ABCD uses pre-trained GloVe embeddings (100d) to initialize the word representation. To download the embedding, go to [GloVe website](https://nlp.stanford.edu/projects/glove/) and download glove.6B.zip.   
+### CoreNLP
 
+This will install CoreNLP inside this directory and set the environment variables used later.
+Approximately bash GB will be used by CoreNLP.
+If you already have CoreNLP on your system, you might need to adjust some paths in the preprocessing shell script.
 
-## Testing 
-
-### Step 1: Download pretrained model from these links:
-Default is the ABCD model trained on Minwiki, with MLP classifier [Link](https://drive.google.com/file/d/146NQ9vx5GOcHn1geGI-WgjGEJ-RE5w-4/view?usp=sharing), or with Bilinear classifier [Link](https://drive.google.com/file/d/1I11gAVngLSaTJASYr9zyUCAiRhnkWx8f/view?usp=sharing) 
-
-
-### Step 2: Run your CoreNLP output data with a preprocessor:
-
+```bash
+bash shell_scripts/corenlp_setup.sh
 ```
-python process_test.py 
-```
-Output is a pickle file, with sentence ids as keys, preprocssed graph as values. You could change the filename and data directory in line 23-24 (variable batch_id and data_path). Currently the data loader will read from data/test.pkl as its default setting. 
 
-### Step 3: Run the ABCD parser with pretrained models. 
-```
-python test.py 
-```
-Remember to modify ``root_dir`` (code directory), ``data_filename`` (the input .pkl filename after preprocessing) and ``glove_dir`` (where you store glove.6B.100d.txt). Also modify the ``pretrained_path`` to specify the folder of pretrained models, and ``classifer`` for the type of classfier the pre-trained model using. Output of this script is a pickle file storing a output dictionary where the keys are sentence indices and values are predicted strings and action predictions. Another argument output_str_to_file is set to True to generate clean output txt file. 
+## Preprocessing
 
+First, CoreNLP needs to be applied to the datasplits.
+
+```bash
+# bash shell_scripts/process_dataset_with_corenlp.sh {PATH/TO/DATASET/DIR}
+bash shell_scripts/process_dataset_with_corenlp.sh data/ACL2021
+bash shell_scripts/process_dataset_with_corenlp.sh data/MinWiki
+```
+
+Then, with Python, pickles are created for training the neural model.
+
+
+```bash
+# bash shell_scripts/process_dataset_with_python.sh {PATH/TO/DATASET/DIR} {SPLIT}
+bash shell_scripts/process_dataset_with_python.sh data/ACL2021 train
+bash shell_scripts/process_dataset_with_python.sh data/ACL2021 valid
+# bash shell_scripts/process_dataset_with_python.sh data/ACL2021 test
+bash shell_scripts/process_dataset_with_python.sh data/MinWiki train
+bash shell_scripts/process_dataset_with_python.sh data/MinWiki valid
+# bash shell_scripts/process_dataset_with_python.sh data/MinWiki test
+```
+
+Because the testset is processed with `processed_test.py`, which bash havent implemented yet, we cant yet go call the script for the split `test`.
 
 ## Training
-We provide scripts to help you train your ABCD model. You need to run your data through stanford CoreNLP first. 
 
-### Step 1:  Run your CoreNLP output data with a preprocessor:
-```
-python process_data.py # different preprocessor than test time 
-```
-Recall that we rely on distant supervision labels to train the network, which are generated at this step. 
+XXX
 
-### Step 2:  Get an inverse frequency weights from the distant supervision labels 
-As we mention in the paper, the distributions across A,B,C,D could be greatly different depending on the dataset and the linguistic phenamena. We encourage you to take a step to get an inverse frequency weights from the gold labels created from Step 1, and replace the weights in the main.py (under config) for your data.  
+## Inference
 
+After obtaining model checkpoints (with training), you can start inferring with your model.
+Please insert the right checkpoints directory for option `-c`.
 
-### Step 3:  Train the ABCD model using main.py 
-```
-python main.py 
-```
-Remember to change the ``root_dir`` and ``glove_dir``. The parameters in the encoder, graph attention and classifier will be stored seperately in three checkpoints.  
+### For MinWiki Dataset
 
-```
-@inproceedings{gao-etal-2021-abcd,
-    title = "{ABCD}: A Graph Framework to Convert Complex Sentences to a Covering Set of Simple Sentences",
-    author = "Gao, Yanjun  and
-      Huang, Ting-Hao  and
-      Passonneau, Rebecca J.",
-    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
-    month = aug,
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2021.acl-long.303",
-    doi = "10.18653/v1/2021.acl-long.303",
-    pages = "3919--3931",
-}
+```bash
+bash shell_scripts/run_inference.sh \
+    -r . \
+    -g data/glove \
+    -c data/MinWiki/MinWiki_Bilinear_0.0001_main_ep50_hdim800_2022-05-18/ \
+    -i data/MinWiki/test.pkl \
+    -o data/MinWiki
 ```
 
-## Corpus
+### For ACL2021/DeSSE Dataset
 
-Our ACL paper mentions two corpus that we train and evaluate ABCD on: the MinWiki and DeSSE. If you are interested in training/evaluating your model on these two corpus, refer to [this github repository](https://github.com/serenayj/DeSSE) for more details. 
+```bash
+bash shell_scripts/run_inference.sh \
+    -r . \
+    -g data/glove \
+    -c data/ACL2021/ACL2021_Bilinear_0.0001_main_ep50_hdim800_2022-05-30/ \
+    -i data/ACL2021/test.pkl \
+    -o data/ACL2021
+```
+
+## Evaluation
+
+### For ACL2021/DeSSE Dataset
+
+```bash
+bash shell_scripts/evaluate.sh \
+    -h data/ACL2021/output.txt \
+    -r data/ACL2021/test.simple.txt \
+    -m Bilinear \
+    -d ACL2021
+```
+
+Output:
+```
+The scores for the model Bilinear on test set ACL2021 are:
+
+#T/SS: 13.873239436619718 (in reference: 9.948474576271186)
+
+Match #SS%: 0.49240506329113926
+
+BLEU score: 48.76476787443682
+
+BERT score: 0.722607966212532
+```
+
+### For MinWiki Dataset
+```bash
+bash shell_scripts/evaluate.sh \
+    -h data/MinWiki/output.txt \
+    -r data/MinWiki/test.simple.txt \
+    -m Bilinear \
+    -d MinWiki
+```
+
+Output:
+```
+The scores for the model Bilinear on test set MinWiki are:
+
+#T/SS: 9.391366393150197 (in reference: 11.330023828435266)
+
+Match #SS%: 0.7237209302325581
+
+BLEU score: 69.73991636776147
+
+BERT score: 0.8782817620029085
+```
+
+### Baseline: DisSim
+
+#### Setup
+
+#### Inference: ACL2021/DeSSE
+
+```bash
+bash shell_scripts/baseline_dissim_inference.sh \
+    -i data/ACL2021/test.complex.txt \
+    -o data/baselines/DisSim/ACL2021/output.txt
+```
+
+#### Inference: MinWiki
+
+```bash
+bash shell_scripts/baseline_dissim_inference.sh \
+    -i data/MinWiki/test.complex.txt \
+    -o data/baselines/DisSim/MinWiki/output.txt
+```
+
+#### Evaluation ACL2021/DeSSE
+
+```bash
+bash shell_scripts/evaluate.sh \
+    -h data/baselines/DisSim/ACL2021/output.txt \
+    -r data/ACL2021/test.simple.txt \
+    -m DisSim \
+    -d ACL2021
+```
+
+Output:
+```
+The scores for the model DisSim on test set ACL2021 are:
+
+#T/SS: 9.584569732937686 (in reference: 9.948474576271186)
+
+Match #SS%: 0.40759493670886077
+
+BLEU score: 35.53461117958389
+
+BERT score: 0.6784842106554434
+```
+
+#### Evaluation: MinWiki
+
+
+```bash
+bash shell_scripts/evaluate.sh \
+    -h data/baselines/DisSim/MinWiki/output.txt \
+    -r data/MinWiki/test.simple.txt \
+    -m DisSim \
+    -d MinWiki
+```
+
+Output:
+```
+The scores for the model DisSim on test set MinWiki are:
+
+#T/SS: 9.695386961494473 (in reference: 11.330023828435266)
+
+Match #SS%: 0.6734883720930233
+
+BLEU score: 61.51080531201312
+
+BERT score: 0.852477138687606
+```

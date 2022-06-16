@@ -1,0 +1,3286 @@
+Document: ID=valid.complex.txt (59 sentences, 1413 tokens)
+
+Sentence #1 (28 tokens):
+XM uses a prioritized product backlog as the primary work input queue where work is visualized in an open area generally on a single team Kanban Board.
+
+Tokens:
+[Text=XM CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NNP]
+[Text=uses CharacterOffsetBegin=3 CharacterOffsetEnd=7 PartOfSpeech=VBZ]
+[Text=a CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=DT]
+[Text=prioritized CharacterOffsetBegin=10 CharacterOffsetEnd=21 PartOfSpeech=VBN]
+[Text=product CharacterOffsetBegin=22 CharacterOffsetEnd=29 PartOfSpeech=NN]
+[Text=backlog CharacterOffsetBegin=30 CharacterOffsetEnd=37 PartOfSpeech=NN]
+[Text=as CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=DT]
+[Text=primary CharacterOffsetBegin=45 CharacterOffsetEnd=52 PartOfSpeech=JJ]
+[Text=work CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=NN]
+[Text=input CharacterOffsetBegin=58 CharacterOffsetEnd=63 PartOfSpeech=NN]
+[Text=queue CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=NN]
+[Text=where CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=WRB]
+[Text=work CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=NN]
+[Text=is CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=VBZ]
+[Text=visualized CharacterOffsetBegin=84 CharacterOffsetEnd=94 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=IN]
+[Text=an CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=DT]
+[Text=open CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=JJ]
+[Text=area CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=NN]
+[Text=generally CharacterOffsetBegin=111 CharacterOffsetEnd=120 PartOfSpeech=RB]
+[Text=on CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=DT]
+[Text=single CharacterOffsetBegin=126 CharacterOffsetEnd=132 PartOfSpeech=JJ]
+[Text=team CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=NN]
+[Text=Kanban CharacterOffsetBegin=138 CharacterOffsetEnd=144 PartOfSpeech=NNP]
+[Text=Board CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, uses-2)
+nsubj(uses-2, XM-1)
+det(backlog-6, a-3)
+amod(backlog-6, prioritized-4)
+compound(backlog-6, product-5)
+obj(uses-2, backlog-6)
+case(queue-12, as-7)
+det(queue-12, the-8)
+amod(queue-12, primary-9)
+compound(queue-12, work-10)
+compound(queue-12, input-11)
+obl:as(uses-2, queue-12)
+advmod(visualized-16, where-13)
+nsubj:pass(visualized-16, work-14)
+aux:pass(visualized-16, is-15)
+acl:relcl(queue-12, visualized-16)
+case(area-20, in-17)
+det(area-20, an-18)
+amod(area-20, open-19)
+obl:in(visualized-16, area-20)
+advmod(visualized-16, generally-21)
+case(team-25, on-22)
+det(team-25, a-23)
+amod(team-25, single-24)
+obl:on(visualized-16, team-25)
+compound(Board-27, Kanban-26)
+dep(team-25, Board-27)
+punct(uses-2, .-28)
+
+Sentence #2 (24 tokens):
+It 's also been applied to Bill Clinton and the usage of the teflon metaphor seems to be spreading outside the US too.
+
+Tokens:
+[Text=It CharacterOffsetBegin=152 CharacterOffsetEnd=154 PartOfSpeech=PRP]
+[Text='s CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=VBZ]
+[Text=also CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=RB]
+[Text=been CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=VBN]
+[Text=applied CharacterOffsetBegin=168 CharacterOffsetEnd=175 PartOfSpeech=VBN]
+[Text=to CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=IN]
+[Text=Bill CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=NNP]
+[Text=Clinton CharacterOffsetBegin=184 CharacterOffsetEnd=191 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=CC]
+[Text=the CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=DT]
+[Text=usage CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=DT]
+[Text=teflon CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=NN]
+[Text=metaphor CharacterOffsetBegin=220 CharacterOffsetEnd=228 PartOfSpeech=NN]
+[Text=seems CharacterOffsetBegin=229 CharacterOffsetEnd=234 PartOfSpeech=VBZ]
+[Text=to CharacterOffsetBegin=235 CharacterOffsetEnd=237 PartOfSpeech=TO]
+[Text=be CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=VB]
+[Text=spreading CharacterOffsetBegin=241 CharacterOffsetEnd=250 PartOfSpeech=VBG]
+[Text=outside CharacterOffsetBegin=251 CharacterOffsetEnd=258 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=DT]
+[Text=US CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=NNP]
+[Text=too CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=RB]
+[Text=. CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, applied-5)
+nsubj:pass(applied-5, It-1)
+aux:pass(applied-5, 's-2)
+advmod(applied-5, also-3)
+aux:pass(applied-5, been-4)
+case(Clinton-8, to-6)
+compound(Clinton-8, Bill-7)
+obl:to(applied-5, Clinton-8)
+cc(usage-11, and-9)
+det(usage-11, the-10)
+obl:to(applied-5, usage-11)
+conj:and(Clinton-8, usage-11)
+case(metaphor-15, of-12)
+det(metaphor-15, the-13)
+compound(metaphor-15, teflon-14)
+nmod:of(usage-11, metaphor-15)
+obj(applied-5, seems-16)
+mark(spreading-19, to-17)
+aux(spreading-19, be-18)
+advcl:to(applied-5, spreading-19)
+case(US-22, outside-20)
+det(US-22, the-21)
+obl:outside(spreading-19, US-22)
+advmod(spreading-19, too-23)
+punct(applied-5, .-24)
+
+Sentence #3 (20 tokens):
+It started out with one location in Jamaica Plain and there are seven locations in the Greater Boston Area.
+
+Tokens:
+[Text=It CharacterOffsetBegin=271 CharacterOffsetEnd=273 PartOfSpeech=PRP]
+[Text=started CharacterOffsetBegin=274 CharacterOffsetEnd=281 PartOfSpeech=VBD]
+[Text=out CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=RP]
+[Text=with CharacterOffsetBegin=286 CharacterOffsetEnd=290 PartOfSpeech=IN]
+[Text=one CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=CD]
+[Text=location CharacterOffsetBegin=295 CharacterOffsetEnd=303 PartOfSpeech=NN]
+[Text=in CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=IN]
+[Text=Jamaica CharacterOffsetBegin=307 CharacterOffsetEnd=314 PartOfSpeech=NNP]
+[Text=Plain CharacterOffsetBegin=315 CharacterOffsetEnd=320 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=CC]
+[Text=there CharacterOffsetBegin=325 CharacterOffsetEnd=330 PartOfSpeech=EX]
+[Text=are CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=VBP]
+[Text=seven CharacterOffsetBegin=335 CharacterOffsetEnd=340 PartOfSpeech=CD]
+[Text=locations CharacterOffsetBegin=341 CharacterOffsetEnd=350 PartOfSpeech=NNS]
+[Text=in CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=DT]
+[Text=Greater CharacterOffsetBegin=358 CharacterOffsetEnd=365 PartOfSpeech=NNP]
+[Text=Boston CharacterOffsetBegin=366 CharacterOffsetEnd=372 PartOfSpeech=NNP]
+[Text=Area CharacterOffsetBegin=373 CharacterOffsetEnd=377 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=377 CharacterOffsetEnd=378 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, started-2)
+nsubj(started-2, It-1)
+compound:prt(started-2, out-3)
+case(location-6, with-4)
+nummod(location-6, one-5)
+obl:with(started-2, location-6)
+case(Plain-9, in-7)
+compound(Plain-9, Jamaica-8)
+nmod:in(location-6, Plain-9)
+cc(are-12, and-10)
+expl(are-12, there-11)
+conj:and(started-2, are-12)
+nummod(locations-14, seven-13)
+nsubj(are-12, locations-14)
+case(Area-19, in-15)
+det(Area-19, the-16)
+compound(Boston-18, Greater-17)
+compound(Area-19, Boston-18)
+nmod:in(locations-14, Area-19)
+punct(started-2, .-20)
+
+Sentence #4 (29 tokens):
+The breed 's bloodlines are drawn from the English Mastiff and Old English Bulldog it was recognized as a purebred dog by the English Kennel Club in 1924.
+
+Tokens:
+[Text=The CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=DT]
+[Text=breed CharacterOffsetBegin=383 CharacterOffsetEnd=388 PartOfSpeech=NN]
+[Text='s CharacterOffsetBegin=389 CharacterOffsetEnd=391 PartOfSpeech=POS]
+[Text=bloodlines CharacterOffsetBegin=392 CharacterOffsetEnd=402 PartOfSpeech=NNS]
+[Text=are CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=VBP]
+[Text=drawn CharacterOffsetBegin=407 CharacterOffsetEnd=412 PartOfSpeech=VBN]
+[Text=from CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=DT]
+[Text=English CharacterOffsetBegin=422 CharacterOffsetEnd=429 PartOfSpeech=NNP]
+[Text=Mastiff CharacterOffsetBegin=430 CharacterOffsetEnd=437 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=438 CharacterOffsetEnd=441 PartOfSpeech=CC]
+[Text=Old CharacterOffsetBegin=442 CharacterOffsetEnd=445 PartOfSpeech=NNP]
+[Text=English CharacterOffsetBegin=446 CharacterOffsetEnd=453 PartOfSpeech=NNP]
+[Text=Bulldog CharacterOffsetBegin=454 CharacterOffsetEnd=461 PartOfSpeech=NNP]
+[Text=it CharacterOffsetBegin=462 CharacterOffsetEnd=464 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=465 CharacterOffsetEnd=468 PartOfSpeech=VBD]
+[Text=recognized CharacterOffsetBegin=469 CharacterOffsetEnd=479 PartOfSpeech=VBN]
+[Text=as CharacterOffsetBegin=480 CharacterOffsetEnd=482 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=483 CharacterOffsetEnd=484 PartOfSpeech=DT]
+[Text=purebred CharacterOffsetBegin=485 CharacterOffsetEnd=493 PartOfSpeech=JJ]
+[Text=dog CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=NN]
+[Text=by CharacterOffsetBegin=498 CharacterOffsetEnd=500 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=DT]
+[Text=English CharacterOffsetBegin=505 CharacterOffsetEnd=512 PartOfSpeech=NNP]
+[Text=Kennel CharacterOffsetBegin=513 CharacterOffsetEnd=519 PartOfSpeech=NNP]
+[Text=Club CharacterOffsetBegin=520 CharacterOffsetEnd=524 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=525 CharacterOffsetEnd=527 PartOfSpeech=IN]
+[Text=1924 CharacterOffsetBegin=528 CharacterOffsetEnd=532 PartOfSpeech=CD]
+[Text=. CharacterOffsetBegin=532 CharacterOffsetEnd=533 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, drawn-6)
+det(breed-2, The-1)
+nmod:poss(bloodlines-4, breed-2)
+case(breed-2, 's-3)
+nsubj:pass(drawn-6, bloodlines-4)
+aux:pass(drawn-6, are-5)
+case(Mastiff-10, from-7)
+det(Mastiff-10, the-8)
+compound(Mastiff-10, English-9)
+obl:from(drawn-6, Mastiff-10)
+cc(Bulldog-14, and-11)
+compound(Bulldog-14, Old-12)
+compound(Bulldog-14, English-13)
+obl:from(drawn-6, Bulldog-14)
+conj:and(Mastiff-10, Bulldog-14)
+nsubj:pass(recognized-17, it-15)
+aux:pass(recognized-17, was-16)
+parataxis(drawn-6, recognized-17)
+case(dog-21, as-18)
+det(dog-21, a-19)
+amod(dog-21, purebred-20)
+obl:as(recognized-17, dog-21)
+case(Club-26, by-22)
+det(Club-26, the-23)
+compound(Club-26, English-24)
+compound(Club-26, Kennel-25)
+obl:agent(recognized-17, Club-26)
+case(1924-28, in-27)
+obl:in(recognized-17, 1924-28)
+punct(drawn-6, .-29)
+
+Sentence #5 (28 tokens):
+Production of the Dolphin was eclipsed by the advent of the Maruti 800 to compete a five door version of the Dolphin was developed called the Montana.
+
+Tokens:
+[Text=Production CharacterOffsetBegin=534 CharacterOffsetEnd=544 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=DT]
+[Text=Dolphin CharacterOffsetBegin=552 CharacterOffsetEnd=559 PartOfSpeech=NNP]
+[Text=was CharacterOffsetBegin=560 CharacterOffsetEnd=563 PartOfSpeech=VBD]
+[Text=eclipsed CharacterOffsetBegin=564 CharacterOffsetEnd=572 PartOfSpeech=VBN]
+[Text=by CharacterOffsetBegin=573 CharacterOffsetEnd=575 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=576 CharacterOffsetEnd=579 PartOfSpeech=DT]
+[Text=advent CharacterOffsetBegin=580 CharacterOffsetEnd=586 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=587 CharacterOffsetEnd=589 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=590 CharacterOffsetEnd=593 PartOfSpeech=DT]
+[Text=Maruti CharacterOffsetBegin=594 CharacterOffsetEnd=600 PartOfSpeech=NNP]
+[Text=800 CharacterOffsetBegin=601 CharacterOffsetEnd=604 PartOfSpeech=CD]
+[Text=to CharacterOffsetBegin=605 CharacterOffsetEnd=607 PartOfSpeech=IN]
+[Text=compete CharacterOffsetBegin=608 CharacterOffsetEnd=615 PartOfSpeech=VB]
+[Text=a CharacterOffsetBegin=616 CharacterOffsetEnd=617 PartOfSpeech=DT]
+[Text=five CharacterOffsetBegin=618 CharacterOffsetEnd=622 PartOfSpeech=CD]
+[Text=door CharacterOffsetBegin=623 CharacterOffsetEnd=627 PartOfSpeech=NN]
+[Text=version CharacterOffsetBegin=628 CharacterOffsetEnd=635 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=636 CharacterOffsetEnd=638 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=DT]
+[Text=Dolphin CharacterOffsetBegin=643 CharacterOffsetEnd=650 PartOfSpeech=NNP]
+[Text=was CharacterOffsetBegin=651 CharacterOffsetEnd=654 PartOfSpeech=VBD]
+[Text=developed CharacterOffsetBegin=655 CharacterOffsetEnd=664 PartOfSpeech=VBN]
+[Text=called CharacterOffsetBegin=665 CharacterOffsetEnd=671 PartOfSpeech=VBN]
+[Text=the CharacterOffsetBegin=672 CharacterOffsetEnd=675 PartOfSpeech=DT]
+[Text=Montana CharacterOffsetBegin=676 CharacterOffsetEnd=683 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=683 CharacterOffsetEnd=684 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, eclipsed-6)
+nsubj:pass(eclipsed-6, Production-1)
+case(Dolphin-4, of-2)
+det(Dolphin-4, the-3)
+nmod:of(Production-1, Dolphin-4)
+aux:pass(eclipsed-6, was-5)
+case(advent-9, by-7)
+det(advent-9, the-8)
+obl:agent(eclipsed-6, advent-9)
+case(Maruti-12, of-10)
+det(Maruti-12, the-11)
+nmod:of(advent-9, Maruti-12)
+nummod(Maruti-12, 800-13)
+case(compete-15, to-14)
+obl:to(eclipsed-6, compete-15)
+det:qmod(Dolphin-22, a-16)
+nummod(door-18, five-17)
+compound(Dolphin-22, door-18)
+fixed(a-16, version-19)
+fixed(a-16, of-20)
+det(Dolphin-22, the-21)
+obj(compete-15, Dolphin-22)
+aux:pass(developed-24, was-23)
+dep(eclipsed-6, developed-24)
+dep(developed-24, called-25)
+det(Montana-27, the-26)
+obj(called-25, Montana-27)
+punct(eclipsed-6, .-28)
+
+Sentence #6 (26 tokens):
+The Renault Duster Oroch was released officially at the 2015 Buenos Aires automobile show and has been on sale since September 2015 in South America.
+
+Tokens:
+[Text=The CharacterOffsetBegin=685 CharacterOffsetEnd=688 PartOfSpeech=DT]
+[Text=Renault CharacterOffsetBegin=689 CharacterOffsetEnd=696 PartOfSpeech=NNP]
+[Text=Duster CharacterOffsetBegin=697 CharacterOffsetEnd=703 PartOfSpeech=NNP]
+[Text=Oroch CharacterOffsetBegin=704 CharacterOffsetEnd=709 PartOfSpeech=NNP]
+[Text=was CharacterOffsetBegin=710 CharacterOffsetEnd=713 PartOfSpeech=VBD]
+[Text=released CharacterOffsetBegin=714 CharacterOffsetEnd=722 PartOfSpeech=VBN]
+[Text=officially CharacterOffsetBegin=723 CharacterOffsetEnd=733 PartOfSpeech=RB]
+[Text=at CharacterOffsetBegin=734 CharacterOffsetEnd=736 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=737 CharacterOffsetEnd=740 PartOfSpeech=DT]
+[Text=2015 CharacterOffsetBegin=741 CharacterOffsetEnd=745 PartOfSpeech=CD]
+[Text=Buenos CharacterOffsetBegin=746 CharacterOffsetEnd=752 PartOfSpeech=NNP]
+[Text=Aires CharacterOffsetBegin=753 CharacterOffsetEnd=758 PartOfSpeech=NNP]
+[Text=automobile CharacterOffsetBegin=759 CharacterOffsetEnd=769 PartOfSpeech=NN]
+[Text=show CharacterOffsetBegin=770 CharacterOffsetEnd=774 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=775 CharacterOffsetEnd=778 PartOfSpeech=CC]
+[Text=has CharacterOffsetBegin=779 CharacterOffsetEnd=782 PartOfSpeech=VBZ]
+[Text=been CharacterOffsetBegin=783 CharacterOffsetEnd=787 PartOfSpeech=VBN]
+[Text=on CharacterOffsetBegin=788 CharacterOffsetEnd=790 PartOfSpeech=IN]
+[Text=sale CharacterOffsetBegin=791 CharacterOffsetEnd=795 PartOfSpeech=NN]
+[Text=since CharacterOffsetBegin=796 CharacterOffsetEnd=801 PartOfSpeech=IN]
+[Text=September CharacterOffsetBegin=802 CharacterOffsetEnd=811 PartOfSpeech=NNP]
+[Text=2015 CharacterOffsetBegin=812 CharacterOffsetEnd=816 PartOfSpeech=CD]
+[Text=in CharacterOffsetBegin=817 CharacterOffsetEnd=819 PartOfSpeech=IN]
+[Text=South CharacterOffsetBegin=820 CharacterOffsetEnd=825 PartOfSpeech=NNP]
+[Text=America CharacterOffsetBegin=826 CharacterOffsetEnd=833 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=833 CharacterOffsetEnd=834 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, released-6)
+det(Oroch-4, The-1)
+compound(Oroch-4, Renault-2)
+compound(Oroch-4, Duster-3)
+nsubj:pass(released-6, Oroch-4)
+aux:pass(released-6, was-5)
+advmod(released-6, officially-7)
+case(show-14, at-8)
+det(show-14, the-9)
+nummod(show-14, 2015-10)
+compound(Aires-12, Buenos-11)
+compound(show-14, Aires-12)
+compound(show-14, automobile-13)
+obl:at(released-6, show-14)
+cc(sale-19, and-15)
+aux(sale-19, has-16)
+cop(sale-19, been-17)
+case(sale-19, on-18)
+conj:and(released-6, sale-19)
+case(September-21, since-20)
+obl:since(sale-19, September-21)
+nummod(September-21, 2015-22)
+case(America-25, in-23)
+compound(America-25, South-24)
+obl:in(sale-19, America-25)
+punct(released-6, .-26)
+
+Sentence #7 (15 tokens):
+Joseph Siravo is an American actor and portrays Johnny Boy Soprano on The Sopranos.
+
+Tokens:
+[Text=Joseph CharacterOffsetBegin=835 CharacterOffsetEnd=841 PartOfSpeech=NNP]
+[Text=Siravo CharacterOffsetBegin=842 CharacterOffsetEnd=848 PartOfSpeech=NNP]
+[Text=is CharacterOffsetBegin=849 CharacterOffsetEnd=851 PartOfSpeech=VBZ]
+[Text=an CharacterOffsetBegin=852 CharacterOffsetEnd=854 PartOfSpeech=DT]
+[Text=American CharacterOffsetBegin=855 CharacterOffsetEnd=863 PartOfSpeech=JJ]
+[Text=actor CharacterOffsetBegin=864 CharacterOffsetEnd=869 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=870 CharacterOffsetEnd=873 PartOfSpeech=CC]
+[Text=portrays CharacterOffsetBegin=874 CharacterOffsetEnd=882 PartOfSpeech=VBZ]
+[Text=Johnny CharacterOffsetBegin=883 CharacterOffsetEnd=889 PartOfSpeech=NNP]
+[Text=Boy CharacterOffsetBegin=890 CharacterOffsetEnd=893 PartOfSpeech=NNP]
+[Text=Soprano CharacterOffsetBegin=894 CharacterOffsetEnd=901 PartOfSpeech=NNP]
+[Text=on CharacterOffsetBegin=902 CharacterOffsetEnd=904 PartOfSpeech=IN]
+[Text=The CharacterOffsetBegin=905 CharacterOffsetEnd=908 PartOfSpeech=DT]
+[Text=Sopranos CharacterOffsetBegin=909 CharacterOffsetEnd=917 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=917 CharacterOffsetEnd=918 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, actor-6)
+compound(Siravo-2, Joseph-1)
+nsubj(actor-6, Siravo-2)
+nsubj(portrays-8, Siravo-2)
+cop(actor-6, is-3)
+det(actor-6, an-4)
+amod(actor-6, American-5)
+cc(portrays-8, and-7)
+conj:and(actor-6, portrays-8)
+compound(Soprano-11, Johnny-9)
+compound(Soprano-11, Boy-10)
+obj(portrays-8, Soprano-11)
+case(Sopranos-14, on-12)
+det(Sopranos-14, The-13)
+obl:on(portrays-8, Sopranos-14)
+punct(actor-6, .-15)
+
+Sentence #8 (22 tokens):
+He was elected as a Board Member on MIGHT 24 May 2017 and serves as a Chairman of Board Audit Committee.
+
+Tokens:
+[Text=He CharacterOffsetBegin=919 CharacterOffsetEnd=921 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=922 CharacterOffsetEnd=925 PartOfSpeech=VBD]
+[Text=elected CharacterOffsetBegin=926 CharacterOffsetEnd=933 PartOfSpeech=VBN]
+[Text=as CharacterOffsetBegin=934 CharacterOffsetEnd=936 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=937 CharacterOffsetEnd=938 PartOfSpeech=DT]
+[Text=Board CharacterOffsetBegin=939 CharacterOffsetEnd=944 PartOfSpeech=NNP]
+[Text=Member CharacterOffsetBegin=945 CharacterOffsetEnd=951 PartOfSpeech=NNP]
+[Text=on CharacterOffsetBegin=952 CharacterOffsetEnd=954 PartOfSpeech=IN]
+[Text=MIGHT CharacterOffsetBegin=955 CharacterOffsetEnd=960 PartOfSpeech=NNP]
+[Text=24 CharacterOffsetBegin=961 CharacterOffsetEnd=963 PartOfSpeech=CD]
+[Text=May CharacterOffsetBegin=964 CharacterOffsetEnd=967 PartOfSpeech=NNP]
+[Text=2017 CharacterOffsetBegin=968 CharacterOffsetEnd=972 PartOfSpeech=CD]
+[Text=and CharacterOffsetBegin=973 CharacterOffsetEnd=976 PartOfSpeech=CC]
+[Text=serves CharacterOffsetBegin=977 CharacterOffsetEnd=983 PartOfSpeech=VBZ]
+[Text=as CharacterOffsetBegin=984 CharacterOffsetEnd=986 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=987 CharacterOffsetEnd=988 PartOfSpeech=DT]
+[Text=Chairman CharacterOffsetBegin=989 CharacterOffsetEnd=997 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=998 CharacterOffsetEnd=1000 PartOfSpeech=IN]
+[Text=Board CharacterOffsetBegin=1001 CharacterOffsetEnd=1006 PartOfSpeech=NNP]
+[Text=Audit CharacterOffsetBegin=1007 CharacterOffsetEnd=1012 PartOfSpeech=NNP]
+[Text=Committee CharacterOffsetBegin=1013 CharacterOffsetEnd=1022 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=1022 CharacterOffsetEnd=1023 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, elected-3)
+nsubj:pass(elected-3, He-1)
+nsubj(serves-14, He-1)
+aux:pass(elected-3, was-2)
+case(Member-7, as-4)
+det(Member-7, a-5)
+compound(Member-7, Board-6)
+obl:as(elected-3, Member-7)
+case(MIGHT-9, on-8)
+nmod:on(Member-7, MIGHT-9)
+nummod(May-11, 24-10)
+obl:tmod(Member-7, May-11)
+nummod(May-11, 2017-12)
+cc(serves-14, and-13)
+conj:and(elected-3, serves-14)
+case(Chairman-17, as-15)
+det(Chairman-17, a-16)
+obl:as(serves-14, Chairman-17)
+case(Committee-21, of-18)
+compound(Committee-21, Board-19)
+compound(Committee-21, Audit-20)
+nmod:of(Chairman-17, Committee-21)
+punct(elected-3, .-22)
+
+Sentence #9 (22 tokens):
+She graduated from the Ontario College of Art & Design as a Graphic designer and is married to author Farley Mowat.
+
+Tokens:
+[Text=She CharacterOffsetBegin=1024 CharacterOffsetEnd=1027 PartOfSpeech=PRP]
+[Text=graduated CharacterOffsetBegin=1028 CharacterOffsetEnd=1037 PartOfSpeech=VBD]
+[Text=from CharacterOffsetBegin=1038 CharacterOffsetEnd=1042 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1043 CharacterOffsetEnd=1046 PartOfSpeech=DT]
+[Text=Ontario CharacterOffsetBegin=1047 CharacterOffsetEnd=1054 PartOfSpeech=NNP]
+[Text=College CharacterOffsetBegin=1055 CharacterOffsetEnd=1062 PartOfSpeech=NNP]
+[Text=of CharacterOffsetBegin=1063 CharacterOffsetEnd=1065 PartOfSpeech=IN]
+[Text=Art CharacterOffsetBegin=1066 CharacterOffsetEnd=1069 PartOfSpeech=NNP]
+[Text=& CharacterOffsetBegin=1070 CharacterOffsetEnd=1071 PartOfSpeech=CC]
+[Text=Design CharacterOffsetBegin=1072 CharacterOffsetEnd=1078 PartOfSpeech=NNP]
+[Text=as CharacterOffsetBegin=1079 CharacterOffsetEnd=1081 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=1082 CharacterOffsetEnd=1083 PartOfSpeech=DT]
+[Text=Graphic CharacterOffsetBegin=1084 CharacterOffsetEnd=1091 PartOfSpeech=NNP]
+[Text=designer CharacterOffsetBegin=1092 CharacterOffsetEnd=1100 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=1101 CharacterOffsetEnd=1104 PartOfSpeech=CC]
+[Text=is CharacterOffsetBegin=1105 CharacterOffsetEnd=1107 PartOfSpeech=VBZ]
+[Text=married CharacterOffsetBegin=1108 CharacterOffsetEnd=1115 PartOfSpeech=VBN]
+[Text=to CharacterOffsetBegin=1116 CharacterOffsetEnd=1118 PartOfSpeech=IN]
+[Text=author CharacterOffsetBegin=1119 CharacterOffsetEnd=1125 PartOfSpeech=NN]
+[Text=Farley CharacterOffsetBegin=1126 CharacterOffsetEnd=1132 PartOfSpeech=NNP]
+[Text=Mowat CharacterOffsetBegin=1133 CharacterOffsetEnd=1138 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=1138 CharacterOffsetEnd=1139 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, graduated-2)
+nsubj(graduated-2, She-1)
+nsubj:pass(married-17, She-1)
+case(College-6, from-3)
+det(College-6, the-4)
+compound(College-6, Ontario-5)
+obl:from(graduated-2, College-6)
+case(Art-8, of-7)
+nmod:of(College-6, Art-8)
+cc(Design-10, &-9)
+nmod:of(College-6, Design-10)
+conj:&(Art-8, Design-10)
+case(designer-14, as-11)
+det(designer-14, a-12)
+compound(designer-14, Graphic-13)
+obl:as(graduated-2, designer-14)
+cc(married-17, and-15)
+aux:pass(married-17, is-16)
+conj:and(graduated-2, married-17)
+case(Mowat-21, to-18)
+compound(Mowat-21, author-19)
+compound(Mowat-21, Farley-20)
+obl:to(married-17, Mowat-21)
+punct(graduated-2, .-22)
+
+Sentence #10 (11 tokens):
+She can easily become jealous and is interested in romance.
+
+Tokens:
+[Text=She CharacterOffsetBegin=1140 CharacterOffsetEnd=1143 PartOfSpeech=PRP]
+[Text=can CharacterOffsetBegin=1144 CharacterOffsetEnd=1147 PartOfSpeech=MD]
+[Text=easily CharacterOffsetBegin=1148 CharacterOffsetEnd=1154 PartOfSpeech=RB]
+[Text=become CharacterOffsetBegin=1155 CharacterOffsetEnd=1161 PartOfSpeech=VB]
+[Text=jealous CharacterOffsetBegin=1162 CharacterOffsetEnd=1169 PartOfSpeech=JJ]
+[Text=and CharacterOffsetBegin=1170 CharacterOffsetEnd=1173 PartOfSpeech=CC]
+[Text=is CharacterOffsetBegin=1174 CharacterOffsetEnd=1176 PartOfSpeech=VBZ]
+[Text=interested CharacterOffsetBegin=1177 CharacterOffsetEnd=1187 PartOfSpeech=JJ]
+[Text=in CharacterOffsetBegin=1188 CharacterOffsetEnd=1190 PartOfSpeech=IN]
+[Text=romance CharacterOffsetBegin=1191 CharacterOffsetEnd=1198 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=1198 CharacterOffsetEnd=1199 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, become-4)
+nsubj(become-4, She-1)
+nsubj(interested-8, She-1)
+aux(become-4, can-2)
+advmod(become-4, easily-3)
+xcomp(become-4, jealous-5)
+cc(interested-8, and-6)
+cop(interested-8, is-7)
+conj:and(become-4, interested-8)
+case(romance-10, in-9)
+obl:in(interested-8, romance-10)
+punct(become-4, .-11)
+
+Sentence #11 (34 tokens):
+His parents introduced him to music when he was three years old offering him lessons in the electronic organ through the Yamaha Music Foundation they also encouraged him to join some brass bands.
+
+Tokens:
+[Text=His CharacterOffsetBegin=1200 CharacterOffsetEnd=1203 PartOfSpeech=PRP$]
+[Text=parents CharacterOffsetBegin=1204 CharacterOffsetEnd=1211 PartOfSpeech=NNS]
+[Text=introduced CharacterOffsetBegin=1212 CharacterOffsetEnd=1222 PartOfSpeech=VBD]
+[Text=him CharacterOffsetBegin=1223 CharacterOffsetEnd=1226 PartOfSpeech=PRP]
+[Text=to CharacterOffsetBegin=1227 CharacterOffsetEnd=1229 PartOfSpeech=IN]
+[Text=music CharacterOffsetBegin=1230 CharacterOffsetEnd=1235 PartOfSpeech=NN]
+[Text=when CharacterOffsetBegin=1236 CharacterOffsetEnd=1240 PartOfSpeech=WRB]
+[Text=he CharacterOffsetBegin=1241 CharacterOffsetEnd=1243 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=1244 CharacterOffsetEnd=1247 PartOfSpeech=VBD]
+[Text=three CharacterOffsetBegin=1248 CharacterOffsetEnd=1253 PartOfSpeech=CD]
+[Text=years CharacterOffsetBegin=1254 CharacterOffsetEnd=1259 PartOfSpeech=NNS]
+[Text=old CharacterOffsetBegin=1260 CharacterOffsetEnd=1263 PartOfSpeech=JJ]
+[Text=offering CharacterOffsetBegin=1264 CharacterOffsetEnd=1272 PartOfSpeech=VBG]
+[Text=him CharacterOffsetBegin=1273 CharacterOffsetEnd=1276 PartOfSpeech=PRP]
+[Text=lessons CharacterOffsetBegin=1277 CharacterOffsetEnd=1284 PartOfSpeech=NNS]
+[Text=in CharacterOffsetBegin=1285 CharacterOffsetEnd=1287 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1288 CharacterOffsetEnd=1291 PartOfSpeech=DT]
+[Text=electronic CharacterOffsetBegin=1292 CharacterOffsetEnd=1302 PartOfSpeech=JJ]
+[Text=organ CharacterOffsetBegin=1303 CharacterOffsetEnd=1308 PartOfSpeech=NN]
+[Text=through CharacterOffsetBegin=1309 CharacterOffsetEnd=1316 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1317 CharacterOffsetEnd=1320 PartOfSpeech=DT]
+[Text=Yamaha CharacterOffsetBegin=1321 CharacterOffsetEnd=1327 PartOfSpeech=NNP]
+[Text=Music CharacterOffsetBegin=1328 CharacterOffsetEnd=1333 PartOfSpeech=NNP]
+[Text=Foundation CharacterOffsetBegin=1334 CharacterOffsetEnd=1344 PartOfSpeech=NNP]
+[Text=they CharacterOffsetBegin=1345 CharacterOffsetEnd=1349 PartOfSpeech=PRP]
+[Text=also CharacterOffsetBegin=1350 CharacterOffsetEnd=1354 PartOfSpeech=RB]
+[Text=encouraged CharacterOffsetBegin=1355 CharacterOffsetEnd=1365 PartOfSpeech=VBD]
+[Text=him CharacterOffsetBegin=1366 CharacterOffsetEnd=1369 PartOfSpeech=PRP]
+[Text=to CharacterOffsetBegin=1370 CharacterOffsetEnd=1372 PartOfSpeech=TO]
+[Text=join CharacterOffsetBegin=1373 CharacterOffsetEnd=1377 PartOfSpeech=VB]
+[Text=some CharacterOffsetBegin=1378 CharacterOffsetEnd=1382 PartOfSpeech=DT]
+[Text=brass CharacterOffsetBegin=1383 CharacterOffsetEnd=1388 PartOfSpeech=NN]
+[Text=bands CharacterOffsetBegin=1389 CharacterOffsetEnd=1394 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=1394 CharacterOffsetEnd=1395 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, introduced-3)
+nmod:poss(parents-2, His-1)
+nsubj(introduced-3, parents-2)
+obj(introduced-3, him-4)
+case(music-6, to-5)
+obl:to(introduced-3, music-6)
+advmod(old-12, when-7)
+nsubj(old-12, he-8)
+cop(old-12, was-9)
+nummod(years-11, three-10)
+obl:npmod(old-12, years-11)
+advcl(introduced-3, old-12)
+dep(encouraged-27, offering-13)
+iobj(offering-13, him-14)
+obj(offering-13, lessons-15)
+case(organ-19, in-16)
+det(organ-19, the-17)
+amod(organ-19, electronic-18)
+nmod:in(lessons-15, organ-19)
+case(Foundation-24, through-20)
+det(Foundation-24, the-21)
+compound(Foundation-24, Yamaha-22)
+compound(Foundation-24, Music-23)
+obl:through(offering-13, Foundation-24)
+nsubj(encouraged-27, they-25)
+advmod(encouraged-27, also-26)
+ccomp(old-12, encouraged-27)
+obj(encouraged-27, him-28)
+nsubj:xsubj(join-30, him-28)
+mark(join-30, to-29)
+xcomp(encouraged-27, join-30)
+det(bands-33, some-31)
+compound(bands-33, brass-32)
+obj(join-30, bands-33)
+punct(introduced-3, .-34)
+
+Sentence #12 (27 tokens):
+Some breeders remove the first two or three eggs and replace them with dummy eggs and then return the real eggs as the clutch is completed.
+
+Tokens:
+[Text=Some CharacterOffsetBegin=1396 CharacterOffsetEnd=1400 PartOfSpeech=DT]
+[Text=breeders CharacterOffsetBegin=1401 CharacterOffsetEnd=1409 PartOfSpeech=NNS]
+[Text=remove CharacterOffsetBegin=1410 CharacterOffsetEnd=1416 PartOfSpeech=VB]
+[Text=the CharacterOffsetBegin=1417 CharacterOffsetEnd=1420 PartOfSpeech=DT]
+[Text=first CharacterOffsetBegin=1421 CharacterOffsetEnd=1426 PartOfSpeech=JJ]
+[Text=two CharacterOffsetBegin=1427 CharacterOffsetEnd=1430 PartOfSpeech=CD]
+[Text=or CharacterOffsetBegin=1431 CharacterOffsetEnd=1433 PartOfSpeech=CC]
+[Text=three CharacterOffsetBegin=1434 CharacterOffsetEnd=1439 PartOfSpeech=CD]
+[Text=eggs CharacterOffsetBegin=1440 CharacterOffsetEnd=1444 PartOfSpeech=NNS]
+[Text=and CharacterOffsetBegin=1445 CharacterOffsetEnd=1448 PartOfSpeech=CC]
+[Text=replace CharacterOffsetBegin=1449 CharacterOffsetEnd=1456 PartOfSpeech=VB]
+[Text=them CharacterOffsetBegin=1457 CharacterOffsetEnd=1461 PartOfSpeech=PRP]
+[Text=with CharacterOffsetBegin=1462 CharacterOffsetEnd=1466 PartOfSpeech=IN]
+[Text=dummy CharacterOffsetBegin=1467 CharacterOffsetEnd=1472 PartOfSpeech=NN]
+[Text=eggs CharacterOffsetBegin=1473 CharacterOffsetEnd=1477 PartOfSpeech=NNS]
+[Text=and CharacterOffsetBegin=1478 CharacterOffsetEnd=1481 PartOfSpeech=CC]
+[Text=then CharacterOffsetBegin=1482 CharacterOffsetEnd=1486 PartOfSpeech=RB]
+[Text=return CharacterOffsetBegin=1487 CharacterOffsetEnd=1493 PartOfSpeech=VB]
+[Text=the CharacterOffsetBegin=1494 CharacterOffsetEnd=1497 PartOfSpeech=DT]
+[Text=real CharacterOffsetBegin=1498 CharacterOffsetEnd=1502 PartOfSpeech=JJ]
+[Text=eggs CharacterOffsetBegin=1503 CharacterOffsetEnd=1507 PartOfSpeech=NNS]
+[Text=as CharacterOffsetBegin=1508 CharacterOffsetEnd=1510 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1511 CharacterOffsetEnd=1514 PartOfSpeech=DT]
+[Text=clutch CharacterOffsetBegin=1515 CharacterOffsetEnd=1521 PartOfSpeech=NN]
+[Text=is CharacterOffsetBegin=1522 CharacterOffsetEnd=1524 PartOfSpeech=VBZ]
+[Text=completed CharacterOffsetBegin=1525 CharacterOffsetEnd=1534 PartOfSpeech=VBN]
+[Text=. CharacterOffsetBegin=1534 CharacterOffsetEnd=1535 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, remove-3)
+det(breeders-2, Some-1)
+nsubj(remove-3, breeders-2)
+nsubj(replace-11, breeders-2)
+nsubj(return-18, breeders-2)
+det(eggs-9, the-4)
+amod(eggs-9, first-5)
+nummod(eggs-9, two-6)
+cc(three-8, or-7)
+conj:or(two-6, three-8)
+nummod(eggs-9, three-8)
+obj(remove-3, eggs-9)
+cc(replace-11, and-10)
+conj:and(remove-3, replace-11)
+obj(replace-11, them-12)
+case(eggs-15, with-13)
+compound(eggs-15, dummy-14)
+obl:with(replace-11, eggs-15)
+cc(return-18, and-16)
+advmod(return-18, then-17)
+conj:and(remove-3, return-18)
+det(eggs-21, the-19)
+amod(eggs-21, real-20)
+obj(return-18, eggs-21)
+mark(completed-26, as-22)
+det(clutch-24, the-23)
+nsubj:pass(completed-26, clutch-24)
+aux:pass(completed-26, is-25)
+advcl:as(return-18, completed-26)
+punct(remove-3, .-27)
+
+Sentence #13 (23 tokens):
+The Thiis family sold the estate and the Commune of Gausdal used the buildings during several years as housing for political refugees.
+
+Tokens:
+[Text=The CharacterOffsetBegin=1536 CharacterOffsetEnd=1539 PartOfSpeech=DT]
+[Text=Thiis CharacterOffsetBegin=1540 CharacterOffsetEnd=1545 PartOfSpeech=NNP]
+[Text=family CharacterOffsetBegin=1546 CharacterOffsetEnd=1552 PartOfSpeech=NN]
+[Text=sold CharacterOffsetBegin=1553 CharacterOffsetEnd=1557 PartOfSpeech=VBD]
+[Text=the CharacterOffsetBegin=1558 CharacterOffsetEnd=1561 PartOfSpeech=DT]
+[Text=estate CharacterOffsetBegin=1562 CharacterOffsetEnd=1568 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=1569 CharacterOffsetEnd=1572 PartOfSpeech=CC]
+[Text=the CharacterOffsetBegin=1573 CharacterOffsetEnd=1576 PartOfSpeech=DT]
+[Text=Commune CharacterOffsetBegin=1577 CharacterOffsetEnd=1584 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=1585 CharacterOffsetEnd=1587 PartOfSpeech=IN]
+[Text=Gausdal CharacterOffsetBegin=1588 CharacterOffsetEnd=1595 PartOfSpeech=NNP]
+[Text=used CharacterOffsetBegin=1596 CharacterOffsetEnd=1600 PartOfSpeech=VBD]
+[Text=the CharacterOffsetBegin=1601 CharacterOffsetEnd=1604 PartOfSpeech=DT]
+[Text=buildings CharacterOffsetBegin=1605 CharacterOffsetEnd=1614 PartOfSpeech=NNS]
+[Text=during CharacterOffsetBegin=1615 CharacterOffsetEnd=1621 PartOfSpeech=IN]
+[Text=several CharacterOffsetBegin=1622 CharacterOffsetEnd=1629 PartOfSpeech=JJ]
+[Text=years CharacterOffsetBegin=1630 CharacterOffsetEnd=1635 PartOfSpeech=NNS]
+[Text=as CharacterOffsetBegin=1636 CharacterOffsetEnd=1638 PartOfSpeech=IN]
+[Text=housing CharacterOffsetBegin=1639 CharacterOffsetEnd=1646 PartOfSpeech=NN]
+[Text=for CharacterOffsetBegin=1647 CharacterOffsetEnd=1650 PartOfSpeech=IN]
+[Text=political CharacterOffsetBegin=1651 CharacterOffsetEnd=1660 PartOfSpeech=JJ]
+[Text=refugees CharacterOffsetBegin=1661 CharacterOffsetEnd=1669 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=1669 CharacterOffsetEnd=1670 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, sold-4)
+det(family-3, The-1)
+compound(family-3, Thiis-2)
+nsubj(sold-4, family-3)
+det(estate-6, the-5)
+obj(sold-4, estate-6)
+cc(Commune-9, and-7)
+det(Commune-9, the-8)
+obj(sold-4, Commune-9)
+conj:and(estate-6, Commune-9)
+case(Gausdal-11, of-10)
+nmod:of(Commune-9, Gausdal-11)
+dep(sold-4, used-12)
+det(buildings-14, the-13)
+obj(used-12, buildings-14)
+case(years-17, during-15)
+amod(years-17, several-16)
+obl:during(used-12, years-17)
+case(housing-19, as-18)
+obl:as(used-12, housing-19)
+case(refugees-22, for-20)
+amod(refugees-22, political-21)
+nmod:for(housing-19, refugees-22)
+punct(sold-4, .-23)
+
+Sentence #14 (31 tokens):
+He graduated from the New York University School of Law in 1927 and was admitted to the bar in 1929 and commenced the practice of law in the same year.
+
+Tokens:
+[Text=He CharacterOffsetBegin=1671 CharacterOffsetEnd=1673 PartOfSpeech=PRP]
+[Text=graduated CharacterOffsetBegin=1674 CharacterOffsetEnd=1683 PartOfSpeech=VBD]
+[Text=from CharacterOffsetBegin=1684 CharacterOffsetEnd=1688 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1689 CharacterOffsetEnd=1692 PartOfSpeech=DT]
+[Text=New CharacterOffsetBegin=1693 CharacterOffsetEnd=1696 PartOfSpeech=NNP]
+[Text=York CharacterOffsetBegin=1697 CharacterOffsetEnd=1701 PartOfSpeech=NNP]
+[Text=University CharacterOffsetBegin=1702 CharacterOffsetEnd=1712 PartOfSpeech=NNP]
+[Text=School CharacterOffsetBegin=1713 CharacterOffsetEnd=1719 PartOfSpeech=NNP]
+[Text=of CharacterOffsetBegin=1720 CharacterOffsetEnd=1722 PartOfSpeech=IN]
+[Text=Law CharacterOffsetBegin=1723 CharacterOffsetEnd=1726 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=1727 CharacterOffsetEnd=1729 PartOfSpeech=IN]
+[Text=1927 CharacterOffsetBegin=1730 CharacterOffsetEnd=1734 PartOfSpeech=CD]
+[Text=and CharacterOffsetBegin=1735 CharacterOffsetEnd=1738 PartOfSpeech=CC]
+[Text=was CharacterOffsetBegin=1739 CharacterOffsetEnd=1742 PartOfSpeech=VBD]
+[Text=admitted CharacterOffsetBegin=1743 CharacterOffsetEnd=1751 PartOfSpeech=VBN]
+[Text=to CharacterOffsetBegin=1752 CharacterOffsetEnd=1754 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1755 CharacterOffsetEnd=1758 PartOfSpeech=DT]
+[Text=bar CharacterOffsetBegin=1759 CharacterOffsetEnd=1762 PartOfSpeech=NN]
+[Text=in CharacterOffsetBegin=1763 CharacterOffsetEnd=1765 PartOfSpeech=IN]
+[Text=1929 CharacterOffsetBegin=1766 CharacterOffsetEnd=1770 PartOfSpeech=CD]
+[Text=and CharacterOffsetBegin=1771 CharacterOffsetEnd=1774 PartOfSpeech=CC]
+[Text=commenced CharacterOffsetBegin=1775 CharacterOffsetEnd=1784 PartOfSpeech=VBD]
+[Text=the CharacterOffsetBegin=1785 CharacterOffsetEnd=1788 PartOfSpeech=DT]
+[Text=practice CharacterOffsetBegin=1789 CharacterOffsetEnd=1797 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=1798 CharacterOffsetEnd=1800 PartOfSpeech=IN]
+[Text=law CharacterOffsetBegin=1801 CharacterOffsetEnd=1804 PartOfSpeech=NN]
+[Text=in CharacterOffsetBegin=1805 CharacterOffsetEnd=1807 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1808 CharacterOffsetEnd=1811 PartOfSpeech=DT]
+[Text=same CharacterOffsetBegin=1812 CharacterOffsetEnd=1816 PartOfSpeech=JJ]
+[Text=year CharacterOffsetBegin=1817 CharacterOffsetEnd=1821 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=1821 CharacterOffsetEnd=1822 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, graduated-2)
+nsubj(graduated-2, He-1)
+nsubj:pass(admitted-15, He-1)
+nsubj(commenced-22, He-1)
+case(School-8, from-3)
+det(School-8, the-4)
+compound(York-6, New-5)
+compound(University-7, York-6)
+compound(School-8, University-7)
+obl:from(graduated-2, School-8)
+case(Law-10, of-9)
+nmod:of(School-8, Law-10)
+case(1927-12, in-11)
+obl:in(graduated-2, 1927-12)
+cc(admitted-15, and-13)
+aux:pass(admitted-15, was-14)
+conj:and(graduated-2, admitted-15)
+case(bar-18, to-16)
+det(bar-18, the-17)
+obl:to(admitted-15, bar-18)
+case(1929-20, in-19)
+obl:in(admitted-15, 1929-20)
+cc(commenced-22, and-21)
+conj:and(graduated-2, commenced-22)
+det(practice-24, the-23)
+obj(commenced-22, practice-24)
+case(law-26, of-25)
+nmod:of(practice-24, law-26)
+case(year-30, in-27)
+det(year-30, the-28)
+amod(year-30, same-29)
+obl:in(commenced-22, year-30)
+punct(graduated-2, .-31)
+
+Sentence #15 (23 tokens):
+The two men had met in Pavia and they became close friends in Heidelberg the bishop was a generous benefactor of learning.
+
+Tokens:
+[Text=The CharacterOffsetBegin=1823 CharacterOffsetEnd=1826 PartOfSpeech=DT]
+[Text=two CharacterOffsetBegin=1827 CharacterOffsetEnd=1830 PartOfSpeech=CD]
+[Text=men CharacterOffsetBegin=1831 CharacterOffsetEnd=1834 PartOfSpeech=NNS]
+[Text=had CharacterOffsetBegin=1835 CharacterOffsetEnd=1838 PartOfSpeech=VBD]
+[Text=met CharacterOffsetBegin=1839 CharacterOffsetEnd=1842 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=1843 CharacterOffsetEnd=1845 PartOfSpeech=IN]
+[Text=Pavia CharacterOffsetBegin=1846 CharacterOffsetEnd=1851 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=1852 CharacterOffsetEnd=1855 PartOfSpeech=CC]
+[Text=they CharacterOffsetBegin=1856 CharacterOffsetEnd=1860 PartOfSpeech=PRP]
+[Text=became CharacterOffsetBegin=1861 CharacterOffsetEnd=1867 PartOfSpeech=VBD]
+[Text=close CharacterOffsetBegin=1868 CharacterOffsetEnd=1873 PartOfSpeech=JJ]
+[Text=friends CharacterOffsetBegin=1874 CharacterOffsetEnd=1881 PartOfSpeech=NNS]
+[Text=in CharacterOffsetBegin=1882 CharacterOffsetEnd=1884 PartOfSpeech=IN]
+[Text=Heidelberg CharacterOffsetBegin=1885 CharacterOffsetEnd=1895 PartOfSpeech=NNP]
+[Text=the CharacterOffsetBegin=1896 CharacterOffsetEnd=1899 PartOfSpeech=DT]
+[Text=bishop CharacterOffsetBegin=1900 CharacterOffsetEnd=1906 PartOfSpeech=NNP]
+[Text=was CharacterOffsetBegin=1907 CharacterOffsetEnd=1910 PartOfSpeech=VBD]
+[Text=a CharacterOffsetBegin=1911 CharacterOffsetEnd=1912 PartOfSpeech=DT]
+[Text=generous CharacterOffsetBegin=1913 CharacterOffsetEnd=1921 PartOfSpeech=JJ]
+[Text=benefactor CharacterOffsetBegin=1922 CharacterOffsetEnd=1932 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=1933 CharacterOffsetEnd=1935 PartOfSpeech=IN]
+[Text=learning CharacterOffsetBegin=1936 CharacterOffsetEnd=1944 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=1944 CharacterOffsetEnd=1945 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, met-5)
+det(men-3, The-1)
+nummod(men-3, two-2)
+nsubj(met-5, men-3)
+aux(met-5, had-4)
+case(Pavia-7, in-6)
+obl:in(met-5, Pavia-7)
+cc(became-10, and-8)
+nsubj(became-10, they-9)
+conj:and(met-5, became-10)
+amod(friends-12, close-11)
+xcomp(became-10, friends-12)
+case(Heidelberg-14, in-13)
+nmod:in(friends-12, Heidelberg-14)
+det(bishop-16, the-15)
+nsubj(benefactor-20, bishop-16)
+cop(benefactor-20, was-17)
+det(benefactor-20, a-18)
+amod(benefactor-20, generous-19)
+parataxis(became-10, benefactor-20)
+case(learning-22, of-21)
+nmod:of(benefactor-20, learning-22)
+punct(met-5, .-23)
+
+Sentence #16 (31 tokens):
+He continued to ride primarily in the central part of the United States until the early 1990s when he moved his tack to Los Alamitos Race Course in Southern California.
+
+Tokens:
+[Text=He CharacterOffsetBegin=1946 CharacterOffsetEnd=1948 PartOfSpeech=PRP]
+[Text=continued CharacterOffsetBegin=1949 CharacterOffsetEnd=1958 PartOfSpeech=VBD]
+[Text=to CharacterOffsetBegin=1959 CharacterOffsetEnd=1961 PartOfSpeech=TO]
+[Text=ride CharacterOffsetBegin=1962 CharacterOffsetEnd=1966 PartOfSpeech=VB]
+[Text=primarily CharacterOffsetBegin=1967 CharacterOffsetEnd=1976 PartOfSpeech=RB]
+[Text=in CharacterOffsetBegin=1977 CharacterOffsetEnd=1979 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1980 CharacterOffsetEnd=1983 PartOfSpeech=DT]
+[Text=central CharacterOffsetBegin=1984 CharacterOffsetEnd=1991 PartOfSpeech=JJ]
+[Text=part CharacterOffsetBegin=1992 CharacterOffsetEnd=1996 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=1997 CharacterOffsetEnd=1999 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=2000 CharacterOffsetEnd=2003 PartOfSpeech=DT]
+[Text=United CharacterOffsetBegin=2004 CharacterOffsetEnd=2010 PartOfSpeech=NNP]
+[Text=States CharacterOffsetBegin=2011 CharacterOffsetEnd=2017 PartOfSpeech=NNP]
+[Text=until CharacterOffsetBegin=2018 CharacterOffsetEnd=2023 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=2024 CharacterOffsetEnd=2027 PartOfSpeech=DT]
+[Text=early CharacterOffsetBegin=2028 CharacterOffsetEnd=2033 PartOfSpeech=JJ]
+[Text=1990s CharacterOffsetBegin=2034 CharacterOffsetEnd=2039 PartOfSpeech=NNS]
+[Text=when CharacterOffsetBegin=2040 CharacterOffsetEnd=2044 PartOfSpeech=WRB]
+[Text=he CharacterOffsetBegin=2045 CharacterOffsetEnd=2047 PartOfSpeech=PRP]
+[Text=moved CharacterOffsetBegin=2048 CharacterOffsetEnd=2053 PartOfSpeech=VBD]
+[Text=his CharacterOffsetBegin=2054 CharacterOffsetEnd=2057 PartOfSpeech=PRP$]
+[Text=tack CharacterOffsetBegin=2058 CharacterOffsetEnd=2062 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=2063 CharacterOffsetEnd=2065 PartOfSpeech=IN]
+[Text=Los CharacterOffsetBegin=2066 CharacterOffsetEnd=2069 PartOfSpeech=NNP]
+[Text=Alamitos CharacterOffsetBegin=2070 CharacterOffsetEnd=2078 PartOfSpeech=NNP]
+[Text=Race CharacterOffsetBegin=2079 CharacterOffsetEnd=2083 PartOfSpeech=NNP]
+[Text=Course CharacterOffsetBegin=2084 CharacterOffsetEnd=2090 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=2091 CharacterOffsetEnd=2093 PartOfSpeech=IN]
+[Text=Southern CharacterOffsetBegin=2094 CharacterOffsetEnd=2102 PartOfSpeech=NNP]
+[Text=California CharacterOffsetBegin=2103 CharacterOffsetEnd=2113 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=2113 CharacterOffsetEnd=2114 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, continued-2)
+nsubj(continued-2, He-1)
+nsubj:xsubj(ride-4, He-1)
+mark(ride-4, to-3)
+xcomp(continued-2, ride-4)
+advmod(ride-4, primarily-5)
+case(part-9, in-6)
+det(part-9, the-7)
+amod(part-9, central-8)
+obl:in(ride-4, part-9)
+case(States-13, of-10)
+det(States-13, the-11)
+compound(States-13, United-12)
+nmod:of(part-9, States-13)
+case(1990s-17, until-14)
+det(1990s-17, the-15)
+amod(1990s-17, early-16)
+obl:until(ride-4, 1990s-17)
+advmod(moved-20, when-18)
+nsubj(moved-20, he-19)
+acl:relcl(1990s-17, moved-20)
+nmod:poss(tack-22, his-21)
+obj(moved-20, tack-22)
+case(Course-27, to-23)
+compound(Alamitos-25, Los-24)
+compound(Course-27, Alamitos-25)
+compound(Course-27, Race-26)
+obl:to(moved-20, Course-27)
+case(California-30, in-28)
+compound(California-30, Southern-29)
+nmod:in(Course-27, California-30)
+punct(continued-2, .-31)
+
+Sentence #17 (26 tokens):
+Named Shooting Range Platform although locally known as Target the platform still stands today with a large railway style sign although none was originally present.
+
+Tokens:
+[Text=Named CharacterOffsetBegin=2115 CharacterOffsetEnd=2120 PartOfSpeech=VBN]
+[Text=Shooting CharacterOffsetBegin=2121 CharacterOffsetEnd=2129 PartOfSpeech=NN]
+[Text=Range CharacterOffsetBegin=2130 CharacterOffsetEnd=2135 PartOfSpeech=NN]
+[Text=Platform CharacterOffsetBegin=2136 CharacterOffsetEnd=2144 PartOfSpeech=NN]
+[Text=although CharacterOffsetBegin=2145 CharacterOffsetEnd=2153 PartOfSpeech=IN]
+[Text=locally CharacterOffsetBegin=2154 CharacterOffsetEnd=2161 PartOfSpeech=RB]
+[Text=known CharacterOffsetBegin=2162 CharacterOffsetEnd=2167 PartOfSpeech=VBN]
+[Text=as CharacterOffsetBegin=2168 CharacterOffsetEnd=2170 PartOfSpeech=IN]
+[Text=Target CharacterOffsetBegin=2171 CharacterOffsetEnd=2177 PartOfSpeech=NNP]
+[Text=the CharacterOffsetBegin=2178 CharacterOffsetEnd=2181 PartOfSpeech=DT]
+[Text=platform CharacterOffsetBegin=2182 CharacterOffsetEnd=2190 PartOfSpeech=NN]
+[Text=still CharacterOffsetBegin=2191 CharacterOffsetEnd=2196 PartOfSpeech=RB]
+[Text=stands CharacterOffsetBegin=2197 CharacterOffsetEnd=2203 PartOfSpeech=VBZ]
+[Text=today CharacterOffsetBegin=2204 CharacterOffsetEnd=2209 PartOfSpeech=NN]
+[Text=with CharacterOffsetBegin=2210 CharacterOffsetEnd=2214 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=2215 CharacterOffsetEnd=2216 PartOfSpeech=DT]
+[Text=large CharacterOffsetBegin=2217 CharacterOffsetEnd=2222 PartOfSpeech=JJ]
+[Text=railway CharacterOffsetBegin=2223 CharacterOffsetEnd=2230 PartOfSpeech=NN]
+[Text=style CharacterOffsetBegin=2231 CharacterOffsetEnd=2236 PartOfSpeech=NN]
+[Text=sign CharacterOffsetBegin=2237 CharacterOffsetEnd=2241 PartOfSpeech=VB]
+[Text=although CharacterOffsetBegin=2242 CharacterOffsetEnd=2250 PartOfSpeech=IN]
+[Text=none CharacterOffsetBegin=2251 CharacterOffsetEnd=2255 PartOfSpeech=NN]
+[Text=was CharacterOffsetBegin=2256 CharacterOffsetEnd=2259 PartOfSpeech=VBD]
+[Text=originally CharacterOffsetBegin=2260 CharacterOffsetEnd=2270 PartOfSpeech=RB]
+[Text=present CharacterOffsetBegin=2271 CharacterOffsetEnd=2278 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=2278 CharacterOffsetEnd=2279 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Platform-4)
+amod(Platform-4, Named-1)
+compound(Range-3, Shooting-2)
+compound(Platform-4, Range-3)
+mark(known-7, although-5)
+advmod(known-7, locally-6)
+advcl:although(stands-13, known-7)
+case(Target-9, as-8)
+obl:as(known-7, Target-9)
+det(platform-11, the-10)
+nsubj(stands-13, platform-11)
+advmod(stands-13, still-12)
+dep(Platform-4, stands-13)
+obl:tmod(stands-13, today-14)
+case(style-19, with-15)
+det(style-19, a-16)
+amod(style-19, large-17)
+compound(style-19, railway-18)
+obl:with(stands-13, style-19)
+dep(style-19, sign-20)
+mark(present-25, although-21)
+nsubj(present-25, none-22)
+cop(present-25, was-23)
+advmod(present-25, originally-24)
+advcl:although(stands-13, present-25)
+punct(Platform-4, .-26)
+
+Sentence #18 (28 tokens):
+This museum quality dollhouse was officially valued at $ 1.1 million when installed in Nassau County Museum in 2005 and this did not include the interior furnishings.
+
+Tokens:
+[Text=This CharacterOffsetBegin=2280 CharacterOffsetEnd=2284 PartOfSpeech=DT]
+[Text=museum CharacterOffsetBegin=2285 CharacterOffsetEnd=2291 PartOfSpeech=NN]
+[Text=quality CharacterOffsetBegin=2292 CharacterOffsetEnd=2299 PartOfSpeech=NN]
+[Text=dollhouse CharacterOffsetBegin=2300 CharacterOffsetEnd=2309 PartOfSpeech=NN]
+[Text=was CharacterOffsetBegin=2310 CharacterOffsetEnd=2313 PartOfSpeech=VBD]
+[Text=officially CharacterOffsetBegin=2314 CharacterOffsetEnd=2324 PartOfSpeech=RB]
+[Text=valued CharacterOffsetBegin=2325 CharacterOffsetEnd=2331 PartOfSpeech=VBN]
+[Text=at CharacterOffsetBegin=2332 CharacterOffsetEnd=2334 PartOfSpeech=IN]
+[Text=$ CharacterOffsetBegin=2335 CharacterOffsetEnd=2336 PartOfSpeech=$]
+[Text=1.1 CharacterOffsetBegin=2337 CharacterOffsetEnd=2340 PartOfSpeech=CD]
+[Text=million CharacterOffsetBegin=2341 CharacterOffsetEnd=2348 PartOfSpeech=CD]
+[Text=when CharacterOffsetBegin=2349 CharacterOffsetEnd=2353 PartOfSpeech=WRB]
+[Text=installed CharacterOffsetBegin=2354 CharacterOffsetEnd=2363 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=2364 CharacterOffsetEnd=2366 PartOfSpeech=IN]
+[Text=Nassau CharacterOffsetBegin=2367 CharacterOffsetEnd=2373 PartOfSpeech=NNP]
+[Text=County CharacterOffsetBegin=2374 CharacterOffsetEnd=2380 PartOfSpeech=NNP]
+[Text=Museum CharacterOffsetBegin=2381 CharacterOffsetEnd=2387 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=2388 CharacterOffsetEnd=2390 PartOfSpeech=IN]
+[Text=2005 CharacterOffsetBegin=2391 CharacterOffsetEnd=2395 PartOfSpeech=CD]
+[Text=and CharacterOffsetBegin=2396 CharacterOffsetEnd=2399 PartOfSpeech=CC]
+[Text=this CharacterOffsetBegin=2400 CharacterOffsetEnd=2404 PartOfSpeech=DT]
+[Text=did CharacterOffsetBegin=2405 CharacterOffsetEnd=2408 PartOfSpeech=VBD]
+[Text=not CharacterOffsetBegin=2409 CharacterOffsetEnd=2412 PartOfSpeech=RB]
+[Text=include CharacterOffsetBegin=2413 CharacterOffsetEnd=2420 PartOfSpeech=VB]
+[Text=the CharacterOffsetBegin=2421 CharacterOffsetEnd=2424 PartOfSpeech=DT]
+[Text=interior CharacterOffsetBegin=2425 CharacterOffsetEnd=2433 PartOfSpeech=NNP]
+[Text=furnishings CharacterOffsetBegin=2434 CharacterOffsetEnd=2445 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=2445 CharacterOffsetEnd=2446 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, valued-7)
+det(dollhouse-4, This-1)
+compound(quality-3, museum-2)
+compound(dollhouse-4, quality-3)
+nsubj:pass(valued-7, dollhouse-4)
+aux:pass(valued-7, was-5)
+advmod(valued-7, officially-6)
+case(installed-13, at-8)
+dep(installed-13, $-9)
+compound(million-11, 1.1-10)
+nummod($-9, million-11)
+advmod(installed-13, when-12)
+obl:at(valued-7, installed-13)
+case(Museum-17, in-14)
+compound(County-16, Nassau-15)
+compound(Museum-17, County-16)
+obl:in(valued-7, Museum-17)
+case(2005-19, in-18)
+obl:in(valued-7, 2005-19)
+cc(include-24, and-20)
+nsubj(include-24, this-21)
+aux(include-24, did-22)
+advmod(include-24, not-23)
+conj:and(valued-7, include-24)
+det(furnishings-27, the-25)
+compound(furnishings-27, interior-26)
+obj(include-24, furnishings-27)
+punct(valued-7, .-28)
+
+Sentence #19 (17 tokens):
+Macdonald 's parents and sisters also returned to Kingston when Hugh Macdonald became a bank clerk.
+
+Tokens:
+[Text=Macdonald CharacterOffsetBegin=2447 CharacterOffsetEnd=2456 PartOfSpeech=NNP]
+[Text='s CharacterOffsetBegin=2457 CharacterOffsetEnd=2459 PartOfSpeech=POS]
+[Text=parents CharacterOffsetBegin=2460 CharacterOffsetEnd=2467 PartOfSpeech=NNS]
+[Text=and CharacterOffsetBegin=2468 CharacterOffsetEnd=2471 PartOfSpeech=CC]
+[Text=sisters CharacterOffsetBegin=2472 CharacterOffsetEnd=2479 PartOfSpeech=NNS]
+[Text=also CharacterOffsetBegin=2480 CharacterOffsetEnd=2484 PartOfSpeech=RB]
+[Text=returned CharacterOffsetBegin=2485 CharacterOffsetEnd=2493 PartOfSpeech=VBD]
+[Text=to CharacterOffsetBegin=2494 CharacterOffsetEnd=2496 PartOfSpeech=IN]
+[Text=Kingston CharacterOffsetBegin=2497 CharacterOffsetEnd=2505 PartOfSpeech=NNP]
+[Text=when CharacterOffsetBegin=2506 CharacterOffsetEnd=2510 PartOfSpeech=WRB]
+[Text=Hugh CharacterOffsetBegin=2511 CharacterOffsetEnd=2515 PartOfSpeech=NNP]
+[Text=Macdonald CharacterOffsetBegin=2516 CharacterOffsetEnd=2525 PartOfSpeech=NNP]
+[Text=became CharacterOffsetBegin=2526 CharacterOffsetEnd=2532 PartOfSpeech=VBD]
+[Text=a CharacterOffsetBegin=2533 CharacterOffsetEnd=2534 PartOfSpeech=DT]
+[Text=bank CharacterOffsetBegin=2535 CharacterOffsetEnd=2539 PartOfSpeech=NN]
+[Text=clerk CharacterOffsetBegin=2540 CharacterOffsetEnd=2545 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=2545 CharacterOffsetEnd=2546 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, returned-7)
+nmod:poss(parents-3, Macdonald-1)
+case(Macdonald-1, 's-2)
+nsubj(returned-7, parents-3)
+cc(sisters-5, and-4)
+conj:and(parents-3, sisters-5)
+nsubj(returned-7, sisters-5)
+advmod(returned-7, also-6)
+case(Kingston-9, to-8)
+obl:to(returned-7, Kingston-9)
+advmod(became-13, when-10)
+compound(Macdonald-12, Hugh-11)
+nsubj(became-13, Macdonald-12)
+advcl(returned-7, became-13)
+det(clerk-16, a-14)
+compound(clerk-16, bank-15)
+xcomp(became-13, clerk-16)
+punct(returned-7, .-17)
+
+Sentence #20 (27 tokens):
+The company 's Total Weather Insurance LRB TWI RRB product addresses farmers ' exposure to financial loss even when they fully utilize federal crop insurance programs.
+
+Tokens:
+[Text=The CharacterOffsetBegin=2547 CharacterOffsetEnd=2550 PartOfSpeech=DT]
+[Text=company CharacterOffsetBegin=2551 CharacterOffsetEnd=2558 PartOfSpeech=NN]
+[Text='s CharacterOffsetBegin=2559 CharacterOffsetEnd=2561 PartOfSpeech=POS]
+[Text=Total CharacterOffsetBegin=2562 CharacterOffsetEnd=2567 PartOfSpeech=JJ]
+[Text=Weather CharacterOffsetBegin=2568 CharacterOffsetEnd=2575 PartOfSpeech=NNP]
+[Text=Insurance CharacterOffsetBegin=2576 CharacterOffsetEnd=2585 PartOfSpeech=NNP]
+[Text=LRB CharacterOffsetBegin=2586 CharacterOffsetEnd=2589 PartOfSpeech=NNP]
+[Text=TWI CharacterOffsetBegin=2590 CharacterOffsetEnd=2593 PartOfSpeech=NNP]
+[Text=RRB CharacterOffsetBegin=2594 CharacterOffsetEnd=2597 PartOfSpeech=NNP]
+[Text=product CharacterOffsetBegin=2598 CharacterOffsetEnd=2605 PartOfSpeech=NN]
+[Text=addresses CharacterOffsetBegin=2606 CharacterOffsetEnd=2615 PartOfSpeech=NNS]
+[Text=farmers CharacterOffsetBegin=2616 CharacterOffsetEnd=2623 PartOfSpeech=NNS]
+[Text=' CharacterOffsetBegin=2624 CharacterOffsetEnd=2625 PartOfSpeech=POS]
+[Text=exposure CharacterOffsetBegin=2626 CharacterOffsetEnd=2634 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=2635 CharacterOffsetEnd=2637 PartOfSpeech=IN]
+[Text=financial CharacterOffsetBegin=2638 CharacterOffsetEnd=2647 PartOfSpeech=JJ]
+[Text=loss CharacterOffsetBegin=2648 CharacterOffsetEnd=2652 PartOfSpeech=NN]
+[Text=even CharacterOffsetBegin=2653 CharacterOffsetEnd=2657 PartOfSpeech=RB]
+[Text=when CharacterOffsetBegin=2658 CharacterOffsetEnd=2662 PartOfSpeech=WRB]
+[Text=they CharacterOffsetBegin=2663 CharacterOffsetEnd=2667 PartOfSpeech=PRP]
+[Text=fully CharacterOffsetBegin=2668 CharacterOffsetEnd=2673 PartOfSpeech=RB]
+[Text=utilize CharacterOffsetBegin=2674 CharacterOffsetEnd=2681 PartOfSpeech=VBP]
+[Text=federal CharacterOffsetBegin=2682 CharacterOffsetEnd=2689 PartOfSpeech=JJ]
+[Text=crop CharacterOffsetBegin=2690 CharacterOffsetEnd=2694 PartOfSpeech=NN]
+[Text=insurance CharacterOffsetBegin=2695 CharacterOffsetEnd=2704 PartOfSpeech=NN]
+[Text=programs CharacterOffsetBegin=2705 CharacterOffsetEnd=2713 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=2713 CharacterOffsetEnd=2714 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, addresses-11)
+det(company-2, The-1)
+nmod:poss(product-10, company-2)
+case(company-2, 's-3)
+amod(product-10, Total-4)
+compound(RRB-9, Weather-5)
+compound(RRB-9, Insurance-6)
+compound(RRB-9, LRB-7)
+compound(RRB-9, TWI-8)
+compound(product-10, RRB-9)
+nsubj(addresses-11, product-10)
+nmod:poss(exposure-14, farmers-12)
+case(farmers-12, '-13)
+obj(addresses-11, exposure-14)
+case(loss-17, to-15)
+amod(loss-17, financial-16)
+nmod:to(exposure-14, loss-17)
+advmod(utilize-22, even-18)
+advmod(utilize-22, when-19)
+nsubj(utilize-22, they-20)
+advmod(utilize-22, fully-21)
+advcl(addresses-11, utilize-22)
+amod(programs-26, federal-23)
+compound(insurance-25, crop-24)
+compound(programs-26, insurance-25)
+obj(utilize-22, programs-26)
+punct(addresses-11, .-27)
+
+Sentence #21 (20 tokens):
+He was an unsuccessful candidate for renomination to the Thirty second Congress and resumed the practice of his profession.
+
+Tokens:
+[Text=He CharacterOffsetBegin=2715 CharacterOffsetEnd=2717 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=2718 CharacterOffsetEnd=2721 PartOfSpeech=VBD]
+[Text=an CharacterOffsetBegin=2722 CharacterOffsetEnd=2724 PartOfSpeech=DT]
+[Text=unsuccessful CharacterOffsetBegin=2725 CharacterOffsetEnd=2737 PartOfSpeech=JJ]
+[Text=candidate CharacterOffsetBegin=2738 CharacterOffsetEnd=2747 PartOfSpeech=NN]
+[Text=for CharacterOffsetBegin=2748 CharacterOffsetEnd=2751 PartOfSpeech=IN]
+[Text=renomination CharacterOffsetBegin=2752 CharacterOffsetEnd=2764 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=2765 CharacterOffsetEnd=2767 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=2768 CharacterOffsetEnd=2771 PartOfSpeech=DT]
+[Text=Thirty CharacterOffsetBegin=2772 CharacterOffsetEnd=2778 PartOfSpeech=CD]
+[Text=second CharacterOffsetBegin=2779 CharacterOffsetEnd=2785 PartOfSpeech=JJ]
+[Text=Congress CharacterOffsetBegin=2786 CharacterOffsetEnd=2794 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=2795 CharacterOffsetEnd=2798 PartOfSpeech=CC]
+[Text=resumed CharacterOffsetBegin=2799 CharacterOffsetEnd=2806 PartOfSpeech=VBD]
+[Text=the CharacterOffsetBegin=2807 CharacterOffsetEnd=2810 PartOfSpeech=DT]
+[Text=practice CharacterOffsetBegin=2811 CharacterOffsetEnd=2819 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=2820 CharacterOffsetEnd=2822 PartOfSpeech=IN]
+[Text=his CharacterOffsetBegin=2823 CharacterOffsetEnd=2826 PartOfSpeech=PRP$]
+[Text=profession CharacterOffsetBegin=2827 CharacterOffsetEnd=2837 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=2837 CharacterOffsetEnd=2838 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, candidate-5)
+nsubj(candidate-5, He-1)
+nsubj(resumed-14, He-1)
+cop(candidate-5, was-2)
+det(candidate-5, an-3)
+amod(candidate-5, unsuccessful-4)
+case(renomination-7, for-6)
+nmod:for(candidate-5, renomination-7)
+case(Congress-12, to-8)
+det(Congress-12, the-9)
+nummod(Congress-12, Thirty-10)
+amod(Congress-12, second-11)
+nmod:to(candidate-5, Congress-12)
+cc(resumed-14, and-13)
+conj:and(candidate-5, resumed-14)
+det(practice-16, the-15)
+obj(resumed-14, practice-16)
+case(profession-19, of-17)
+nmod:poss(profession-19, his-18)
+nmod:of(practice-16, profession-19)
+punct(candidate-5, .-20)
+
+Sentence #22 (22 tokens):
+He played college football for the University of Montana and was drafted in the 7th round of the 2010 NFL Draft.
+
+Tokens:
+[Text=He CharacterOffsetBegin=2839 CharacterOffsetEnd=2841 PartOfSpeech=PRP]
+[Text=played CharacterOffsetBegin=2842 CharacterOffsetEnd=2848 PartOfSpeech=VBD]
+[Text=college CharacterOffsetBegin=2849 CharacterOffsetEnd=2856 PartOfSpeech=NN]
+[Text=football CharacterOffsetBegin=2857 CharacterOffsetEnd=2865 PartOfSpeech=NN]
+[Text=for CharacterOffsetBegin=2866 CharacterOffsetEnd=2869 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=2870 CharacterOffsetEnd=2873 PartOfSpeech=DT]
+[Text=University CharacterOffsetBegin=2874 CharacterOffsetEnd=2884 PartOfSpeech=NNP]
+[Text=of CharacterOffsetBegin=2885 CharacterOffsetEnd=2887 PartOfSpeech=IN]
+[Text=Montana CharacterOffsetBegin=2888 CharacterOffsetEnd=2895 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=2896 CharacterOffsetEnd=2899 PartOfSpeech=CC]
+[Text=was CharacterOffsetBegin=2900 CharacterOffsetEnd=2903 PartOfSpeech=VBD]
+[Text=drafted CharacterOffsetBegin=2904 CharacterOffsetEnd=2911 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=2912 CharacterOffsetEnd=2914 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=2915 CharacterOffsetEnd=2918 PartOfSpeech=DT]
+[Text=7th CharacterOffsetBegin=2919 CharacterOffsetEnd=2922 PartOfSpeech=JJ]
+[Text=round CharacterOffsetBegin=2923 CharacterOffsetEnd=2928 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=2929 CharacterOffsetEnd=2931 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=2932 CharacterOffsetEnd=2935 PartOfSpeech=DT]
+[Text=2010 CharacterOffsetBegin=2936 CharacterOffsetEnd=2940 PartOfSpeech=CD]
+[Text=NFL CharacterOffsetBegin=2941 CharacterOffsetEnd=2944 PartOfSpeech=NNP]
+[Text=Draft CharacterOffsetBegin=2945 CharacterOffsetEnd=2950 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=2950 CharacterOffsetEnd=2951 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, played-2)
+nsubj(played-2, He-1)
+nsubj:pass(drafted-12, He-1)
+compound(football-4, college-3)
+obj(played-2, football-4)
+case(University-7, for-5)
+det(University-7, the-6)
+obl:for(played-2, University-7)
+case(Montana-9, of-8)
+nmod:of(University-7, Montana-9)
+cc(drafted-12, and-10)
+aux:pass(drafted-12, was-11)
+conj:and(played-2, drafted-12)
+case(round-16, in-13)
+det(round-16, the-14)
+amod(round-16, 7th-15)
+obl:in(drafted-12, round-16)
+case(Draft-21, of-17)
+det(Draft-21, the-18)
+nummod(Draft-21, 2010-19)
+compound(Draft-21, NFL-20)
+nmod:of(round-16, Draft-21)
+punct(played-2, .-22)
+
+Sentence #23 (12 tokens):
+Wick was raised in Pennsylvania and came to Vermont in 1949.
+
+Tokens:
+[Text=Wick CharacterOffsetBegin=2952 CharacterOffsetEnd=2956 PartOfSpeech=NN]
+[Text=was CharacterOffsetBegin=2957 CharacterOffsetEnd=2960 PartOfSpeech=VBD]
+[Text=raised CharacterOffsetBegin=2961 CharacterOffsetEnd=2967 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=2968 CharacterOffsetEnd=2970 PartOfSpeech=IN]
+[Text=Pennsylvania CharacterOffsetBegin=2971 CharacterOffsetEnd=2983 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=2984 CharacterOffsetEnd=2987 PartOfSpeech=CC]
+[Text=came CharacterOffsetBegin=2988 CharacterOffsetEnd=2992 PartOfSpeech=VBD]
+[Text=to CharacterOffsetBegin=2993 CharacterOffsetEnd=2995 PartOfSpeech=IN]
+[Text=Vermont CharacterOffsetBegin=2996 CharacterOffsetEnd=3003 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=3004 CharacterOffsetEnd=3006 PartOfSpeech=IN]
+[Text=1949 CharacterOffsetBegin=3007 CharacterOffsetEnd=3011 PartOfSpeech=CD]
+[Text=. CharacterOffsetBegin=3011 CharacterOffsetEnd=3012 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, raised-3)
+nsubj:pass(raised-3, Wick-1)
+nsubj:pass(came-7, Wick-1)
+aux:pass(raised-3, was-2)
+case(Pennsylvania-5, in-4)
+obl:in(raised-3, Pennsylvania-5)
+cc(came-7, and-6)
+conj:and(raised-3, came-7)
+case(Vermont-9, to-8)
+obl:to(came-7, Vermont-9)
+case(1949-11, in-10)
+obl:in(came-7, 1949-11)
+punct(raised-3, .-12)
+
+Sentence #24 (16 tokens):
+It is situated about 18 km from District Headquarters which was formerly known as Jehanabad.
+
+Tokens:
+[Text=It CharacterOffsetBegin=3013 CharacterOffsetEnd=3015 PartOfSpeech=PRP]
+[Text=is CharacterOffsetBegin=3016 CharacterOffsetEnd=3018 PartOfSpeech=VBZ]
+[Text=situated CharacterOffsetBegin=3019 CharacterOffsetEnd=3027 PartOfSpeech=VBN]
+[Text=about CharacterOffsetBegin=3028 CharacterOffsetEnd=3033 PartOfSpeech=RB]
+[Text=18 CharacterOffsetBegin=3034 CharacterOffsetEnd=3036 PartOfSpeech=CD]
+[Text=km CharacterOffsetBegin=3037 CharacterOffsetEnd=3039 PartOfSpeech=NNS]
+[Text=from CharacterOffsetBegin=3040 CharacterOffsetEnd=3044 PartOfSpeech=IN]
+[Text=District CharacterOffsetBegin=3045 CharacterOffsetEnd=3053 PartOfSpeech=NNP]
+[Text=Headquarters CharacterOffsetBegin=3054 CharacterOffsetEnd=3066 PartOfSpeech=NNPS]
+[Text=which CharacterOffsetBegin=3067 CharacterOffsetEnd=3072 PartOfSpeech=WDT]
+[Text=was CharacterOffsetBegin=3073 CharacterOffsetEnd=3076 PartOfSpeech=VBD]
+[Text=formerly CharacterOffsetBegin=3077 CharacterOffsetEnd=3085 PartOfSpeech=RB]
+[Text=known CharacterOffsetBegin=3086 CharacterOffsetEnd=3091 PartOfSpeech=VBN]
+[Text=as CharacterOffsetBegin=3092 CharacterOffsetEnd=3094 PartOfSpeech=IN]
+[Text=Jehanabad CharacterOffsetBegin=3095 CharacterOffsetEnd=3104 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=3104 CharacterOffsetEnd=3105 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, situated-3)
+nsubj:pass(situated-3, It-1)
+aux:pass(situated-3, is-2)
+advmod(18-5, about-4)
+nummod(km-6, 18-5)
+obj(situated-3, km-6)
+case(Headquarters-9, from-7)
+compound(Headquarters-9, District-8)
+obl:from(situated-3, Headquarters-9)
+nsubj:pass(known-13, Headquarters-9)
+ref(Headquarters-9, which-10)
+aux:pass(known-13, was-11)
+advmod(known-13, formerly-12)
+acl:relcl(Headquarters-9, known-13)
+case(Jehanabad-15, as-14)
+obl:as(known-13, Jehanabad-15)
+punct(situated-3, .-16)
+
+Sentence #25 (20 tokens):
+Moonfleet is a 1955 film by Fritz Lang which is adapted from the novel Moonfleet by J. Meade Falkner.
+
+Tokens:
+[Text=Moonfleet CharacterOffsetBegin=3106 CharacterOffsetEnd=3115 PartOfSpeech=NNP]
+[Text=is CharacterOffsetBegin=3116 CharacterOffsetEnd=3118 PartOfSpeech=VBZ]
+[Text=a CharacterOffsetBegin=3119 CharacterOffsetEnd=3120 PartOfSpeech=DT]
+[Text=1955 CharacterOffsetBegin=3121 CharacterOffsetEnd=3125 PartOfSpeech=CD]
+[Text=film CharacterOffsetBegin=3126 CharacterOffsetEnd=3130 PartOfSpeech=NN]
+[Text=by CharacterOffsetBegin=3131 CharacterOffsetEnd=3133 PartOfSpeech=IN]
+[Text=Fritz CharacterOffsetBegin=3134 CharacterOffsetEnd=3139 PartOfSpeech=NNP]
+[Text=Lang CharacterOffsetBegin=3140 CharacterOffsetEnd=3144 PartOfSpeech=NNP]
+[Text=which CharacterOffsetBegin=3145 CharacterOffsetEnd=3150 PartOfSpeech=WDT]
+[Text=is CharacterOffsetBegin=3151 CharacterOffsetEnd=3153 PartOfSpeech=VBZ]
+[Text=adapted CharacterOffsetBegin=3154 CharacterOffsetEnd=3161 PartOfSpeech=VBN]
+[Text=from CharacterOffsetBegin=3162 CharacterOffsetEnd=3166 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3167 CharacterOffsetEnd=3170 PartOfSpeech=DT]
+[Text=novel CharacterOffsetBegin=3171 CharacterOffsetEnd=3176 PartOfSpeech=JJ]
+[Text=Moonfleet CharacterOffsetBegin=3177 CharacterOffsetEnd=3186 PartOfSpeech=NNP]
+[Text=by CharacterOffsetBegin=3187 CharacterOffsetEnd=3189 PartOfSpeech=IN]
+[Text=J. CharacterOffsetBegin=3190 CharacterOffsetEnd=3192 PartOfSpeech=NNP]
+[Text=Meade CharacterOffsetBegin=3193 CharacterOffsetEnd=3198 PartOfSpeech=NNP]
+[Text=Falkner CharacterOffsetBegin=3199 CharacterOffsetEnd=3206 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=3206 CharacterOffsetEnd=3207 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, film-5)
+nsubj(film-5, Moonfleet-1)
+cop(film-5, is-2)
+det(film-5, a-3)
+nummod(film-5, 1955-4)
+nsubj:pass(adapted-11, film-5)
+case(Lang-8, by-6)
+compound(Lang-8, Fritz-7)
+nmod:by(film-5, Lang-8)
+ref(film-5, which-9)
+aux:pass(adapted-11, is-10)
+acl:relcl(film-5, adapted-11)
+case(Moonfleet-15, from-12)
+det(Moonfleet-15, the-13)
+amod(Moonfleet-15, novel-14)
+obl:from(adapted-11, Moonfleet-15)
+case(Falkner-19, by-16)
+compound(Falkner-19, J.-17)
+compound(Falkner-19, Meade-18)
+obl:agent(adapted-11, Falkner-19)
+punct(film-5, .-20)
+
+Sentence #26 (28 tokens):
+He has taught at the Jack Kerouac School of Disembodied Poetics at Naropa Institute and was elected to the board of the Bolinas Community Public Utility District.
+
+Tokens:
+[Text=He CharacterOffsetBegin=3208 CharacterOffsetEnd=3210 PartOfSpeech=PRP]
+[Text=has CharacterOffsetBegin=3211 CharacterOffsetEnd=3214 PartOfSpeech=VBZ]
+[Text=taught CharacterOffsetBegin=3215 CharacterOffsetEnd=3221 PartOfSpeech=VBN]
+[Text=at CharacterOffsetBegin=3222 CharacterOffsetEnd=3224 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3225 CharacterOffsetEnd=3228 PartOfSpeech=DT]
+[Text=Jack CharacterOffsetBegin=3229 CharacterOffsetEnd=3233 PartOfSpeech=NNP]
+[Text=Kerouac CharacterOffsetBegin=3234 CharacterOffsetEnd=3241 PartOfSpeech=NNP]
+[Text=School CharacterOffsetBegin=3242 CharacterOffsetEnd=3248 PartOfSpeech=NNP]
+[Text=of CharacterOffsetBegin=3249 CharacterOffsetEnd=3251 PartOfSpeech=IN]
+[Text=Disembodied CharacterOffsetBegin=3252 CharacterOffsetEnd=3263 PartOfSpeech=NNP]
+[Text=Poetics CharacterOffsetBegin=3264 CharacterOffsetEnd=3271 PartOfSpeech=NNP]
+[Text=at CharacterOffsetBegin=3272 CharacterOffsetEnd=3274 PartOfSpeech=IN]
+[Text=Naropa CharacterOffsetBegin=3275 CharacterOffsetEnd=3281 PartOfSpeech=NNP]
+[Text=Institute CharacterOffsetBegin=3282 CharacterOffsetEnd=3291 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=3292 CharacterOffsetEnd=3295 PartOfSpeech=CC]
+[Text=was CharacterOffsetBegin=3296 CharacterOffsetEnd=3299 PartOfSpeech=VBD]
+[Text=elected CharacterOffsetBegin=3300 CharacterOffsetEnd=3307 PartOfSpeech=VBN]
+[Text=to CharacterOffsetBegin=3308 CharacterOffsetEnd=3310 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3311 CharacterOffsetEnd=3314 PartOfSpeech=DT]
+[Text=board CharacterOffsetBegin=3315 CharacterOffsetEnd=3320 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=3321 CharacterOffsetEnd=3323 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3324 CharacterOffsetEnd=3327 PartOfSpeech=DT]
+[Text=Bolinas CharacterOffsetBegin=3328 CharacterOffsetEnd=3335 PartOfSpeech=NNP]
+[Text=Community CharacterOffsetBegin=3336 CharacterOffsetEnd=3345 PartOfSpeech=NNP]
+[Text=Public CharacterOffsetBegin=3346 CharacterOffsetEnd=3352 PartOfSpeech=NNP]
+[Text=Utility CharacterOffsetBegin=3353 CharacterOffsetEnd=3360 PartOfSpeech=NNP]
+[Text=District CharacterOffsetBegin=3361 CharacterOffsetEnd=3369 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=3369 CharacterOffsetEnd=3370 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, taught-3)
+nsubj(taught-3, He-1)
+nsubj:pass(elected-17, He-1)
+aux(taught-3, has-2)
+case(School-8, at-4)
+det(School-8, the-5)
+compound(School-8, Jack-6)
+compound(School-8, Kerouac-7)
+obl:at(taught-3, School-8)
+case(Poetics-11, of-9)
+compound(Poetics-11, Disembodied-10)
+nmod:of(School-8, Poetics-11)
+case(Institute-14, at-12)
+compound(Institute-14, Naropa-13)
+nmod:at(School-8, Institute-14)
+cc(elected-17, and-15)
+aux:pass(elected-17, was-16)
+conj:and(taught-3, elected-17)
+case(board-20, to-18)
+det(board-20, the-19)
+obl:to(elected-17, board-20)
+case(District-27, of-21)
+det(District-27, the-22)
+compound(Community-24, Bolinas-23)
+compound(District-27, Community-24)
+compound(District-27, Public-25)
+compound(District-27, Utility-26)
+nmod:of(board-20, District-27)
+punct(taught-3, .-28)
+
+Sentence #27 (19 tokens):
+He died two days later as a result of his wounds and is interred in the capitol gardens.
+
+Tokens:
+[Text=He CharacterOffsetBegin=3371 CharacterOffsetEnd=3373 PartOfSpeech=PRP]
+[Text=died CharacterOffsetBegin=3374 CharacterOffsetEnd=3378 PartOfSpeech=VBD]
+[Text=two CharacterOffsetBegin=3379 CharacterOffsetEnd=3382 PartOfSpeech=CD]
+[Text=days CharacterOffsetBegin=3383 CharacterOffsetEnd=3387 PartOfSpeech=NNS]
+[Text=later CharacterOffsetBegin=3388 CharacterOffsetEnd=3393 PartOfSpeech=RB]
+[Text=as CharacterOffsetBegin=3394 CharacterOffsetEnd=3396 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=3397 CharacterOffsetEnd=3398 PartOfSpeech=DT]
+[Text=result CharacterOffsetBegin=3399 CharacterOffsetEnd=3405 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=3406 CharacterOffsetEnd=3408 PartOfSpeech=IN]
+[Text=his CharacterOffsetBegin=3409 CharacterOffsetEnd=3412 PartOfSpeech=PRP$]
+[Text=wounds CharacterOffsetBegin=3413 CharacterOffsetEnd=3419 PartOfSpeech=NNS]
+[Text=and CharacterOffsetBegin=3420 CharacterOffsetEnd=3423 PartOfSpeech=CC]
+[Text=is CharacterOffsetBegin=3424 CharacterOffsetEnd=3426 PartOfSpeech=VBZ]
+[Text=interred CharacterOffsetBegin=3427 CharacterOffsetEnd=3435 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=3436 CharacterOffsetEnd=3438 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3439 CharacterOffsetEnd=3442 PartOfSpeech=DT]
+[Text=capitol CharacterOffsetBegin=3443 CharacterOffsetEnd=3450 PartOfSpeech=NN]
+[Text=gardens CharacterOffsetBegin=3451 CharacterOffsetEnd=3458 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=3458 CharacterOffsetEnd=3459 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, died-2)
+nsubj(died-2, He-1)
+nsubj:pass(interred-14, He-1)
+nummod(days-4, two-3)
+obl:npmod(later-5, days-4)
+advmod(died-2, later-5)
+case(result-8, as-6)
+det(result-8, a-7)
+obl:as(died-2, result-8)
+case(wounds-11, of-9)
+nmod:poss(wounds-11, his-10)
+nmod:of(result-8, wounds-11)
+cc(interred-14, and-12)
+aux:pass(interred-14, is-13)
+conj:and(died-2, interred-14)
+case(gardens-18, in-15)
+det(gardens-18, the-16)
+compound(gardens-18, capitol-17)
+obl:in(interred-14, gardens-18)
+punct(died-2, .-19)
+
+Sentence #28 (22 tokens):
+He probably commanded militiamen at the Battle of Kings Mountain and also fought at the Battle of Cowpens in January 1781.
+
+Tokens:
+[Text=He CharacterOffsetBegin=3460 CharacterOffsetEnd=3462 PartOfSpeech=PRP]
+[Text=probably CharacterOffsetBegin=3463 CharacterOffsetEnd=3471 PartOfSpeech=RB]
+[Text=commanded CharacterOffsetBegin=3472 CharacterOffsetEnd=3481 PartOfSpeech=VBD]
+[Text=militiamen CharacterOffsetBegin=3482 CharacterOffsetEnd=3492 PartOfSpeech=NNS]
+[Text=at CharacterOffsetBegin=3493 CharacterOffsetEnd=3495 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3496 CharacterOffsetEnd=3499 PartOfSpeech=DT]
+[Text=Battle CharacterOffsetBegin=3500 CharacterOffsetEnd=3506 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=3507 CharacterOffsetEnd=3509 PartOfSpeech=IN]
+[Text=Kings CharacterOffsetBegin=3510 CharacterOffsetEnd=3515 PartOfSpeech=NNS]
+[Text=Mountain CharacterOffsetBegin=3516 CharacterOffsetEnd=3524 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=3525 CharacterOffsetEnd=3528 PartOfSpeech=CC]
+[Text=also CharacterOffsetBegin=3529 CharacterOffsetEnd=3533 PartOfSpeech=RB]
+[Text=fought CharacterOffsetBegin=3534 CharacterOffsetEnd=3540 PartOfSpeech=VBD]
+[Text=at CharacterOffsetBegin=3541 CharacterOffsetEnd=3543 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3544 CharacterOffsetEnd=3547 PartOfSpeech=DT]
+[Text=Battle CharacterOffsetBegin=3548 CharacterOffsetEnd=3554 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=3555 CharacterOffsetEnd=3557 PartOfSpeech=IN]
+[Text=Cowpens CharacterOffsetBegin=3558 CharacterOffsetEnd=3565 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=3566 CharacterOffsetEnd=3568 PartOfSpeech=IN]
+[Text=January CharacterOffsetBegin=3569 CharacterOffsetEnd=3576 PartOfSpeech=NNP]
+[Text=1781 CharacterOffsetBegin=3577 CharacterOffsetEnd=3581 PartOfSpeech=CD]
+[Text=. CharacterOffsetBegin=3581 CharacterOffsetEnd=3582 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, commanded-3)
+nsubj(commanded-3, He-1)
+nsubj(fought-13, He-1)
+advmod(commanded-3, probably-2)
+obj(commanded-3, militiamen-4)
+case(Battle-7, at-5)
+det(Battle-7, the-6)
+obl:at(commanded-3, Battle-7)
+case(Mountain-10, of-8)
+compound(Mountain-10, Kings-9)
+nmod:of(Battle-7, Mountain-10)
+cc(fought-13, and-11)
+advmod(fought-13, also-12)
+conj:and(commanded-3, fought-13)
+case(Battle-16, at-14)
+det(Battle-16, the-15)
+obl:at(fought-13, Battle-16)
+case(Cowpens-18, of-17)
+nmod:of(Battle-16, Cowpens-18)
+case(January-20, in-19)
+obl:in(fought-13, January-20)
+nummod(January-20, 1781-21)
+punct(commanded-3, .-22)
+
+Sentence #29 (23 tokens):
+The strip 's inhabitants were granted Slovenian citizenship in 1991 and the Slovenian judiciary considers the area an integral part of Slovenia.
+
+Tokens:
+[Text=The CharacterOffsetBegin=3583 CharacterOffsetEnd=3586 PartOfSpeech=DT]
+[Text=strip CharacterOffsetBegin=3587 CharacterOffsetEnd=3592 PartOfSpeech=NN]
+[Text='s CharacterOffsetBegin=3593 CharacterOffsetEnd=3595 PartOfSpeech=POS]
+[Text=inhabitants CharacterOffsetBegin=3596 CharacterOffsetEnd=3607 PartOfSpeech=NNS]
+[Text=were CharacterOffsetBegin=3608 CharacterOffsetEnd=3612 PartOfSpeech=VBD]
+[Text=granted CharacterOffsetBegin=3613 CharacterOffsetEnd=3620 PartOfSpeech=VBN]
+[Text=Slovenian CharacterOffsetBegin=3621 CharacterOffsetEnd=3630 PartOfSpeech=JJ]
+[Text=citizenship CharacterOffsetBegin=3631 CharacterOffsetEnd=3642 PartOfSpeech=NN]
+[Text=in CharacterOffsetBegin=3643 CharacterOffsetEnd=3645 PartOfSpeech=IN]
+[Text=1991 CharacterOffsetBegin=3646 CharacterOffsetEnd=3650 PartOfSpeech=CD]
+[Text=and CharacterOffsetBegin=3651 CharacterOffsetEnd=3654 PartOfSpeech=CC]
+[Text=the CharacterOffsetBegin=3655 CharacterOffsetEnd=3658 PartOfSpeech=DT]
+[Text=Slovenian CharacterOffsetBegin=3659 CharacterOffsetEnd=3668 PartOfSpeech=JJ]
+[Text=judiciary CharacterOffsetBegin=3669 CharacterOffsetEnd=3678 PartOfSpeech=NN]
+[Text=considers CharacterOffsetBegin=3679 CharacterOffsetEnd=3688 PartOfSpeech=VBZ]
+[Text=the CharacterOffsetBegin=3689 CharacterOffsetEnd=3692 PartOfSpeech=DT]
+[Text=area CharacterOffsetBegin=3693 CharacterOffsetEnd=3697 PartOfSpeech=NN]
+[Text=an CharacterOffsetBegin=3698 CharacterOffsetEnd=3700 PartOfSpeech=DT]
+[Text=integral CharacterOffsetBegin=3701 CharacterOffsetEnd=3709 PartOfSpeech=JJ]
+[Text=part CharacterOffsetBegin=3710 CharacterOffsetEnd=3714 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=3715 CharacterOffsetEnd=3717 PartOfSpeech=IN]
+[Text=Slovenia CharacterOffsetBegin=3718 CharacterOffsetEnd=3726 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=3726 CharacterOffsetEnd=3727 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, granted-6)
+det(strip-2, The-1)
+nmod:poss(inhabitants-4, strip-2)
+case(strip-2, 's-3)
+nsubj:pass(granted-6, inhabitants-4)
+aux:pass(granted-6, were-5)
+amod(citizenship-8, Slovenian-7)
+obj(granted-6, citizenship-8)
+case(1991-10, in-9)
+obl:in(granted-6, 1991-10)
+cc(considers-15, and-11)
+det(judiciary-14, the-12)
+amod(judiciary-14, Slovenian-13)
+nsubj(considers-15, judiciary-14)
+conj:and(granted-6, considers-15)
+det(area-17, the-16)
+nsubj(part-20, area-17)
+det(part-20, an-18)
+amod(part-20, integral-19)
+xcomp(considers-15, part-20)
+case(Slovenia-22, of-21)
+nmod:of(part-20, Slovenia-22)
+punct(granted-6, .-23)
+
+Sentence #30 (25 tokens):
+Douglas Allanbrook LRB 1921 2003 RRB was born and raised in Melrose Massachusetts a suburb of Boston where he began studying piano at eight.
+
+Tokens:
+[Text=Douglas CharacterOffsetBegin=3728 CharacterOffsetEnd=3735 PartOfSpeech=NNP]
+[Text=Allanbrook CharacterOffsetBegin=3736 CharacterOffsetEnd=3746 PartOfSpeech=NNP]
+[Text=LRB CharacterOffsetBegin=3747 CharacterOffsetEnd=3750 PartOfSpeech=NNP]
+[Text=1921 CharacterOffsetBegin=3751 CharacterOffsetEnd=3755 PartOfSpeech=CD]
+[Text=2003 CharacterOffsetBegin=3756 CharacterOffsetEnd=3760 PartOfSpeech=CD]
+[Text=RRB CharacterOffsetBegin=3761 CharacterOffsetEnd=3764 PartOfSpeech=NNP]
+[Text=was CharacterOffsetBegin=3765 CharacterOffsetEnd=3768 PartOfSpeech=VBD]
+[Text=born CharacterOffsetBegin=3769 CharacterOffsetEnd=3773 PartOfSpeech=VBN]
+[Text=and CharacterOffsetBegin=3774 CharacterOffsetEnd=3777 PartOfSpeech=CC]
+[Text=raised CharacterOffsetBegin=3778 CharacterOffsetEnd=3784 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=3785 CharacterOffsetEnd=3787 PartOfSpeech=IN]
+[Text=Melrose CharacterOffsetBegin=3788 CharacterOffsetEnd=3795 PartOfSpeech=NNP]
+[Text=Massachusetts CharacterOffsetBegin=3796 CharacterOffsetEnd=3809 PartOfSpeech=NNP]
+[Text=a CharacterOffsetBegin=3810 CharacterOffsetEnd=3811 PartOfSpeech=DT]
+[Text=suburb CharacterOffsetBegin=3812 CharacterOffsetEnd=3818 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=3819 CharacterOffsetEnd=3821 PartOfSpeech=IN]
+[Text=Boston CharacterOffsetBegin=3822 CharacterOffsetEnd=3828 PartOfSpeech=NNP]
+[Text=where CharacterOffsetBegin=3829 CharacterOffsetEnd=3834 PartOfSpeech=WRB]
+[Text=he CharacterOffsetBegin=3835 CharacterOffsetEnd=3837 PartOfSpeech=PRP]
+[Text=began CharacterOffsetBegin=3838 CharacterOffsetEnd=3843 PartOfSpeech=VBD]
+[Text=studying CharacterOffsetBegin=3844 CharacterOffsetEnd=3852 PartOfSpeech=VBG]
+[Text=piano CharacterOffsetBegin=3853 CharacterOffsetEnd=3858 PartOfSpeech=NN]
+[Text=at CharacterOffsetBegin=3859 CharacterOffsetEnd=3861 PartOfSpeech=IN]
+[Text=eight CharacterOffsetBegin=3862 CharacterOffsetEnd=3867 PartOfSpeech=CD]
+[Text=. CharacterOffsetBegin=3867 CharacterOffsetEnd=3868 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, born-8)
+compound(Allanbrook-2, Douglas-1)
+compound(LRB-3, Allanbrook-2)
+compound(RRB-6, LRB-3)
+nummod(RRB-6, 1921-4)
+nummod(RRB-6, 2003-5)
+nsubj:pass(born-8, RRB-6)
+nsubj:pass(raised-10, RRB-6)
+aux:pass(born-8, was-7)
+cc(raised-10, and-9)
+conj:and(born-8, raised-10)
+case(Massachusetts-13, in-11)
+compound(Massachusetts-13, Melrose-12)
+obl:in(born-8, Massachusetts-13)
+det(suburb-15, a-14)
+obj(born-8, suburb-15)
+case(Boston-17, of-16)
+nmod:of(suburb-15, Boston-17)
+advmod(began-20, where-18)
+nsubj(began-20, he-19)
+acl:relcl(suburb-15, began-20)
+amod(piano-22, studying-21)
+obj(began-20, piano-22)
+case(eight-24, at-23)
+obl:at(began-20, eight-24)
+punct(born-8, .-25)
+
+Sentence #31 (16 tokens):
+Gaseous molecules can not be readily adsorbed onto graphene surfaces so intrinsically graphene is insensitive.
+
+Tokens:
+[Text=Gaseous CharacterOffsetBegin=3869 CharacterOffsetEnd=3876 PartOfSpeech=JJ]
+[Text=molecules CharacterOffsetBegin=3877 CharacterOffsetEnd=3886 PartOfSpeech=NNS]
+[Text=can CharacterOffsetBegin=3887 CharacterOffsetEnd=3890 PartOfSpeech=MD]
+[Text=not CharacterOffsetBegin=3891 CharacterOffsetEnd=3894 PartOfSpeech=RB]
+[Text=be CharacterOffsetBegin=3895 CharacterOffsetEnd=3897 PartOfSpeech=VB]
+[Text=readily CharacterOffsetBegin=3898 CharacterOffsetEnd=3905 PartOfSpeech=RB]
+[Text=adsorbed CharacterOffsetBegin=3906 CharacterOffsetEnd=3914 PartOfSpeech=VBN]
+[Text=onto CharacterOffsetBegin=3915 CharacterOffsetEnd=3919 PartOfSpeech=IN]
+[Text=graphene CharacterOffsetBegin=3920 CharacterOffsetEnd=3928 PartOfSpeech=NN]
+[Text=surfaces CharacterOffsetBegin=3929 CharacterOffsetEnd=3937 PartOfSpeech=NNS]
+[Text=so CharacterOffsetBegin=3938 CharacterOffsetEnd=3940 PartOfSpeech=RB]
+[Text=intrinsically CharacterOffsetBegin=3941 CharacterOffsetEnd=3954 PartOfSpeech=RB]
+[Text=graphene CharacterOffsetBegin=3955 CharacterOffsetEnd=3963 PartOfSpeech=NN]
+[Text=is CharacterOffsetBegin=3964 CharacterOffsetEnd=3966 PartOfSpeech=VBZ]
+[Text=insensitive CharacterOffsetBegin=3967 CharacterOffsetEnd=3978 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=3978 CharacterOffsetEnd=3979 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, adsorbed-7)
+amod(molecules-2, Gaseous-1)
+nsubj:pass(adsorbed-7, molecules-2)
+aux(adsorbed-7, can-3)
+advmod(adsorbed-7, not-4)
+aux:pass(adsorbed-7, be-5)
+advmod(adsorbed-7, readily-6)
+case(surfaces-10, onto-8)
+compound(surfaces-10, graphene-9)
+obl:onto(adsorbed-7, surfaces-10)
+advmod(intrinsically-12, so-11)
+advmod(insensitive-15, intrinsically-12)
+nsubj(insensitive-15, graphene-13)
+cop(insensitive-15, is-14)
+parataxis(adsorbed-7, insensitive-15)
+punct(adsorbed-7, .-16)
+
+Sentence #32 (16 tokens):
+He was born in Kincardineshire and his mother died when he was still very small.
+
+Tokens:
+[Text=He CharacterOffsetBegin=3980 CharacterOffsetEnd=3982 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=3983 CharacterOffsetEnd=3986 PartOfSpeech=VBD]
+[Text=born CharacterOffsetBegin=3987 CharacterOffsetEnd=3991 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=3992 CharacterOffsetEnd=3994 PartOfSpeech=IN]
+[Text=Kincardineshire CharacterOffsetBegin=3995 CharacterOffsetEnd=4010 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=4011 CharacterOffsetEnd=4014 PartOfSpeech=CC]
+[Text=his CharacterOffsetBegin=4015 CharacterOffsetEnd=4018 PartOfSpeech=PRP$]
+[Text=mother CharacterOffsetBegin=4019 CharacterOffsetEnd=4025 PartOfSpeech=NN]
+[Text=died CharacterOffsetBegin=4026 CharacterOffsetEnd=4030 PartOfSpeech=VBD]
+[Text=when CharacterOffsetBegin=4031 CharacterOffsetEnd=4035 PartOfSpeech=WRB]
+[Text=he CharacterOffsetBegin=4036 CharacterOffsetEnd=4038 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=4039 CharacterOffsetEnd=4042 PartOfSpeech=VBD]
+[Text=still CharacterOffsetBegin=4043 CharacterOffsetEnd=4048 PartOfSpeech=RB]
+[Text=very CharacterOffsetBegin=4049 CharacterOffsetEnd=4053 PartOfSpeech=RB]
+[Text=small CharacterOffsetBegin=4054 CharacterOffsetEnd=4059 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=4059 CharacterOffsetEnd=4060 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, born-3)
+nsubj:pass(born-3, He-1)
+aux:pass(born-3, was-2)
+case(Kincardineshire-5, in-4)
+obl:in(born-3, Kincardineshire-5)
+cc(mother-8, and-6)
+nmod:poss(mother-8, his-7)
+obl:in(born-3, mother-8)
+conj:and(Kincardineshire-5, mother-8)
+dep(born-3, died-9)
+advmod(small-15, when-10)
+nsubj(small-15, he-11)
+cop(small-15, was-12)
+advmod(small-15, still-13)
+advmod(small-15, very-14)
+advcl(died-9, small-15)
+punct(born-3, .-16)
+
+Sentence #33 (18 tokens):
+Segal was born to Jewish parents in Iaşi Romania and studied at the Berlin Academy from 1892.
+
+Tokens:
+[Text=Segal CharacterOffsetBegin=4061 CharacterOffsetEnd=4066 PartOfSpeech=NNP]
+[Text=was CharacterOffsetBegin=4067 CharacterOffsetEnd=4070 PartOfSpeech=VBD]
+[Text=born CharacterOffsetBegin=4071 CharacterOffsetEnd=4075 PartOfSpeech=VBN]
+[Text=to CharacterOffsetBegin=4076 CharacterOffsetEnd=4078 PartOfSpeech=IN]
+[Text=Jewish CharacterOffsetBegin=4079 CharacterOffsetEnd=4085 PartOfSpeech=JJ]
+[Text=parents CharacterOffsetBegin=4086 CharacterOffsetEnd=4093 PartOfSpeech=NNS]
+[Text=in CharacterOffsetBegin=4094 CharacterOffsetEnd=4096 PartOfSpeech=IN]
+[Text=Iaşi CharacterOffsetBegin=4097 CharacterOffsetEnd=4101 PartOfSpeech=NNP]
+[Text=Romania CharacterOffsetBegin=4102 CharacterOffsetEnd=4109 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=4110 CharacterOffsetEnd=4113 PartOfSpeech=CC]
+[Text=studied CharacterOffsetBegin=4114 CharacterOffsetEnd=4121 PartOfSpeech=VBN]
+[Text=at CharacterOffsetBegin=4122 CharacterOffsetEnd=4124 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=4125 CharacterOffsetEnd=4128 PartOfSpeech=DT]
+[Text=Berlin CharacterOffsetBegin=4129 CharacterOffsetEnd=4135 PartOfSpeech=NNP]
+[Text=Academy CharacterOffsetBegin=4136 CharacterOffsetEnd=4143 PartOfSpeech=NNP]
+[Text=from CharacterOffsetBegin=4144 CharacterOffsetEnd=4148 PartOfSpeech=IN]
+[Text=1892 CharacterOffsetBegin=4149 CharacterOffsetEnd=4153 PartOfSpeech=CD]
+[Text=. CharacterOffsetBegin=4153 CharacterOffsetEnd=4154 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, born-3)
+nsubj:pass(born-3, Segal-1)
+nsubj:pass(studied-11, Segal-1)
+aux:pass(born-3, was-2)
+case(parents-6, to-4)
+amod(parents-6, Jewish-5)
+obl:to(born-3, parents-6)
+case(Romania-9, in-7)
+compound(Romania-9, Iaşi-8)
+obl:in(born-3, Romania-9)
+cc(studied-11, and-10)
+conj:and(born-3, studied-11)
+case(Academy-15, at-12)
+det(Academy-15, the-13)
+compound(Academy-15, Berlin-14)
+obl:at(studied-11, Academy-15)
+case(1892-17, from-16)
+obl:from(studied-11, 1892-17)
+punct(born-3, .-18)
+
+Sentence #34 (23 tokens):
+Alabama Governors take office on the third Monday every four years so Bentley 's first term will start on January 17 2011.
+
+Tokens:
+[Text=Alabama CharacterOffsetBegin=4155 CharacterOffsetEnd=4162 PartOfSpeech=NNP]
+[Text=Governors CharacterOffsetBegin=4163 CharacterOffsetEnd=4172 PartOfSpeech=NNS]
+[Text=take CharacterOffsetBegin=4173 CharacterOffsetEnd=4177 PartOfSpeech=VBP]
+[Text=office CharacterOffsetBegin=4178 CharacterOffsetEnd=4184 PartOfSpeech=NN]
+[Text=on CharacterOffsetBegin=4185 CharacterOffsetEnd=4187 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=4188 CharacterOffsetEnd=4191 PartOfSpeech=DT]
+[Text=third CharacterOffsetBegin=4192 CharacterOffsetEnd=4197 PartOfSpeech=JJ]
+[Text=Monday CharacterOffsetBegin=4198 CharacterOffsetEnd=4204 PartOfSpeech=NNP]
+[Text=every CharacterOffsetBegin=4205 CharacterOffsetEnd=4210 PartOfSpeech=DT]
+[Text=four CharacterOffsetBegin=4211 CharacterOffsetEnd=4215 PartOfSpeech=CD]
+[Text=years CharacterOffsetBegin=4216 CharacterOffsetEnd=4221 PartOfSpeech=NNS]
+[Text=so CharacterOffsetBegin=4222 CharacterOffsetEnd=4224 PartOfSpeech=RB]
+[Text=Bentley CharacterOffsetBegin=4225 CharacterOffsetEnd=4232 PartOfSpeech=NNP]
+[Text='s CharacterOffsetBegin=4233 CharacterOffsetEnd=4235 PartOfSpeech=POS]
+[Text=first CharacterOffsetBegin=4236 CharacterOffsetEnd=4241 PartOfSpeech=JJ]
+[Text=term CharacterOffsetBegin=4242 CharacterOffsetEnd=4246 PartOfSpeech=NN]
+[Text=will CharacterOffsetBegin=4247 CharacterOffsetEnd=4251 PartOfSpeech=MD]
+[Text=start CharacterOffsetBegin=4252 CharacterOffsetEnd=4257 PartOfSpeech=VB]
+[Text=on CharacterOffsetBegin=4258 CharacterOffsetEnd=4260 PartOfSpeech=IN]
+[Text=January CharacterOffsetBegin=4261 CharacterOffsetEnd=4268 PartOfSpeech=NNP]
+[Text=17 CharacterOffsetBegin=4269 CharacterOffsetEnd=4271 PartOfSpeech=CD]
+[Text=2011 CharacterOffsetBegin=4272 CharacterOffsetEnd=4276 PartOfSpeech=CD]
+[Text=. CharacterOffsetBegin=4276 CharacterOffsetEnd=4277 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, take-3)
+compound(Governors-2, Alabama-1)
+nsubj(take-3, Governors-2)
+obj(take-3, office-4)
+case(Monday-8, on-5)
+det(Monday-8, the-6)
+amod(Monday-8, third-7)
+obl:on(take-3, Monday-8)
+det(years-11, every-9)
+nummod(years-11, four-10)
+obl:tmod(take-3, years-11)
+advmod(start-18, so-12)
+nmod:poss(term-16, Bentley-13)
+case(Bentley-13, 's-14)
+amod(term-16, first-15)
+nsubj(start-18, term-16)
+aux(start-18, will-17)
+parataxis(take-3, start-18)
+case(January-20, on-19)
+obl:on(start-18, January-20)
+nummod(January-20, 17-21)
+nummod(January-20, 2011-22)
+punct(take-3, .-23)
+
+Sentence #35 (19 tokens):
+Yiddishkeit is mostly viewed in the Jewish Autonomous Oblast and has aired more than 100 episodes to date.
+
+Tokens:
+[Text=Yiddishkeit CharacterOffsetBegin=4278 CharacterOffsetEnd=4289 PartOfSpeech=NNP]
+[Text=is CharacterOffsetBegin=4290 CharacterOffsetEnd=4292 PartOfSpeech=VBZ]
+[Text=mostly CharacterOffsetBegin=4293 CharacterOffsetEnd=4299 PartOfSpeech=RB]
+[Text=viewed CharacterOffsetBegin=4300 CharacterOffsetEnd=4306 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=4307 CharacterOffsetEnd=4309 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=4310 CharacterOffsetEnd=4313 PartOfSpeech=DT]
+[Text=Jewish CharacterOffsetBegin=4314 CharacterOffsetEnd=4320 PartOfSpeech=JJ]
+[Text=Autonomous CharacterOffsetBegin=4321 CharacterOffsetEnd=4331 PartOfSpeech=NNP]
+[Text=Oblast CharacterOffsetBegin=4332 CharacterOffsetEnd=4338 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=4339 CharacterOffsetEnd=4342 PartOfSpeech=CC]
+[Text=has CharacterOffsetBegin=4343 CharacterOffsetEnd=4346 PartOfSpeech=VBZ]
+[Text=aired CharacterOffsetBegin=4347 CharacterOffsetEnd=4352 PartOfSpeech=VBN]
+[Text=more CharacterOffsetBegin=4353 CharacterOffsetEnd=4357 PartOfSpeech=JJR]
+[Text=than CharacterOffsetBegin=4358 CharacterOffsetEnd=4362 PartOfSpeech=IN]
+[Text=100 CharacterOffsetBegin=4363 CharacterOffsetEnd=4366 PartOfSpeech=CD]
+[Text=episodes CharacterOffsetBegin=4367 CharacterOffsetEnd=4375 PartOfSpeech=NNS]
+[Text=to CharacterOffsetBegin=4376 CharacterOffsetEnd=4378 PartOfSpeech=IN]
+[Text=date CharacterOffsetBegin=4379 CharacterOffsetEnd=4383 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=4383 CharacterOffsetEnd=4384 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, viewed-4)
+nsubj:pass(viewed-4, Yiddishkeit-1)
+nsubj:pass(aired-12, Yiddishkeit-1)
+aux:pass(viewed-4, is-2)
+advmod(viewed-4, mostly-3)
+case(Oblast-9, in-5)
+det(Oblast-9, the-6)
+amod(Oblast-9, Jewish-7)
+compound(Oblast-9, Autonomous-8)
+obl:in(viewed-4, Oblast-9)
+cc(aired-12, and-10)
+aux(aired-12, has-11)
+conj:and(viewed-4, aired-12)
+advmod(100-15, more-13)
+fixed(more-13, than-14)
+nummod(episodes-16, 100-15)
+obj(aired-12, episodes-16)
+case(date-18, to-17)
+obl:to(aired-12, date-18)
+punct(viewed-4, .-19)
+
+Sentence #36 (25 tokens):
+He is also a Trustee of the Sir Kyffin Williams Trust and has been a Director of the Hong Kong Association since August 2007.
+
+Tokens:
+[Text=He CharacterOffsetBegin=4385 CharacterOffsetEnd=4387 PartOfSpeech=PRP]
+[Text=is CharacterOffsetBegin=4388 CharacterOffsetEnd=4390 PartOfSpeech=VBZ]
+[Text=also CharacterOffsetBegin=4391 CharacterOffsetEnd=4395 PartOfSpeech=RB]
+[Text=a CharacterOffsetBegin=4396 CharacterOffsetEnd=4397 PartOfSpeech=DT]
+[Text=Trustee CharacterOffsetBegin=4398 CharacterOffsetEnd=4405 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=4406 CharacterOffsetEnd=4408 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=4409 CharacterOffsetEnd=4412 PartOfSpeech=DT]
+[Text=Sir CharacterOffsetBegin=4413 CharacterOffsetEnd=4416 PartOfSpeech=NNP]
+[Text=Kyffin CharacterOffsetBegin=4417 CharacterOffsetEnd=4423 PartOfSpeech=NNP]
+[Text=Williams CharacterOffsetBegin=4424 CharacterOffsetEnd=4432 PartOfSpeech=NNP]
+[Text=Trust CharacterOffsetBegin=4433 CharacterOffsetEnd=4438 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=4439 CharacterOffsetEnd=4442 PartOfSpeech=CC]
+[Text=has CharacterOffsetBegin=4443 CharacterOffsetEnd=4446 PartOfSpeech=VBZ]
+[Text=been CharacterOffsetBegin=4447 CharacterOffsetEnd=4451 PartOfSpeech=VBN]
+[Text=a CharacterOffsetBegin=4452 CharacterOffsetEnd=4453 PartOfSpeech=DT]
+[Text=Director CharacterOffsetBegin=4454 CharacterOffsetEnd=4462 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=4463 CharacterOffsetEnd=4465 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=4466 CharacterOffsetEnd=4469 PartOfSpeech=DT]
+[Text=Hong CharacterOffsetBegin=4470 CharacterOffsetEnd=4474 PartOfSpeech=NNP]
+[Text=Kong CharacterOffsetBegin=4475 CharacterOffsetEnd=4479 PartOfSpeech=NNP]
+[Text=Association CharacterOffsetBegin=4480 CharacterOffsetEnd=4491 PartOfSpeech=NNP]
+[Text=since CharacterOffsetBegin=4492 CharacterOffsetEnd=4497 PartOfSpeech=IN]
+[Text=August CharacterOffsetBegin=4498 CharacterOffsetEnd=4504 PartOfSpeech=NNP]
+[Text=2007 CharacterOffsetBegin=4505 CharacterOffsetEnd=4509 PartOfSpeech=CD]
+[Text=. CharacterOffsetBegin=4509 CharacterOffsetEnd=4510 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Trustee-5)
+nsubj(Trustee-5, He-1)
+cop(Trustee-5, is-2)
+advmod(Trustee-5, also-3)
+det(Trustee-5, a-4)
+case(Trust-11, of-6)
+det(Trust-11, the-7)
+compound(Trust-11, Sir-8)
+compound(Trust-11, Kyffin-9)
+compound(Trust-11, Williams-10)
+nmod:of(Trustee-5, Trust-11)
+cc(Director-16, and-12)
+aux(Director-16, has-13)
+cop(Director-16, been-14)
+det(Director-16, a-15)
+conj:and(Trustee-5, Director-16)
+case(Association-21, of-17)
+det(Association-21, the-18)
+compound(Kong-20, Hong-19)
+compound(Association-21, Kong-20)
+nmod:of(Director-16, Association-21)
+case(August-23, since-22)
+nmod:since(Director-16, August-23)
+nummod(August-23, 2007-24)
+punct(Trustee-5, .-25)
+
+Sentence #37 (28 tokens):
+Nott was Conservative Member of Parliament for St Ives in Cornwall from 1966 to 1983 and served in the early 1970s cabinet of Prime Minister Ted Heath.
+
+Tokens:
+[Text=Nott CharacterOffsetBegin=4511 CharacterOffsetEnd=4515 PartOfSpeech=NNP]
+[Text=was CharacterOffsetBegin=4516 CharacterOffsetEnd=4519 PartOfSpeech=VBD]
+[Text=Conservative CharacterOffsetBegin=4520 CharacterOffsetEnd=4532 PartOfSpeech=JJ]
+[Text=Member CharacterOffsetBegin=4533 CharacterOffsetEnd=4539 PartOfSpeech=NNP]
+[Text=of CharacterOffsetBegin=4540 CharacterOffsetEnd=4542 PartOfSpeech=IN]
+[Text=Parliament CharacterOffsetBegin=4543 CharacterOffsetEnd=4553 PartOfSpeech=NNP]
+[Text=for CharacterOffsetBegin=4554 CharacterOffsetEnd=4557 PartOfSpeech=IN]
+[Text=St CharacterOffsetBegin=4558 CharacterOffsetEnd=4560 PartOfSpeech=NNP]
+[Text=Ives CharacterOffsetBegin=4561 CharacterOffsetEnd=4565 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=4566 CharacterOffsetEnd=4568 PartOfSpeech=IN]
+[Text=Cornwall CharacterOffsetBegin=4569 CharacterOffsetEnd=4577 PartOfSpeech=NNP]
+[Text=from CharacterOffsetBegin=4578 CharacterOffsetEnd=4582 PartOfSpeech=IN]
+[Text=1966 CharacterOffsetBegin=4583 CharacterOffsetEnd=4587 PartOfSpeech=CD]
+[Text=to CharacterOffsetBegin=4588 CharacterOffsetEnd=4590 PartOfSpeech=IN]
+[Text=1983 CharacterOffsetBegin=4591 CharacterOffsetEnd=4595 PartOfSpeech=CD]
+[Text=and CharacterOffsetBegin=4596 CharacterOffsetEnd=4599 PartOfSpeech=CC]
+[Text=served CharacterOffsetBegin=4600 CharacterOffsetEnd=4606 PartOfSpeech=VBD]
+[Text=in CharacterOffsetBegin=4607 CharacterOffsetEnd=4609 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=4610 CharacterOffsetEnd=4613 PartOfSpeech=DT]
+[Text=early CharacterOffsetBegin=4614 CharacterOffsetEnd=4619 PartOfSpeech=JJ]
+[Text=1970s CharacterOffsetBegin=4620 CharacterOffsetEnd=4625 PartOfSpeech=NNS]
+[Text=cabinet CharacterOffsetBegin=4626 CharacterOffsetEnd=4633 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=4634 CharacterOffsetEnd=4636 PartOfSpeech=IN]
+[Text=Prime CharacterOffsetBegin=4637 CharacterOffsetEnd=4642 PartOfSpeech=NNP]
+[Text=Minister CharacterOffsetBegin=4643 CharacterOffsetEnd=4651 PartOfSpeech=NNP]
+[Text=Ted CharacterOffsetBegin=4652 CharacterOffsetEnd=4655 PartOfSpeech=NNP]
+[Text=Heath CharacterOffsetBegin=4656 CharacterOffsetEnd=4661 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=4661 CharacterOffsetEnd=4662 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Member-4)
+nsubj(Member-4, Nott-1)
+nsubj(served-17, Nott-1)
+cop(Member-4, was-2)
+amod(Member-4, Conservative-3)
+case(Parliament-6, of-5)
+nmod:of(Member-4, Parliament-6)
+case(Ives-9, for-7)
+compound(Ives-9, St-8)
+nmod:for(Member-4, Ives-9)
+case(Cornwall-11, in-10)
+obl:in(Member-4, Cornwall-11)
+case(1966-13, from-12)
+obl:from(Member-4, 1966-13)
+case(1983-15, to-14)
+obl:to(1966-13, 1983-15)
+cc(served-17, and-16)
+conj:and(Member-4, served-17)
+case(cabinet-22, in-18)
+det(cabinet-22, the-19)
+amod(cabinet-22, early-20)
+compound(cabinet-22, 1970s-21)
+obl:in(served-17, cabinet-22)
+case(Heath-27, of-23)
+compound(Minister-25, Prime-24)
+compound(Heath-27, Minister-25)
+compound(Heath-27, Ted-26)
+nmod:of(cabinet-22, Heath-27)
+punct(Member-4, .-28)
+
+Sentence #38 (29 tokens):
+Deficiencies in High Value Package carriage security were reported and secure carriages were immediately brought back into service and the installation of radios was recommended as a priority.
+
+Tokens:
+[Text=Deficiencies CharacterOffsetBegin=4663 CharacterOffsetEnd=4675 PartOfSpeech=NNS]
+[Text=in CharacterOffsetBegin=4676 CharacterOffsetEnd=4678 PartOfSpeech=IN]
+[Text=High CharacterOffsetBegin=4679 CharacterOffsetEnd=4683 PartOfSpeech=JJ]
+[Text=Value CharacterOffsetBegin=4684 CharacterOffsetEnd=4689 PartOfSpeech=NNP]
+[Text=Package CharacterOffsetBegin=4690 CharacterOffsetEnd=4697 PartOfSpeech=NNP]
+[Text=carriage CharacterOffsetBegin=4698 CharacterOffsetEnd=4706 PartOfSpeech=NN]
+[Text=security CharacterOffsetBegin=4707 CharacterOffsetEnd=4715 PartOfSpeech=NN]
+[Text=were CharacterOffsetBegin=4716 CharacterOffsetEnd=4720 PartOfSpeech=VBD]
+[Text=reported CharacterOffsetBegin=4721 CharacterOffsetEnd=4729 PartOfSpeech=VBN]
+[Text=and CharacterOffsetBegin=4730 CharacterOffsetEnd=4733 PartOfSpeech=CC]
+[Text=secure CharacterOffsetBegin=4734 CharacterOffsetEnd=4740 PartOfSpeech=JJ]
+[Text=carriages CharacterOffsetBegin=4741 CharacterOffsetEnd=4750 PartOfSpeech=NNS]
+[Text=were CharacterOffsetBegin=4751 CharacterOffsetEnd=4755 PartOfSpeech=VBD]
+[Text=immediately CharacterOffsetBegin=4756 CharacterOffsetEnd=4767 PartOfSpeech=RB]
+[Text=brought CharacterOffsetBegin=4768 CharacterOffsetEnd=4775 PartOfSpeech=VBN]
+[Text=back CharacterOffsetBegin=4776 CharacterOffsetEnd=4780 PartOfSpeech=RB]
+[Text=into CharacterOffsetBegin=4781 CharacterOffsetEnd=4785 PartOfSpeech=IN]
+[Text=service CharacterOffsetBegin=4786 CharacterOffsetEnd=4793 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=4794 CharacterOffsetEnd=4797 PartOfSpeech=CC]
+[Text=the CharacterOffsetBegin=4798 CharacterOffsetEnd=4801 PartOfSpeech=DT]
+[Text=installation CharacterOffsetBegin=4802 CharacterOffsetEnd=4814 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=4815 CharacterOffsetEnd=4817 PartOfSpeech=IN]
+[Text=radios CharacterOffsetBegin=4818 CharacterOffsetEnd=4824 PartOfSpeech=NNS]
+[Text=was CharacterOffsetBegin=4825 CharacterOffsetEnd=4828 PartOfSpeech=VBD]
+[Text=recommended CharacterOffsetBegin=4829 CharacterOffsetEnd=4840 PartOfSpeech=VBN]
+[Text=as CharacterOffsetBegin=4841 CharacterOffsetEnd=4843 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=4844 CharacterOffsetEnd=4845 PartOfSpeech=DT]
+[Text=priority CharacterOffsetBegin=4846 CharacterOffsetEnd=4854 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=4854 CharacterOffsetEnd=4855 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, reported-9)
+nsubj:pass(reported-9, Deficiencies-1)
+nsubj(secure-11, Deficiencies-1)
+case(security-7, in-2)
+amod(security-7, High-3)
+compound(Package-5, Value-4)
+compound(security-7, Package-5)
+compound(security-7, carriage-6)
+nmod:in(Deficiencies-1, security-7)
+aux:pass(reported-9, were-8)
+cc(secure-11, and-10)
+conj:and(reported-9, secure-11)
+obj(reported-9, carriages-12)
+aux:pass(brought-15, were-13)
+advmod(brought-15, immediately-14)
+dep(recommended-25, brought-15)
+advmod(brought-15, back-16)
+case(service-18, into-17)
+obl:into(brought-15, service-18)
+cc(installation-21, and-19)
+det(installation-21, the-20)
+obl:into(brought-15, installation-21)
+conj:and(service-18, installation-21)
+case(radios-23, of-22)
+nmod:of(installation-21, radios-23)
+aux:pass(recommended-25, was-24)
+parataxis(reported-9, recommended-25)
+case(priority-28, as-26)
+det(priority-28, a-27)
+obl:as(recommended-25, priority-28)
+punct(reported-9, .-29)
+
+Sentence #39 (37 tokens):
+He first became manager of the Brewers LRB then contenders in the American League East Division RRB on an acting basis at the outset of the 1980 season when skipper George Bamberger suffered a heart attack.
+
+Tokens:
+[Text=He CharacterOffsetBegin=4856 CharacterOffsetEnd=4858 PartOfSpeech=PRP]
+[Text=first CharacterOffsetBegin=4859 CharacterOffsetEnd=4864 PartOfSpeech=RB]
+[Text=became CharacterOffsetBegin=4865 CharacterOffsetEnd=4871 PartOfSpeech=VBD]
+[Text=manager CharacterOffsetBegin=4872 CharacterOffsetEnd=4879 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=4880 CharacterOffsetEnd=4882 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=4883 CharacterOffsetEnd=4886 PartOfSpeech=DT]
+[Text=Brewers CharacterOffsetBegin=4887 CharacterOffsetEnd=4894 PartOfSpeech=NNS]
+[Text=LRB CharacterOffsetBegin=4895 CharacterOffsetEnd=4898 PartOfSpeech=NNP]
+[Text=then CharacterOffsetBegin=4899 CharacterOffsetEnd=4903 PartOfSpeech=RB]
+[Text=contenders CharacterOffsetBegin=4904 CharacterOffsetEnd=4914 PartOfSpeech=NNS]
+[Text=in CharacterOffsetBegin=4915 CharacterOffsetEnd=4917 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=4918 CharacterOffsetEnd=4921 PartOfSpeech=DT]
+[Text=American CharacterOffsetBegin=4922 CharacterOffsetEnd=4930 PartOfSpeech=NNP]
+[Text=League CharacterOffsetBegin=4931 CharacterOffsetEnd=4937 PartOfSpeech=NNP]
+[Text=East CharacterOffsetBegin=4938 CharacterOffsetEnd=4942 PartOfSpeech=NNP]
+[Text=Division CharacterOffsetBegin=4943 CharacterOffsetEnd=4951 PartOfSpeech=NNP]
+[Text=RRB CharacterOffsetBegin=4952 CharacterOffsetEnd=4955 PartOfSpeech=NNP]
+[Text=on CharacterOffsetBegin=4956 CharacterOffsetEnd=4958 PartOfSpeech=IN]
+[Text=an CharacterOffsetBegin=4959 CharacterOffsetEnd=4961 PartOfSpeech=DT]
+[Text=acting CharacterOffsetBegin=4962 CharacterOffsetEnd=4968 PartOfSpeech=VBG]
+[Text=basis CharacterOffsetBegin=4969 CharacterOffsetEnd=4974 PartOfSpeech=NN]
+[Text=at CharacterOffsetBegin=4975 CharacterOffsetEnd=4977 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=4978 CharacterOffsetEnd=4981 PartOfSpeech=DT]
+[Text=outset CharacterOffsetBegin=4982 CharacterOffsetEnd=4988 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=4989 CharacterOffsetEnd=4991 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=4992 CharacterOffsetEnd=4995 PartOfSpeech=DT]
+[Text=1980 CharacterOffsetBegin=4996 CharacterOffsetEnd=5000 PartOfSpeech=CD]
+[Text=season CharacterOffsetBegin=5001 CharacterOffsetEnd=5007 PartOfSpeech=NN]
+[Text=when CharacterOffsetBegin=5008 CharacterOffsetEnd=5012 PartOfSpeech=WRB]
+[Text=skipper CharacterOffsetBegin=5013 CharacterOffsetEnd=5020 PartOfSpeech=NN]
+[Text=George CharacterOffsetBegin=5021 CharacterOffsetEnd=5027 PartOfSpeech=NNP]
+[Text=Bamberger CharacterOffsetBegin=5028 CharacterOffsetEnd=5037 PartOfSpeech=NNP]
+[Text=suffered CharacterOffsetBegin=5038 CharacterOffsetEnd=5046 PartOfSpeech=VBD]
+[Text=a CharacterOffsetBegin=5047 CharacterOffsetEnd=5048 PartOfSpeech=DT]
+[Text=heart CharacterOffsetBegin=5049 CharacterOffsetEnd=5054 PartOfSpeech=NN]
+[Text=attack CharacterOffsetBegin=5055 CharacterOffsetEnd=5061 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=5061 CharacterOffsetEnd=5062 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, became-3)
+nsubj(became-3, He-1)
+advmod(became-3, first-2)
+xcomp(became-3, manager-4)
+case(Brewers-7, of-5)
+det(Brewers-7, the-6)
+nmod:of(manager-4, Brewers-7)
+compound(contenders-10, LRB-8)
+advmod(contenders-10, then-9)
+dep(Brewers-7, contenders-10)
+case(RRB-17, in-11)
+det(RRB-17, the-12)
+compound(League-14, American-13)
+compound(RRB-17, League-14)
+compound(Division-16, East-15)
+compound(RRB-17, Division-16)
+nmod:in(contenders-10, RRB-17)
+case(basis-21, on-18)
+det(basis-21, an-19)
+amod(basis-21, acting-20)
+obl:on(became-3, basis-21)
+case(outset-24, at-22)
+det(outset-24, the-23)
+nmod:at(basis-21, outset-24)
+case(season-28, of-25)
+det(season-28, the-26)
+nummod(season-28, 1980-27)
+nmod:of(outset-24, season-28)
+advmod(suffered-33, when-29)
+compound(Bamberger-32, skipper-30)
+compound(Bamberger-32, George-31)
+nsubj(suffered-33, Bamberger-32)
+advcl(became-3, suffered-33)
+det(attack-36, a-34)
+compound(attack-36, heart-35)
+obj(suffered-33, attack-36)
+punct(became-3, .-37)
+
+Sentence #40 (22 tokens):
+Both Paulick and Dunlap brought more muscle than McLish in those respective contests but neither could match McLish 's overall appeal.
+
+Tokens:
+[Text=Both CharacterOffsetBegin=5063 CharacterOffsetEnd=5067 PartOfSpeech=DT]
+[Text=Paulick CharacterOffsetBegin=5068 CharacterOffsetEnd=5075 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=5076 CharacterOffsetEnd=5079 PartOfSpeech=CC]
+[Text=Dunlap CharacterOffsetBegin=5080 CharacterOffsetEnd=5086 PartOfSpeech=NNP]
+[Text=brought CharacterOffsetBegin=5087 CharacterOffsetEnd=5094 PartOfSpeech=VBD]
+[Text=more CharacterOffsetBegin=5095 CharacterOffsetEnd=5099 PartOfSpeech=JJR]
+[Text=muscle CharacterOffsetBegin=5100 CharacterOffsetEnd=5106 PartOfSpeech=NN]
+[Text=than CharacterOffsetBegin=5107 CharacterOffsetEnd=5111 PartOfSpeech=IN]
+[Text=McLish CharacterOffsetBegin=5112 CharacterOffsetEnd=5118 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=5119 CharacterOffsetEnd=5121 PartOfSpeech=IN]
+[Text=those CharacterOffsetBegin=5122 CharacterOffsetEnd=5127 PartOfSpeech=DT]
+[Text=respective CharacterOffsetBegin=5128 CharacterOffsetEnd=5138 PartOfSpeech=JJ]
+[Text=contests CharacterOffsetBegin=5139 CharacterOffsetEnd=5147 PartOfSpeech=NNS]
+[Text=but CharacterOffsetBegin=5148 CharacterOffsetEnd=5151 PartOfSpeech=CC]
+[Text=neither CharacterOffsetBegin=5152 CharacterOffsetEnd=5159 PartOfSpeech=CC]
+[Text=could CharacterOffsetBegin=5160 CharacterOffsetEnd=5165 PartOfSpeech=MD]
+[Text=match CharacterOffsetBegin=5166 CharacterOffsetEnd=5171 PartOfSpeech=VB]
+[Text=McLish CharacterOffsetBegin=5172 CharacterOffsetEnd=5178 PartOfSpeech=NNP]
+[Text='s CharacterOffsetBegin=5179 CharacterOffsetEnd=5181 PartOfSpeech=POS]
+[Text=overall CharacterOffsetBegin=5182 CharacterOffsetEnd=5189 PartOfSpeech=JJ]
+[Text=appeal CharacterOffsetBegin=5190 CharacterOffsetEnd=5196 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=5196 CharacterOffsetEnd=5197 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, brought-5)
+cc:preconj(Paulick-2, Both-1)
+nsubj(brought-5, Paulick-2)
+cc(Dunlap-4, and-3)
+conj:and(Paulick-2, Dunlap-4)
+nsubj(brought-5, Dunlap-4)
+amod(muscle-7, more-6)
+obj(brought-5, muscle-7)
+case(McLish-9, than-8)
+nmod:than(muscle-7, McLish-9)
+case(contests-13, in-10)
+det(contests-13, those-11)
+amod(contests-13, respective-12)
+obl:in(brought-5, contests-13)
+cc(match-17, but-14)
+nsubj(match-17, neither-15)
+aux(match-17, could-16)
+conj:but(brought-5, match-17)
+nmod:poss(appeal-21, McLish-18)
+case(McLish-18, 's-19)
+amod(appeal-21, overall-20)
+obj(match-17, appeal-21)
+punct(brought-5, .-22)
+
+Sentence #41 (17 tokens):
+He served a Mormon mission and was recruited by Salt Lake Community College LRB SLCC RRB.
+
+Tokens:
+[Text=He CharacterOffsetBegin=5198 CharacterOffsetEnd=5200 PartOfSpeech=PRP]
+[Text=served CharacterOffsetBegin=5201 CharacterOffsetEnd=5207 PartOfSpeech=VBD]
+[Text=a CharacterOffsetBegin=5208 CharacterOffsetEnd=5209 PartOfSpeech=DT]
+[Text=Mormon CharacterOffsetBegin=5210 CharacterOffsetEnd=5216 PartOfSpeech=NNP]
+[Text=mission CharacterOffsetBegin=5217 CharacterOffsetEnd=5224 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=5225 CharacterOffsetEnd=5228 PartOfSpeech=CC]
+[Text=was CharacterOffsetBegin=5229 CharacterOffsetEnd=5232 PartOfSpeech=VBD]
+[Text=recruited CharacterOffsetBegin=5233 CharacterOffsetEnd=5242 PartOfSpeech=VBN]
+[Text=by CharacterOffsetBegin=5243 CharacterOffsetEnd=5245 PartOfSpeech=IN]
+[Text=Salt CharacterOffsetBegin=5246 CharacterOffsetEnd=5250 PartOfSpeech=NNP]
+[Text=Lake CharacterOffsetBegin=5251 CharacterOffsetEnd=5255 PartOfSpeech=NNP]
+[Text=Community CharacterOffsetBegin=5256 CharacterOffsetEnd=5265 PartOfSpeech=NNP]
+[Text=College CharacterOffsetBegin=5266 CharacterOffsetEnd=5273 PartOfSpeech=NNP]
+[Text=LRB CharacterOffsetBegin=5274 CharacterOffsetEnd=5277 PartOfSpeech=NNP]
+[Text=SLCC CharacterOffsetBegin=5278 CharacterOffsetEnd=5282 PartOfSpeech=NNP]
+[Text=RRB CharacterOffsetBegin=5283 CharacterOffsetEnd=5286 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=5286 CharacterOffsetEnd=5287 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, served-2)
+nsubj(served-2, He-1)
+nsubj:pass(recruited-8, He-1)
+det(mission-5, a-3)
+compound(mission-5, Mormon-4)
+obj(served-2, mission-5)
+cc(recruited-8, and-6)
+aux:pass(recruited-8, was-7)
+conj:and(served-2, recruited-8)
+case(RRB-16, by-9)
+compound(Lake-11, Salt-10)
+compound(Community-12, Lake-11)
+compound(College-13, Community-12)
+compound(LRB-14, College-13)
+compound(RRB-16, LRB-14)
+compound(RRB-16, SLCC-15)
+obl:agent(recruited-8, RRB-16)
+punct(served-2, .-17)
+
+Sentence #42 (35 tokens):
+He served as Director General for Armed Forces in the Pantelimon Erhan Cabinet and as a member of the Sfatul Țării and Romanian Parliament and was the mayor of Chișinău from 1919 until 1920.
+
+Tokens:
+[Text=He CharacterOffsetBegin=5288 CharacterOffsetEnd=5290 PartOfSpeech=PRP]
+[Text=served CharacterOffsetBegin=5291 CharacterOffsetEnd=5297 PartOfSpeech=VBD]
+[Text=as CharacterOffsetBegin=5298 CharacterOffsetEnd=5300 PartOfSpeech=IN]
+[Text=Director CharacterOffsetBegin=5301 CharacterOffsetEnd=5309 PartOfSpeech=NNP]
+[Text=General CharacterOffsetBegin=5310 CharacterOffsetEnd=5317 PartOfSpeech=NNP]
+[Text=for CharacterOffsetBegin=5318 CharacterOffsetEnd=5321 PartOfSpeech=IN]
+[Text=Armed CharacterOffsetBegin=5322 CharacterOffsetEnd=5327 PartOfSpeech=NNP]
+[Text=Forces CharacterOffsetBegin=5328 CharacterOffsetEnd=5334 PartOfSpeech=NNPS]
+[Text=in CharacterOffsetBegin=5335 CharacterOffsetEnd=5337 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=5338 CharacterOffsetEnd=5341 PartOfSpeech=DT]
+[Text=Pantelimon CharacterOffsetBegin=5342 CharacterOffsetEnd=5352 PartOfSpeech=NNP]
+[Text=Erhan CharacterOffsetBegin=5353 CharacterOffsetEnd=5358 PartOfSpeech=NNP]
+[Text=Cabinet CharacterOffsetBegin=5359 CharacterOffsetEnd=5366 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=5367 CharacterOffsetEnd=5370 PartOfSpeech=CC]
+[Text=as CharacterOffsetBegin=5371 CharacterOffsetEnd=5373 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=5374 CharacterOffsetEnd=5375 PartOfSpeech=DT]
+[Text=member CharacterOffsetBegin=5376 CharacterOffsetEnd=5382 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=5383 CharacterOffsetEnd=5385 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=5386 CharacterOffsetEnd=5389 PartOfSpeech=DT]
+[Text=Sfatul CharacterOffsetBegin=5390 CharacterOffsetEnd=5396 PartOfSpeech=NNP]
+[Text=Țării CharacterOffsetBegin=5397 CharacterOffsetEnd=5402 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=5403 CharacterOffsetEnd=5406 PartOfSpeech=CC]
+[Text=Romanian CharacterOffsetBegin=5407 CharacterOffsetEnd=5415 PartOfSpeech=NNP]
+[Text=Parliament CharacterOffsetBegin=5416 CharacterOffsetEnd=5426 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=5427 CharacterOffsetEnd=5430 PartOfSpeech=CC]
+[Text=was CharacterOffsetBegin=5431 CharacterOffsetEnd=5434 PartOfSpeech=VBD]
+[Text=the CharacterOffsetBegin=5435 CharacterOffsetEnd=5438 PartOfSpeech=DT]
+[Text=mayor CharacterOffsetBegin=5439 CharacterOffsetEnd=5444 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=5445 CharacterOffsetEnd=5447 PartOfSpeech=IN]
+[Text=Chișinău CharacterOffsetBegin=5448 CharacterOffsetEnd=5456 PartOfSpeech=NNP]
+[Text=from CharacterOffsetBegin=5457 CharacterOffsetEnd=5461 PartOfSpeech=IN]
+[Text=1919 CharacterOffsetBegin=5462 CharacterOffsetEnd=5466 PartOfSpeech=CD]
+[Text=until CharacterOffsetBegin=5467 CharacterOffsetEnd=5472 PartOfSpeech=IN]
+[Text=1920 CharacterOffsetBegin=5473 CharacterOffsetEnd=5477 PartOfSpeech=CD]
+[Text=. CharacterOffsetBegin=5477 CharacterOffsetEnd=5478 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, served-2)
+nsubj(served-2, He-1)
+case(General-5, as-3)
+compound(General-5, Director-4)
+obl:as(served-2, General-5)
+case(Forces-8, for-6)
+compound(Forces-8, Armed-7)
+obl:for(served-2, Forces-8)
+case(Cabinet-13, in-9)
+det(Cabinet-13, the-10)
+compound(Cabinet-13, Pantelimon-11)
+compound(Cabinet-13, Erhan-12)
+obl:in(served-2, Cabinet-13)
+dep(served-2, and-14)
+case(member-17, as-15)
+det(member-17, a-16)
+obl:as(and-14, member-17)
+case(Țării-21, of-18)
+det(Țării-21, the-19)
+compound(Țării-21, Sfatul-20)
+nmod:of(member-17, Țării-21)
+cc(Parliament-24, and-22)
+compound(Parliament-24, Romanian-23)
+nmod:of(member-17, Parliament-24)
+conj:and(Țării-21, Parliament-24)
+cc(mayor-28, and-25)
+cop(mayor-28, was-26)
+det(mayor-28, the-27)
+obl:as(and-14, mayor-28)
+conj:and(member-17, mayor-28)
+case(Chișinău-30, of-29)
+nmod:of(mayor-28, Chișinău-30)
+case(1919-32, from-31)
+nmod:from(mayor-28, 1919-32)
+case(1920-34, until-33)
+obl:until(1919-32, 1920-34)
+punct(served-2, .-35)
+
+Sentence #43 (32 tokens):
+An important function of the paper was to provide a forum for women to exchange opinions and its readers responded with a steady stream of commentary from a variety of viewpoints.
+
+Tokens:
+[Text=An CharacterOffsetBegin=5479 CharacterOffsetEnd=5481 PartOfSpeech=DT]
+[Text=important CharacterOffsetBegin=5482 CharacterOffsetEnd=5491 PartOfSpeech=JJ]
+[Text=function CharacterOffsetBegin=5492 CharacterOffsetEnd=5500 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=5501 CharacterOffsetEnd=5503 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=5504 CharacterOffsetEnd=5507 PartOfSpeech=DT]
+[Text=paper CharacterOffsetBegin=5508 CharacterOffsetEnd=5513 PartOfSpeech=NN]
+[Text=was CharacterOffsetBegin=5514 CharacterOffsetEnd=5517 PartOfSpeech=VBD]
+[Text=to CharacterOffsetBegin=5518 CharacterOffsetEnd=5520 PartOfSpeech=TO]
+[Text=provide CharacterOffsetBegin=5521 CharacterOffsetEnd=5528 PartOfSpeech=VB]
+[Text=a CharacterOffsetBegin=5529 CharacterOffsetEnd=5530 PartOfSpeech=DT]
+[Text=forum CharacterOffsetBegin=5531 CharacterOffsetEnd=5536 PartOfSpeech=NN]
+[Text=for CharacterOffsetBegin=5537 CharacterOffsetEnd=5540 PartOfSpeech=IN]
+[Text=women CharacterOffsetBegin=5541 CharacterOffsetEnd=5546 PartOfSpeech=NNS]
+[Text=to CharacterOffsetBegin=5547 CharacterOffsetEnd=5549 PartOfSpeech=TO]
+[Text=exchange CharacterOffsetBegin=5550 CharacterOffsetEnd=5558 PartOfSpeech=VB]
+[Text=opinions CharacterOffsetBegin=5559 CharacterOffsetEnd=5567 PartOfSpeech=NNS]
+[Text=and CharacterOffsetBegin=5568 CharacterOffsetEnd=5571 PartOfSpeech=CC]
+[Text=its CharacterOffsetBegin=5572 CharacterOffsetEnd=5575 PartOfSpeech=PRP$]
+[Text=readers CharacterOffsetBegin=5576 CharacterOffsetEnd=5583 PartOfSpeech=NNS]
+[Text=responded CharacterOffsetBegin=5584 CharacterOffsetEnd=5593 PartOfSpeech=VBD]
+[Text=with CharacterOffsetBegin=5594 CharacterOffsetEnd=5598 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=5599 CharacterOffsetEnd=5600 PartOfSpeech=DT]
+[Text=steady CharacterOffsetBegin=5601 CharacterOffsetEnd=5607 PartOfSpeech=JJ]
+[Text=stream CharacterOffsetBegin=5608 CharacterOffsetEnd=5614 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=5615 CharacterOffsetEnd=5617 PartOfSpeech=IN]
+[Text=commentary CharacterOffsetBegin=5618 CharacterOffsetEnd=5628 PartOfSpeech=NN]
+[Text=from CharacterOffsetBegin=5629 CharacterOffsetEnd=5633 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=5634 CharacterOffsetEnd=5635 PartOfSpeech=DT]
+[Text=variety CharacterOffsetBegin=5636 CharacterOffsetEnd=5643 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=5644 CharacterOffsetEnd=5646 PartOfSpeech=IN]
+[Text=viewpoints CharacterOffsetBegin=5647 CharacterOffsetEnd=5657 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=5657 CharacterOffsetEnd=5658 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, provide-9)
+det(function-3, An-1)
+amod(function-3, important-2)
+nsubj(provide-9, function-3)
+case(paper-6, of-4)
+det(paper-6, the-5)
+nmod:of(function-3, paper-6)
+aux(provide-9, was-7)
+mark(provide-9, to-8)
+det(forum-11, a-10)
+obj(provide-9, forum-11)
+mark(exchange-15, for-12)
+nsubj(exchange-15, women-13)
+mark(exchange-15, to-14)
+acl:to(forum-11, exchange-15)
+obj(exchange-15, opinions-16)
+cc(readers-19, and-17)
+nmod:poss(readers-19, its-18)
+obj(exchange-15, readers-19)
+conj:and(opinions-16, readers-19)
+dep(provide-9, responded-20)
+case(stream-24, with-21)
+det(stream-24, a-22)
+amod(stream-24, steady-23)
+obl:with(responded-20, stream-24)
+case(commentary-26, of-25)
+nmod:of(stream-24, commentary-26)
+case(viewpoints-31, from-27)
+det:qmod(viewpoints-31, a-28)
+fixed(a-28, variety-29)
+fixed(a-28, of-30)
+nmod:from(stream-24, viewpoints-31)
+punct(provide-9, .-32)
+
+Sentence #44 (27 tokens):
+He received his schooling at the American School of El Salvador LRB Escuela Americana RRB and later studied finance in SMU LRB Southern Methodist University RRB.
+
+Tokens:
+[Text=He CharacterOffsetBegin=5659 CharacterOffsetEnd=5661 PartOfSpeech=PRP]
+[Text=received CharacterOffsetBegin=5662 CharacterOffsetEnd=5670 PartOfSpeech=VBD]
+[Text=his CharacterOffsetBegin=5671 CharacterOffsetEnd=5674 PartOfSpeech=PRP$]
+[Text=schooling CharacterOffsetBegin=5675 CharacterOffsetEnd=5684 PartOfSpeech=NN]
+[Text=at CharacterOffsetBegin=5685 CharacterOffsetEnd=5687 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=5688 CharacterOffsetEnd=5691 PartOfSpeech=DT]
+[Text=American CharacterOffsetBegin=5692 CharacterOffsetEnd=5700 PartOfSpeech=NNP]
+[Text=School CharacterOffsetBegin=5701 CharacterOffsetEnd=5707 PartOfSpeech=NNP]
+[Text=of CharacterOffsetBegin=5708 CharacterOffsetEnd=5710 PartOfSpeech=IN]
+[Text=El CharacterOffsetBegin=5711 CharacterOffsetEnd=5713 PartOfSpeech=NNP]
+[Text=Salvador CharacterOffsetBegin=5714 CharacterOffsetEnd=5722 PartOfSpeech=NNP]
+[Text=LRB CharacterOffsetBegin=5723 CharacterOffsetEnd=5726 PartOfSpeech=NNP]
+[Text=Escuela CharacterOffsetBegin=5727 CharacterOffsetEnd=5734 PartOfSpeech=NNP]
+[Text=Americana CharacterOffsetBegin=5735 CharacterOffsetEnd=5744 PartOfSpeech=NNP]
+[Text=RRB CharacterOffsetBegin=5745 CharacterOffsetEnd=5748 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=5749 CharacterOffsetEnd=5752 PartOfSpeech=CC]
+[Text=later CharacterOffsetBegin=5753 CharacterOffsetEnd=5758 PartOfSpeech=RB]
+[Text=studied CharacterOffsetBegin=5759 CharacterOffsetEnd=5766 PartOfSpeech=VBD]
+[Text=finance CharacterOffsetBegin=5767 CharacterOffsetEnd=5774 PartOfSpeech=NN]
+[Text=in CharacterOffsetBegin=5775 CharacterOffsetEnd=5777 PartOfSpeech=IN]
+[Text=SMU CharacterOffsetBegin=5778 CharacterOffsetEnd=5781 PartOfSpeech=NNP]
+[Text=LRB CharacterOffsetBegin=5782 CharacterOffsetEnd=5785 PartOfSpeech=NNP]
+[Text=Southern CharacterOffsetBegin=5786 CharacterOffsetEnd=5794 PartOfSpeech=NNP]
+[Text=Methodist CharacterOffsetBegin=5795 CharacterOffsetEnd=5804 PartOfSpeech=NNP]
+[Text=University CharacterOffsetBegin=5805 CharacterOffsetEnd=5815 PartOfSpeech=NNP]
+[Text=RRB CharacterOffsetBegin=5816 CharacterOffsetEnd=5819 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=5819 CharacterOffsetEnd=5820 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, received-2)
+nsubj(received-2, He-1)
+nsubj(studied-18, He-1)
+nmod:poss(schooling-4, his-3)
+obj(received-2, schooling-4)
+case(School-8, at-5)
+det(School-8, the-6)
+compound(School-8, American-7)
+obl:at(received-2, School-8)
+case(RRB-15, of-9)
+compound(Salvador-11, El-10)
+compound(RRB-15, Salvador-11)
+compound(RRB-15, LRB-12)
+compound(RRB-15, Escuela-13)
+compound(RRB-15, Americana-14)
+nmod:of(School-8, RRB-15)
+cc(studied-18, and-16)
+advmod(studied-18, later-17)
+conj:and(received-2, studied-18)
+obj(studied-18, finance-19)
+case(RRB-26, in-20)
+compound(RRB-26, SMU-21)
+compound(Methodist-24, LRB-22)
+compound(Methodist-24, Southern-23)
+compound(RRB-26, Methodist-24)
+compound(RRB-26, University-25)
+obl:in(studied-18, RRB-26)
+punct(received-2, .-27)
+
+Sentence #45 (30 tokens):
+He lost his place in the stellar South Sydney Rabbitohs first grade team to Bob Grant in 1968 and he finished his career at Western Suburbs Magpies in 1970.
+
+Tokens:
+[Text=He CharacterOffsetBegin=5821 CharacterOffsetEnd=5823 PartOfSpeech=PRP]
+[Text=lost CharacterOffsetBegin=5824 CharacterOffsetEnd=5828 PartOfSpeech=VBD]
+[Text=his CharacterOffsetBegin=5829 CharacterOffsetEnd=5832 PartOfSpeech=PRP$]
+[Text=place CharacterOffsetBegin=5833 CharacterOffsetEnd=5838 PartOfSpeech=NN]
+[Text=in CharacterOffsetBegin=5839 CharacterOffsetEnd=5841 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=5842 CharacterOffsetEnd=5845 PartOfSpeech=DT]
+[Text=stellar CharacterOffsetBegin=5846 CharacterOffsetEnd=5853 PartOfSpeech=JJ]
+[Text=South CharacterOffsetBegin=5854 CharacterOffsetEnd=5859 PartOfSpeech=NNP]
+[Text=Sydney CharacterOffsetBegin=5860 CharacterOffsetEnd=5866 PartOfSpeech=NNP]
+[Text=Rabbitohs CharacterOffsetBegin=5867 CharacterOffsetEnd=5876 PartOfSpeech=NNP]
+[Text=first CharacterOffsetBegin=5877 CharacterOffsetEnd=5882 PartOfSpeech=JJ]
+[Text=grade CharacterOffsetBegin=5883 CharacterOffsetEnd=5888 PartOfSpeech=NN]
+[Text=team CharacterOffsetBegin=5889 CharacterOffsetEnd=5893 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=5894 CharacterOffsetEnd=5896 PartOfSpeech=IN]
+[Text=Bob CharacterOffsetBegin=5897 CharacterOffsetEnd=5900 PartOfSpeech=NNP]
+[Text=Grant CharacterOffsetBegin=5901 CharacterOffsetEnd=5906 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=5907 CharacterOffsetEnd=5909 PartOfSpeech=IN]
+[Text=1968 CharacterOffsetBegin=5910 CharacterOffsetEnd=5914 PartOfSpeech=CD]
+[Text=and CharacterOffsetBegin=5915 CharacterOffsetEnd=5918 PartOfSpeech=CC]
+[Text=he CharacterOffsetBegin=5919 CharacterOffsetEnd=5921 PartOfSpeech=PRP]
+[Text=finished CharacterOffsetBegin=5922 CharacterOffsetEnd=5930 PartOfSpeech=VBD]
+[Text=his CharacterOffsetBegin=5931 CharacterOffsetEnd=5934 PartOfSpeech=PRP$]
+[Text=career CharacterOffsetBegin=5935 CharacterOffsetEnd=5941 PartOfSpeech=NN]
+[Text=at CharacterOffsetBegin=5942 CharacterOffsetEnd=5944 PartOfSpeech=IN]
+[Text=Western CharacterOffsetBegin=5945 CharacterOffsetEnd=5952 PartOfSpeech=JJ]
+[Text=Suburbs CharacterOffsetBegin=5953 CharacterOffsetEnd=5960 PartOfSpeech=NNS]
+[Text=Magpies CharacterOffsetBegin=5961 CharacterOffsetEnd=5968 PartOfSpeech=NNS]
+[Text=in CharacterOffsetBegin=5969 CharacterOffsetEnd=5971 PartOfSpeech=IN]
+[Text=1970 CharacterOffsetBegin=5972 CharacterOffsetEnd=5976 PartOfSpeech=CD]
+[Text=. CharacterOffsetBegin=5976 CharacterOffsetEnd=5977 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, lost-2)
+nsubj(lost-2, He-1)
+nmod:poss(place-4, his-3)
+obj(lost-2, place-4)
+case(team-13, in-5)
+det(team-13, the-6)
+amod(team-13, stellar-7)
+compound(Sydney-9, South-8)
+compound(Rabbitohs-10, Sydney-9)
+compound(team-13, Rabbitohs-10)
+amod(team-13, first-11)
+compound(team-13, grade-12)
+obl:in(lost-2, team-13)
+case(Grant-16, to-14)
+compound(Grant-16, Bob-15)
+obl:to(lost-2, Grant-16)
+case(1968-18, in-17)
+obl:in(lost-2, 1968-18)
+cc(finished-21, and-19)
+nsubj(finished-21, he-20)
+conj:and(lost-2, finished-21)
+nmod:poss(career-23, his-22)
+obj(finished-21, career-23)
+case(Magpies-27, at-24)
+amod(Suburbs-26, Western-25)
+compound(Magpies-27, Suburbs-26)
+obl:at(finished-21, Magpies-27)
+case(1970-29, in-28)
+obl:in(finished-21, 1970-29)
+punct(lost-2, .-30)
+
+Sentence #46 (19 tokens):
+He left Russia in 1917 for London and Prague and became an American citizen in the late 1940s.
+
+Tokens:
+[Text=He CharacterOffsetBegin=5978 CharacterOffsetEnd=5980 PartOfSpeech=PRP]
+[Text=left CharacterOffsetBegin=5981 CharacterOffsetEnd=5985 PartOfSpeech=VBD]
+[Text=Russia CharacterOffsetBegin=5986 CharacterOffsetEnd=5992 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=5993 CharacterOffsetEnd=5995 PartOfSpeech=IN]
+[Text=1917 CharacterOffsetBegin=5996 CharacterOffsetEnd=6000 PartOfSpeech=CD]
+[Text=for CharacterOffsetBegin=6001 CharacterOffsetEnd=6004 PartOfSpeech=IN]
+[Text=London CharacterOffsetBegin=6005 CharacterOffsetEnd=6011 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=6012 CharacterOffsetEnd=6015 PartOfSpeech=CC]
+[Text=Prague CharacterOffsetBegin=6016 CharacterOffsetEnd=6022 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=6023 CharacterOffsetEnd=6026 PartOfSpeech=CC]
+[Text=became CharacterOffsetBegin=6027 CharacterOffsetEnd=6033 PartOfSpeech=VBD]
+[Text=an CharacterOffsetBegin=6034 CharacterOffsetEnd=6036 PartOfSpeech=DT]
+[Text=American CharacterOffsetBegin=6037 CharacterOffsetEnd=6045 PartOfSpeech=JJ]
+[Text=citizen CharacterOffsetBegin=6046 CharacterOffsetEnd=6053 PartOfSpeech=NN]
+[Text=in CharacterOffsetBegin=6054 CharacterOffsetEnd=6056 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=6057 CharacterOffsetEnd=6060 PartOfSpeech=DT]
+[Text=late CharacterOffsetBegin=6061 CharacterOffsetEnd=6065 PartOfSpeech=JJ]
+[Text=1940s CharacterOffsetBegin=6066 CharacterOffsetEnd=6071 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=6071 CharacterOffsetEnd=6072 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, left-2)
+nsubj(left-2, He-1)
+nsubj(became-11, He-1)
+obj(left-2, Russia-3)
+case(1917-5, in-4)
+obl:in(left-2, 1917-5)
+case(London-7, for-6)
+obl:for(left-2, London-7)
+cc(Prague-9, and-8)
+obl:for(left-2, Prague-9)
+conj:and(London-7, Prague-9)
+cc(became-11, and-10)
+conj:and(left-2, became-11)
+det(citizen-14, an-12)
+amod(citizen-14, American-13)
+xcomp(became-11, citizen-14)
+case(1940s-18, in-15)
+det(1940s-18, the-16)
+amod(1940s-18, late-17)
+obl:in(became-11, 1940s-18)
+punct(left-2, .-19)
+
+Sentence #47 (28 tokens):
+Smith grew up in the Mesa area after his family moved to Mesa in 1967 when his father assumed the role of superintendent of Mesa Public Schools.
+
+Tokens:
+[Text=Smith CharacterOffsetBegin=6073 CharacterOffsetEnd=6078 PartOfSpeech=NNP]
+[Text=grew CharacterOffsetBegin=6079 CharacterOffsetEnd=6083 PartOfSpeech=VBD]
+[Text=up CharacterOffsetBegin=6084 CharacterOffsetEnd=6086 PartOfSpeech=RP]
+[Text=in CharacterOffsetBegin=6087 CharacterOffsetEnd=6089 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=6090 CharacterOffsetEnd=6093 PartOfSpeech=DT]
+[Text=Mesa CharacterOffsetBegin=6094 CharacterOffsetEnd=6098 PartOfSpeech=NNP]
+[Text=area CharacterOffsetBegin=6099 CharacterOffsetEnd=6103 PartOfSpeech=NN]
+[Text=after CharacterOffsetBegin=6104 CharacterOffsetEnd=6109 PartOfSpeech=IN]
+[Text=his CharacterOffsetBegin=6110 CharacterOffsetEnd=6113 PartOfSpeech=PRP$]
+[Text=family CharacterOffsetBegin=6114 CharacterOffsetEnd=6120 PartOfSpeech=NN]
+[Text=moved CharacterOffsetBegin=6121 CharacterOffsetEnd=6126 PartOfSpeech=VBD]
+[Text=to CharacterOffsetBegin=6127 CharacterOffsetEnd=6129 PartOfSpeech=IN]
+[Text=Mesa CharacterOffsetBegin=6130 CharacterOffsetEnd=6134 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=6135 CharacterOffsetEnd=6137 PartOfSpeech=IN]
+[Text=1967 CharacterOffsetBegin=6138 CharacterOffsetEnd=6142 PartOfSpeech=CD]
+[Text=when CharacterOffsetBegin=6143 CharacterOffsetEnd=6147 PartOfSpeech=WRB]
+[Text=his CharacterOffsetBegin=6148 CharacterOffsetEnd=6151 PartOfSpeech=PRP$]
+[Text=father CharacterOffsetBegin=6152 CharacterOffsetEnd=6158 PartOfSpeech=NN]
+[Text=assumed CharacterOffsetBegin=6159 CharacterOffsetEnd=6166 PartOfSpeech=VBD]
+[Text=the CharacterOffsetBegin=6167 CharacterOffsetEnd=6170 PartOfSpeech=DT]
+[Text=role CharacterOffsetBegin=6171 CharacterOffsetEnd=6175 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=6176 CharacterOffsetEnd=6178 PartOfSpeech=IN]
+[Text=superintendent CharacterOffsetBegin=6179 CharacterOffsetEnd=6193 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=6194 CharacterOffsetEnd=6196 PartOfSpeech=IN]
+[Text=Mesa CharacterOffsetBegin=6197 CharacterOffsetEnd=6201 PartOfSpeech=NNP]
+[Text=Public CharacterOffsetBegin=6202 CharacterOffsetEnd=6208 PartOfSpeech=NNP]
+[Text=Schools CharacterOffsetBegin=6209 CharacterOffsetEnd=6216 PartOfSpeech=NNPS]
+[Text=. CharacterOffsetBegin=6216 CharacterOffsetEnd=6217 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, grew-2)
+nsubj(grew-2, Smith-1)
+compound:prt(grew-2, up-3)
+case(area-7, in-4)
+det(area-7, the-5)
+compound(area-7, Mesa-6)
+obl:in(grew-2, area-7)
+mark(moved-11, after-8)
+nmod:poss(family-10, his-9)
+nsubj(moved-11, family-10)
+advcl:after(grew-2, moved-11)
+case(Mesa-13, to-12)
+obl:to(moved-11, Mesa-13)
+case(1967-15, in-14)
+obl:in(moved-11, 1967-15)
+advmod(assumed-19, when-16)
+nmod:poss(father-18, his-17)
+nsubj(assumed-19, father-18)
+advcl(moved-11, assumed-19)
+det(role-21, the-20)
+obj(assumed-19, role-21)
+case(superintendent-23, of-22)
+nmod:of(role-21, superintendent-23)
+case(Schools-27, of-24)
+compound(Schools-27, Mesa-25)
+compound(Schools-27, Public-26)
+nmod:of(superintendent-23, Schools-27)
+punct(grew-2, .-28)
+
+Sentence #48 (29 tokens):
+Rhubarb Radio launched as a commercial local radio service in Wakefield on 1 October 2017 at midday and plays a variety of hits from the 1970s to today.
+
+Tokens:
+[Text=Rhubarb CharacterOffsetBegin=6218 CharacterOffsetEnd=6225 PartOfSpeech=NNP]
+[Text=Radio CharacterOffsetBegin=6226 CharacterOffsetEnd=6231 PartOfSpeech=NNP]
+[Text=launched CharacterOffsetBegin=6232 CharacterOffsetEnd=6240 PartOfSpeech=VBD]
+[Text=as CharacterOffsetBegin=6241 CharacterOffsetEnd=6243 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=6244 CharacterOffsetEnd=6245 PartOfSpeech=DT]
+[Text=commercial CharacterOffsetBegin=6246 CharacterOffsetEnd=6256 PartOfSpeech=JJ]
+[Text=local CharacterOffsetBegin=6257 CharacterOffsetEnd=6262 PartOfSpeech=JJ]
+[Text=radio CharacterOffsetBegin=6263 CharacterOffsetEnd=6268 PartOfSpeech=NN]
+[Text=service CharacterOffsetBegin=6269 CharacterOffsetEnd=6276 PartOfSpeech=NN]
+[Text=in CharacterOffsetBegin=6277 CharacterOffsetEnd=6279 PartOfSpeech=IN]
+[Text=Wakefield CharacterOffsetBegin=6280 CharacterOffsetEnd=6289 PartOfSpeech=NNP]
+[Text=on CharacterOffsetBegin=6290 CharacterOffsetEnd=6292 PartOfSpeech=IN]
+[Text=1 CharacterOffsetBegin=6293 CharacterOffsetEnd=6294 PartOfSpeech=CD]
+[Text=October CharacterOffsetBegin=6295 CharacterOffsetEnd=6302 PartOfSpeech=NNP]
+[Text=2017 CharacterOffsetBegin=6303 CharacterOffsetEnd=6307 PartOfSpeech=CD]
+[Text=at CharacterOffsetBegin=6308 CharacterOffsetEnd=6310 PartOfSpeech=IN]
+[Text=midday CharacterOffsetBegin=6311 CharacterOffsetEnd=6317 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=6318 CharacterOffsetEnd=6321 PartOfSpeech=CC]
+[Text=plays CharacterOffsetBegin=6322 CharacterOffsetEnd=6327 PartOfSpeech=VBZ]
+[Text=a CharacterOffsetBegin=6328 CharacterOffsetEnd=6329 PartOfSpeech=DT]
+[Text=variety CharacterOffsetBegin=6330 CharacterOffsetEnd=6337 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=6338 CharacterOffsetEnd=6340 PartOfSpeech=IN]
+[Text=hits CharacterOffsetBegin=6341 CharacterOffsetEnd=6345 PartOfSpeech=NNS]
+[Text=from CharacterOffsetBegin=6346 CharacterOffsetEnd=6350 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=6351 CharacterOffsetEnd=6354 PartOfSpeech=DT]
+[Text=1970s CharacterOffsetBegin=6355 CharacterOffsetEnd=6360 PartOfSpeech=NNS]
+[Text=to CharacterOffsetBegin=6361 CharacterOffsetEnd=6363 PartOfSpeech=IN]
+[Text=today CharacterOffsetBegin=6364 CharacterOffsetEnd=6369 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=6369 CharacterOffsetEnd=6370 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, launched-3)
+compound(Radio-2, Rhubarb-1)
+nsubj(launched-3, Radio-2)
+nsubj(plays-19, Radio-2)
+case(service-9, as-4)
+det(service-9, a-5)
+amod(service-9, commercial-6)
+amod(service-9, local-7)
+compound(service-9, radio-8)
+obl:as(launched-3, service-9)
+case(Wakefield-11, in-10)
+nmod:in(service-9, Wakefield-11)
+case(October-14, on-12)
+nummod(October-14, 1-13)
+obl:on(launched-3, October-14)
+nummod(October-14, 2017-15)
+case(midday-17, at-16)
+obl:at(launched-3, midday-17)
+cc(plays-19, and-18)
+conj:and(launched-3, plays-19)
+det:qmod(hits-23, a-20)
+fixed(a-20, variety-21)
+fixed(a-20, of-22)
+obj(plays-19, hits-23)
+case(1970s-26, from-24)
+det(1970s-26, the-25)
+obl:from(plays-19, 1970s-26)
+case(today-28, to-27)
+obl:to(plays-19, today-28)
+punct(launched-3, .-29)
+
+Sentence #49 (25 tokens):
+She is a two time European Figure Skating Championship bronze medalist and was the first skater from Georgia to medal at an ISU Championships.
+
+Tokens:
+[Text=She CharacterOffsetBegin=6371 CharacterOffsetEnd=6374 PartOfSpeech=PRP]
+[Text=is CharacterOffsetBegin=6375 CharacterOffsetEnd=6377 PartOfSpeech=VBZ]
+[Text=a CharacterOffsetBegin=6378 CharacterOffsetEnd=6379 PartOfSpeech=DT]
+[Text=two CharacterOffsetBegin=6380 CharacterOffsetEnd=6383 PartOfSpeech=CD]
+[Text=time CharacterOffsetBegin=6384 CharacterOffsetEnd=6388 PartOfSpeech=NN]
+[Text=European CharacterOffsetBegin=6389 CharacterOffsetEnd=6397 PartOfSpeech=JJ]
+[Text=Figure CharacterOffsetBegin=6398 CharacterOffsetEnd=6404 PartOfSpeech=NN]
+[Text=Skating CharacterOffsetBegin=6405 CharacterOffsetEnd=6412 PartOfSpeech=NN]
+[Text=Championship CharacterOffsetBegin=6413 CharacterOffsetEnd=6425 PartOfSpeech=NNP]
+[Text=bronze CharacterOffsetBegin=6426 CharacterOffsetEnd=6432 PartOfSpeech=NN]
+[Text=medalist CharacterOffsetBegin=6433 CharacterOffsetEnd=6441 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=6442 CharacterOffsetEnd=6445 PartOfSpeech=CC]
+[Text=was CharacterOffsetBegin=6446 CharacterOffsetEnd=6449 PartOfSpeech=VBD]
+[Text=the CharacterOffsetBegin=6450 CharacterOffsetEnd=6453 PartOfSpeech=DT]
+[Text=first CharacterOffsetBegin=6454 CharacterOffsetEnd=6459 PartOfSpeech=JJ]
+[Text=skater CharacterOffsetBegin=6460 CharacterOffsetEnd=6466 PartOfSpeech=NN]
+[Text=from CharacterOffsetBegin=6467 CharacterOffsetEnd=6471 PartOfSpeech=IN]
+[Text=Georgia CharacterOffsetBegin=6472 CharacterOffsetEnd=6479 PartOfSpeech=NNP]
+[Text=to CharacterOffsetBegin=6480 CharacterOffsetEnd=6482 PartOfSpeech=IN]
+[Text=medal CharacterOffsetBegin=6483 CharacterOffsetEnd=6488 PartOfSpeech=NN]
+[Text=at CharacterOffsetBegin=6489 CharacterOffsetEnd=6491 PartOfSpeech=IN]
+[Text=an CharacterOffsetBegin=6492 CharacterOffsetEnd=6494 PartOfSpeech=DT]
+[Text=ISU CharacterOffsetBegin=6495 CharacterOffsetEnd=6498 PartOfSpeech=NNP]
+[Text=Championships CharacterOffsetBegin=6499 CharacterOffsetEnd=6512 PartOfSpeech=NNPS]
+[Text=. CharacterOffsetBegin=6512 CharacterOffsetEnd=6513 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, medalist-11)
+nsubj(medalist-11, She-1)
+cop(medalist-11, is-2)
+det(medalist-11, a-3)
+nummod(time-5, two-4)
+compound(medalist-11, time-5)
+amod(medalist-11, European-6)
+compound(medalist-11, Figure-7)
+compound(medalist-11, Skating-8)
+compound(medalist-11, Championship-9)
+compound(medalist-11, bronze-10)
+cc(skater-16, and-12)
+cop(skater-16, was-13)
+det(skater-16, the-14)
+amod(skater-16, first-15)
+conj:and(medalist-11, skater-16)
+case(Georgia-18, from-17)
+nmod:from(skater-16, Georgia-18)
+case(medal-20, to-19)
+nmod:to(skater-16, medal-20)
+case(Championships-24, at-21)
+det(Championships-24, an-22)
+compound(Championships-24, ISU-23)
+nmod:at(medal-20, Championships-24)
+punct(medalist-11, .-25)
+
+Sentence #50 (17 tokens):
+It was first published in 2004 by Hamish Hamilton subsequent publications have been by Penguin Books.
+
+Tokens:
+[Text=It CharacterOffsetBegin=6514 CharacterOffsetEnd=6516 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=6517 CharacterOffsetEnd=6520 PartOfSpeech=VBD]
+[Text=first CharacterOffsetBegin=6521 CharacterOffsetEnd=6526 PartOfSpeech=RB]
+[Text=published CharacterOffsetBegin=6527 CharacterOffsetEnd=6536 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=6537 CharacterOffsetEnd=6539 PartOfSpeech=IN]
+[Text=2004 CharacterOffsetBegin=6540 CharacterOffsetEnd=6544 PartOfSpeech=CD]
+[Text=by CharacterOffsetBegin=6545 CharacterOffsetEnd=6547 PartOfSpeech=IN]
+[Text=Hamish CharacterOffsetBegin=6548 CharacterOffsetEnd=6554 PartOfSpeech=NNP]
+[Text=Hamilton CharacterOffsetBegin=6555 CharacterOffsetEnd=6563 PartOfSpeech=NNP]
+[Text=subsequent CharacterOffsetBegin=6564 CharacterOffsetEnd=6574 PartOfSpeech=JJ]
+[Text=publications CharacterOffsetBegin=6575 CharacterOffsetEnd=6587 PartOfSpeech=NNS]
+[Text=have CharacterOffsetBegin=6588 CharacterOffsetEnd=6592 PartOfSpeech=VBP]
+[Text=been CharacterOffsetBegin=6593 CharacterOffsetEnd=6597 PartOfSpeech=VBN]
+[Text=by CharacterOffsetBegin=6598 CharacterOffsetEnd=6600 PartOfSpeech=IN]
+[Text=Penguin CharacterOffsetBegin=6601 CharacterOffsetEnd=6608 PartOfSpeech=NNP]
+[Text=Books CharacterOffsetBegin=6609 CharacterOffsetEnd=6614 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=6614 CharacterOffsetEnd=6615 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, published-4)
+nsubj:pass(published-4, It-1)
+aux:pass(published-4, was-2)
+advmod(published-4, first-3)
+case(2004-6, in-5)
+obl:in(published-4, 2004-6)
+case(publications-11, by-7)
+compound(Hamilton-9, Hamish-8)
+compound(publications-11, Hamilton-9)
+amod(publications-11, subsequent-10)
+obl:agent(published-4, publications-11)
+aux(Books-16, have-12)
+cop(Books-16, been-13)
+case(Books-16, by-14)
+compound(Books-16, Penguin-15)
+dep(published-4, Books-16)
+punct(published-4, .-17)
+
+Sentence #51 (20 tokens):
+They were all barbers at a local barbershop and she managed to get a job as a washer woman.
+
+Tokens:
+[Text=They CharacterOffsetBegin=6616 CharacterOffsetEnd=6620 PartOfSpeech=PRP]
+[Text=were CharacterOffsetBegin=6621 CharacterOffsetEnd=6625 PartOfSpeech=VBD]
+[Text=all CharacterOffsetBegin=6626 CharacterOffsetEnd=6629 PartOfSpeech=DT]
+[Text=barbers CharacterOffsetBegin=6630 CharacterOffsetEnd=6637 PartOfSpeech=NNS]
+[Text=at CharacterOffsetBegin=6638 CharacterOffsetEnd=6640 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=6641 CharacterOffsetEnd=6642 PartOfSpeech=DT]
+[Text=local CharacterOffsetBegin=6643 CharacterOffsetEnd=6648 PartOfSpeech=JJ]
+[Text=barbershop CharacterOffsetBegin=6649 CharacterOffsetEnd=6659 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=6660 CharacterOffsetEnd=6663 PartOfSpeech=CC]
+[Text=she CharacterOffsetBegin=6664 CharacterOffsetEnd=6667 PartOfSpeech=PRP]
+[Text=managed CharacterOffsetBegin=6668 CharacterOffsetEnd=6675 PartOfSpeech=VBD]
+[Text=to CharacterOffsetBegin=6676 CharacterOffsetEnd=6678 PartOfSpeech=TO]
+[Text=get CharacterOffsetBegin=6679 CharacterOffsetEnd=6682 PartOfSpeech=VB]
+[Text=a CharacterOffsetBegin=6683 CharacterOffsetEnd=6684 PartOfSpeech=DT]
+[Text=job CharacterOffsetBegin=6685 CharacterOffsetEnd=6688 PartOfSpeech=NN]
+[Text=as CharacterOffsetBegin=6689 CharacterOffsetEnd=6691 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=6692 CharacterOffsetEnd=6693 PartOfSpeech=DT]
+[Text=washer CharacterOffsetBegin=6694 CharacterOffsetEnd=6700 PartOfSpeech=NN]
+[Text=woman CharacterOffsetBegin=6701 CharacterOffsetEnd=6706 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=6706 CharacterOffsetEnd=6707 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, barbers-4)
+nsubj(barbers-4, They-1)
+cop(barbers-4, were-2)
+det(barbers-4, all-3)
+case(barbershop-8, at-5)
+det(barbershop-8, a-6)
+amod(barbershop-8, local-7)
+nmod:at(barbers-4, barbershop-8)
+cc(managed-11, and-9)
+nsubj(managed-11, she-10)
+nsubj:xsubj(get-13, she-10)
+conj:and(barbers-4, managed-11)
+mark(get-13, to-12)
+xcomp(managed-11, get-13)
+det(job-15, a-14)
+obj(get-13, job-15)
+case(woman-19, as-16)
+det(woman-19, a-17)
+compound(woman-19, washer-18)
+obl:as(get-13, woman-19)
+punct(barbers-4, .-20)
+
+Sentence #52 (32 tokens):
+He is the director emeritus of the Beckman Research Institute of City of Hope National Medical Center where he was also the founding dean of City of Hope 's graduate school.
+
+Tokens:
+[Text=He CharacterOffsetBegin=6708 CharacterOffsetEnd=6710 PartOfSpeech=PRP]
+[Text=is CharacterOffsetBegin=6711 CharacterOffsetEnd=6713 PartOfSpeech=VBZ]
+[Text=the CharacterOffsetBegin=6714 CharacterOffsetEnd=6717 PartOfSpeech=DT]
+[Text=director CharacterOffsetBegin=6718 CharacterOffsetEnd=6726 PartOfSpeech=NN]
+[Text=emeritus CharacterOffsetBegin=6727 CharacterOffsetEnd=6735 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=6736 CharacterOffsetEnd=6738 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=6739 CharacterOffsetEnd=6742 PartOfSpeech=DT]
+[Text=Beckman CharacterOffsetBegin=6743 CharacterOffsetEnd=6750 PartOfSpeech=NNP]
+[Text=Research CharacterOffsetBegin=6751 CharacterOffsetEnd=6759 PartOfSpeech=NNP]
+[Text=Institute CharacterOffsetBegin=6760 CharacterOffsetEnd=6769 PartOfSpeech=NNP]
+[Text=of CharacterOffsetBegin=6770 CharacterOffsetEnd=6772 PartOfSpeech=IN]
+[Text=City CharacterOffsetBegin=6773 CharacterOffsetEnd=6777 PartOfSpeech=NNP]
+[Text=of CharacterOffsetBegin=6778 CharacterOffsetEnd=6780 PartOfSpeech=IN]
+[Text=Hope CharacterOffsetBegin=6781 CharacterOffsetEnd=6785 PartOfSpeech=NNP]
+[Text=National CharacterOffsetBegin=6786 CharacterOffsetEnd=6794 PartOfSpeech=NNP]
+[Text=Medical CharacterOffsetBegin=6795 CharacterOffsetEnd=6802 PartOfSpeech=NNP]
+[Text=Center CharacterOffsetBegin=6803 CharacterOffsetEnd=6809 PartOfSpeech=NNP]
+[Text=where CharacterOffsetBegin=6810 CharacterOffsetEnd=6815 PartOfSpeech=WRB]
+[Text=he CharacterOffsetBegin=6816 CharacterOffsetEnd=6818 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=6819 CharacterOffsetEnd=6822 PartOfSpeech=VBD]
+[Text=also CharacterOffsetBegin=6823 CharacterOffsetEnd=6827 PartOfSpeech=RB]
+[Text=the CharacterOffsetBegin=6828 CharacterOffsetEnd=6831 PartOfSpeech=DT]
+[Text=founding CharacterOffsetBegin=6832 CharacterOffsetEnd=6840 PartOfSpeech=NN]
+[Text=dean CharacterOffsetBegin=6841 CharacterOffsetEnd=6845 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=6846 CharacterOffsetEnd=6848 PartOfSpeech=IN]
+[Text=City CharacterOffsetBegin=6849 CharacterOffsetEnd=6853 PartOfSpeech=NNP]
+[Text=of CharacterOffsetBegin=6854 CharacterOffsetEnd=6856 PartOfSpeech=IN]
+[Text=Hope CharacterOffsetBegin=6857 CharacterOffsetEnd=6861 PartOfSpeech=NNP]
+[Text='s CharacterOffsetBegin=6862 CharacterOffsetEnd=6864 PartOfSpeech=POS]
+[Text=graduate CharacterOffsetBegin=6865 CharacterOffsetEnd=6873 PartOfSpeech=NN]
+[Text=school CharacterOffsetBegin=6874 CharacterOffsetEnd=6880 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=6880 CharacterOffsetEnd=6881 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, emeritus-5)
+nsubj(emeritus-5, He-1)
+cop(emeritus-5, is-2)
+det(emeritus-5, the-3)
+compound(emeritus-5, director-4)
+case(Institute-10, of-6)
+det(Institute-10, the-7)
+compound(Institute-10, Beckman-8)
+compound(Institute-10, Research-9)
+nmod:of(emeritus-5, Institute-10)
+case(City-12, of-11)
+nmod:of(Institute-10, City-12)
+case(Center-17, of-13)
+compound(Center-17, Hope-14)
+compound(Center-17, National-15)
+compound(Center-17, Medical-16)
+nmod:of(City-12, Center-17)
+advmod(dean-24, where-18)
+nsubj(dean-24, he-19)
+cop(dean-24, was-20)
+advmod(dean-24, also-21)
+det(dean-24, the-22)
+compound(dean-24, founding-23)
+acl:relcl(Institute-10, dean-24)
+case(City-26, of-25)
+nmod:of(dean-24, City-26)
+case(school-31, of-27)
+nmod:poss(school-31, Hope-28)
+case(Hope-28, 's-29)
+compound(school-31, graduate-30)
+nmod:of(City-26, school-31)
+punct(emeritus-5, .-32)
+
+Sentence #53 (17 tokens):
+It is produced industrially on a large scale and also occurs in trace amounts in nature.
+
+Tokens:
+[Text=It CharacterOffsetBegin=6882 CharacterOffsetEnd=6884 PartOfSpeech=PRP]
+[Text=is CharacterOffsetBegin=6885 CharacterOffsetEnd=6887 PartOfSpeech=VBZ]
+[Text=produced CharacterOffsetBegin=6888 CharacterOffsetEnd=6896 PartOfSpeech=VBN]
+[Text=industrially CharacterOffsetBegin=6897 CharacterOffsetEnd=6909 PartOfSpeech=RB]
+[Text=on CharacterOffsetBegin=6910 CharacterOffsetEnd=6912 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=6913 CharacterOffsetEnd=6914 PartOfSpeech=DT]
+[Text=large CharacterOffsetBegin=6915 CharacterOffsetEnd=6920 PartOfSpeech=JJ]
+[Text=scale CharacterOffsetBegin=6921 CharacterOffsetEnd=6926 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=6927 CharacterOffsetEnd=6930 PartOfSpeech=CC]
+[Text=also CharacterOffsetBegin=6931 CharacterOffsetEnd=6935 PartOfSpeech=RB]
+[Text=occurs CharacterOffsetBegin=6936 CharacterOffsetEnd=6942 PartOfSpeech=VBZ]
+[Text=in CharacterOffsetBegin=6943 CharacterOffsetEnd=6945 PartOfSpeech=IN]
+[Text=trace CharacterOffsetBegin=6946 CharacterOffsetEnd=6951 PartOfSpeech=NN]
+[Text=amounts CharacterOffsetBegin=6952 CharacterOffsetEnd=6959 PartOfSpeech=NNS]
+[Text=in CharacterOffsetBegin=6960 CharacterOffsetEnd=6962 PartOfSpeech=IN]
+[Text=nature CharacterOffsetBegin=6963 CharacterOffsetEnd=6969 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=6969 CharacterOffsetEnd=6970 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, produced-3)
+nsubj:pass(produced-3, It-1)
+nsubj(occurs-11, It-1)
+aux:pass(produced-3, is-2)
+advmod(produced-3, industrially-4)
+case(scale-8, on-5)
+det(scale-8, a-6)
+amod(scale-8, large-7)
+obl:on(produced-3, scale-8)
+cc(occurs-11, and-9)
+advmod(occurs-11, also-10)
+conj:and(produced-3, occurs-11)
+case(amounts-14, in-12)
+compound(amounts-14, trace-13)
+obl:in(occurs-11, amounts-14)
+case(nature-16, in-15)
+obl:in(occurs-11, nature-16)
+punct(produced-3, .-17)
+
+Sentence #54 (28 tokens):
+The Liberals returned as the official opposition but the lackluster campaign cost Turner his job as Liberal leader and he was replaced by Jean Chrétien in 1990.
+
+Tokens:
+[Text=The CharacterOffsetBegin=6971 CharacterOffsetEnd=6974 PartOfSpeech=DT]
+[Text=Liberals CharacterOffsetBegin=6975 CharacterOffsetEnd=6983 PartOfSpeech=NNS]
+[Text=returned CharacterOffsetBegin=6984 CharacterOffsetEnd=6992 PartOfSpeech=VBD]
+[Text=as CharacterOffsetBegin=6993 CharacterOffsetEnd=6995 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=6996 CharacterOffsetEnd=6999 PartOfSpeech=DT]
+[Text=official CharacterOffsetBegin=7000 CharacterOffsetEnd=7008 PartOfSpeech=JJ]
+[Text=opposition CharacterOffsetBegin=7009 CharacterOffsetEnd=7019 PartOfSpeech=NN]
+[Text=but CharacterOffsetBegin=7020 CharacterOffsetEnd=7023 PartOfSpeech=CC]
+[Text=the CharacterOffsetBegin=7024 CharacterOffsetEnd=7027 PartOfSpeech=DT]
+[Text=lackluster CharacterOffsetBegin=7028 CharacterOffsetEnd=7038 PartOfSpeech=JJ]
+[Text=campaign CharacterOffsetBegin=7039 CharacterOffsetEnd=7047 PartOfSpeech=NN]
+[Text=cost CharacterOffsetBegin=7048 CharacterOffsetEnd=7052 PartOfSpeech=VBD]
+[Text=Turner CharacterOffsetBegin=7053 CharacterOffsetEnd=7059 PartOfSpeech=NNP]
+[Text=his CharacterOffsetBegin=7060 CharacterOffsetEnd=7063 PartOfSpeech=PRP$]
+[Text=job CharacterOffsetBegin=7064 CharacterOffsetEnd=7067 PartOfSpeech=NN]
+[Text=as CharacterOffsetBegin=7068 CharacterOffsetEnd=7070 PartOfSpeech=IN]
+[Text=Liberal CharacterOffsetBegin=7071 CharacterOffsetEnd=7078 PartOfSpeech=JJ]
+[Text=leader CharacterOffsetBegin=7079 CharacterOffsetEnd=7085 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=7086 CharacterOffsetEnd=7089 PartOfSpeech=CC]
+[Text=he CharacterOffsetBegin=7090 CharacterOffsetEnd=7092 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=7093 CharacterOffsetEnd=7096 PartOfSpeech=VBD]
+[Text=replaced CharacterOffsetBegin=7097 CharacterOffsetEnd=7105 PartOfSpeech=VBN]
+[Text=by CharacterOffsetBegin=7106 CharacterOffsetEnd=7108 PartOfSpeech=IN]
+[Text=Jean CharacterOffsetBegin=7109 CharacterOffsetEnd=7113 PartOfSpeech=NNP]
+[Text=Chrétien CharacterOffsetBegin=7114 CharacterOffsetEnd=7122 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=7123 CharacterOffsetEnd=7125 PartOfSpeech=IN]
+[Text=1990 CharacterOffsetBegin=7126 CharacterOffsetEnd=7130 PartOfSpeech=CD]
+[Text=. CharacterOffsetBegin=7130 CharacterOffsetEnd=7131 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, returned-3)
+det(Liberals-2, The-1)
+nsubj(returned-3, Liberals-2)
+case(opposition-7, as-4)
+det(opposition-7, the-5)
+amod(opposition-7, official-6)
+obl:as(returned-3, opposition-7)
+cc(cost-12, but-8)
+det(campaign-11, the-9)
+amod(campaign-11, lackluster-10)
+nsubj(cost-12, campaign-11)
+conj:but(returned-3, cost-12)
+iobj(cost-12, Turner-13)
+nmod:poss(job-15, his-14)
+obj(cost-12, job-15)
+case(leader-18, as-16)
+amod(leader-18, Liberal-17)
+nmod:as(job-15, leader-18)
+cc(replaced-22, and-19)
+nsubj:pass(replaced-22, he-20)
+aux:pass(replaced-22, was-21)
+conj:but(returned-3, replaced-22)
+conj:and(cost-12, replaced-22)
+case(Chrétien-25, by-23)
+compound(Chrétien-25, Jean-24)
+obl:agent(replaced-22, Chrétien-25)
+case(1990-27, in-26)
+obl:in(replaced-22, 1990-27)
+punct(returned-3, .-28)
+
+Sentence #55 (28 tokens):
+Gentile next started a coaching career with second division Andra Coasta Imola for the 2006 07 season though he did not finish the season after bad results.
+
+Tokens:
+[Text=Gentile CharacterOffsetBegin=7132 CharacterOffsetEnd=7139 PartOfSpeech=NNP]
+[Text=next CharacterOffsetBegin=7140 CharacterOffsetEnd=7144 PartOfSpeech=RB]
+[Text=started CharacterOffsetBegin=7145 CharacterOffsetEnd=7152 PartOfSpeech=VBD]
+[Text=a CharacterOffsetBegin=7153 CharacterOffsetEnd=7154 PartOfSpeech=DT]
+[Text=coaching CharacterOffsetBegin=7155 CharacterOffsetEnd=7163 PartOfSpeech=NN]
+[Text=career CharacterOffsetBegin=7164 CharacterOffsetEnd=7170 PartOfSpeech=NN]
+[Text=with CharacterOffsetBegin=7171 CharacterOffsetEnd=7175 PartOfSpeech=IN]
+[Text=second CharacterOffsetBegin=7176 CharacterOffsetEnd=7182 PartOfSpeech=JJ]
+[Text=division CharacterOffsetBegin=7183 CharacterOffsetEnd=7191 PartOfSpeech=NN]
+[Text=Andra CharacterOffsetBegin=7192 CharacterOffsetEnd=7197 PartOfSpeech=NNP]
+[Text=Coasta CharacterOffsetBegin=7198 CharacterOffsetEnd=7204 PartOfSpeech=NNP]
+[Text=Imola CharacterOffsetBegin=7205 CharacterOffsetEnd=7210 PartOfSpeech=NNP]
+[Text=for CharacterOffsetBegin=7211 CharacterOffsetEnd=7214 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=7215 CharacterOffsetEnd=7218 PartOfSpeech=DT]
+[Text=2006 CharacterOffsetBegin=7219 CharacterOffsetEnd=7223 PartOfSpeech=CD]
+[Text=07 CharacterOffsetBegin=7224 CharacterOffsetEnd=7226 PartOfSpeech=CD]
+[Text=season CharacterOffsetBegin=7227 CharacterOffsetEnd=7233 PartOfSpeech=NN]
+[Text=though CharacterOffsetBegin=7234 CharacterOffsetEnd=7240 PartOfSpeech=IN]
+[Text=he CharacterOffsetBegin=7241 CharacterOffsetEnd=7243 PartOfSpeech=PRP]
+[Text=did CharacterOffsetBegin=7244 CharacterOffsetEnd=7247 PartOfSpeech=VBD]
+[Text=not CharacterOffsetBegin=7248 CharacterOffsetEnd=7251 PartOfSpeech=RB]
+[Text=finish CharacterOffsetBegin=7252 CharacterOffsetEnd=7258 PartOfSpeech=VB]
+[Text=the CharacterOffsetBegin=7259 CharacterOffsetEnd=7262 PartOfSpeech=DT]
+[Text=season CharacterOffsetBegin=7263 CharacterOffsetEnd=7269 PartOfSpeech=NN]
+[Text=after CharacterOffsetBegin=7270 CharacterOffsetEnd=7275 PartOfSpeech=IN]
+[Text=bad CharacterOffsetBegin=7276 CharacterOffsetEnd=7279 PartOfSpeech=JJ]
+[Text=results CharacterOffsetBegin=7280 CharacterOffsetEnd=7287 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=7287 CharacterOffsetEnd=7288 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, started-3)
+nsubj(started-3, Gentile-1)
+advmod(started-3, next-2)
+det(career-6, a-4)
+compound(career-6, coaching-5)
+obj(started-3, career-6)
+case(Imola-12, with-7)
+amod(division-9, second-8)
+compound(Imola-12, division-9)
+compound(Imola-12, Andra-10)
+compound(Imola-12, Coasta-11)
+nmod:with(career-6, Imola-12)
+case(season-17, for-13)
+det(season-17, the-14)
+nummod(season-17, 2006-15)
+nummod(season-17, 07-16)
+obl:for(started-3, season-17)
+mark(finish-22, though-18)
+nsubj(finish-22, he-19)
+aux(finish-22, did-20)
+advmod(finish-22, not-21)
+advcl:though(started-3, finish-22)
+det(season-24, the-23)
+obj(finish-22, season-24)
+case(results-27, after-25)
+amod(results-27, bad-26)
+obl:after(finish-22, results-27)
+punct(started-3, .-28)
+
+Sentence #56 (23 tokens):
+The oldest part of the house was built around 1638 and the house was added to the National Historic Register in 1990.
+
+Tokens:
+[Text=The CharacterOffsetBegin=7289 CharacterOffsetEnd=7292 PartOfSpeech=DT]
+[Text=oldest CharacterOffsetBegin=7293 CharacterOffsetEnd=7299 PartOfSpeech=JJS]
+[Text=part CharacterOffsetBegin=7300 CharacterOffsetEnd=7304 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=7305 CharacterOffsetEnd=7307 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=7308 CharacterOffsetEnd=7311 PartOfSpeech=DT]
+[Text=house CharacterOffsetBegin=7312 CharacterOffsetEnd=7317 PartOfSpeech=NN]
+[Text=was CharacterOffsetBegin=7318 CharacterOffsetEnd=7321 PartOfSpeech=VBD]
+[Text=built CharacterOffsetBegin=7322 CharacterOffsetEnd=7327 PartOfSpeech=VBN]
+[Text=around CharacterOffsetBegin=7328 CharacterOffsetEnd=7334 PartOfSpeech=IN]
+[Text=1638 CharacterOffsetBegin=7335 CharacterOffsetEnd=7339 PartOfSpeech=CD]
+[Text=and CharacterOffsetBegin=7340 CharacterOffsetEnd=7343 PartOfSpeech=CC]
+[Text=the CharacterOffsetBegin=7344 CharacterOffsetEnd=7347 PartOfSpeech=DT]
+[Text=house CharacterOffsetBegin=7348 CharacterOffsetEnd=7353 PartOfSpeech=NN]
+[Text=was CharacterOffsetBegin=7354 CharacterOffsetEnd=7357 PartOfSpeech=VBD]
+[Text=added CharacterOffsetBegin=7358 CharacterOffsetEnd=7363 PartOfSpeech=VBN]
+[Text=to CharacterOffsetBegin=7364 CharacterOffsetEnd=7366 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=7367 CharacterOffsetEnd=7370 PartOfSpeech=DT]
+[Text=National CharacterOffsetBegin=7371 CharacterOffsetEnd=7379 PartOfSpeech=NNP]
+[Text=Historic CharacterOffsetBegin=7380 CharacterOffsetEnd=7388 PartOfSpeech=NNP]
+[Text=Register CharacterOffsetBegin=7389 CharacterOffsetEnd=7397 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=7398 CharacterOffsetEnd=7400 PartOfSpeech=IN]
+[Text=1990 CharacterOffsetBegin=7401 CharacterOffsetEnd=7405 PartOfSpeech=CD]
+[Text=. CharacterOffsetBegin=7405 CharacterOffsetEnd=7406 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, built-8)
+det(part-3, The-1)
+amod(part-3, oldest-2)
+nsubj:pass(built-8, part-3)
+case(house-6, of-4)
+det(house-6, the-5)
+nmod:of(part-3, house-6)
+aux:pass(built-8, was-7)
+case(1638-10, around-9)
+obl:around(built-8, 1638-10)
+cc(added-15, and-11)
+det(house-13, the-12)
+nsubj:pass(added-15, house-13)
+aux:pass(added-15, was-14)
+obl:around(built-8, added-15)
+conj:and(1638-10, added-15)
+case(Register-20, to-16)
+det(Register-20, the-17)
+compound(Register-20, National-18)
+compound(Register-20, Historic-19)
+obl:to(added-15, Register-20)
+case(1990-22, in-21)
+obl:in(added-15, 1990-22)
+punct(built-8, .-23)
+
+Sentence #57 (23 tokens):
+He composed it in Leipzig for the Feast of St. John the Baptist and led the first performance on 24 June 1724.
+
+Tokens:
+[Text=He CharacterOffsetBegin=7407 CharacterOffsetEnd=7409 PartOfSpeech=PRP]
+[Text=composed CharacterOffsetBegin=7410 CharacterOffsetEnd=7418 PartOfSpeech=VBD]
+[Text=it CharacterOffsetBegin=7419 CharacterOffsetEnd=7421 PartOfSpeech=PRP]
+[Text=in CharacterOffsetBegin=7422 CharacterOffsetEnd=7424 PartOfSpeech=IN]
+[Text=Leipzig CharacterOffsetBegin=7425 CharacterOffsetEnd=7432 PartOfSpeech=NNP]
+[Text=for CharacterOffsetBegin=7433 CharacterOffsetEnd=7436 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=7437 CharacterOffsetEnd=7440 PartOfSpeech=DT]
+[Text=Feast CharacterOffsetBegin=7441 CharacterOffsetEnd=7446 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=7447 CharacterOffsetEnd=7449 PartOfSpeech=IN]
+[Text=St. CharacterOffsetBegin=7450 CharacterOffsetEnd=7453 PartOfSpeech=NNP]
+[Text=John CharacterOffsetBegin=7454 CharacterOffsetEnd=7458 PartOfSpeech=NNP]
+[Text=the CharacterOffsetBegin=7459 CharacterOffsetEnd=7462 PartOfSpeech=DT]
+[Text=Baptist CharacterOffsetBegin=7463 CharacterOffsetEnd=7470 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=7471 CharacterOffsetEnd=7474 PartOfSpeech=CC]
+[Text=led CharacterOffsetBegin=7475 CharacterOffsetEnd=7478 PartOfSpeech=VBD]
+[Text=the CharacterOffsetBegin=7479 CharacterOffsetEnd=7482 PartOfSpeech=DT]
+[Text=first CharacterOffsetBegin=7483 CharacterOffsetEnd=7488 PartOfSpeech=JJ]
+[Text=performance CharacterOffsetBegin=7489 CharacterOffsetEnd=7500 PartOfSpeech=NN]
+[Text=on CharacterOffsetBegin=7501 CharacterOffsetEnd=7503 PartOfSpeech=IN]
+[Text=24 CharacterOffsetBegin=7504 CharacterOffsetEnd=7506 PartOfSpeech=CD]
+[Text=June CharacterOffsetBegin=7507 CharacterOffsetEnd=7511 PartOfSpeech=NNP]
+[Text=1724 CharacterOffsetBegin=7512 CharacterOffsetEnd=7516 PartOfSpeech=CD]
+[Text=. CharacterOffsetBegin=7516 CharacterOffsetEnd=7517 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, composed-2)
+nsubj(composed-2, He-1)
+nsubj(led-15, He-1)
+obj(composed-2, it-3)
+case(Leipzig-5, in-4)
+obl:in(composed-2, Leipzig-5)
+case(Feast-8, for-6)
+det(Feast-8, the-7)
+obl:for(composed-2, Feast-8)
+case(John-11, of-9)
+compound(John-11, St.-10)
+nmod:of(Feast-8, John-11)
+det(Baptist-13, the-12)
+dep(John-11, Baptist-13)
+cc(led-15, and-14)
+conj:and(composed-2, led-15)
+det(performance-18, the-16)
+amod(performance-18, first-17)
+obj(led-15, performance-18)
+case(June-21, on-19)
+nummod(June-21, 24-20)
+obl:on(led-15, June-21)
+nummod(June-21, 1724-22)
+punct(composed-2, .-23)
+
+Sentence #58 (18 tokens):
+The north trail runs about 15 miles from Hopkins to Victoria and has a crushed limestone surface.
+
+Tokens:
+[Text=The CharacterOffsetBegin=7518 CharacterOffsetEnd=7521 PartOfSpeech=DT]
+[Text=north CharacterOffsetBegin=7522 CharacterOffsetEnd=7527 PartOfSpeech=NN]
+[Text=trail CharacterOffsetBegin=7528 CharacterOffsetEnd=7533 PartOfSpeech=NN]
+[Text=runs CharacterOffsetBegin=7534 CharacterOffsetEnd=7538 PartOfSpeech=VBZ]
+[Text=about CharacterOffsetBegin=7539 CharacterOffsetEnd=7544 PartOfSpeech=IN]
+[Text=15 CharacterOffsetBegin=7545 CharacterOffsetEnd=7547 PartOfSpeech=CD]
+[Text=miles CharacterOffsetBegin=7548 CharacterOffsetEnd=7553 PartOfSpeech=NNS]
+[Text=from CharacterOffsetBegin=7554 CharacterOffsetEnd=7558 PartOfSpeech=IN]
+[Text=Hopkins CharacterOffsetBegin=7559 CharacterOffsetEnd=7566 PartOfSpeech=NNP]
+[Text=to CharacterOffsetBegin=7567 CharacterOffsetEnd=7569 PartOfSpeech=IN]
+[Text=Victoria CharacterOffsetBegin=7570 CharacterOffsetEnd=7578 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=7579 CharacterOffsetEnd=7582 PartOfSpeech=CC]
+[Text=has CharacterOffsetBegin=7583 CharacterOffsetEnd=7586 PartOfSpeech=VBZ]
+[Text=a CharacterOffsetBegin=7587 CharacterOffsetEnd=7588 PartOfSpeech=DT]
+[Text=crushed CharacterOffsetBegin=7589 CharacterOffsetEnd=7596 PartOfSpeech=VBN]
+[Text=limestone CharacterOffsetBegin=7597 CharacterOffsetEnd=7606 PartOfSpeech=NN]
+[Text=surface CharacterOffsetBegin=7607 CharacterOffsetEnd=7614 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=7614 CharacterOffsetEnd=7615 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, runs-4)
+det(trail-3, The-1)
+compound(trail-3, north-2)
+nsubj(runs-4, trail-3)
+nsubj(has-13, trail-3)
+advmod(15-6, about-5)
+nummod(miles-7, 15-6)
+obj(runs-4, miles-7)
+case(Hopkins-9, from-8)
+nmod:from(miles-7, Hopkins-9)
+case(Victoria-11, to-10)
+obl:to(runs-4, Victoria-11)
+cc(has-13, and-12)
+conj:and(runs-4, has-13)
+det(surface-17, a-14)
+amod(surface-17, crushed-15)
+compound(surface-17, limestone-16)
+obj(has-13, surface-17)
+punct(runs-4, .-18)
+
+Sentence #59 (33 tokens):
+Jardim Gramacho LRB Garden Gramacho in English RRB in the Brazilian city of Duque de Caxias is a neighborhood and was the site of one of the largest landfills in the world.
+
+Tokens:
+[Text=Jardim CharacterOffsetBegin=7616 CharacterOffsetEnd=7622 PartOfSpeech=NNP]
+[Text=Gramacho CharacterOffsetBegin=7623 CharacterOffsetEnd=7631 PartOfSpeech=NNP]
+[Text=LRB CharacterOffsetBegin=7632 CharacterOffsetEnd=7635 PartOfSpeech=NNP]
+[Text=Garden CharacterOffsetBegin=7636 CharacterOffsetEnd=7642 PartOfSpeech=NNP]
+[Text=Gramacho CharacterOffsetBegin=7643 CharacterOffsetEnd=7651 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=7652 CharacterOffsetEnd=7654 PartOfSpeech=IN]
+[Text=English CharacterOffsetBegin=7655 CharacterOffsetEnd=7662 PartOfSpeech=NNP]
+[Text=RRB CharacterOffsetBegin=7663 CharacterOffsetEnd=7666 PartOfSpeech=NNP]
+[Text=in CharacterOffsetBegin=7667 CharacterOffsetEnd=7669 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=7670 CharacterOffsetEnd=7673 PartOfSpeech=DT]
+[Text=Brazilian CharacterOffsetBegin=7674 CharacterOffsetEnd=7683 PartOfSpeech=JJ]
+[Text=city CharacterOffsetBegin=7684 CharacterOffsetEnd=7688 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=7689 CharacterOffsetEnd=7691 PartOfSpeech=IN]
+[Text=Duque CharacterOffsetBegin=7692 CharacterOffsetEnd=7697 PartOfSpeech=NNP]
+[Text=de CharacterOffsetBegin=7698 CharacterOffsetEnd=7700 PartOfSpeech=NNP]
+[Text=Caxias CharacterOffsetBegin=7701 CharacterOffsetEnd=7707 PartOfSpeech=NNP]
+[Text=is CharacterOffsetBegin=7708 CharacterOffsetEnd=7710 PartOfSpeech=VBZ]
+[Text=a CharacterOffsetBegin=7711 CharacterOffsetEnd=7712 PartOfSpeech=DT]
+[Text=neighborhood CharacterOffsetBegin=7713 CharacterOffsetEnd=7725 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=7726 CharacterOffsetEnd=7729 PartOfSpeech=CC]
+[Text=was CharacterOffsetBegin=7730 CharacterOffsetEnd=7733 PartOfSpeech=VBD]
+[Text=the CharacterOffsetBegin=7734 CharacterOffsetEnd=7737 PartOfSpeech=DT]
+[Text=site CharacterOffsetBegin=7738 CharacterOffsetEnd=7742 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=7743 CharacterOffsetEnd=7745 PartOfSpeech=IN]
+[Text=one CharacterOffsetBegin=7746 CharacterOffsetEnd=7749 PartOfSpeech=CD]
+[Text=of CharacterOffsetBegin=7750 CharacterOffsetEnd=7752 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=7753 CharacterOffsetEnd=7756 PartOfSpeech=DT]
+[Text=largest CharacterOffsetBegin=7757 CharacterOffsetEnd=7764 PartOfSpeech=JJS]
+[Text=landfills CharacterOffsetBegin=7765 CharacterOffsetEnd=7774 PartOfSpeech=NNS]
+[Text=in CharacterOffsetBegin=7775 CharacterOffsetEnd=7777 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=7778 CharacterOffsetEnd=7781 PartOfSpeech=DT]
+[Text=world CharacterOffsetBegin=7782 CharacterOffsetEnd=7787 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=7787 CharacterOffsetEnd=7788 PartOfSpeech=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, neighborhood-19)
+compound(Garden-4, Jardim-1)
+compound(Garden-4, Gramacho-2)
+compound(Garden-4, LRB-3)
+compound(Gramacho-5, Garden-4)
+nsubj(neighborhood-19, Gramacho-5)
+case(RRB-8, in-6)
+compound(RRB-8, English-7)
+nmod:in(Gramacho-5, RRB-8)
+case(city-12, in-9)
+det(city-12, the-10)
+amod(city-12, Brazilian-11)
+nmod:in(Gramacho-5, city-12)
+case(Caxias-16, of-13)
+compound(Caxias-16, Duque-14)
+compound(Caxias-16, de-15)
+nmod:of(city-12, Caxias-16)
+cop(neighborhood-19, is-17)
+det(neighborhood-19, a-18)
+cc(site-23, and-20)
+cop(site-23, was-21)
+det(site-23, the-22)
+conj:and(neighborhood-19, site-23)
+case(landfills-29, of-24)
+det:qmod(landfills-29, one-25)
+fixed(one-25, of-26)
+det(landfills-29, the-27)
+amod(landfills-29, largest-28)
+nmod:of(site-23, landfills-29)
+case(world-32, in-30)
+det(world-32, the-31)
+nmod:in(landfills-29, world-32)
+punct(neighborhood-19, .-33)
